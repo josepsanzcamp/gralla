@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="img/favicon.ico">
+
+		<title>__TITLE__</title>
+
+		<link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
+
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="css/dashboard.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar navbar-dark bg-dark flex-md-nowrap p-0 shadow">
+			<a class="navbar-brand col-md-6 col-lg-8 mr-0 px-3" href="#">__TITLE__</a>
+			<button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<input class="form-control form-control-dark w-100" type="text" placeholder="__SEARCH__" aria-label="__SEARCH__">
+			<ul class="navbar-nav px-3">
+				<li class="nav-item text-nowrap">
+					<a class="nav-link" href="#">__SEARCH__</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="container-fluid">
+			<div class="row">
+				<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+					<div class="accordion" id="accordionExample">
+<!-- ROWROWROW -->
+						<div class="card">
+							<div class="card-header" id="__HEADING__">
+								<h2 class="mb-0">
+									<button class="btn btn-link btn-block text-left nav-link" type="button" data-toggle="collapse" data-target="#__COLLAPSE__" aria-expanded="true" aria-controls="__COLLAPSE__">
+										__TITLE__
+									</button>
+								</h2>
+							</div>
+							<div id="__COLLAPSE__" class="collapse" aria-labelledby="__HEADING__" data-parent="#accordionExample">
+								<div class="card-body">
+									<ul class="nav flex-column">
+<!-- ROWROWROW -->
+										<li class="nav-item">
+											<a class="nav-link" href="__LINK__">
+												__TITLE__
+											</a>
+										</li>
+<!-- ROWROWROW -->
+									</ul>
+								</div>
+							</div>
+						</div>
+<!-- ROWROWROW -->
+					</div>
+				</nav>
+
+				<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 pt-3">
+					<h2>Partitura</h2>
+
+					<div class="row">
+						<div class="col-md-6">
+							<h2>Escoltar</h2>
+
+							<div class="table-responsive">
+								<table class="table table-striped table-sm">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>Header</th>
+											<th>Header</th>
+											<th>Header</th>
+											<th>Header</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1,001</td>
+											<td>Lorem</td>
+											<td>ipsum</td>
+											<td>dolor</td>
+											<td>sit</td>
+										</tr>
+										<tr>
+											<td>1,002</td>
+											<td>amet</td>
+											<td>consectetur</td>
+											<td>adipiscing</td>
+											<td>elit</td>
+										</tr>
+										<tr>
+											<td>1,003</td>
+											<td>Integer</td>
+											<td>nec</td>
+											<td>odio</td>
+											<td>Praesent</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+						</div>
+						<div class="col-md-6">
+							<h2>Descarregar</h2>
+
+							<div class="table-responsive">
+								<table class="table table-striped table-sm">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>Header</th>
+											<th>Header</th>
+											<th>Header</th>
+											<th>Header</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1,001</td>
+											<td>Lorem</td>
+											<td>ipsum</td>
+											<td>dolor</td>
+											<td>sit</td>
+										</tr>
+										<tr>
+											<td>1,002</td>
+											<td>amet</td>
+											<td>consectetur</td>
+											<td>adipiscing</td>
+											<td>elit</td>
+										</tr>
+										<tr>
+											<td>1,003</td>
+											<td>Integer</td>
+											<td>nec</td>
+											<td>odio</td>
+											<td>Praesent</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+						</div>
+					</div>
+
+				</main>
+			</div>
+		</div>
+
+		<script src="js/jquery-3.5.1.slim.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/str_replace.js"></script>
+
+<script>
+$(function() {
+	var first_hash="";
+	for(var key in data.array) {
+		var val=data.array[key];
+		$("#accordionExample").append(str_replace(["__TITLE__","__HEADING__","__COLLAPSE__"],[val.name,"h_"+key,"c_"+key],data.template[0])+data.template[2]);
+		for(var key2 in val.array) {
+			var val2=val.array[key2];
+			if(first_hash=="") first_hash=val2.hash;
+			$("#c_"+key+" ul").append(str_replace(["__TITLE__","__LINK__"],[val2.name,"#"+val2.hash],data.template[1]));
+		}
+	}
+
+	$(window).on("hashchange",function() {
+		var hash=window.location.hash;
+		if(hash.substr(0,1)=="#") hash=hash.substr(1);
+		var hash0=hash.split("-")[0];
+		if($("#c_"+hash0+" a[href='#"+hash+"']").length==0) {
+			if(hash!=first_hash) window.location.hash="#"+first_hash;
+			return;
+		}
+		$("button.active").removeClass("active");
+		$(".collapse.show").removeClass("show");
+		$("a.active").removeClass("active");
+		$("#h_"+hash0+" button").addClass("active");
+		$("#c_"+hash0).addClass("show");
+		$("#c_"+hash0+" a[href='#"+hash+"']").addClass("active");
+	});
+
+	$(window).trigger("hashchange");
+});
+</script>
+
+	</body>
+
+</html>
