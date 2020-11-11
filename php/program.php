@@ -2,6 +2,21 @@
 
 include("php/functions.php");
 
+$labels=array(
+	"title"=>"__COUNT2__ partitures i cançons per a gralla en __COUNT1__ gèneres",
+	"search"=>"Cercar",
+	"ly"=>"Fitxer font per Lilypond",
+	"pdf"=>"Fitxer de document PDF",
+	"midi"=>"Fitxer de seqüència MIDI",
+	"mp3"=>"Fitxer de so MP3",
+	"pista0"=>" per totes les pistes",
+	"pista1"=>" per la pista __NUM__",
+	"type"=>"Tipus",
+	"file"=>"Fitxer",
+	"size"=>"Mida",
+	"play"=>"Escoltar",
+);
+
 // PREPARE FILES LIST
 $files=glob("files/*.ly");
 $cats=array();
@@ -20,27 +35,39 @@ foreach($files as $file) {
 		$count1++;
 	}
 	$cats[$cat]["array"][]=$hash;
+	$files2=array_merge(
+		glob("files/${hash}.ly"),
+		glob("files/${hash}.pdf"),
+		glob("files/${hash}.midi"),
+		glob("files/${hash}-*.midi"),
+		glob("files/${hash}.mp3"),
+		glob("files/${hash}-*.mp3")
+	);
+	$pdf="";
+	foreach($files2 as $key=>$val) {
+		$name=str_replace("files/","",$val);
+		$type=extension($val);
+		$size=__getmail_gethumansize(filesize($val));
+		$label=$labels[$type];
+		if(in_array($type,array("midi","mp3"))) {
+			$num=intval(str_replace(array($hash,$type,".","-"),"",$name));
+			if($num==0) $label.=$labels["pista0"];
+			if($num!=0) $label.=str_replace("__NUM__",$num,$labels["pista1"]);
+		}
+		$files2[$key]=array("file"=>$val,"name"=>$name,"type"=>$type,"size"=>$size,"label"=>$label);
+		if($type=="pdf") $pdf=$val;
+	}
 	$songs[$hash]=array(
 		"name"=>$song2,
 		"info"=>$info,
-		"ly"=>glob("files/${hash}.ly"),
-		"pdf"=>glob("files/${hash}.pdf"),
-		"midi"=>array_merge(glob("files/${hash}.midi"),glob("files/${hash}-*.midi")),
-		"mp3"=>array_merge(glob("files/${hash}.mp3"),glob("files/${hash}-*.mp3")),
+		"files"=>$files2,
+		"pdf"=>$pdf,
 	);
 	$count2++;
 }
 
 // MAKE TITLE
-$title="${count2} partitures i cançons per a gralla en ${count1} gèneres";
-
-// MAKE LABELS
-$labels=array(
-	"ly"=>"Fitxer font per Lilypond",
-	"pdf"=>"Fitxer de document PDF",
-	"midi"=>"Fitxer de seqüència MIDI",
-	"mp3"=>"Fitxer de so MP3",
-);
+$title=str_replace(array("__COUNT1__","__COUNT2__"),array($count1,$count2),$labels["title"]);
 
 // PREPARE TEMPLATE
 $template=file_get_contents("template/index.html");
@@ -49,19 +76,27 @@ $template=explode("<!-- ROWROWROW -->",$template);
 $html=array();
 $html[]=str_replace(
 	array("__TITLE__","__SEARCH__"),
-	array($title,"Cercar"),
+	array($title,$labels["search"]),
 	$template[0]);
 
 $json=json_encode(array(
 	"title"=>$title,
-	"labels"=>$labels,
 	"cats"=>$cats,
 	"songs"=>$songs,
-	"template"=>array_slice($template,1,3),
+	"template"=>array(
+		$template[1],
+		$template[2],
+		$template[3],
+		$template[5],
+	),
 ));
 $html[]="<script>var data=${json}</script>";
 
-$html[]=$template[4];
+$html[]=str_replace(
+	array("__TYPE__","__FILE__","__SIZE__","__PLAY__"),
+	array($labels["type"],$labels["file"],$labels["size"],$labels["play"]),
+	$template[4]);
+$html[]=$template[6];
 
 $html=implode("\n",$html);
 file_put_contents("index.html",$html);
