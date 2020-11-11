@@ -5,6 +5,13 @@ include("php/functions.php");
 $labels=array(
 	"title"=>"__COUNT2__ partitures i cançons per a gralla en __COUNT1__ gèneres",
 	"search"=>"Cercar",
+	"results"=>"Resultats de la cerca",
+	"found01"=>"No s'ha trobat cap resultat amb la paraula __TEXT__",
+	"found02"=>"No s'ha trobat cap resultat amb les paraules __TEXT__",
+	"found11"=>"S'ha trobat __NUM__ resultat amb la paraula __TEXT__",
+	"found12"=>"S'ha trobat __NUM__ resultat amb les paraules __TEXT__",
+	"found21"=>"S'han trobat __NUM__ resultats amb la paraula __TEXT__",
+	"found22"=>"S'han trobat __NUM__ resultats amb les paraules __TEXT__",
 	"ly"=>"Fitxer font per Lilypond",
 	"pdf"=>"Fitxer de document PDF",
 	"midi"=>"Fitxer de seqüència MIDI",
@@ -15,6 +22,9 @@ $labels=array(
 	"file"=>"Fitxer",
 	"size"=>"Mida",
 	"play"=>"Escoltar",
+	"play2"=>"Reproduir",
+	"pause2"=>"Pausar",
+	"stop2"=>"Parar",
 );
 
 // PREPARE FILES LIST
@@ -67,20 +77,14 @@ foreach($files as $file) {
 }
 
 // MAKE TITLE
-$title=str_replace(array("__COUNT1__","__COUNT2__"),array($count1,$count2),$labels["title"]);
+$labels["title"]=str_replace(array("__COUNT1__","__COUNT2__"),array($count1,$count2),$labels["title"]);
 
 // PREPARE TEMPLATE
 $template=file_get_contents("template/index.html");
 $template=explode("<!-- ROWROWROW -->",$template);
 
-$html=array();
-$html[]=str_replace(
-	array("__TITLE__","__SEARCH__"),
-	array($title,$labels["search"]),
-	$template[0]);
-
 $json=json_encode(array(
-	"title"=>$title,
+	"labels"=>$labels,
 	"cats"=>$cats,
 	"songs"=>$songs,
 	"template"=>array(
@@ -88,16 +92,26 @@ $json=json_encode(array(
 		$template[2],
 		$template[3],
 		$template[5],
+		$template[7],
 	),
 ));
-$html[]="<script>var data=${json}</script>";
 
+$html=array();
+$html[]=str_replace(
+	array("__TITLE__","__SEARCH__"),
+	array($labels["title"],$labels["search"]),
+	$template[0]);
+$html[]=str_replace(
+	array("__RESULTS__"),
+	array($labels["results"]),
+	$template[4]);
 $html[]=str_replace(
 	array("__TYPE__","__FILE__","__SIZE__","__PLAY__"),
 	array($labels["type"],$labels["file"],$labels["size"],$labels["play"]),
-	$template[4]);
-$html[]=$template[6];
-
+	$template[6]);
+$html[]=$template[8];
+$html[]="<script>var data=${json}</script>";
+$html[]=$template[9];
 $html=implode("\n",$html);
 file_put_contents("index.html",$html);
 
