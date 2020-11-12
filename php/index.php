@@ -1,35 +1,5 @@
 <?php
 
-include("php/functions.php");
-
-$labels=array(
-	"title"=>"__COUNT2__ partitures i cançons per a gralla en __COUNT1__ gèneres",
-	"search"=>"Cercar",
-	"results"=>"Resultats de la cerca",
-	"found01"=>"No s'ha trobat cap resultat amb la paraula __TEXT__",
-	"found02"=>"No s'ha trobat cap resultat amb les paraules __TEXT__",
-	"found11"=>"S'ha trobat __NUM__ resultat amb la paraula __TEXT__",
-	"found12"=>"S'ha trobat __NUM__ resultat amb les paraules __TEXT__",
-	"found21"=>"S'han trobat __NUM__ resultats amb la paraula __TEXT__",
-	"found22"=>"S'han trobat __NUM__ resultats amb les paraules __TEXT__",
-	"about"=>"Envers a ...",
-	"ly"=>"Fitxer font per Lilypond",
-	"pdf"=>"Fitxer de document PDF",
-	"midi"=>"Fitxer de seqüència MIDI",
-	"mp3"=>"Fitxer de so MP3",
-	"pista0"=>" per totes les pistes",
-	"pista1"=>" per la pista __NUM__",
-	"type"=>"Tipus",
-	"file"=>"Fitxer",
-	"size"=>"Mida",
-	"play"=>"Escoltar",
-	"play2"=>"Reproduir",
-	"pause2"=>"Pausar",
-	"stop2"=>"Parar",
-);
-
-$repo="https://github.com/josepsanzcamp/gralla";
-
 // PREPARE FILES LIST
 $files=glob("files/*.ly");
 $cats=array();
@@ -101,12 +71,12 @@ $json=json_encode(array(
 
 $html=array();
 $html[]=str_replace(
-	array("__TITLE__","__SEARCH__"),
-	array($labels["title"],$labels["search"]),
+	array("__TITLE__","__DESCRIPTION__","__AUTHOR__","__KEYWORDS__","__SEARCH__"),
+	array($labels["title"],$labels["description"],$labels["author"],$labels["keywords"],$labels["search"]),
 	$template[0]);
 $html[]=str_replace(
 	array("__RESULTS__","__ABOUT__","__REPO__"),
-	array($labels["results"],$labels["about"],$repo),
+	array($labels["results"],$labels["about"],$labels["repo"]),
 	$template[4]);
 $html[]=str_replace(
 	array("__TYPE__","__FILE__","__SIZE__","__PLAY__"),
