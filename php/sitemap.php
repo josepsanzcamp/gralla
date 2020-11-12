@@ -11,14 +11,12 @@ foreach($files as $file) {
 $template=file_get_contents("template/sitemap.xml");
 $template=explode("<!-- ROWROWROW -->",$template);
 
-$site="https://gralla.josepsanz.net/";
-
 $xml=array();
 $xml[]=$template[0];
 foreach($hashes as $hash) {
 	$xml[]=str_replace(
 		array("__SITE__","__HASH__"),
-		array($site,$hash),
+		array($labels["site"],$hash),
 		$template[1]);
 }
 $xml[]=$template[2];
