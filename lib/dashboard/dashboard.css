@@ -52,6 +52,12 @@ body {
 	margin-bottom:10px;
 }
 
+#viewerContainer *,
+#viewerContainer *::before,
+#viewerContainer *::after {
+	box-sizing: content-box;
+}
+
 /* FOR TABLES */
 .table-striped tbody tr:nth-of-type(2n) {
 	background-color: rgba(0,0,0,.05);
