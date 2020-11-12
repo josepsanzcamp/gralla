@@ -45,7 +45,16 @@ body {
 /* FOR VIEWPDF */
 #viewerContainer {
 	position: absolute;
-	width:calc(100% - 50px);
+	width: 100%;
+	margin-left:-15px;
+}
+
+@media (min-width: 768px) {
+
+#viewerContainer {
+	width: calc(100% - 18px);
+}
+
 }
 
 #viewerContainer .page {
