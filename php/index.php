@@ -12,6 +12,7 @@ $labels=array(
 	"found12"=>"S'ha trobat __NUM__ resultat amb les paraules __TEXT__",
 	"found21"=>"S'han trobat __NUM__ resultats amb la paraula __TEXT__",
 	"found22"=>"S'han trobat __NUM__ resultats amb les paraules __TEXT__",
+	"about"=>"Envers a ...",
 	"ly"=>"Fitxer font per Lilypond",
 	"pdf"=>"Fitxer de document PDF",
 	"midi"=>"Fitxer de seqüència MIDI",
@@ -26,6 +27,8 @@ $labels=array(
 	"pause2"=>"Pausar",
 	"stop2"=>"Parar",
 );
+
+$repo="https://github.com/josepsanzcamp/gralla";
 
 // PREPARE FILES LIST
 $files=glob("files/*.ly");
@@ -102,8 +105,8 @@ $html[]=str_replace(
 	array($labels["title"],$labels["search"]),
 	$template[0]);
 $html[]=str_replace(
-	array("__RESULTS__"),
-	array($labels["results"]),
+	array("__RESULTS__","__ABOUT__","__REPO__"),
+	array($labels["results"],$labels["about"],$repo),
 	$template[4]);
 $html[]=str_replace(
 	array("__TYPE__","__FILE__","__SIZE__","__PLAY__"),
