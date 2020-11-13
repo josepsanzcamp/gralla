@@ -28,17 +28,10 @@ foreach($files as $file) {
 	);
 	$pdf="";
 	foreach($files2 as $key=>$val) {
-		$name=str_replace("files/","",$val);
-		$type=extension($val);
+		$last=str_replace("files/${hash}","",$val);
 		$size=__getmail_gethumansize(filesize($val));
-		$label=$labels[$type];
-		if(in_array($type,array("midi","mp3"))) {
-			$num=intval(str_replace(array($hash,$type,".","-"),"",$name));
-			if($num==0) $label.=$labels["pista0"];
-			if($num!=0) $label.=str_replace("__NUM__",$num,$labels["pista1"]);
-		}
-		$files2[$key]=array("file"=>$val,"name"=>$name,"type"=>$type,"size"=>$size,"label"=>$label);
-		if($type=="pdf") $pdf=$val;
+		$files2[$key]=array("last"=>$last,"size"=>$size);
+		if(extension($val)=="pdf") $pdf=$val;
 	}
 	$songs[$hash]=array(
 		"name"=>$song2,
