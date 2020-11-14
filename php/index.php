@@ -14,7 +14,10 @@ foreach($files as $file) {
 	$song2=ucfirst(str_replace("_"," ",$song));
 	$info=implode(" - ",metadata($file));
 	if(!isset($cats[$cat])) {
-		$cats[$cat]=array("name"=>$cat2,"array"=>array());
+		$cats[$cat]=array(
+			"name"=>$cat2,
+			"array"=>array(),
+		);
 		$count1++;
 	}
 	$cats[$cat]["array"][]=$hash;
@@ -24,20 +27,20 @@ foreach($files as $file) {
 		glob("files/${hash}.midi"),
 		glob("files/${hash}-*.midi"),
 		glob("files/${hash}.mp3"),
-		glob("files/${hash}-*.mp3")
+		glob("files/${hash}-*.mp3"),
 	);
-	$pdf="";
 	foreach($files2 as $key=>$val) {
 		$last=str_replace("files/${hash}","",$val);
-		$size=__getmail_gethumansize(filesize($val));
-		$files2[$key]=array("last"=>$last,"size"=>$size);
-		if(extension($val)=="pdf") $pdf=$val;
+		$size=filesize($val);
+		$files2[$key]=array(
+			"last"=>$last,
+			"size"=>$size,
+		);
 	}
 	$songs[$hash]=array(
 		"name"=>$song2,
 		"info"=>$info,
 		"files"=>$files2,
-		"pdf"=>$pdf,
 	);
 	$count2++;
 }
