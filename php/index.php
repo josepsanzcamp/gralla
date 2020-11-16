@@ -111,10 +111,14 @@ foreach($html as $key=>$val) {
 }
 $html=implode("\n",$html);
 file_put_contents("index.html",$html);
+passthru("java -jar lib/htmlcompressor/htmlcompressor-1.3.1.jar --type=html --charset=utf-8 index.html -o index.html");
 
 $data=array();
 foreach($css as $file) $data[]=str_replace("images/","pdfjs/images/",file_get_contents($file));
 $data=implode("\n",$data);
+$data=str_replace(array("\n","\r","\t"),"",$data);
+for($i=0;$i<100;$i++) $data=str_replace("  "," ",$data);
+foreach(array(":",";","{","}",",") as $temp) $data=str_replace(array(" ".$temp." "," ".$temp,$temp." "),$temp,$data);
 file_put_contents("lib/all.min.css",$data);
 
 $data=array();
