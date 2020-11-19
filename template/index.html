@@ -23,23 +23,38 @@
 		<link href="lib/pdfjs/pdf_viewer.min.css" rel="stylesheet">
 	</head>
 	<body>
-		<nav class="navbar navbar-dark bg-primary flex-md-nowrap p-0 shadow-lg">
-			<div class="navbar-brand2 col-md-3 col-lg-2">&nbsp;</div>
+		<nav class="navbar navbar-dark bg-dark flex-md-nowrap p-0">
+			<div class="navbar-brand2 col-md-3 col-lg-2 d-none d-md-block">
+				<a class="btn btn-secondary w-100" href="__REPO__">__ABOUT__</a>
+			</div>
 
-			<div class="navbar-brand col-md-9 col-lg-10 mr-0 px-3 text-truncate">__TITLE__</div>
-			<button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+			<div class="navbar-brand col-md-9 col-lg-10 mr-0 px-3">
+				<a class="btn btn-secondary d-md-none collapsed qwerty" data-toggle="collapse" data-target="#sidebarMenu">&equiv;</a>
+				<a class="btn btn-secondary d-md-none" href="__REPO__">__ABOUT__</a>
+				<a class="btn btn-secondary float-right ml-1" href="index.en.html">EN</a>
+				<a class="btn btn-secondary float-right ml-1" href="index.es.html">ES</a>
+				<a class="btn btn-secondary float-right ml-1" href="index.ca.html">CA</a>
+			</div>
+		</nav>
+
+		<nav class="navbar navbar-dark bg-primary flex-md-nowrap p-0 shadow-lg">
+			<div class="navbar-brand2 col-md-3 col-lg-2 d-none d-md-block">
+				<input class="form-control" type="text" placeholder="__SEARCH__" aria-label="__SEARCH__" id="search">
+			</div>
+
+			<div class="navbar-brand col-md-9 col-lg-10 mr-0 px-3">
+				<a class="btn btn-primary w-100 text-truncate" href="javascript:void(0);" id="titol">__TITLE__</a>
+			</div>
 		</nav>
 
 		<div class="container-fluid">
 			<div class="row">
 				<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
 					<div class="accordion d-none" id="menu">
-						<div class="card rounded-0 bg-secondary">
+						<div class="card rounded-0 d-md-none">
 							<div class="card-header">
 								<h2 class="mb-0">
-									<input class="form-control w-100 mb-1" type="text" placeholder="__SEARCH__" aria-label="__SEARCH__" id="search" >
+									<input class="form-control my-1" type="text" placeholder="__SEARCH__" aria-label="__SEARCH__" id="search2">
 								</h2>
 							</div>
 						</div>
@@ -67,15 +82,6 @@
 							</div>
 						</div>
 <!-- ROWROWROW -->
-						<div class="card rounded-0 bg-secondary">
-							<div class="card-header">
-								<h2 class="mb-0">
-									<a class="btn btn-link btn-block text-left nav-link text-light" href="__REPO__">
-										__ABOUT__
-									</a>
-								</h2>
-							</div>
-						</div>
 					</div>
 				</nav>
 

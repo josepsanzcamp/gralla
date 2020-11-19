@@ -67,12 +67,12 @@ $json=json_encode(array(
 
 $html=array();
 $html[]=str_replace(
-	array("__TITLE__","__DESCRIPTION__","__AUTHOR__","__KEYWORDS__","__SEARCH__"),
-	array($labels["title"],$labels["description"],$labels["author"],$labels["keywords"],$labels["search"]),
+	array("__TITLE__","__DESCRIPTION__","__AUTHOR__","__KEYWORDS__","__SEARCH__","__ABOUT__","__REPO__"),
+	array($labels["title"],$labels["description"],$labels["author"],$labels["keywords"],$labels["search"],$labels["about"],$labels["repo"]),
 	$template[0]);
 $html[]=str_replace(
-	array("__RESULTS__","__ABOUT__","__REPO__"),
-	array($labels["results"],$labels["about"],$labels["repo"]),
+	array("__RESULTS__"),
+	array($labels["results"]),
 	$template[4]);
 $html[]=str_replace(
 	array("__TYPE__","__FILE__","__SIZE__","__PLAY__"),
