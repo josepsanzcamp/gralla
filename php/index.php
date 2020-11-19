@@ -21,22 +21,43 @@ foreach($files as $file) {
 		$count1++;
 	}
 	$cats[$cat]["array"][]=$hash;
-	$files2=array_merge(
-		glob("files/${hash}.ly"),
-		glob("files/${hash}.pdf"),
-		glob("files/${hash}.midi"),
-		glob("files/${hash}-*.midi"),
-		glob("files/${hash}.mp3"),
-		glob("files/${hash}-*.mp3"),
+	$files2=array(
+		"files/${hash}.ly",
+		"files/${hash}.pdf",
+		"files/${hash}.midi",
+		"files/${hash}-1.midi",
+		"files/${hash}-2.midi",
+		"files/${hash}-3.midi",
+		"files/${hash}-4.midi",
+		"files/${hash}-5.midi",
+		"files/${hash}-6.midi",
+		"files/${hash}-7.midi",
+		"files/${hash}-8.midi",
+		"files/${hash}-9.midi",
+		"files/${hash}.mp3",
+		"files/${hash}-1.mp3",
+		"files/${hash}-2.mp3",
+		"files/${hash}-3.mp3",
+		"files/${hash}-4.mp3",
+		"files/${hash}-5.mp3",
+		"files/${hash}-6.mp3",
+		"files/${hash}-7.mp3",
+		"files/${hash}-8.mp3",
+		"files/${hash}-9.mp3",
 	);
 	foreach($files2 as $key=>$val) {
-		$last=str_replace("files/${hash}","",$val);
-		$size=filesize($val);
-		$files2[$key]=array(
-			"last"=>$last,
-			"size"=>$size,
-		);
+		if(file_exists($val)) {
+			$last=str_replace("files/${hash}","",$val);
+			$size=filesize($val);
+			$files2[$key]=array(
+				"last"=>$last,
+				"size"=>$size,
+			);
+		} else {
+			unset($files2[$key]);
+		}
 	}
+	$files2=array_values($files2);
 	$songs[$hash]=array(
 		"name"=>$song2,
 		"info"=>$info,
