@@ -28,7 +28,7 @@ $labels=array(
 		"pause2"=>"Pausar",
 		"stop2"=>"Parar",
 		"repo"=>"https://github.com/josepsanzcamp/gralla",
-		"site"=>"https://gralla.josepsanz.net/",
+		"site"=>"https://gralla.josepsanz.net/index.ca.html",
 	),
 	"es"=>array(
 		"title"=>"__COUNT2__ partituras y canciones para gralla en __COUNT1__ géneros",
@@ -58,7 +58,7 @@ $labels=array(
 		"pause2"=>"Pausar",
 		"stop2"=>"Parar",
 		"repo"=>"https://github.com/josepsanzcamp/gralla",
-		"site"=>"https://gralla.josepsanz.net/",
+		"site"=>"https://gralla.josepsanz.net/index.es.html",
 	),
 	"en"=>array(
 		"title"=>"__COUNT2__ sheet music and songs for gralla in __COUNT1__ genres",
@@ -88,7 +88,7 @@ $labels=array(
 		"pause2"=>"Pause",
 		"stop2"=>"Stop",
 		"repo"=>"https://github.com/josepsanzcamp/gralla",
-		"site"=>"https://gralla.josepsanz.net/",
+		"site"=>"https://gralla.josepsanz.net/index.en.html",
 	),
 );
 
