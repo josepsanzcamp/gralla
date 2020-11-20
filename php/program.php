@@ -10,6 +10,9 @@ foreach(array("ca","es","en") as $lang) {
 	rename("sitemap.xml","sitemap.${lang}.xml");
 }
 
-copy("template/index.js","index.html");
+$html=file_get_contents("template/index.js");
+$html=str_replace(array("\n","\r","\t")," ",$html);
+for($i=0;$i<100;$i++) $html=str_replace("  "," ",$html);
+file_put_contents("index.html",$html);
 
 ?>
