@@ -23,29 +23,22 @@
 		<link href="lib/pdfjs/pdf_viewer.min.css" rel="stylesheet">
 	</head>
 	<body>
-		<nav class="navbar navbar-dark bg-dark flex-md-nowrap p-0">
-			<div class="navbar-brand2 col-md-3 col-lg-2 d-none d-md-block">
-				<a class="btn btn-secondary" href="__REPO__">__ABOUT__</a>
-			</div>
 
-			<div class="navbar-brand col-md-9 col-lg-10 mr-0 px-3">
-				<a class="btn btn-secondary d-md-none collapsed qwerty" data-toggle="collapse" data-target="#sidebarMenu">&equiv;</a>
-				<a class="btn btn-secondary d-md-none" href="__REPO__">__ABOUT__</a>
-				<a class="btn btn-secondary float-right ml-1" href="index.en.html">EN</a>
-				<a class="btn btn-secondary float-right ml-1" href="index.es.html">ES</a>
-				<a class="btn btn-secondary float-right ml-1" href="index.ca.html">CA</a>
-			</div>
-		</nav>
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+	<a class="navbar-brand text-truncate" href="javascript:void(0);" id="titol">__TITLE__</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidebarMenu">
+		<span class="navbar-toggler-icon"></span>
+	</button>
 
-		<nav class="navbar navbar-dark bg-primary flex-md-nowrap p-0 shadow-lg">
-			<div class="navbar-brand2 col-md-3 col-lg-2 d-none d-md-block">
-				<input class="form-control" type="text" placeholder="__SEARCH__" aria-label="__SEARCH__" id="search">
-			</div>
-
-			<div class="navbar-brand col-md-9 col-lg-10 mr-0 px-3">
-				<div class="text-center text-truncate my-2 my-md-0" id="titol">__TITLE__</div>
-			</div>
-		</nav>
+	<form class="form-inline ml-auto text-nowrap d-none d-md-block">
+		<input class="form-control search" type="text" placeholder="__SEARCH__" aria-label="__SEARCH__">
+		<a class="btn btn-outline-light search" href="javascript:void(0);">__SEARCH__</a>
+		<a class="btn btn-outline-light text-nowrap" href="__REPO__">__ABOUT__</a>
+		<a class="btn btn-outline-light" href="index.ca.html">CA</a>
+		<a class="btn btn-outline-light" href="index.es.html">ES</a>
+		<a class="btn btn-outline-light" href="index.en.html">EN</a>
+	</form>
+</nav>
 
 		<div class="container-fluid">
 			<div class="row">
@@ -54,7 +47,14 @@
 						<div class="card rounded-0 d-md-none">
 							<div class="card-header">
 								<h2 class="mb-0">
-									<input class="form-control my-1" type="text" placeholder="__SEARCH__" aria-label="__SEARCH__" id="search2">
+									<form class="form-inline">
+										<input class="form-control search w-100 my-1" type="text" placeholder="__SEARCH__" aria-label="__SEARCH__">
+										<a class="btn btn-secondary search mr-1" href="javascript:void(0);">__SEARCH__</a>
+										<a class="btn btn-secondary mr-1" href="__REPO__">__ABOUT__</a>
+										<a class="btn btn-secondary mr-1" href="index.ca.html">CA</a>
+										<a class="btn btn-secondary mr-1" href="index.es.html">ES</a>
+										<a class="btn btn-secondary mr-1" href="index.en.html">EN</a>
+									</form>
 								</h2>
 							</div>
 						</div>
