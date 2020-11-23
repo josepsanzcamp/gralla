@@ -24,11 +24,14 @@ function js_minify($data) {
 	}
 	$data=explode("\n",$data);
 	foreach($data as $key=>$val) {
-		$pos=strpos($val,"// ");
+		$pos=strpos($val," // ");
 		if($pos!==false) {
 			$val=substr($val,0,$pos);
 		}
 		$val=trim($val);
+		if(substr($val,0,2)=="//") {
+			$val="";
+		}
 		if($val!="") {
 			$data[$key]=$val;
 		} else {
