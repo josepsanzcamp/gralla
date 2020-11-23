@@ -133,6 +133,7 @@ foreach($html as $key=>$val) {
 $html=implode("\n",$html);
 $html=str_replace(array("\n","\r","\t")," ",$html);
 for($i=0;$i<100;$i++) $html=str_replace("  "," ",$html);
+$html=str_replace("> <","><",$html);
 file_put_contents("index.html",$html);
 
 $data=array();
