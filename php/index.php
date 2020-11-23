@@ -78,11 +78,11 @@ $json=json_encode(array(
 	"cats"=>$cats,
 	"songs"=>$songs,
 	"template"=>array(
-		$template[1],
-		$template[2],
-		$template[3],
-		$template[5],
-		$template[7],
+		html_minify($template[1]),
+		html_minify($template[2]),
+		html_minify($template[3]),
+		html_minify($template[5]),
+		html_minify($template[7]),
 	),
 ));
 
@@ -92,8 +92,8 @@ $html[]=str_replace(
 	array($labels["title"],$labels["description"],$labels["author"],$labels["keywords"],$labels["search"],$labels["about"],$labels["repo"],$lang),
 	$template[0]);
 $html[]=str_replace(
-	array("__RESULTS__"),
-	array($labels["results"]),
+	array("__RESULT__"),
+	array($labels["result"]),
 	$template[4]);
 $html[]=str_replace(
 	array("__TYPE__","__FILE__","__SIZE__","__PLAY__"),
