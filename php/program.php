@@ -1,6 +1,7 @@
 <?php
 
-include("php/functions.php");
+include("php/metadata.php");
+include("php/minify.php");
 foreach(array("ca","es","en") as $lang) {
 	include("php/langs.php");
 	$labels=$labels[$lang];
@@ -10,9 +11,8 @@ foreach(array("ca","es","en") as $lang) {
 	rename("sitemap.xml","sitemap.${lang}.xml");
 }
 
-$html=file_get_contents("template/index.js");
-$html=str_replace(array("\n","\r","\t")," ",$html);
-for($i=0;$i<100;$i++) $html=str_replace("  "," ",$html);
-file_put_contents("index.html",$html);
+$data=file_get_contents("template/index.js");
+$data=js_minify($data);
+file_put_contents("index.html",$data);
 
 ?>
