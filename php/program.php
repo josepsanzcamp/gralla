@@ -12,7 +12,6 @@ foreach(array("ca","es","en") as $lang) {
 }
 
 $data=file_get_contents("template/index.js");
-$data=js_minify($data);
 file_put_contents("index.html",$data);
 
 ?>
