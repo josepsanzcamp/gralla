@@ -143,7 +143,6 @@ file_put_contents("lib/all.min.css",$data);
 $data=array();
 foreach($js as $file) $data[]=file_get_contents($file);
 $data=implode("\n",$data);
-$data=js_minify($data);
 file_put_contents("lib/all.min.js",$data);
 
 ?>
