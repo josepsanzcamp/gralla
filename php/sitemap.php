@@ -22,9 +22,7 @@ foreach($hashes as $hash) {
 $xml[]=$template[2];
 foreach($xml as $key=>$val) $xml[$key]=trim($val,"\n");
 $xml=implode("\n",$xml);
-$xml=str_replace(array("\n","\r","\t")," ",$xml);
-for($i=0;$i<100;$i++) $xml=str_replace("  "," ",$xml);
-$xml=str_replace("> <","><",$xml);
+$xml=html_minify($xml);
 file_put_contents("sitemap.xml",$xml);
 
 ?>

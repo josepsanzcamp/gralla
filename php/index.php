@@ -131,22 +131,19 @@ foreach($html as $key=>$val) {
 	}
 }
 $html=implode("\n",$html);
-$html=str_replace(array("\n","\r","\t")," ",$html);
-for($i=0;$i<100;$i++) $html=str_replace("  "," ",$html);
-$html=str_replace("> <","><",$html);
+$html=html_minify($html);
 file_put_contents("index.html",$html);
 
 $data=array();
 foreach($css as $file) $data[]=str_replace("images/","pdfjs/images/",file_get_contents($file));
 $data=implode("\n",$data);
-$data=str_replace(array("\n","\r","\t"),"",$data);
-for($i=0;$i<100;$i++) $data=str_replace("  "," ",$data);
-foreach(array(":",";","{","}",",") as $temp) $data=str_replace(array(" ".$temp." "," ".$temp,$temp." "),$temp,$data);
+$data=css_minify($data);
 file_put_contents("lib/all.min.css",$data);
 
 $data=array();
 foreach($js as $file) $data[]=file_get_contents($file);
 $data=implode("\n",$data);
+$data=js_minify($data);
 file_put_contents("lib/all.min.js",$data);
 
 ?>
