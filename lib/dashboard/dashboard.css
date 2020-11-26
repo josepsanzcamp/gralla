@@ -28,11 +28,6 @@ body {
 	}
 }
 
-.card-header {
-	padding-top:0.6rem;
-	padding-bottom:0.6rem;
-}
-
 /* FOR VIEWPDF */
 #viewerContainer {
 	width: calc(100% - 18px);
