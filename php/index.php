@@ -135,8 +135,9 @@ $html=html_minify($html);
 file_put_contents("index.html",$html);
 
 $data=array();
-foreach($css as $file) $data[]=str_replace("images/","pdfjs/images/",file_get_contents($file));
+foreach($css as $file) $data[]=file_get_contents($file);
 $data=implode("\n",$data);
+$data=str_replace("images/","pdfjs/images/",$data);
 $data=css_minify($data);
 file_put_contents("lib/all.min.css",$data);
 
