@@ -3,7 +3,8 @@
 function html_minify($data) {
 	$data=str_replace(array("\n","\r","\t")," ",$data);
 	do $data=str_replace("  "," ",$data,$count); while($count);
-	$data=trim(str_replace("> <","><",$data));
+	$data=str_replace("> <","><",$data);
+	$data=trim($data);
 	return $data;
 }
 
