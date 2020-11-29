@@ -25,8 +25,16 @@ function js_minify($data) {
 		if($pos1!==false || $pos2!==false || $len>200) $val="\n".$val."\n";
 		$data[$key]=$val;
 	}
-	$data=implode("",$data);
-	$data=trim(str_replace("\n\n","\n",$data));
+	$data=implode(" ",$data);
+	do $data=str_replace("  "," ",$data,$count); while($count);
+	$data=explode("\n",$data);
+	foreach($data as $key=>$val) {
+		$val=trim($val);
+		$data[$key]=$val;
+	}
+	$data=implode("\n",$data);
+	do $data=str_replace("\n\n","\n",$data,$count); while($count);
+	$data=trim($data);
 	return $data;
 }
 
