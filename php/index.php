@@ -105,6 +105,9 @@ $html[]=$template[9];
 foreach($html as $key=>$val) $html[$key]=trim($val,"\n");
 $html=implode("\n",$html);
 
+//~ file_put_contents("index.html",$html);
+//~ die();
+
 $html=explode("\n",$html);
 $css=array();
 $js=array();
@@ -144,6 +147,7 @@ file_put_contents("lib/all.min.css",$data);
 $data=array();
 foreach($js as $file) $data[]=file_get_contents($file);
 $data=implode("\n",$data);
+$data=str_replace(':p+"',':"lib/audiojs/',$data);
 $data=js_minify($data);
 file_put_contents("lib/all.min.js",$data);
 
