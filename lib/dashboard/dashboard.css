@@ -55,5 +55,7 @@ body {
 /* FOR AUDIOPLAYER */
 .audioplayer {
 	min-width:250px;
+	border:0;
+	background:#007bff;
 }
 
