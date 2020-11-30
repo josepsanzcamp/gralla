@@ -52,3 +52,8 @@ body {
 	background-color: rgba(0,0,0,0);
 }
 
+/* FOR AUDIOPLAYER */
+.audioplayer {
+	min-width:250px;
+}
+
