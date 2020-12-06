@@ -7,9 +7,9 @@
 var lang=navigator.language || navigator.systemLanguage;
 lang=lang.toLowerCase();
 lang=lang.substr(0,2);
-document.cookie.split(";").forEach(function(val,key) {
-	val=val.trim().split("=");
-	if(val[0]="lang") lang=val[1];
+document.cookie.split(';').forEach(function(val,key) {
+	val=val.trim().split('=');
+	if(val[0]='lang') lang=val[1];
 });
 var hash=window.location.hash;
 if(lang=='ca') window.location.href='index.ca.html'+hash;
