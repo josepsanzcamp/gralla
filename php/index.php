@@ -108,47 +108,16 @@ $html=implode("\n",$html);
 //~ file_put_contents("index.html",$html);
 //~ die();
 
-$html=explode("\n",$html);
-$css=array();
-$js=array();
-foreach($html as $key=>$val) {
-	$val=trim($val);
-	$pos1=strpos($val,'<script src="');
-	$pos2=strpos($val,'"></script>');
-	$pos3=strpos($val,'<link href="');
-	$pos4=strpos($val,'" rel="stylesheet">');
-	if($pos1!==false && $pos2!==false) {
-		$len1=strlen('<script src="');
-		$js[]=substr($val,$pos1+$len1,$pos2-$pos1-$len1);
-		unset($html[$key]);
-	} elseif($pos3!==false && $pos4!==false) {
-		$len3=strlen('<link href="');
-		$css[]=substr($val,$pos3+$len3,$pos4-$pos3-$len3);
-		unset($html[$key]);
-	} elseif($val=="</head>") {
-		$val='<link href="lib/all.min.css" rel="stylesheet">'.$val;
-		$html[$key]=$val;
-	} elseif($val=="</body>") {
-		$val='<script src="lib/all.min.js"></script>'.$val;
-		$html[$key]=$val;
-	}
-}
-$html=implode("\n",$html);
+list($html,$js,$css)=html_minify2($html);
 $html=html_minify($html);
+$js=js_minify($js);
+$css=css_minify($css);
+$html=js_minify2($html,"lib/all.min.js");
+$html=css_minify2($html,"lib/all.min.css");
 file_put_contents("index.html",$html);
-
-$data=array();
-foreach($css as $file) $data[]=file_get_contents($file);
-$data=implode("\n",$data);
-$data=str_replace("images/","pdfjs/images/",$data);
-$data=css_minify($data);
-file_put_contents("lib/all.min.css",$data);
-
-$data=array();
-foreach($js as $file) $data[]=file_get_contents($file);
-$data=implode("\n",$data);
-$data=str_replace(':p+"',':"lib/audiojs/',$data);
-$data=js_minify($data);
-file_put_contents("lib/all.min.js",$data);
+$js=str_replace(':p+"',':"lib/audiojs/',$js);
+file_put_contents("lib/all.min.js",$js);
+$css=str_replace("images/","pdfjs/images/",$css);
+file_put_contents("lib/all.min.css",$css);
 
 ?>
