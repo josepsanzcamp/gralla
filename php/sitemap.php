@@ -1,10 +1,10 @@
 <?php
 
 // PREPARE FILES LIST
-$files=glob("files/*.ly");
+$dirs=glob("files/*");
 $hashes=array();
-foreach($files as $file) {
-	$hashes[]=str_replace(array("files/",".ly"),"",$file);
+foreach($dirs as $dir) {
+	$hashes[]=basename($dir);
 }
 
 // PREPARE TEMPLATE
