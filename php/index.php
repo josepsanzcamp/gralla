@@ -1,18 +1,18 @@
 <?php
 
 // PREPARE FILES LIST
-$files=glob("files/*.ly");
+$dirs=glob("files/*");
 $cats=array();
 $songs=array();
 $count1=0;
 $count2=0;
-foreach($files as $file) {
-	$hash=str_replace(array("files/",".ly"),"",$file);
+foreach($dirs as $dir) {
+	$hash=basename($dir);
 	$cat=strtok($hash,"-");
 	$song=strtok("");
 	$cat2=ucfirst(str_replace("_"," ",$cat));
 	$song2=ucfirst(str_replace("_"," ",$song));
-	$info=implode(" - ",metadata($file));
+	$info=implode(" - ",metadata("files/${hash}/${hash}.ly"));
 	if(!isset($cats[$cat])) {
 		$cats[$cat]=array(
 			"name"=>$cat2,
@@ -21,43 +21,22 @@ foreach($files as $file) {
 		$count1++;
 	}
 	$cats[$cat]["array"][]=$hash;
-	$files2=array(
-		"files/${hash}.ly",
-		"files/${hash}.pdf",
-		"files/${hash}.midi",
-		"files/${hash}-1.midi",
-		"files/${hash}-2.midi",
-		"files/${hash}-3.midi",
-		"files/${hash}-4.midi",
-		"files/${hash}-5.midi",
-		"files/${hash}-6.midi",
-		"files/${hash}-7.midi",
-		"files/${hash}-8.midi",
-		"files/${hash}-9.midi",
-		"files/${hash}.mp3",
-		"files/${hash}-1.mp3",
-		"files/${hash}-2.mp3",
-		"files/${hash}-3.mp3",
-		"files/${hash}-4.mp3",
-		"files/${hash}-5.mp3",
-		"files/${hash}-6.mp3",
-		"files/${hash}-7.mp3",
-		"files/${hash}-8.mp3",
-		"files/${hash}-9.mp3",
+	$files2=array_merge(
+		array("files/${hash}/${hash}.ly"),
+		array("files/${hash}/${hash}.pdf"),
+		array("files/${hash}/${hash}.midi"),
+		glob("files/${hash}/${hash}-*.midi"),
+		array("files/${hash}/${hash}.mp3"),
+		glob("files/${hash}/${hash}-*.mp3"),
 	);
 	foreach($files2 as $key=>$val) {
-		if(file_exists($val)) {
-			$last=str_replace("files/${hash}","",$val);
-			$size=filesize($val);
-			$files2[$key]=array(
-				"last"=>$last,
-				"size"=>$size,
-			);
-		} else {
-			unset($files2[$key]);
-		}
+		$last=str_replace("files/${hash}/${hash}","",$val);
+		$size=filesize($val);
+		$files2[$key]=array(
+			"last"=>$last,
+			"size"=>$size,
+		);
 	}
-	$files2=array_values($files2);
 	$songs[$hash]=array(
 		"name"=>$song2,
 		"info"=>$info,
