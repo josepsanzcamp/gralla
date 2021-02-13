@@ -84,7 +84,7 @@ $html[]=$template[9];
 foreach($html as $key=>$val) $html[$key]=trim($val,"\n");
 $html=implode("\n",$html);
 
-//~ file_put_contents("index.html",$html);
+//~ file_put_contents("index.${lang}.html",$html);
 //~ die();
 
 list($html,$js,$css)=html_minify2($html);
@@ -93,7 +93,7 @@ $js=js_minify($js);
 $css=css_minify($css);
 $html=js_minify2($html,"lib/all.min.js");
 $html=css_minify2($html,"lib/all.min.css");
-file_put_contents("index.html",$html);
+file_put_contents("index.${lang}.html",$html);
 $js=str_replace(':p+"',':"lib/audiojs/',$js);
 file_put_contents("lib/all.min.js",$js);
 $css=str_replace("images/","pdfjs/images/",$css);
