@@ -25,7 +25,7 @@ $labels=array(
 		"size"=>"Mida",
 		"play"=>"Escoltar",
 		"repo"=>"https://github.com/josepsanzcamp/gralla",
-		"site"=>"https://gralla.josepsanz.net/index.ca.html",
+		"site"=>"https://gralla.josepsanz.net",
 	),
 	"es"=>array(
 		"title"=>"__COUNT2__ partituras y canciones para gralla en __COUNT1__ géneros",
@@ -52,7 +52,7 @@ $labels=array(
 		"size"=>"Tamaño",
 		"play"=>"Escuchar",
 		"repo"=>"https://github.com/josepsanzcamp/gralla",
-		"site"=>"https://gralla.josepsanz.net/index.es.html",
+		"site"=>"https://gralla.josepsanz.net",
 	),
 	"en"=>array(
 		"title"=>"__COUNT2__ sheet music and songs for gralla in __COUNT1__ genres",
@@ -79,7 +79,7 @@ $labels=array(
 		"size"=>"Size",
 		"play"=>"Listen",
 		"repo"=>"https://github.com/josepsanzcamp/gralla",
-		"site"=>"https://gralla.josepsanz.net/index.en.html",
+		"site"=>"https://gralla.josepsanz.net",
 	),
 );
 
