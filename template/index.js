@@ -10,9 +10,9 @@ lang=lang.toLowerCase();
 lang=lang.substr(0,2);
 document.cookie.split(";").forEach(function(val,key) {
 	val=val.trim().split("=");
-	if(val[0]="lang") lang=val[1];
+	if(val[0]=="lang") lang=val[1];
 });
-if(lang!="ca" && lang!="es" && lang!="en") lang="ca";
+if(!["ca","es","en"].includes(lang)) lang="ca";
 var hash=window.location.hash;
 window.location.href="index."+lang+".html"+hash;
 </script>
