@@ -11,12 +11,9 @@ $xml[]=$template[0];
 $dirs=glob("files/*");
 foreach($dirs as $dir) {
 	$hash=basename($dir);
-	$info=metadata("files/${hash}/${hash}.ly");
-	$info=implode(" - ",$info);
-	$info=encode_bad_chars($info,"-");
 	$xml[]=str_replace(
-		array("__SITE__","__INFO__","__LANG__"),
-		array($labels["site"],$info,$lang),
+		array("__SITE__","__HASH__","__LANG__"),
+		array($labels["site"],$hash,$lang),
 		$template[1]);
 }
 
