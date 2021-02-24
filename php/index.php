@@ -48,10 +48,11 @@ foreach($dirs as $dir) {
 // MAKE TITLE
 $labels["title"]=str_replace(array("__COUNT1__","__COUNT2__"),array($count1,$count2),$labels["title"]);
 
-// PREPARE TEMPLATE
+// LOAD TEMPLATE
 $template=file_get_contents("template/index.html");
 $template=explode("<!-- ROWROWROW -->",$template);
 
+// SAVE JSON
 $json=json_encode(array(
 	"labels"=>$labels,
 	"cats"=>$cats,
@@ -64,7 +65,9 @@ $json=json_encode(array(
 		html_minify($template[7]),
 	),
 ));
+file_put_contents("lib/all.${lang}.js","var data=${json}");
 
+// PREPARE HTML
 $html=array();
 $html[]=str_replace(
 	array("__TITLE__","__DESCRIPTION__","__AUTHOR__","__KEYWORDS__","__SEARCH__","__ABOUT__","__REPO__","__LANG__"),
@@ -79,20 +82,19 @@ $html[]=str_replace(
 	array($labels["type"],$labels["file"],$labels["size"],$labels["play"]),
 	$template[6]);
 $html[]=$template[8];
-$html[]="<script>var data=${json}</script>";
+$html[]="<script src='lib/all.${lang}.js'></script>";
 $html[]=$template[9];
 foreach($html as $key=>$val) $html[$key]=trim($val,"\n");
 $html=implode("\n",$html);
 
-//~ file_put_contents("index.${lang}.html",$html);
-//~ die();
-
+// SAVE ALL OTHER FILES
 list($html,$js,$css)=html_minify2($html);
 $html=html_minify($html);
 $js=js_minify($js);
 $css=css_minify($css);
 $html=js_minify2($html,"lib/all.min.js");
 $html=css_minify2($html,"lib/all.min.css");
+$html=str_replace("<head>","<head><base href='.'/>",$html);
 file_put_contents("index.${lang}.html",$html);
 $js=str_replace(':p+"',':"lib/audiojs/',$js);
 file_put_contents("lib/all.min.js",$js);
