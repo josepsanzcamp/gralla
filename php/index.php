@@ -94,7 +94,7 @@ $js=js_minify($js);
 $css=css_minify($css);
 $html=js_minify2($html,"lib/all.min.js");
 $html=css_minify2($html,"lib/all.min.css");
-$html=str_replace("<head>","<head><base href='.'/>",$html);
+$html=str_replace("<head>","<head><base href='./index.${lang}.html'/>",$html);
 file_put_contents("index.${lang}.html",$html);
 $js=str_replace(':p+"',':"lib/audiojs/',$js);
 file_put_contents("lib/all.min.js",$js);

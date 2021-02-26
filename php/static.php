@@ -39,7 +39,7 @@ foreach($dirs as $dir) {
 	$html=html_minify($html);
 	$html=js_minify2($html,"lib/all.min.js");
 	$html=css_minify2($html,"lib/all.min.css");
-	$html=str_replace("<head>","<head><base href='..'/>",$html);
+	$html=str_replace("<head>","<head><base href='../index.${lang}.html'/>",$html);
 	file_put_contents("static/${hash}.${lang}.html",$html);
 }
 
