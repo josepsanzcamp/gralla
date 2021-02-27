@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="refresh" content="1; url=index.ca.html" />
+<meta http-equiv="arefresh" content="1; url=index.ca.html" />
 </head>
 <body>
 <script>
@@ -14,6 +14,10 @@ document.cookie.split(";").forEach(function(val,key) {
 });
 if(!["ca","es","en"].includes(lang)) lang="ca";
 var hash=window.location.hash;
+if(hash=="") {
+	var params=new URLSearchParams(window.location.search);
+	if(params.has("hash")) hash="#"+params.get("hash");
+}
 window.location.href="index."+lang+".html"+hash;
 </script>
 </body>
