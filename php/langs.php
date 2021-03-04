@@ -1,5 +1,5 @@
 <?php
-$labels=array(
+$_labels=array(
 	"ca"=>array(
 		"title"=>"__COUNT2__ partitures i cançons per a gralla en __COUNT1__ gèneres",
 		"author"=>"Josep Sanz Campderrós",
