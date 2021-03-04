@@ -4,3 +4,4 @@ Disallow: /files/
 Disallow: /lib/
 Disallow: /php/
 Disallow: /templates/
+Sitemap: https://gralla.josepsanz.net/sitemap.xml
