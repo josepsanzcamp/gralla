@@ -6,11 +6,12 @@ Aquest repositori conte la pagina web de partitures online
 - Aquesta darrera versió ja fa servir el nou entorn gràfic de SaltOS basat en Bootstrap
 
 # Crèdits de l'aplicació ...
-- Aquesta aplicació ha estat desenvolupada fent servir codi del projecte SaltOS
+- Aquesta aplicació ha estat desenvolupada fent servir codi del projecte [SaltOS](https://www.saltos.org)
 - Les 250 partitures inicials, han estat descarregades del web gralla.skamot.com en format Encore
-- Per convertir els fitxers de format Encore a Lilypond, he fet servir el projecte Enc2ly
-- Per convertir els fitxers de format MIDI a WAVE, he fet servir el projecte Timidity++
-- Per convertir els fitxers de format WAVE a MP3, he fet servir el projecte Lame
-- La resta de llibreries que he fet servir, les podeu trobar als crèdits de SaltOS
+- Per convertir els fitxers de format Encore a Lilypond, he fet servir el projecte [Enc2ly](https://enc2ly.sourceforge.io/en/)
+- Per convertir els fitxers de format MIDI a WAVE, he fet servir el projecte [Timidity++](http://timidity.sourceforge.net/)
+- Per convertir els fitxers de format WAVE a MP3, he fet servir el projecte [Lame](https://lame.sourceforge.io/)
+- Per convertir els fitxers de forpat PDF a MusicXML, he fet servir el projecte [audiveris](https://github.com/Audiveris/audiveris)
+- La resta de llibreries que he fet servir, les podeu trobar als crèdits de [SaltOS](https://www.saltos.org)
 - Si teniu dubtes o suggeriments, podeu contactar amb mi a l'adreça josep.sanz@saltos.org
 
