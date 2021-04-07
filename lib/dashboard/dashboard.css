@@ -59,3 +59,9 @@ body {
 	background:#007bff;
 }
 
+/* FOR REPLACE ANCHOR BY H1 */
+#titol {
+	font-weight:normal;
+	margin-bottom:0;
+}
+
