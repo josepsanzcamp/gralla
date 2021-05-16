@@ -1,5 +1,5 @@
 # gralla
-Aquest repositori conte la pagina web de partitures online
+Aquest repositori conte la pagina web de partitures online per a gralla
 
 # Novetats de la darrera versió
 - La primera versió es va publicar feia servir l'entorn gràfic de SaltOS basat en JQuery-UI
