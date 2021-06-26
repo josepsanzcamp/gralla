@@ -22,6 +22,7 @@ foreach($dirs as $dir) {
 	}
 	$cats[$cat]["array"][]=$hash;
 	$files2=array_merge(
+		array("files/${hash}/${hash}.enc"),
 		array("files/${hash}/${hash}.ly"),
 		array("files/${hash}/${hash}.pdf"),
 		array("files/${hash}/${hash}.midi"),
