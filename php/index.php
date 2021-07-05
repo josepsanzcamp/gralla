@@ -22,12 +22,13 @@ foreach($dirs as $dir) {
 	}
 	$cats[$cat]["array"][]=$hash;
 	$files2=array_merge(
-		array("files/${hash}/${hash}.enc"),
-		array("files/${hash}/${hash}.ly"),
-		array("files/${hash}/${hash}.pdf"),
-		array("files/${hash}/${hash}.midi"),
+		glob("files/${hash}/${hash}.enc"),
+		glob("files/${hash}/${hash}.xml"),
+		glob("files/${hash}/${hash}.ly"),
+		glob("files/${hash}/${hash}.pdf"),
+		glob("files/${hash}/${hash}.midi"),
 		glob("files/${hash}/${hash}-*.midi"),
-		array("files/${hash}/${hash}.mp3"),
+		glob("files/${hash}/${hash}.mp3"),
 		glob("files/${hash}/${hash}-*.mp3"),
 	);
 	foreach($files2 as $key=>$val) {
