@@ -1,11 +1,12 @@
 \version "2.22.1"
-% automatically converted by musicxml2ly from ivo_jorda_1_cercavila-el_baliga.xml
+% automatically converted by musicxml2ly from ivo_jorda_cercavila-el_baliga.xml
 \pointAndClickOff
 
 \header {
     title =  "El Baliga"
     copyright =  "Repertori per a gralles - Cercavila"
     composer =  "Ivó Jordà - 2012"
+    tagline=""
     subtitle =  Pasdoble
     }
 

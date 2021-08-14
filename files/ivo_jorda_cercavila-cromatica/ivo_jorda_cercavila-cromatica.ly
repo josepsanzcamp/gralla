@@ -1,11 +1,12 @@
 \version "2.22.1"
-% automatically converted by musicxml2ly from ivo_jorda_1_cercavila-cromatica.xml
+% automatically converted by musicxml2ly from ivo_jorda_cercavila-cromatica.xml
 \pointAndClickOff
 
 \header {
     title =  "Cromàtica"
     copyright =  "Repertori per a gralles - Cercavila"
     composer =  "Ivó Jordà - 2015"
+    tagline=""
     subtitle =  Polca
     }
 

@@ -1,11 +1,12 @@
 \version "2.22.1"
-% automatically converted by musicxml2ly from ivo_jorda_1_cercavila-sota_un_temps_de_pluja.xml
+% automatically converted by musicxml2ly from ivo_jorda_cercavila-sota_un_temps_de_pluja.xml
 \pointAndClickOff
 
 \header {
     title =  "Sota un temps de pluja"
     copyright =  "Repertori per a gralles - Cercavila"
     composer =  "Ivó Jordà - 2013"
+    tagline=""
     subtitle =  Pasdoble
     }
 
