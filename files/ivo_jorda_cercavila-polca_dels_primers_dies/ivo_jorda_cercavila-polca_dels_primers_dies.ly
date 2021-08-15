@@ -195,6 +195,12 @@ PartPThreeVoiceOne =  \relative g' {
 
 
 % The score definition
+\book {
+
+\paper {
+  print-page-number = false
+}
+
 \bookpart {\score {
     <<
         
@@ -406,4 +412,91 @@ PartPThreeVoiceOne =  \relative g' {
     % To create MIDI output, uncomment the following line:
     %  \midi {\tempo 4 = 120 }
     }}
+
+}
+
+\book {
+
+\paper {
+  print-page-number = false
+  #(set-paper-size "a6landscape")
+  #(layout-set-staff-size 14)
+}
+
+\bookpart {\score {
+    <<
+        
+        \new StaffGroup
+        <<
+            \new Staff
+            <<
+                \set Staff.instrumentName = "Gralla 1"
+                
+                \context Staff << 
+                    \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
+                    \context Voice = "PartPOneVoiceOne" {  \PartPOneVoiceOne }
+                    >>
+                >>
+                        
+            >>
+        
+        >>
+    \layout {}
+    % To create MIDI output, uncomment the following line:
+    %  \midi {\tempo 4 = 120 }
+    % To create MIDI output, uncomment the following line:
+    %  \midi {\tempo 4 = 120 }
+    }}
+
+\bookpart {\score {
+    <<
+        
+        \new StaffGroup
+        <<
+            \new Staff
+            <<
+                \set Staff.instrumentName = "Gralla 2"
+                
+                \context Staff << 
+                    \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
+                    \context Voice = "PartPTwoVoiceOne" {  \PartPTwoVoiceOne }
+                    >>
+                >>
+                        
+            >>
+        
+        >>
+    \layout {}
+    % To create MIDI output, uncomment the following line:
+    %  \midi {\tempo 4 = 120 }
+    % To create MIDI output, uncomment the following line:
+    %  \midi {\tempo 4 = 120 }
+    }}
+
+\bookpart {\score {
+    <<
+        
+        \new StaffGroup
+        <<
+            \new Staff
+            <<
+                \set Staff.instrumentName = "Gralla 3"
+                
+                \context Staff << 
+                    \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
+                    \context Voice = "PartPThreeVoiceOne" {  \PartPThreeVoiceOne }
+                    >>
+                >>
+            
+            >>
+        
+        >>
+    \layout {}
+    % To create MIDI output, uncomment the following line:
+    %  \midi {\tempo 4 = 120 }
+    % To create MIDI output, uncomment the following line:
+    %  \midi {\tempo 4 = 120 }
+    }}
+
+}
 

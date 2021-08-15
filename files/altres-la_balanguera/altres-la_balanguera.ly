@@ -98,6 +98,12 @@ liniaroAb =
   tomfl16 r tomfl tomfl tomfl tomfl tomfl r tomfl r tomfl tomfl  \bar "|."
 }
 
+\book {
+
+\paper {
+  print-page-number = false
+}
+
 \bookpart {
   \score {
     \new StaffGroup {
@@ -160,5 +166,43 @@ liniaroAb =
     }
     \midi {}
   }
+}
+
+}
+
+\book {
+
+\paper {
+  print-page-number = false
+  #(set-paper-size "a6landscape")
+  #(layout-set-staff-size 14)
+}
+
+\bookpart {
+  \header {instrument="Gralla"}
+  \score {
+    \new StaffGroup {
+      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      <<
+        \new Staff \liniaroAa
+      >>
+    }
+    \layout {}
+  }
+}
+
+\bookpart {
+  \header {instrument="Timbal"}
+  \score {
+    \new StaffGroup {
+      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      <<
+        \new DrumStaff \liniaroAb
+      >>
+    }
+    \layout {}
+  }
+}
+
 }
 

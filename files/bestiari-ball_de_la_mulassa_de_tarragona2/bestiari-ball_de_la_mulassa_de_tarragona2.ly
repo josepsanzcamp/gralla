@@ -138,6 +138,12 @@ liniaroAd =
   { tomfl4.-> r4 r8 } } \bar "||" % kompletite
 }
 
+\book {
+
+\paper {
+  print-page-number = false
+}
+
 \bookpart {
   \score {
     \new StaffGroup {
@@ -246,5 +252,69 @@ liniaroAd =
     }
     \midi {}
   }
+}
+
+}
+
+\book {
+
+\paper {
+  print-page-number = false
+  #(set-paper-size "a6landscape")
+  #(layout-set-staff-size 14)
+}
+
+\bookpart {
+  \header {instrument="Gralla 1"}
+  \score {
+    \new StaffGroup {
+      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      <<
+        \new Staff \liniaroAa
+      >>
+    }
+    \layout {}
+  }
+}
+
+\bookpart {
+  \header {instrument=""}
+  \score {
+    \new StaffGroup {
+      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      <<
+        \new Staff \liniaroAb
+      >>
+    }
+    \layout {}
+  }
+}
+
+\bookpart {
+  \header {instrument=""}
+  \score {
+    \new StaffGroup {
+      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      <<
+        \new Staff \liniaroAc
+      >>
+    }
+    \layout {}
+  }
+}
+
+\bookpart {
+  \header {instrument=""}
+  \score {
+    \new StaffGroup {
+      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      <<
+        \new DrumStaff \liniaroAd
+      >>
+    }
+    \layout {}
+  }
+}
+
 }
 

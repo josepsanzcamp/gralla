@@ -145,6 +145,12 @@ liniaroAc =
   a2.  \bar "|."
 }
 
+\book {
+
+\paper {
+  print-page-number = false
+}
+
 \bookpart {
   \score {
     \new StaffGroup {
@@ -230,5 +236,56 @@ liniaroAc =
     }
     \midi {}
   }
+}
+
+}
+
+\book {
+
+\paper {
+  print-page-number = false
+  #(set-paper-size "a6landscape")
+  #(layout-set-staff-size 14)
+}
+
+\bookpart {
+  \header {instrument="Gralla 1"}
+  \score {
+    \new StaffGroup {
+      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      <<
+        \new Staff \liniaroAa
+      >>
+    }
+    \layout {}
+  }
+}
+
+\bookpart {
+  \header {instrument="Gralla 2"}
+  \score {
+    \new StaffGroup {
+      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      <<
+        \new Staff \liniaroAb
+      >>
+    }
+    \layout {}
+  }
+}
+
+\bookpart {
+  \header {instrument="Gralla 3"}
+  \score {
+    \new StaffGroup {
+      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      <<
+        \new Staff \liniaroAc
+      >>
+    }
+    \layout {}
+  }
+}
+
 }
 

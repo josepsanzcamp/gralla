@@ -52,3 +52,21 @@ liniaroAa =
   }
   \midi {}
 }
+\book {
+
+\paper {
+  print-page-number = false
+}
+
+\bookpart {\bookpart {}
+
+\book {
+
+\paper {
+  print-page-number = false
+  #(set-paper-size "a6landscape")
+  #(layout-set-staff-size 14)
+}
+
+\bookpart {}
+
