@@ -35,11 +35,19 @@ liniaroAa =
   c4 r4  \bar "|." % kompletite
 }
 
+\book {
+
+\paper {
+  print-page-number = false
+}
+
+\bookpart {
+
 \score {
   \new StaffGroup {
     \override Score.RehearsalMark #'self-alignment-X = #LEFT
     <<
-      \new Staff \with {instrumentName = #"Gralla" shortInstrumentName = #"G"} \liniaroAa
+      \new Staff \with {instrumentName = #"Gralla"} \liniaroAa
     >>
   }
   \layout {}
@@ -47,18 +55,15 @@ liniaroAa =
   \new StaffGroup {
     \override Score.RehearsalMark #'self-alignment-X = #LEFT
     <<
-      \new Staff \with {instrumentName = #"Gralla" shortInstrumentName = #"G"} \liniaroAa
+      \new Staff \with {instrumentName = #"Gralla"} \liniaroAa
     >>
   }
   \midi {}
 }
-\book {
 
-\paper {
-  print-page-number = false
 }
 
-\bookpart {\bookpart {}
+}
 
 \book {
 
@@ -68,5 +73,18 @@ liniaroAa =
   #(layout-set-staff-size 14)
 }
 
-\bookpart {}
+\bookpart {
 
+\score {
+  \new StaffGroup {
+    \override Score.RehearsalMark #'self-alignment-X = #LEFT
+    <<
+      \new Staff \with {instrumentName = #"Gralla"} \liniaroAa
+    >>
+  }
+  \layout {}
+}
+
+}
+
+}
