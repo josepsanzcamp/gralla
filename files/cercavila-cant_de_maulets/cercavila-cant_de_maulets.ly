@@ -222,11 +222,11 @@ liniaroAe =
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAc
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAd
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAe
+        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
+        \new Staff \with {instrumentName = #"" } \liniaroAb
+        \new Staff \with {instrumentName = #"" } \liniaroAc
+        \new Staff \with {instrumentName = #"" } \liniaroAd
+        \new Staff \with {instrumentName = #"" } \liniaroAe
       >>
     }
     \layout {}
@@ -234,11 +234,11 @@ liniaroAe =
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAc
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAd
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAe
+        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
+        \new Staff \with {instrumentName = #"" } \liniaroAb
+        \new Staff \with {instrumentName = #"" } \liniaroAc
+        \new Staff \with {instrumentName = #"" } \liniaroAd
+        \new Staff \with {instrumentName = #"" } \liniaroAe
       >>
     }
     \midi {}
@@ -246,12 +246,12 @@ liniaroAe =
 }
 
 \bookpart {
-  \header {instrument="Gralla 1"}
+  \header {}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAa
+        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
       >>
     }
     \layout {}
@@ -259,7 +259,7 @@ liniaroAe =
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAa
+        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
       >>
     }
     \midi {}
@@ -267,12 +267,12 @@ liniaroAe =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAb
+        \new Staff \with {instrumentName = #"" } \liniaroAb
       >>
     }
     \layout {}
@@ -280,7 +280,7 @@ liniaroAe =
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAb
+        \new Staff \with {instrumentName = #"" } \liniaroAb
       >>
     }
     \midi {}
@@ -288,12 +288,12 @@ liniaroAe =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAc
+        \new Staff \with {instrumentName = #"" } \liniaroAc
       >>
     }
     \layout {}
@@ -301,7 +301,7 @@ liniaroAe =
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAc
+        \new Staff \with {instrumentName = #"" } \liniaroAc
       >>
     }
     \midi {}
@@ -309,12 +309,12 @@ liniaroAe =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAd
+        \new Staff \with {instrumentName = #"" } \liniaroAd
       >>
     }
     \layout {}
@@ -322,7 +322,7 @@ liniaroAe =
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAd
+        \new Staff \with {instrumentName = #"" } \liniaroAd
       >>
     }
     \midi {}
@@ -330,12 +330,12 @@ liniaroAe =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAe
+        \new Staff \with {instrumentName = #"" } \liniaroAe
       >>
     }
     \layout {}
@@ -343,7 +343,7 @@ liniaroAe =
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAe
+        \new Staff \with {instrumentName = #"" } \liniaroAe
       >>
     }
     \midi {}
@@ -361,12 +361,12 @@ liniaroAe =
 }
 
 \bookpart {
-  \header {instrument="Gralla 1"}
+  \header {}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAa
+        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
       >>
     }
     \layout {}
@@ -374,12 +374,12 @@ liniaroAe =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAb
+        \new Staff \with {instrumentName = #"" } \liniaroAb
       >>
     }
     \layout {}
@@ -387,12 +387,12 @@ liniaroAe =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAc
+        \new Staff \with {instrumentName = #"" } \liniaroAc
       >>
     }
     \layout {}
@@ -400,12 +400,12 @@ liniaroAe =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAd
+        \new Staff \with {instrumentName = #"" } \liniaroAd
       >>
     }
     \layout {}
@@ -413,12 +413,12 @@ liniaroAe =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAe
+        \new Staff \with {instrumentName = #"" } \liniaroAe
       >>
     }
     \layout {}

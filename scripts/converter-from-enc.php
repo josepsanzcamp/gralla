@@ -86,3 +86,53 @@ foreach($files as $file) {
         echo "FIXED\n";
     }
 }
+
+// FIXING INSTRUMENT NAME
+$files=glob("*.ly");
+foreach($files as $file) {
+    $buffer=file_get_contents($file);
+    $hash1=md5($buffer);
+    $tempos=substr_count($buffer,"\\header {instrument=");
+    if($tempos!=0) {
+        $buffer=explode("\n",$buffer);
+        // TREURE TOTS ELS INSTRUMENTS DELS HEADERS
+        foreach($buffer as $key=>$val) {
+            if(strpos($val,"\\header {instrument=")!==false) {
+                $buffer[$key]="  \\header {}";
+            }
+        }
+        // TREURE TOTS ELS shortInstrumentName
+        foreach($buffer as $key=>$val) {
+            if(strpos($val,"shortInstrumentName")!==false) {
+                $buffer[$key]=str_replace(array(
+                    'shortInstrumentName = #"G"',
+                    'shortInstrumentName = #" "',
+                    'shortInstrumentName = #"T"',
+                    'shortInstrumentName = #"B"',
+                    'shortInstrumentName = #"C"',
+                ),"",$val);
+            }
+        }
+        // POSAR ELS INSTRUMENTS A CADA LINIA
+        $linies=array();
+        foreach($buffer as $key=>$val) {
+            if(strpos($val,"\\liniaroA")!==false) {
+                $pos=strpos($val,"\\liniaroA");
+                $id=substr($val,$pos+9,1);
+                if(!isset($linies[$id])) {
+                    $linies[$id]=$val;
+                } else {
+                    $buffer[$key]=$linies[$id];
+                }
+            }
+        }
+        // CONTINUAR
+        $buffer=implode("\n",$buffer);
+    }
+    $hash2=md5($buffer);
+    if($hash1!=$hash2) {
+        echo "Fixing instrument name for ${file} ... ";
+        file_put_contents($file,$buffer);
+        echo "FIXED\n";
+    }
+}
