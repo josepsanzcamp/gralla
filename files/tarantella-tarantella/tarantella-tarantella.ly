@@ -129,6 +129,8 @@ liniaroAb =
 
 \paper {
   print-page-number = false
+  #(set-paper-size "a4")
+  #(layout-set-staff-size 20)
 }
 
 \bookpart {
@@ -201,8 +203,44 @@ liniaroAb =
 
 \paper {
   print-page-number = false
+  #(set-paper-size "a5landscape")
+  #(layout-set-staff-size 16)
+}
+
+\bookpart {
+  \header {}
+  \score {
+    \new StaffGroup {
+      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      <<
+        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
+      >>
+    }
+    \layout {}
+  }
+}
+
+\bookpart {
+  \header {}
+  \score {
+    \new StaffGroup {
+      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      <<
+        \new Staff \with {instrumentName = #"Gralla 2" } \liniaroAb
+      >>
+    }
+    \layout {}
+  }
+}
+
+}
+
+\book {
+
+\paper {
+  print-page-number = false
   #(set-paper-size "a6landscape")
-  #(layout-set-staff-size 14)
+  #(layout-set-staff-size 12)
 }
 
 \bookpart {

@@ -26,6 +26,7 @@ foreach($dirs as $dir) {
 		glob("files/${hash}/${hash}.xml"),
 		glob("files/${hash}/${hash}.ly"),
 		glob("files/${hash}/${hash}.pdf"),
+		glob("files/${hash}/${hash}-*.pdf"),
 		glob("files/${hash}/${hash}.midi"),
 		glob("files/${hash}/${hash}-*.midi"),
 		glob("files/${hash}/${hash}.mp3"),

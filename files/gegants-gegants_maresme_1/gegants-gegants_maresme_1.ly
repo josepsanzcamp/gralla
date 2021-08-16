@@ -163,6 +163,8 @@ liniaroAa =
 
 \paper {
   print-page-number = false
+  #(set-paper-size "a4")
+  #(layout-set-staff-size 20)
 }
 
 \bookpart {
@@ -193,8 +195,8 @@ liniaroAa =
 
 \paper {
   print-page-number = false
-  #(set-paper-size "a6landscape")
-  #(layout-set-staff-size 13)
+  #(set-paper-size "a5landscape")
+  #(layout-set-staff-size 16)
 }
 
 \bookpart {
@@ -212,3 +214,28 @@ liniaroAa =
 }
 
 }
+
+\book {
+
+\paper {
+  print-page-number = false
+  #(set-paper-size "a6landscape")
+  #(layout-set-staff-size 12)
+}
+
+\bookpart {
+
+\score {
+  \new StaffGroup {
+    \override Score.RehearsalMark #'self-alignment-X = #LEFT
+    <<
+      \new Staff \with {instrumentName = #"Gralla 1"} \liniaroAa
+    >>
+  }
+  \layout {}
+}
+
+}
+
+}
+

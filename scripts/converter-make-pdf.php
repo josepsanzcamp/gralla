@@ -10,18 +10,10 @@ function __exec($cmd) {
 $files=glob("*.ly");
 foreach($files as $file) {
     $file2=str_replace(".ly",".pdf",$file);
-    $file3=str_replace(".ly","-1.pdf",$file);
-    $file4=str_replace(".ly","-0.pdf",$file);
     if(!file_exists($file2)) {
         echo "Processing ${file} ... ";
         $output=__exec("lilypond ${file}");
         if(file_exists($file2)) {
-            if(file_exists($file3)) {
-                rename($file2,$file4);
-                __exec("pdfunite ${file4} ${file3} ${file2}");
-                unlink($file4);
-                unlink($file3);
-            }
             $warning=stripos($output,"warning")!==false;
             $error=stripos($output,"error")!==false;
             if($error) {
