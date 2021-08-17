@@ -80,6 +80,7 @@ foreach($files as $file) {
         $buffer[]="  print-page-number = false\n";
         $buffer[]="  #(set-paper-size \"a5landscape\")\n";
         $buffer[]="  #(layout-set-staff-size 16)\n";
+        $buffer[]="  #(define output-suffix \"a5\")\n";
         $buffer[]="}\n\n";
         $buffer[]="\\bookpart {".implode("\\bookpart {",$temp2);
         $buffer[]="}\n\n";
@@ -88,6 +89,7 @@ foreach($files as $file) {
         $buffer[]="  print-page-number = false\n";
         $buffer[]="  #(set-paper-size \"a6landscape\")\n";
         $buffer[]="  #(layout-set-staff-size 12)\n";
+        $buffer[]="  #(define output-suffix \"a6\")\n";
         $buffer[]="}\n\n";
         $buffer[]="\\bookpart {".implode("\\bookpart {",$temp2);
         $buffer[]="}\n\n";

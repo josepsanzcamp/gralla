@@ -200,6 +200,7 @@ liniaroAb =
   print-page-number = false
   #(set-paper-size "a5landscape")
   #(layout-set-staff-size 16)
+  #(define output-suffix "a5")
 }
 
 \bookpart {
@@ -236,6 +237,7 @@ liniaroAb =
   print-page-number = false
   #(set-paper-size "a6landscape")
   #(layout-set-staff-size 12)
+  #(define output-suffix "a6")
 }
 
 \bookpart {
