@@ -30,6 +30,7 @@ body {
 
 /* FOR VIEWPDF */
 #viewerContainer {
+	position: absolute;
 	width: calc(100% - 18px);
 }
 
