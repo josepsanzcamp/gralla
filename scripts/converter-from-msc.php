@@ -6,7 +6,7 @@ function __exec($cmd) {
     return ob_get_clean();
 }
 
-// CONVERT FROM XML TO LILYPOND
+// CONVERT FROM XML TO PDF AND MIDI
 $files=glob("*.mscz");
 foreach($files as $file) {
     $file2=str_replace(".mscz","",$file);
@@ -27,11 +27,10 @@ foreach($files as $file) {
         $lilypond[]="}";
         $lilypond=implode("\n",$lilypond);
         file_put_contents("${file2}.ly",$lilypond);
-        // GENERAR FITXERS PDF, MIDI I MP3 PER TOTES LES PISTES
+        // GENERAR FITXERS PDF I MIDI PER TOTES LES PISTES
         __exec("musescore3 --export-to ${file2}.pdf --export-score-parts ${file}");
         __exec("musescore3 --export-to ${file2}.midi ${file}");
-        __exec("musescore3 --export-to ${file2}.mp3 ${file}");
-        // GENERAR FITXER MIDI I MP3 PER CADA PISTA
+        // GENERAR FITXER MIDI PER CADA PISTA
         __exec("musescore3 --score-parts ${file} > ${file2}.json");
         $json=file_get_contents("${file2}.json");
         unlink("${file2}.json");
@@ -41,7 +40,6 @@ foreach($files as $file) {
             $val=$key+1;
             file_put_contents("${file2}-${val}.mscz",$data);
             __exec("musescore3 --export-to ${file2}-${val}.midi ${file2}-${val}.mscz");
-            __exec("musescore3 --export-to ${file2}-${val}.mp3 ${file2}-${val}.mscz");
             unlink("${file2}-${val}.mscz");
         }
         if(file_exists("${file2}.pdf")) {
