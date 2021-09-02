@@ -6,10 +6,10 @@ function __exec($cmd) {
     return ob_get_clean();
 }
 
-// CONVERT FROM XML TO PDF AND MIDI
-$files=glob("*.mscz");
+// CONVERT FROM MUSICXML OR MUSESCORE TO PDF AND MIDI
+$files=array_merge(glob("*.xml"),glob("*.mscz"));
 foreach($files as $file) {
-    $file2=str_replace(".mscz","",$file);
+    $file2=str_replace(array(".xml",".mscz"),"",$file);
     if(!file_exists("${file2}.pdf")) {
         echo "Processing ${file} ... ";
         // GENERAR FITXER LILYPOND PER COMPATIBILITAT
