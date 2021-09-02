@@ -19,3 +19,10 @@ for i in */*.xml; do
     php ../../scripts/converter-make-mp3.php
     cd ..
 done
+
+for i in */*.mscz; do
+    dir=$(echo $i | cut -d/ -f1)
+    cd $dir
+    php ../../scripts/converter-from-msc.php
+    cd ..
+done

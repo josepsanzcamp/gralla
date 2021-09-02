@@ -23,7 +23,9 @@ foreach($dirs as $dir) {
 	$cats[$cat]["array"][]=$hash;
 	$files2=array_merge(
 		glob("files/${hash}/${hash}.enc"),
+		glob("files/${hash}/${hash}.mscz"),
 		glob("files/${hash}/${hash}.xml"),
+		glob("files/${hash}/${hash}.mxl"),
 		glob("files/${hash}/${hash}.ly"),
 		glob("files/${hash}/${hash}.pdf"),
 		glob("files/${hash}/${hash}-*.pdf"),

@@ -7,10 +7,10 @@ function __exec($cmd) {
 }
 
 // CONVERT FROM XML TO LILYPOND
-$files=glob("*.xml");
+$files=array_merge(glob("*.xml"),glob("*.mxl"));
 foreach($files as $file) {
-    $file2=str_replace(".xml",".ly",$file);
-    $file3=str_replace(".xml",".ly~",$file);
+    $file2=str_replace(array(".xml",".mxl"),".ly",$file);
+    $file3=str_replace(array(".xml",".mxl"),".ly~",$file);
     if(!file_exists($file2)) {
         echo "Processing ${file} ... ";
         __exec("musicxml2ly ${file}");
