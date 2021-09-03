@@ -1,0 +1,22 @@
+<?php
+
+function __exec($cmd) {
+    ob_start();
+    passthru("${cmd} 2>/dev/null");
+    return ob_get_clean();
+}
+
+// CONVERT FROM ENC TO MUSICXML
+$files=glob("*.enc");
+foreach($files as $file) {
+    $file2=str_replace(".enc",".xml",$file);
+    if(!file_exists($file2)) {
+        echo "Processing ${file} ... ";
+        __exec("Enc2MusicXML -m ${file} > ${file2}");
+        if(file_exists($file2)) {
+            echo "OK\n";
+        } else {
+            echo "KO\n";
+        }
+    }
+}

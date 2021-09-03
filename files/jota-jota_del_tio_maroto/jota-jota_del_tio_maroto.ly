@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.22.1"
 
 \header {
   dedication="Jota"
@@ -90,8 +90,8 @@ liniaroAa =
   %55
   d4 fis8 e d c  |
   c2 b4 ~  | }
-  b2 r4  \bar "||" % kompletite
-  a4 r2  | % kompletite
+  b2 r4  \bar "||"
+  a4 b c  |
   d4 e fis  |
   %60
   g4. a8 b4 ~  |
@@ -124,8 +124,8 @@ liniaroAa =
   d4 fis4. e8  |
   d4. c8 b4 ~  |
   %85
-  b4 r2  | % kompletite
-  \repeat volta 2 { b'4 a g  |
+  b4 b'8 b b b  |
+  \repeat volta 2 { b4 a g  |
   fis4 e4. d8  |
   d2 c4 ~  |
   c4 a'8 a a a  |
@@ -212,8 +212,8 @@ liniaroAb =
   %55
   tomfl4 \times 2/3 { tomfl8 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl }  |
   tomfl4 \times 2/3 { tomfl8 tomfl tomfl } tomfl4  | }
-  tomfl4 r2  \bar "||" % kompletite
-  tomfl4 r2  | % kompletite
+  tomfl4 r2  \bar "||"
+  tomfl4 r2  |
   tomfl4 r2  |
   %60
   tomfl4 r2  |
@@ -246,7 +246,7 @@ liniaroAb =
   tomfl4 r2  |
   tomfl4 r2  |
   %85
-  tomfl4 r2  | % kompletite
+  tomfl4 r2  |
   \repeat volta 2 { tomfl4 \times 2/3 { tomfl8 tomfl tomfl } tomfl4  |
   tomfl4 \times 2/3 { tomfl8 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl }  |
   tomfl4 \times 2/3 { tomfl8 tomfl tomfl } tomfl4  |
@@ -262,30 +262,23 @@ liniaroAb =
   tomfl4 r2  \bar "|."
 }
 
-\book {
-
-\paper {
-  print-page-number = false
-  #(set-paper-size "a4")
-  #(layout-set-staff-size 20)
-}
-
 \bookpart {
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla" } \liniaroAa
-        \new DrumStaff \with {instrumentName = #"Timbal" } \liniaroAb
+        \new Staff \with {instrumentName = #"Gralla" shortInstrumentName = #"G"} \liniaroAa
+        \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
       >>
     }
     \layout {}
-  }\score { \unfoldRepeats
+  }
+  \score { \unfoldRepeats
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla" } \liniaroAa
-        \new DrumStaff \with {instrumentName = #"Timbal" } \liniaroAb
+        \new Staff \with {instrumentName = #"Gralla" shortInstrumentName = #"G"} \liniaroAa
+        \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
       >>
     }
     \midi {}
@@ -293,20 +286,21 @@ liniaroAb =
 }
 
 \bookpart {
-  \header {}
+  \header {instrument="Gralla"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla" } \liniaroAa
+        \new Staff \liniaroAa
       >>
     }
     \layout {}
-  }\score { \unfoldRepeats
+  }
+  \score { \unfoldRepeats
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla" } \liniaroAa
+        \new Staff \liniaroAa
       >>
     }
     \midi {}
@@ -314,99 +308,24 @@ liniaroAb =
 }
 
 \bookpart {
-  \header {}
+  \header {instrument=""}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new DrumStaff \with {instrumentName = #"Timbal" } \liniaroAb
+        \new DrumStaff \liniaroAb
       >>
     }
     \layout {}
-  }\score { \unfoldRepeats
+  }
+  \score { \unfoldRepeats
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new DrumStaff \with {instrumentName = #"Timbal" } \liniaroAb
+        \new DrumStaff \liniaroAb
       >>
     }
     \midi {}
   }
-}
-
-}
-
-\book {
-
-\paper {
-  print-page-number = false
-  #(set-paper-size "a5landscape")
-  #(layout-set-staff-size 16)
-  #(define output-suffix "a5")
-}
-
-\bookpart {
-  \header {}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new Staff \with {instrumentName = #"Gralla" } \liniaroAa
-      >>
-    }
-    \layout {}
-  }
-}
-
-\bookpart {
-  \header {}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new DrumStaff \with {instrumentName = #"Timbal" } \liniaroAb
-      >>
-    }
-    \layout {}
-  }
-}
-
-}
-
-\book {
-
-\paper {
-  print-page-number = false
-  #(set-paper-size "a6landscape")
-  #(layout-set-staff-size 12)
-  #(define output-suffix "a6")
-}
-
-\bookpart {
-  \header {}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new Staff \with {instrumentName = #"Gralla" } \liniaroAa
-      >>
-    }
-    \layout {}
-  }
-}
-
-\bookpart {
-  \header {}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new DrumStaff \with {instrumentName = #"Timbal" } \liniaroAb
-      >>
-    }
-    \layout {}
-  }
-}
-
 }
 

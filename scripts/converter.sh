@@ -1,25 +1,22 @@
 #!/bin/bash
 
-for i in */*.enc; do
+for i in $(ls -1 */*.enc); do
     dir=$(echo $i | cut -d/ -f1)
     cd $dir
     php ../../scripts/converter-from-enc.php
-    php ../../scripts/converter-make-mp3.php
     cd ..
 done
 
-for i in */*.xml; do
+for i in $(ls -1 */*.xml */*.mscz); do
     dir=$(echo $i | cut -d/ -f1)
     cd $dir
-    php ../../scripts/converter-from-msc.php
-    php ../../scripts/converter-make-mp3.php
+    php ../../scripts/converter-from-xml.php
     cd ..
 done
 
-for i in */*.mscz; do
+for i in $(ls -1 */*.midi); do
     dir=$(echo $i | cut -d/ -f1)
     cd $dir
-    php ../../scripts/converter-from-msc.php
     php ../../scripts/converter-make-mp3.php
     cd ..
 done

@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.22.1"
 
 \header {
   dedication="Jota"
@@ -143,54 +143,46 @@ liniaroAc =
   tomfl4.:64 ~  |
   tomfl4.:64 ~  |
   tomfl4.:64  |
-  << { r4 r8 } \\ { <tomfl tomfl>8 r4 } >>  |
-  << { r4 r8 } \\ { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } >>  |
+  <tomfl tomfl>8 r4  |
+  <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8  |
   %10
-  << { r4 r8 } \\ { tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } } >>  |
-  \repeat volta 2 { << { r4 r8 } \\ { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } >>  |
-  << { r4 r8 } \\ { tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } } >>  |
-  << { r4 r8 } \\ { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } >>  |
-  << { r4 r8 } \\ { tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } } >>  |
+  tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl }  |
+  \repeat volta 2 { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8  |
+  tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl }  |
+  <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8  |
+  tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl }  |
   %15
-  << { r4 r8 } \\ { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } >>  |
-  << { r4 r8 } \\ { tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } } >> }
-  \alternative { { << { r4 r8 } \\ { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } >>  |
-  << { r4 r8 } \\ { tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } } >> }
-  { << { r4 r8 } \\ { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } >> } }
+  <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8  |
+  tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } }
+  \alternative { { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8  |
+  tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } }
+  { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } }
   %20
-  << { r4 r8 } \\ { tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } } >>  |
-  \repeat volta 2 { << { r4 r8 } \\ { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } >>  |
-  << { r4 r8 } \\ { tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } } >>  |
-  << { r4 r8 } \\ { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } >>  |
-  << { r4 r8 } \\ { tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } } >>  |
+  tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl }  |
+  \repeat volta 2 { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8  |
+  tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl }  |
+  <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8  |
+  tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl }  |
   %25
-  << { r4 r8 } \\ { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } >>  |
-  << { r4 r8 } \\ { tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } } >> }
-  \alternative { { << { r4 r8 } \\ { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } >>  |
-  << { r4 r8 } \\ { tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } } >> }
-  { << { r4 r8 } \\ { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } >> } }
+  <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8  |
+  tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } }
+  \alternative { { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8  |
+  tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } }
+  { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } }
   %30
-  << { r4 r8 } \\ { tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } } >>  |
-  \repeat volta 2 { << { r4 r8 } \\ { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } >>  |
-  << { r4 r8 } \\ { tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } } >>  |
-  << { r4 r8 } \\ { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } >>  |
-  << { r4 r8 } \\ { tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } } >>  |
+  tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl }  |
+  \repeat volta 2 { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8  |
+  tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl }  |
+  <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8  |
+  tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl }  |
   %35
-  << { r4 r8 } \\ { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } >>  |
-  << { r4 r8 } \\ { tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } } >>  |
-  << { r4 r8 } \\ { <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 } >> }
-  \alternative { { << { r4 r8 } \\ { tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } } >> }
-  { << { r4 r8 } \\ { <tomfl tomfl tomfl>16 tomfl <tomfl tomfl tomfl> tomfl <tomfl tomfl tomfl> tomfl } >>  |
+  <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8  |
+  tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl }  |
+  <tomfl tomfl>8 \times 2/3 { tomfl16 tomfl tomfl } tomfl8 }
+  \alternative { { tomfl8 \times 2/3 { tomfl16 tomfl tomfl } \times 2/3 { tomfl tomfl tomfl } }
+  { <tomfl tomfl tomfl>16 tomfl <tomfl tomfl tomfl> tomfl <tomfl tomfl tomfl> tomfl  |
   %40
-  << { r4 r8 } \\ { tomfl4. } >> } } \bar "||"
-}
-
-\book {
-
-\paper {
-  print-page-number = false
-  #(set-paper-size "a4")
-  #(layout-set-staff-size 20)
+  tomfl4. } } \bar "||"
 }
 
 \bookpart {
@@ -198,19 +190,20 @@ liniaroAc =
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
-        \new Staff \with {instrumentName = #"Gralla 2" } \liniaroAb
-        \new DrumStaff \with {instrumentName = #"Timbal" } \liniaroAc
+        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
+        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
+        \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAc
       >>
     }
     \layout {}
-  }\score { \unfoldRepeats
+  }
+  \score { \unfoldRepeats
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
-        \new Staff \with {instrumentName = #"Gralla 2" } \liniaroAb
-        \new DrumStaff \with {instrumentName = #"Timbal" } \liniaroAc
+        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
+        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
+        \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAc
       >>
     }
     \midi {}
@@ -218,20 +211,21 @@ liniaroAc =
 }
 
 \bookpart {
-  \header {}
+  \header {instrument="Gralla 1"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
+        \new Staff \liniaroAa
       >>
     }
     \layout {}
-  }\score { \unfoldRepeats
+  }
+  \score { \unfoldRepeats
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
+        \new Staff \liniaroAa
       >>
     }
     \midi {}
@@ -239,20 +233,21 @@ liniaroAc =
 }
 
 \bookpart {
-  \header {}
+  \header {instrument=""}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 2" } \liniaroAb
+        \new Staff \liniaroAb
       >>
     }
     \layout {}
-  }\score { \unfoldRepeats
+  }
+  \score { \unfoldRepeats
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 2" } \liniaroAb
+        \new Staff \liniaroAb
       >>
     }
     \midi {}
@@ -260,125 +255,24 @@ liniaroAc =
 }
 
 \bookpart {
-  \header {}
+  \header {instrument=""}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new DrumStaff \with {instrumentName = #"Timbal" } \liniaroAc
+        \new DrumStaff \liniaroAc
       >>
     }
     \layout {}
-  }\score { \unfoldRepeats
+  }
+  \score { \unfoldRepeats
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new DrumStaff \with {instrumentName = #"Timbal" } \liniaroAc
+        \new DrumStaff \liniaroAc
       >>
     }
     \midi {}
   }
-}
-
-}
-
-\book {
-
-\paper {
-  print-page-number = false
-  #(set-paper-size "a5landscape")
-  #(layout-set-staff-size 16)
-  #(define output-suffix "a5")
-}
-
-\bookpart {
-  \header {}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
-      >>
-    }
-    \layout {}
-  }
-}
-
-\bookpart {
-  \header {}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new Staff \with {instrumentName = #"Gralla 2" } \liniaroAb
-      >>
-    }
-    \layout {}
-  }
-}
-
-\bookpart {
-  \header {}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new DrumStaff \with {instrumentName = #"Timbal" } \liniaroAc
-      >>
-    }
-    \layout {}
-  }
-}
-
-}
-
-\book {
-
-\paper {
-  print-page-number = false
-  #(set-paper-size "a6landscape")
-  #(layout-set-staff-size 12)
-  #(define output-suffix "a6")
-}
-
-\bookpart {
-  \header {}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
-      >>
-    }
-    \layout {}
-  }
-}
-
-\bookpart {
-  \header {}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new Staff \with {instrumentName = #"Gralla 2" } \liniaroAb
-      >>
-    }
-    \layout {}
-  }
-}
-
-\bookpart {
-  \header {}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new DrumStaff \with {instrumentName = #"Timbal" } \liniaroAc
-      >>
-    }
-    \layout {}
-  }
-}
-
 }
 

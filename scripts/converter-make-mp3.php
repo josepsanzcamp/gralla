@@ -15,7 +15,7 @@ foreach($files as $file) {
         echo "Processing ${file} ... ";
         // FOR CENTOS7
         //~ __exec("/usr/bin/timidity -x'bank 0\\n0 /usr/share/soundfonts/fluid-soundfont-lite-patches/FluidR3_GM-B0/Oboe' -OwM -o ${file2} ${file}");
-        // FOR DEBIAN10
+        // FOR DEBIAN11
         __exec("/usr/bin/timidity -x'bank 0\\n0 /usr/share/midi/freepats/Tone_000/068_Oboe' -OwM -o ${file2} ${file}");
         __exec("lame -f ${file2} ${file3}");
         if(file_exists($file2)) {

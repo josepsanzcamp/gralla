@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.22.1"
 
 \header {
   dedication="Ball de gegants"
@@ -106,23 +106,23 @@ liniaroAa =
   d8. c16 b8 c  |
   a4 r8 e'16 d _"Comic Sans MS"  |
   %70
-  c8. _"accelerando" d16 e8 r8  | % kompletite
-  e4 r4  | % kompletite
-  b8. c16 d8 r8  | % kompletite
-  d4 r4  | % kompletite
-  c8. d16 e8 r8  | % kompletite
+  c8. _"accelerando" d16 e8 f  |
+  e4 d8 d16 c  |
+  b8. c16 d8 e  |
+  d4 c8 e16 d  |
+  c8. d16 e8 f  |
   %75
-  e4 r4  | % kompletite
-  b8. c16 d8 r8  | % kompletite
-  c4 r4  | % kompletite
-  c8. d16 e8 r8  | % kompletite
-  e4 r4  | % kompletite
+  e4 d8 d16 c  |
+  b8. c16 d8 e  |
+  c4 r8 e16 d  |
+  c8. d16 e8 f  |
+  e4 d8 d16 c  |
   %80
-  b8. c16 d8 r8  | % kompletite
-  d4 r4  | % kompletite
-  c8. d16 e8 r8  | % kompletite
-  e4 r4  | % kompletite
-  b8. c16 r4  | % kompletite
+  b8. c16 d8 e  |
+  d4 c8 e16 d  |
+  c8. d16 e8 f  |
+  e4 d8 d16 c  |
+  b8. c16 a8 g  |
   %85
   a2 ~  |
   a2  \bar "|."
@@ -218,52 +218,45 @@ liniaroAb =
   f8. e16 d8 e  |
   a4 r8 g16 f  |
   %70
-  e8. f16 g8 r8  | % kompletite
-  g4 f8 r8  | % kompletite
-  d8. e16 f8 r8  | % kompletite
-  f4 e8 r8  | % kompletite
-  e8. f16 g8 r8  | % kompletite
+  e8. f16 g8 a  |
+  g4 f8 f16 e  |
+  d8. e16 f8 g  |
+  f4 e8 g16 f  |
+  e8. f16 g8 a  |
   %75
-  g4 f8 r8  | % kompletite
-  d8. e16 f8 r8  | % kompletite
-  e4 r8 r8  | % kompletite
-  e8. f16 g8 r8  | % kompletite
-  g4 f8 r8  | % kompletite
+  g4 f8 f16 e  |
+  d8. e16 f8 g  |
+  e4 r8 g16 f  |
+  e8. f16 g8 a  |
+  g4 f8 f16 e  |
   %80
-  d8. e16 f8 r8  | % kompletite
-  f4 e8 r8  | % kompletite
-  e8. f16 g8 r8  | % kompletite
-  g4 f8 r8  | % kompletite
-  d8. e16 <c a'>8 r8  | % kompletite
+  d8. e16 f8 g  |
+  f4 e8 g16 f  |
+  e8. f16 g8 a  |
+  g4 f8 f16 e  |
+  d8. e16 <c a'>8 <b g'>  |
   %85
   <c a'>2 ~ ~  |
   <c a'>2  \bar "|."
 }
 
-\book {
-
-\paper {
-  print-page-number = false
-  #(set-paper-size "a4")
-  #(layout-set-staff-size 20)
-}
-
 \bookpart {
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
-        \new Staff \with {instrumentName = #"Gralla 2" } \liniaroAb
+        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
+        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
       >>
     }
     \layout {}
-  }\score { \unfoldRepeats
+  }
+  \score { \unfoldRepeats
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
-        \new Staff \with {instrumentName = #"Gralla 2" } \liniaroAb
+        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
+        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
       >>
     }
     \midi {}
@@ -271,20 +264,21 @@ liniaroAb =
 }
 
 \bookpart {
-  \header {}
+  \header {instrument="Gralla 1"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
+        \new Staff \liniaroAa
       >>
     }
     \layout {}
-  }\score { \unfoldRepeats
+  }
+  \score { \unfoldRepeats
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
+        \new Staff \liniaroAa
       >>
     }
     \midi {}
@@ -292,99 +286,24 @@ liniaroAb =
 }
 
 \bookpart {
-  \header {}
+  \header {instrument="Gralla 2"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 2" } \liniaroAb
+        \new Staff \liniaroAb
       >>
     }
     \layout {}
-  }\score { \unfoldRepeats
+  }
+  \score { \unfoldRepeats
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 2" } \liniaroAb
+        \new Staff \liniaroAb
       >>
     }
     \midi {}
   }
-}
-
-}
-
-\book {
-
-\paper {
-  print-page-number = false
-  #(set-paper-size "a5landscape")
-  #(layout-set-staff-size 16)
-  #(define output-suffix "a5")
-}
-
-\bookpart {
-  \header {}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
-      >>
-    }
-    \layout {}
-  }
-}
-
-\bookpart {
-  \header {}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new Staff \with {instrumentName = #"Gralla 2" } \liniaroAb
-      >>
-    }
-    \layout {}
-  }
-}
-
-}
-
-\book {
-
-\paper {
-  print-page-number = false
-  #(set-paper-size "a6landscape")
-  #(layout-set-staff-size 12)
-  #(define output-suffix "a6")
-}
-
-\bookpart {
-  \header {}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new Staff \with {instrumentName = #"Gralla 1" } \liniaroAa
-      >>
-    }
-    \layout {}
-  }
-}
-
-\bookpart {
-  \header {}
-  \score {
-    \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      <<
-        \new Staff \with {instrumentName = #"Gralla 2" } \liniaroAb
-      >>
-    }
-    \layout {}
-  }
-}
-
 }
 
