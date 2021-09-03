@@ -35,12 +35,14 @@ foreach($files as $file) {
         $json=file_get_contents("${file2}.json");
         unlink("${file2}.json");
         $json=json_decode($json,true);
-        foreach($json["parts"] as $key=>$val) {
-            $data=base64_decode($json["partsBin"][$key]);
-            $val=$key+1;
-            file_put_contents("${file2}-${val}.mscz",$data);
-            __exec("musescore3 --export-to ${file2}-${val}.midi ${file2}-${val}.mscz");
-            unlink("${file2}-${val}.mscz");
+        if(count($json["parts"])>1) {
+            foreach($json["parts"] as $key=>$val) {
+                $data=base64_decode($json["partsBin"][$key]);
+                $val=$key+1;
+                file_put_contents("${file2}-${val}.mscz",$data);
+                __exec("musescore3 --export-to ${file2}-${val}.midi ${file2}-${val}.mscz");
+                unlink("${file2}-${val}.mscz");
+            }
         }
         if(file_exists("${file2}.pdf")) {
             echo "OK\n";
