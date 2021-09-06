@@ -19,7 +19,7 @@
 liniaroAa =
 \relative g'
 {
-  \tempo 4=120
+  \tempo 4=60
   \clef treble
   \key c \major
   \time 1/8
@@ -108,7 +108,7 @@ liniaroAa =
 liniaroAb =
 \relative g'
 {
-  \tempo 4=120
+  \tempo 4=60
   \clef treble
   \key c \major
   \time 1/8
@@ -197,7 +197,7 @@ liniaroAb =
 liniaroAc =
 \drummode
 {
-  \tempo 4=120
+  \tempo 4=60
   \time 1/8
   r8  |
   \time 2/4   tomfl2:32  |
