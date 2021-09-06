@@ -747,7 +747,10 @@ liniaroAd =
         \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAd
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 
@@ -769,7 +772,10 @@ liniaroAd =
         \new Staff \liniaroAa
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 
@@ -791,7 +797,10 @@ liniaroAd =
         \new Staff \liniaroAb
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 
@@ -813,7 +822,10 @@ liniaroAd =
         \new DrumStaff \liniaroAc
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 
@@ -835,7 +847,10 @@ liniaroAd =
         \new DrumStaff \liniaroAd
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 

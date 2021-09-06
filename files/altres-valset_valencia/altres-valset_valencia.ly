@@ -70,7 +70,7 @@ liniaroAa =
   d4 d f  |
   b,4 b d  |
   %40
-  \mark "D.C. al Fine" c2.  | }
+  \mark "D.C. al Fine" c2.  |
 }
 
 liniaroAb =
@@ -127,7 +127,7 @@ liniaroAb =
   d4 d f  |
   b,4 b d  |
   %40
-  c2. _"D.C. a FI"  | }
+  c2. _"D.C. a FI"  |
 }
 
 \bookpart {
@@ -149,7 +149,10 @@ liniaroAb =
         \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 
@@ -171,7 +174,10 @@ liniaroAb =
         \new Staff \liniaroAa
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 
@@ -193,7 +199,10 @@ liniaroAb =
         \new Staff \liniaroAb
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 

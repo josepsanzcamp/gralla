@@ -234,7 +234,10 @@ liniaroAc =
         \new Staff \with {instrumentName = #"Gralla 3" shortInstrumentName = #"G"} \liniaroAc
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 
@@ -256,7 +259,10 @@ liniaroAc =
         \new Staff \liniaroAa
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 
@@ -278,7 +284,10 @@ liniaroAc =
         \new Staff \liniaroAb
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 
@@ -300,7 +309,10 @@ liniaroAc =
         \new Staff \liniaroAc
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 

@@ -127,7 +127,10 @@ liniaroAb =
         \new DrumStaff \with {instrumentName = #"Timbal" shortInstrumentName = #"T"} \liniaroAb
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 
@@ -149,7 +152,10 @@ liniaroAb =
         \new Staff \liniaroAa
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 
@@ -171,7 +177,10 @@ liniaroAb =
         \new DrumStaff \liniaroAb
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 

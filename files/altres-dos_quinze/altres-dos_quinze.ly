@@ -19,7 +19,7 @@
 liniaroAa =
 \relative g''
 {
-  \tempo 4=120
+  \tempo 4=160
   \clef treble
   \key c \major
   \time 6/8
@@ -49,7 +49,7 @@ liniaroAa =
 liniaroAb =
 \relative g'
 {
-  \tempo 4=120
+  \tempo 4=160
   \clef treble
   \key c \major
   \time 6/8
@@ -95,7 +95,10 @@ liniaroAb =
         \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAb
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 
@@ -117,7 +120,10 @@ liniaroAb =
         \new Staff \liniaroAa
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 
@@ -139,7 +145,10 @@ liniaroAb =
         \new Staff \liniaroAb
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 

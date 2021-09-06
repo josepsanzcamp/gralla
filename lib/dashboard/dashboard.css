@@ -66,3 +66,15 @@ body {
 	margin-bottom:0;
 }
 
+/* FOR MIDIPLAYER */
+.midiplayer .audioplayer-volume a
+{
+	width: 0.75em; /* 5 */
+	height: 0.75em; /* 6 */
+	background-color: #fff;
+	display: block;
+	position: relative;
+	z-index: 1;
+	top: 35%;
+	left: 35%;
+}

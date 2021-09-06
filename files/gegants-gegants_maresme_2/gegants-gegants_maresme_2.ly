@@ -175,5 +175,8 @@ liniaroAa =
       \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAa
     >>
   }
-  \midi {}
+  \midi {
+    \set Staff.midiInstrument = "oboe"
+    \set DrumStaff.midiInstrument = "drums"
+  }
 }

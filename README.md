@@ -18,6 +18,7 @@ Aquest repositori conte la pagina web de partitures online per a gralla
 - Per convertir els fitxers de format PDF a MusicXML, he fet servir el projecte [audiveris](https://github.com/Audiveris/audiveris)
 - Per convertir els fitxers de format MusicXML a Lilypond, he fet servir el projecte [lilypond](http://lilypond.org)
 - Per convertir els fitxers de format Encore a MusicXML, he fet servir el projecte [Enc2MusicXML](https://github.com/lvinken/Enc2MusicXML)
+- Per escoltar els fitxers de format MP3, he fet servir el projecte [Audio Player](https://osvaldas.info/audio-player-responsive-and-touch-friendly)
+- Per escoltar els fitxers de format Midi, he fet servir el projecte [timidity](https://github.com/feross/timidity)
 - La resta de llibreries que he fet servir, les podeu trobar als crèdits de [SaltOS](https://www.saltos.org)
 - Si teniu dubtes o suggeriments, podeu contactar amb mi a l'adreça josep.sanz@saltos.org
-

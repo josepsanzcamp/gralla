@@ -66,7 +66,7 @@ liniaroAa =
   %35
   c2. ~ }
   \alternative { { c8 r a' g a f }
-  \time 2/4   { c8 r g' g } }
+  { \time 2/4 c8 r g' g } }
   \repeat volta 2 { a8  g fis a  |
   g8 e g g  |
   %40
@@ -78,7 +78,7 @@ liniaroAa =
   %45
   g8 f e r }
   \alternative { { r4 g8 g }
-  \time 6/8   { \mark \markup {D.S. e Coda} r4 a8 g a f } }
+  { \time 6/8 \mark \markup {D.S. e Coda} r4 a8 g a f } }
   e2.  \bar "||"
   \time 2/4   \mark \markup {\musicglyph #"scripts.coda"} g16 f e f g f e f  |
   %50
@@ -136,7 +136,7 @@ liniaroAb =
   %35
   c4 g8 g g g }
   \alternative { { g8 r r r4. }
-  \time 2/4   { g8 r r4 } }
+  { \time 2/4 g8 r r4 } }
   \repeat volta 2 { d'8 d b4  |
   c8 c r4  |
   %40
@@ -148,7 +148,7 @@ liniaroAb =
   %45
   e8 d c r }
   \alternative { { r4 r }
-  \time 6/8   { r4. r } }
+  { \time 6/8 r4. r } }
   c2.  \bar "||"
   \time 2/4   e16 d c d e d c d  |
   %50
@@ -175,7 +175,10 @@ liniaroAb =
         \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 
@@ -197,7 +200,10 @@ liniaroAb =
         \new Staff \liniaroAa
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 
@@ -219,7 +225,10 @@ liniaroAb =
         \new Staff \liniaroAb
       >>
     }
-    \midi {}
+    \midi {
+      \set Staff.midiInstrument = "oboe"
+      \set DrumStaff.midiInstrument = "drums"
+    }
   }
 }
 

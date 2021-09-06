@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <!-- ROWROWROW -->
-	<url>
-		<loc>__SITE__/static/__HASH__.__LANG__.html</loc>
-	</url>
+    <url>
+        <loc>__SITE__/static/__HASH__.__LANG__.html</loc>
+    </url>
 <!-- ROWROWROW -->
 </urlset>
