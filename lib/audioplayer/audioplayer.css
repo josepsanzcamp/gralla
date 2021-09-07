@@ -294,7 +294,6 @@
 			display: none;
 		}
 
-/*
 	.audioplayer-play,
 	.audioplayer-pause,
 	.audioplayer-volume a
@@ -305,7 +304,6 @@
 		-o-filter: drop-shadow( 1px 1px 0 #000 );
 		filter: drop-shadow( 1px 1px 0 #000 );
 	}
-*/
 	.audioplayer-bar,
 	.audioplayer-bar div,
 	.audioplayer-volume-adjust div

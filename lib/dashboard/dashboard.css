@@ -58,6 +58,19 @@ body {
 	min-width:250px;
 	border:0;
 	background:#007bff;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.audioplayer-play,
+.audioplayer-pause,
+.audioplayer-volume a {
+	-webkit-filter: none;
+	-moz-filter: none;
+	-ms-filter: none;
+	-o-filter: none;
+	filter: none;
 }
 
 /* FOR REPLACE ANCHOR BY H1 */
@@ -67,8 +80,7 @@ body {
 }
 
 /* FOR MIDIPLAYER */
-.midiplayer .audioplayer-volume a
-{
+.midiplayer .audioplayer-volume a {
 	width: 0.75em; /* 5 */
 	height: 0.75em; /* 6 */
 	background-color: #fff;
