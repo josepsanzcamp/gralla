@@ -2,7 +2,7 @@
 
 \header {
   dedication="Muñeira"
-  title="   "
+  title=""
   subtitle="Marcha do entrelazado de Allariz"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Carlos Núñez"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

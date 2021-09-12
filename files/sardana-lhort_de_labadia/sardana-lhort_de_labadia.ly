@@ -2,7 +2,7 @@
 
 \header {
   dedication="Sardana"
-  title="  "
+  title=""
   subtitle="L'hort de l'abadia"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

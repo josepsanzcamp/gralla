@@ -2,7 +2,7 @@
 
 \header {
   dedication="Bestiari"
-  title="   "
+  title=""
   subtitle="Ball de turcs i cavallets de Tarragona"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Percussió: E. Gironès"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

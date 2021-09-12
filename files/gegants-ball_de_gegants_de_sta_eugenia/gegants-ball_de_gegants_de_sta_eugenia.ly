@@ -2,7 +2,7 @@
 
 \header {
   dedication="Ball de gegants"
-  title="  "
+  title=""
   subtitle="Ball de gegants de Santa Eugènia de Berga"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

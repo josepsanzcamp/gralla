@@ -2,7 +2,7 @@
 
 \header {
   dedication="Bestiari"
-  title="   "
+  title=""
   subtitle="Su"
   subsubtitle="Cuca fera de les Piles de Gaià"
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Sònia Dallà"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

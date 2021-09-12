@@ -2,7 +2,7 @@
 
 \header {
   dedication="Blues"
-  title="  "
+  title=""
   subtitle="Saint James Infirmary"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Enric Montsant i Damià"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

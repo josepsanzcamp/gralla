@@ -2,7 +2,7 @@
 
 \header {
   dedication=""
-  title="  "
+  title=""
   subtitle="Tristor"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Flix, la Ribera d'Ebre"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

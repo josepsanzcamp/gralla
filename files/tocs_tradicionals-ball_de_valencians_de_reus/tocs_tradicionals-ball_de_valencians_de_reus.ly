@@ -2,7 +2,7 @@
 
 \header {
   dedication="Tocs tradicionals"
-  title="  "
+  title=""
   subtitle="Ball de valencians de Reus"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus="El Baix Camp"
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

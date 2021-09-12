@@ -2,7 +2,7 @@
 
 \header {
   dedication="Bestiari"
-  title="   "
+  title=""
   subtitle="Ball de l'anguila Murtrassa"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

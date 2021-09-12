@@ -2,7 +2,7 @@
 
 \header {
   dedication="Processó"
-  title="             "
+  title=""
   subtitle="Marxa regular"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

@@ -2,7 +2,7 @@
 
 \header {
   dedication=""
-  title="  "
+  title=""
   subtitle="Toc d'inici"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Jordi Fàbregas"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

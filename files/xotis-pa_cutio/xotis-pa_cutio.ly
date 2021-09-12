@@ -2,7 +2,7 @@
 
 \header {
   dedication="Xotis"
-  title="  "
+  title=""
   subtitle="Pa cutio"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

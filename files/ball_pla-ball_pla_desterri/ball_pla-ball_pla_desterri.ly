@@ -2,7 +2,7 @@
 
 \header {
   dedication="Ball pla"
-  title="     "
+  title=""
   subtitle="Ball pla d'Esterri d'Àneu"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus="El Pallars Sobirà"
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

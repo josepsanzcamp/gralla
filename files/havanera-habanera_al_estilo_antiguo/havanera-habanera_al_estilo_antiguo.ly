@@ -2,7 +2,7 @@
 
 \header {
   dedication="Havanera"
-  title="   "
+  title=""
   subtitle="Habanera al estilo antiguo"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

@@ -2,7 +2,7 @@
 
 \header {
   dedication="Bestiari"
-  title="   "
+  title=""
   subtitle="L'Àliga de Vilafranca"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

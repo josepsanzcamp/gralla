@@ -2,7 +2,7 @@
 
 \header {
   dedication="Pasdoble"
-  title="   "
+  title=""
   subtitle="Pasdoble de la Torre de l'Espanyol"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

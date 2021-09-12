@@ -2,18 +2,18 @@
 
 \header {
   dedication="Concert"
-  title="   "
+  title=""
   subtitle="Suite de festa"
   subsubtitle="sobre un tema popular per a tres gralles i un timbal"
-  poet="          5. Sardana curta I i II"
+  poet="5. Sardana curta I i II"
   meter=""
   piece=""
   composer="Pep Coca, 1991"
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

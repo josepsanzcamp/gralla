@@ -2,18 +2,18 @@
 
 \header {
   dedication="Ball pla"
-  title="   "
+  title=""
   subtitle="Ball pla"
   subsubtitle=""
   poet=""
   meter=""
   piece=""
   composer=""
-  arranger="diverses poblacions "
+  arranger="diverses poblacions"
   opus="de les comarques septentrionals"
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

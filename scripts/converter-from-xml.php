@@ -10,23 +10,34 @@ function __exec($cmd) {
 $files=array_merge(glob("*.xml"),glob("*.mscz"));
 foreach($files as $file) {
     $file2=str_replace(array(".xml",".mscz"),"",$file);
-    if(!file_exists("${file2}.pdf")) {
-        echo "Processing ${file} ... ";
+    if(!file_exists("${file2}.ly")) {
+        echo "Creating ${file2}.ly ... ";
         // GENERAR FITXER LILYPOND PER COMPATIBILITAT
         __exec("musescore3 --score-meta ${file} > ${file2}.json");
         $json=file_get_contents("${file2}.json");
         unlink("${file2}.json");
         $json=json_decode($json,true);
-        $lilypond=array("","");
+        $lilypond=array();
         $lilypond[]="\header {";
         foreach($json["metadata"]["textFramesData"] as $key=>$val) {
-            if(is_array($val)) $val=implode(", ",$val);
-            $val=str_replace("\n",", ",$val);
+            if(is_array($val)) $val=implode(" ",$val);
+            $val=str_replace("\n"," ",$val);
+            for($count=1;$count!=0;$val=str_replace("  "," ",$val,$count));
+            $val=trim($val);
+            $val=str_replace('"','\"',$val);
             $lilypond[]="  $key=\"$val\"";
         }
         $lilypond[]="}";
         $lilypond=implode("\n",$lilypond);
         file_put_contents("${file2}.ly",$lilypond);
+        if(file_exists("${file2}.ly")) {
+            echo "OK\n";
+        } else {
+            echo "KO\n";
+        }
+    }
+    if(!file_exists("${file2}.pdf")) {
+        echo "Processing ${file} ... ";
         // GENERAR FITXERS PDF I MIDI PER TOTES LES PISTES
         __exec("musescore3 --export-to ${file2}.pdf --export-score-parts ${file}");
         __exec("musescore3 --export-to ${file2}.midi ${file}");

@@ -2,7 +2,7 @@
 
 \header {
   dedication="Gegants"
-  title="   "
+  title=""
   subtitle="Ball de gegants del Maresme"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Maig de 2002"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

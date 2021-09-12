@@ -2,7 +2,7 @@
 
 \header {
   dedication="Ball de panderos"
-  title="  "
+  title=""
   subtitle="Ball de panderos de Vilafranca"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

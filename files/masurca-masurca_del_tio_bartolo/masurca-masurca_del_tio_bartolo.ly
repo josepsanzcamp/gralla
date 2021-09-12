@@ -2,7 +2,7 @@
 
 \header {
   dedication="Masurca"
-  title="  "
+  title=""
   subtitle="Masurca del Tio Bartolo"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="del repertori de José Sancho, 'Tío Bartolo'"
   opus="Arr. Blas Coscollar"
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

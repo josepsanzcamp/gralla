@@ -2,7 +2,7 @@
 
 \header {
   dedication="Gegants"
-  title="         "
+  title=""
   subtitle="Contradansa dels gegants de Barcelona"
   subsubtitle="versió per als grallers de Sant Antoni"
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

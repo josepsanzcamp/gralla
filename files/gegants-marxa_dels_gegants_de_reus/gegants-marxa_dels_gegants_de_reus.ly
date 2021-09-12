@@ -2,7 +2,7 @@
 
 \header {
   dedication="Marxa de gegants"
-  title="                "
+  title=""
   subtitle="Marxa dels gegants de Reus"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

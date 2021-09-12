@@ -1,5 +1,3 @@
-
-
 \header {
   composers="Bob Dylan"
   poets=""

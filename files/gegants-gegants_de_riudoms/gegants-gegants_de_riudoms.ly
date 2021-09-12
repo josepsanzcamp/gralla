@@ -2,7 +2,7 @@
 
 \header {
   dedication="Gegants"
-  title="   "
+  title=""
   subtitle="Gegants de Riudoms"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

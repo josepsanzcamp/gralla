@@ -2,7 +2,7 @@
 
 \header {
   dedication="Religioses"
-  title="  "
+  title=""
   subtitle="Sant Antoni"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Morella, el País Valencià"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

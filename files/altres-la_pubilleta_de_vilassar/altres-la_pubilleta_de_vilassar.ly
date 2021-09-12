@@ -2,7 +2,7 @@
 
 \header {
   dedication=""
-  title="    "
+  title=""
   subtitle="La Pubilleta de Vilassar"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

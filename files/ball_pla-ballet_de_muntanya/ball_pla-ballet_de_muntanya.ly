@@ -2,7 +2,7 @@
 
 \header {
   dedication="http://gralla.skamot.com"
-  title="               "
+  title=""
   subtitle="Ballet de muntanya"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

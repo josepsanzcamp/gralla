@@ -2,7 +2,7 @@
 
 \header {
   dedication="Jota"
-  title="   "
+  title=""
   subtitle="Jota de Miravet"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Joan Moliner"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

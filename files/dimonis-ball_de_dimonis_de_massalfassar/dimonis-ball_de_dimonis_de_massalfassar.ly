@@ -2,7 +2,7 @@
 
 \header {
   dedication="Dimonis"
-  title="             "
+  title=""
   subtitle="Ball de dimonis de Massalfassar"
   subsubtitle=""
   poet=""
@@ -11,9 +11,9 @@
   composer="Toni Torregrossa"
   arranger="Arr: Ximo Caffarena"
   opus="Percussió: Josep Amírola"
-  instrument=" "
-  copyright="     "
-  tagline="  "
+  instrument=""
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

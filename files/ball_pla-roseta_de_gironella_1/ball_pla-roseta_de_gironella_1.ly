@@ -2,7 +2,7 @@
 
 \header {
   dedication="Ball pla"
-  title="    "
+  title=""
   subtitle="Roseta de Gironella"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

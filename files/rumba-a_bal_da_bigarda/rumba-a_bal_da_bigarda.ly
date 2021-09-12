@@ -2,7 +2,7 @@
 
 \header {
   dedication="Rumba"
-  title="  "
+  title=""
   subtitle="A bal d'a bigarda"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

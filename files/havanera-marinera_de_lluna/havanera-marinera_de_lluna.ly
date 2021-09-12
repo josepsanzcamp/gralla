@@ -2,7 +2,7 @@
 
 \header {
   dedication="Americana"
-  title="           "
+  title=""
   subtitle="Marinera de lluna"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

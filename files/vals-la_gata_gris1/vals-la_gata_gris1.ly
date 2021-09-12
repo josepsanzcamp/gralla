@@ -2,7 +2,7 @@
 
 \header {
   dedication="Vals"
-  title="  "
+  title=""
   subtitle="La gata gris"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

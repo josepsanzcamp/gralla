@@ -2,7 +2,7 @@
 
 \header {
   dedication="Pasdoble"
-  title="                  "
+  title=""
   subtitle="El Bequetero"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Xavier Richart"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

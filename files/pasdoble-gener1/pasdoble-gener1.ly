@@ -2,7 +2,7 @@
 
 \header {
   dedication="Pasdoble"
-  title="   "
+  title=""
   subtitle="Gener"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Timbal: Albert Garcia"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

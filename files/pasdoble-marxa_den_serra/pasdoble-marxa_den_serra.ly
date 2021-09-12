@@ -2,7 +2,7 @@
 
 \header {
   dedication="Pasdoble"
-  title="  "
+  title=""
   subtitle="Marxa d'en Serra"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

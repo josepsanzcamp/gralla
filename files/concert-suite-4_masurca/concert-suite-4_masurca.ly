@@ -2,18 +2,18 @@
 
 \header {
   dedication="Concert"
-  title="  "
+  title=""
   subtitle="Suite de festa"
   subsubtitle="Sobre un tema popular, per a tres gralles i un timbal"
-  poet="          4. Masurca"
+  poet="4. Masurca"
   meter=""
   piece=""
   composer="Pep Coca, 1991"
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

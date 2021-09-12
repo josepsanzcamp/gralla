@@ -1,5 +1,3 @@
-
-
 \header {
   composers="Pere Mercader Andreu - 1959"
   poets="gralla"

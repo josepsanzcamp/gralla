@@ -1,5 +1,3 @@
-
-
 \header {
   composers="Francesc de Paula Bové"
   poets="Gralla"

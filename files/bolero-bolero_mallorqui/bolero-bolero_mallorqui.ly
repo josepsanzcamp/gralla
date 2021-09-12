@@ -2,7 +2,7 @@
 
 \header {
   dedication="Bolero"
-  title="         "
+  title=""
   subtitle="Bolero mallorquí"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

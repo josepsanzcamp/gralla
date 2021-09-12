@@ -2,7 +2,7 @@
 
 \header {
   dedication="Gegants"
-  title="  "
+  title=""
   subtitle="Els Gegants de la Ciutat"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Quim Soler"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

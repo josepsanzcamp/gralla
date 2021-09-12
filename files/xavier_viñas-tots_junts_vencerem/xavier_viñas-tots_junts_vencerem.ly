@@ -1,5 +1,3 @@
-
-
 \header {
   composers="Espiritual negre / Pete Seeger"
   poets=""

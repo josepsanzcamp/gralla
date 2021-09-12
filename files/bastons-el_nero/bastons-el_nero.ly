@@ -2,7 +2,7 @@
 
 \header {
   dedication="Ball de bastons"
-  title="           "
+  title=""
   subtitle="El Nero"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus="Castellar del Vallès"
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

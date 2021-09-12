@@ -2,18 +2,18 @@
 
 \header {
   dedication="Marxa"
-  title="   "
+  title=""
   subtitle="Marxa del Sant Gitano"
   subsubtitle=""
   poet=""
   meter=""
   piece=""
   composer=""
-  arranger="Cesc Alexandri - març de 2004  "
+  arranger="Cesc Alexandri - març de 2004"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

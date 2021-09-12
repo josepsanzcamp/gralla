@@ -2,18 +2,18 @@
 
 \header {
   dedication="Jota"
-  title="   "
+  title=""
   subtitle="Jota de Bayona"
   subsubtitle=""
   poet=""
   meter=""
   piece=""
-  composer="Lapurdi, Euskadi "
+  composer="Lapurdi, Euskadi"
   arranger="del repertori de M. Elizaga"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

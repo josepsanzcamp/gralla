@@ -2,18 +2,18 @@
 
 \header {
   dedication="Bestiari"
-  title="   "
+  title=""
   subtitle="Ball de l'indiot"
   subsubtitle=""
-  poet="              Solemne"
+  poet="Solemne"
   meter=""
   piece=""
   composer="Josep Prats i Tarsà"
   arranger="Nulles - juny de 2003"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

@@ -2,7 +2,7 @@
 
 \header {
   dedication="Tocs tradicionals"
-  title="  "
+  title=""
   subtitle="Toc de castells"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

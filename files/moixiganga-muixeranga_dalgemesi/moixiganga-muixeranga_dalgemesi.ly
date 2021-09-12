@@ -2,7 +2,7 @@
 
 \header {
   dedication="Moixiganga"
-  title="   "
+  title=""
   subtitle="Muixeranga d'Algemesí"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

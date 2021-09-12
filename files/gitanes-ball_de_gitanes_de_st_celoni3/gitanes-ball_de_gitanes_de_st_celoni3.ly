@@ -2,7 +2,7 @@
 
 \header {
   dedication="Ball de gitanes"
-  title="   "
+  title=""
   subtitle="Ball de gitanes de Sant Celoni"
   subsubtitle="Polca"
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Marcel Casellas"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

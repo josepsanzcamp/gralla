@@ -2,7 +2,7 @@
 
 \header {
   dedication="Bestiari"
-  title="             "
+  title=""
   subtitle="La Víbria"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus="Melodia: Quim Soler"
   instrument="Percussió: Jaume Vendrell"
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

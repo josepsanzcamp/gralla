@@ -2,7 +2,7 @@
 
 \header {
   dedication="Ball pla"
-  title="  "
+  title=""
   subtitle="Ball pla de la Cerdanya"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

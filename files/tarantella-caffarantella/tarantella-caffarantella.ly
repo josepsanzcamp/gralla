@@ -2,7 +2,7 @@
 
 \header {
   dedication="Tarantella"
-  title="    "
+  title=""
   subtitle="Caffarantel·la"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

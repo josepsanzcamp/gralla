@@ -2,7 +2,7 @@
 
 \header {
   dedication="Concert"
-  title="  "
+  title=""
   subtitle="Coral graller número 3"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

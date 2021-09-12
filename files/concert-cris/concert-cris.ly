@@ -2,7 +2,7 @@
 
 \header {
   dedication="Concert"
-  title="   "
+  title=""
   subtitle="Cris"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="2a veu: Raül Forcadell"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

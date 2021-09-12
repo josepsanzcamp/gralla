@@ -2,7 +2,7 @@
 
 \header {
   dedication="Ball de bastons"
-  title="   "
+  title=""
   subtitle="La Milana"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument="Vilanova i la Geltrú"
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

@@ -1,5 +1,3 @@
-
-
 \header {
   composers="Josep Thió"
   poets=""

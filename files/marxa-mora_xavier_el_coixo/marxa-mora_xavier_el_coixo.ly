@@ -2,7 +2,7 @@
 
 \header {
   dedication="Marxa mora"
-  title="   "
+  title=""
   subtitle="Xavier el Coixo"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Enric Montsant"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

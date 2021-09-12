@@ -2,8 +2,8 @@
 
 \header {
   dedication="Bestiari"
-  title="         "
-  subtitle="         "
+  title=""
+  subtitle=""
   subsubtitle="Tonada del ball de la Mulassa, núm. 1"
   poet=""
   meter=""
@@ -12,8 +12,8 @@
   arranger="Rafel Guinovart"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

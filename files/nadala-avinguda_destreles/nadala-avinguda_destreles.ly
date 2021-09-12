@@ -2,7 +2,7 @@
 
 \header {
   dedication="Nadala"
-  title="  "
+  title=""
   subtitle="Avinguda d'estreles"
   subsubtitle="(nadalenca torrentina)"
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

@@ -2,7 +2,7 @@
 
 \header {
   dedication="Bestiari"
-  title="    "
+  title=""
   subtitle="Ball de la cabreta d'Olot"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

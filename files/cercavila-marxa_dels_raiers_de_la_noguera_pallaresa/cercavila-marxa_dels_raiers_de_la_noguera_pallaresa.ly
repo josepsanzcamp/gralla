@@ -2,7 +2,7 @@
 
 \header {
   dedication="Cercavila"
-  title="    "
+  title=""
   subtitle="Marxa dels raiers de la Noguera Pallaresa"
   subsubtitle="Premi Pallars 1995"
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

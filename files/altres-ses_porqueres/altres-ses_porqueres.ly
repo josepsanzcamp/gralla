@@ -2,7 +2,7 @@
 
 \header {
   dedication=""
-  title="   "
+  title=""
   subtitle="Ses porqueres"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Peptoni Rubio"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

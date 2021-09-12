@@ -2,7 +2,7 @@
 
 \header {
   dedication="Gegants"
-  title="   "
+  title=""
   subtitle="El gegant del Pi"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Jordi Fàbregas, 23/IX/93"
   opus="Timbal: Albert Garcia"
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

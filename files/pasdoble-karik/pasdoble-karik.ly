@@ -2,7 +2,7 @@
 
 \header {
   dedication="Pasdoble"
-  title="  "
+  title=""
   subtitle="Karik"
   subsubtitle="en memòria del dolçainer Vicent Barberà Valls, \"Karik\""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

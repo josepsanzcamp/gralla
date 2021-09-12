@@ -2,7 +2,7 @@
 
 \header {
   dedication="http://gralla.skamot.com"
-  title="              "
+  title=""
   subtitle="Ball de gegants de Caldes de Montbui"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

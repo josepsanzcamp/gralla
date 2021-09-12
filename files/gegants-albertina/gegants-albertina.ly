@@ -2,7 +2,7 @@
 
 \header {
   dedication="Ball de gegants"
-  title="  "
+  title=""
   subtitle="Albertina"
   subsubtitle="Sardana curta del gegants de Navata"
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Perepau Jiménez, 1989"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

@@ -2,18 +2,18 @@
 
 \header {
   dedication="Concert"
-  title="  "
+  title=""
   subtitle="Suite de festa"
   subsubtitle="sobre un tema popular, per a tres gralles i timbal"
-  poet="          2. Ball de nans. Xotis"
+  poet="2. Ball de nans. Xotis"
   meter=""
   piece=""
   composer="Pep Coca, 1991"
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

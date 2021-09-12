@@ -2,18 +2,18 @@
 
 \header {
   dedication="Bestiari"
-  title="    "
+  title=""
   subtitle="Ball del drac de Valls"
   subsubtitle=""
-  poet="               Allegretto"
+  poet="Allegretto"
   meter=""
   piece=""
   composer="Cisco Bofarull"
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

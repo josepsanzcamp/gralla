@@ -2,7 +2,7 @@
 
 \header {
   dedication="Gegants"
-  title="      "
+  title=""
   subtitle="Ball de l'aniversari"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Marcel Casellas, 25/02/1998"
   opus="A en Jordi Fàbregas i la Dolors Capdevila"
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

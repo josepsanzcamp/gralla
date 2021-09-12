@@ -2,7 +2,7 @@
 
 \header {
   dedication="Ball de gitanes"
-  title="  "
+  title=""
   subtitle="Ball de gitanes de Sant Celoni"
   subsubtitle="Galop d'entrada"
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Cesc Alexandri"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

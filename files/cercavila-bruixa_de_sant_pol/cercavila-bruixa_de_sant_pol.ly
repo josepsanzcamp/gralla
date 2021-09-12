@@ -2,7 +2,7 @@
 
 \header {
   dedication="Cercavila"
-  title="   "
+  title=""
   subtitle="La Bruixa"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Aniol Noguera"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

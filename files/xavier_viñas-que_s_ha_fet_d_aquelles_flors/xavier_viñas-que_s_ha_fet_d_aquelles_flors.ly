@@ -1,5 +1,3 @@
-
-
 \header {
   composers="Pete Seeger / Joan Baez"
   poets="adaptació: Xavier Viñas"

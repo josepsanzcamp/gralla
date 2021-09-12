@@ -2,7 +2,7 @@
 
 \header {
   dedication="Himne"
-  title="      "
+  title=""
   subtitle="Els Segadors"
   subsubtitle="(Himne Nacional de Catalunya)"
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

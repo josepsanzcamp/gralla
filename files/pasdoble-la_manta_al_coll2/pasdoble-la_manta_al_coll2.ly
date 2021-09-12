@@ -2,7 +2,7 @@
 
 \header {
   dedication="Marxa"
-  title="  "
+  title=""
   subtitle="La manta al coll"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

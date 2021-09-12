@@ -1,5 +1,3 @@
-
-
 \header {
   composers="Esquirols"
   poets="GRALLA"

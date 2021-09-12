@@ -2,7 +2,7 @@
 
 \header {
   dedication="Cercavila"
-  title="  "
+  title=""
   subtitle="Beuna"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Xavier Richart"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

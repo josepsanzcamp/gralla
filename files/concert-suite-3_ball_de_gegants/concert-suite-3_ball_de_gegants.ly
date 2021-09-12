@@ -2,18 +2,18 @@
 
 \header {
   dedication="Concert"
-  title="  "
+  title=""
   subtitle="Suite de festa"
   subsubtitle="sobre un tema popular, per a tres gralles i timbal"
-  poet="          3. Ball de gegants. Sarabanda"
+  poet="3. Ball de gegants. Sarabanda"
   meter=""
   piece=""
   composer="Pep Coca, 1991"
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

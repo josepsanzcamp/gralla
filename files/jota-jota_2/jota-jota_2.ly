@@ -2,7 +2,7 @@
 
 \header {
   dedication="Jota"
-  title="   "
+  title=""
   subtitle="Jota número 2"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

@@ -2,18 +2,18 @@
 
 \header {
   dedication="Bestiari"
-  title="   "
+  title=""
   subtitle="Drac de Vallirana"
   subsubtitle="Dansa del foc"
-  poet="   "
+  poet=""
   meter=""
   piece=""
   composer="Anna Folqué Francolí"
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

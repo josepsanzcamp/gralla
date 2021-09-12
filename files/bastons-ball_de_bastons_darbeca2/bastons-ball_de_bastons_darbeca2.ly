@@ -2,7 +2,7 @@
 
 \header {
   dedication="Ball de bastons"
-  title="  "
+  title=""
   subtitle="Ball de bastons d'Arbeca (2)"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

@@ -2,7 +2,7 @@
 
 \header {
   dedication="Masurca"
-  title="  "
+  title=""
   subtitle="Masurca de la suite-89"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

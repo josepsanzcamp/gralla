@@ -2,8 +2,8 @@
 
 \header {
   dedication="Gegants"
-  title="   "
-  subtitle="Ball de gegants de l'Agrupació "
+  title=""
+  subtitle="Ball de gegants de l'Agrupació"
   subsubtitle="Corranda"
   poet=""
   meter=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

@@ -23,7 +23,7 @@ function metadata($file) {
             $val=substr($val,1,-1);
             $val=trim($val);
         }
-        $val=str_replace("\\","",$val);
+        $val=str_replace('\"','"',$val);
         if($val!="") $result[$key]=$val;
     }
     return $result;

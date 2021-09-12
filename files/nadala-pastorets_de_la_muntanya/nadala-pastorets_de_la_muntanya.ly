@@ -2,7 +2,7 @@
 
 \header {
   dedication="Nadala"
-  title="   "
+  title=""
   subtitle="Pastorets de la muntanya"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

@@ -2,7 +2,7 @@
 
 \header {
   dedication=""
-  title="        "
+  title=""
   subtitle="Branda de cavalls"
   subsubtitle="(Brandle des chevals)"
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

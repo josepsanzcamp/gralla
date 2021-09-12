@@ -2,7 +2,7 @@
 
 \header {
   dedication="Gegants"
-  title="      "
+  title=""
   subtitle="Els gegants de l'Ordal"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Esteve Grau, juliol del 94"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

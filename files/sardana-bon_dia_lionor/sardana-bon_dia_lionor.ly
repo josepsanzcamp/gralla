@@ -2,7 +2,7 @@
 
 \header {
   dedication="Sardana curta"
-  title="  "
+  title=""
   subtitle="Bon dia Lionor"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

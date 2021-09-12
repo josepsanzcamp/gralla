@@ -2,7 +2,7 @@
 
 \header {
   dedication=""
-  title="   "
+  title=""
   subtitle="Hassàpiko nostàlgic"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Marcel Casellas, 2004"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

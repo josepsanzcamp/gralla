@@ -2,7 +2,7 @@
 
 \header {
   dedication="http://gralla.skamot.com"
-  title="    "
+  title=""
   subtitle="Ball pla d'Alinyà"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="L'Alt Urgell"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

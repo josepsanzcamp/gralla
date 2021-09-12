@@ -2,7 +2,7 @@
 
 \header {
   dedication="Marxa cristiana"
-  title="              "
+  title=""
   subtitle="Cotes"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="La Ribera Alta"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

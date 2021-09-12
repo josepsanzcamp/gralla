@@ -2,7 +2,7 @@
 
 \header {
   dedication="Cercavila"
-  title="  "
+  title=""
   subtitle="Carrer ample"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

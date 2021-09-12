@@ -2,7 +2,7 @@
 
 \header {
   dedication="Sardana curta"
-  title="          "
+  title=""
   subtitle="Aquests de la capa negra"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Enric Montsant"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

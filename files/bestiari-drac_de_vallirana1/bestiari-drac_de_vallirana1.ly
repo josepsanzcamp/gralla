@@ -2,7 +2,7 @@
 
 \header {
   dedication="Bestiari"
-  title="   "
+  title=""
   subtitle="Drac de Vallirana"
   subsubtitle="Passeig"
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

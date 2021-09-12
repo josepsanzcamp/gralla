@@ -2,7 +2,7 @@
 
 \header {
   dedication="Bestiari"
-  title="          "
+  title=""
   subtitle="Cançó del drac"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Vilassar de Mar"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

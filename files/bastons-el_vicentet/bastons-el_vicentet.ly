@@ -2,7 +2,7 @@
 
 \header {
   dedication="Ball de bastons"
-  title="          "
+  title=""
   subtitle="El Vicentet"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Vicenç Lara Bujaldón, 1987"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

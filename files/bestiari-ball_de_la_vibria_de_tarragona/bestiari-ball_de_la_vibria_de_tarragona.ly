@@ -2,18 +2,18 @@
 
 \header {
   dedication="Bestiari"
-  title="   "
-  subtitle="Ball de la víbria de Tarragona "
+  title=""
+  subtitle="Ball de la víbria de Tarragona"
   subsubtitle=""
-  poet="              Temps moderat"
+  poet="Temps moderat"
   meter=""
   piece=""
   composer="T. Susato"
   arranger="Arr. Roser Olivé"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

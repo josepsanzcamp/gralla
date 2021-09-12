@@ -2,7 +2,7 @@
 
 \header {
   dedication="Ball de bastons"
-  title="  "
+  title=""
   subtitle="Els Garroters"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus="Marcel Casellas, juliol 2002"
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

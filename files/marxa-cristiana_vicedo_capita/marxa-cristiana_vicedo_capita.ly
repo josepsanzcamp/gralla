@@ -2,7 +2,7 @@
 
 \header {
   dedication="Marxa cristiana"
-  title="   "
+  title=""
   subtitle="Vicedo Capità"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

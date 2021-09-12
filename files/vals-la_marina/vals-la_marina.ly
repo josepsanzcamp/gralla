@@ -2,7 +2,7 @@
 
 \header {
   dedication="Vals"
-  title="             "
+  title=""
   subtitle="La Marina"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Carles Sagarra"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

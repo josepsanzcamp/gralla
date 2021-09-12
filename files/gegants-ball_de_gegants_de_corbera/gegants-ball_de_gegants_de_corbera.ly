@@ -2,7 +2,7 @@
 
 \header {
   dedication="Gegants"
-  title="  "
+  title=""
   subtitle="Ball de gegants de Corbera de Llobregat"
   subsubtitle="Dedicat a la Magdalena i l'Antoni en el seu Xè aniversari"
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

@@ -2,7 +2,7 @@
 
 \header {
   dedication="Cercavila"
-  title="  "
+  title=""
   subtitle="Les Calçaes"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Julià Pastor"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

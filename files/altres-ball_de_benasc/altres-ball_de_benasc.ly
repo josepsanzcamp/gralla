@@ -2,7 +2,7 @@
 
 \header {
   dedication=""
-  title="         "
+  title=""
   subtitle="Ball de Benasc"
   subsubtitle="(Himne de Riego)"
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

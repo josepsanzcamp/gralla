@@ -2,7 +2,7 @@
 
 \header {
   dedication="Tocs tradicionals"
-  title="   "
+  title=""
   subtitle="Marxa del Vermut"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Timbal: Albert Garcia"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

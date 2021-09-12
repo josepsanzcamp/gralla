@@ -2,8 +2,8 @@
 
 \header {
   dedication="Bestiari"
-  title="              "
-  subtitle="        "
+  title=""
+  subtitle=""
   subsubtitle="Tonada de la marxa de la Mulassa, núm. 2"
   poet=""
   meter=""
@@ -12,8 +12,8 @@
   arranger="Blas Coscollar"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

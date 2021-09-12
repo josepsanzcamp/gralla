@@ -2,7 +2,7 @@
 
 \header {
   dedication="Polca"
-  title="  "
+  title=""
   subtitle="Polca Bibí"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Aragó"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

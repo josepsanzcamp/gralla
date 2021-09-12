@@ -2,7 +2,7 @@
 
 \header {
   dedication="Dimonis"
-  title="             "
+  title=""
   subtitle="Ball de diables de Montornès"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

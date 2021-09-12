@@ -2,7 +2,7 @@
 
 \header {
   dedication="Rumba"
-  title="  "
+  title=""
   subtitle="Rumba del topo"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

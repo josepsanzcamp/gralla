@@ -2,7 +2,7 @@
 
 \header {
   dedication="Concert"
-  title="                  "
+  title=""
   subtitle="El gegant tocat de l'ala"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

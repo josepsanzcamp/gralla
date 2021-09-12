@@ -2,7 +2,7 @@
 
 \header {
   dedication="Sardana curta"
-  title="  "
+  title=""
   subtitle="Sardana curta de Cassà de la Selva"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

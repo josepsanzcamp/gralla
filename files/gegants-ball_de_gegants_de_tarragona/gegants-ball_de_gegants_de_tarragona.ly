@@ -2,7 +2,7 @@
 
 \header {
   dedication="Ball de gegants"
-  title="               "
+  title=""
   subtitle="Ball de gegants de Tarragona"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Anònim - Arr. Xavier Fort"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

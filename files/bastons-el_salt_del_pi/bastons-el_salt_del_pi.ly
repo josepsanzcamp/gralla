@@ -2,7 +2,7 @@
 
 \header {
   dedication="Ball de bastons"
-  title="          "
+  title=""
   subtitle="El salt del pi"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Marcel Casellas"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

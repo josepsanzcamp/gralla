@@ -2,7 +2,7 @@
 
 \header {
   dedication="Bestiari"
-  title="         "
+  title=""
   subtitle="Toc de la Tarasca"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus="Barcelona"
   instrument="Quim Soler"
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

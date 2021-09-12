@@ -1,5 +1,3 @@
-
-
 \header {
   composers="Joan Làzao"
   poets="Adaptació a gralla: Xavier Viñas"

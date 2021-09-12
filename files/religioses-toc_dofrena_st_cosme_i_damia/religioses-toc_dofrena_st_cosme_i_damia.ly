@@ -2,7 +2,7 @@
 
 \header {
   dedication="Religioses"
-  title="  "
+  title=""
   subtitle="Toc d'ofrena a Sant Cosme i Sant Damià"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

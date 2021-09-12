@@ -2,7 +2,7 @@
 
 \header {
   dedication="Peces de concert"
-  title="   "
+  title=""
   subtitle="Al so del xaloc"
   subsubtitle=""
   poet=""
@@ -12,8 +12,8 @@
   arranger="Per a la colla Xaloc de Castelló de la Plana"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

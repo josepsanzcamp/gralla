@@ -2,7 +2,7 @@
 
 \header {
   dedication="Vals"
-  title="  "
+  title=""
   subtitle="Brindis"
   subsubtitle="La Traviata"
   poet=""
@@ -12,8 +12,8 @@
   arranger="Arr. Joan Moliner"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

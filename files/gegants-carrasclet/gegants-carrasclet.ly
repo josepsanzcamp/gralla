@@ -2,7 +2,7 @@
 
 \header {
   dedication="Ball de gegants"
-  title="  "
+  title=""
   subtitle="Carrasclet"
   subsubtitle="Ball per a un guerriller català gegant"
   poet=""
@@ -12,8 +12,8 @@
   arranger=""
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =
