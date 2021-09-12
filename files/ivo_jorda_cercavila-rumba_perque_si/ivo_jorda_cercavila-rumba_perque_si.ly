@@ -1,5 +1,3 @@
-
-
 \header {
   composers="Ivó Jordà - 2011"
   poets=""
