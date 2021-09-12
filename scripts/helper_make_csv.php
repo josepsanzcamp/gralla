@@ -43,7 +43,7 @@ foreach($files as $file) {
 function export_file($file, $data)
 {
     foreach ($data as $key => $val) {
-        $data[$key] = '"' . implode('","', $val) . '"';
+        $data[$key] = implode("\t", $val);
     }
     $data = implode("\n", $data) . "\n";
     file_put_contents($file, $data);
