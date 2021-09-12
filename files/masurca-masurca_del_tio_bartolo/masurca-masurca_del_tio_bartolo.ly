@@ -9,7 +9,7 @@
   meter=""
   piece=""
   composer="Aragó"
-  arranger="del repertori de José Sancho, 'Tío Bartolo'"
+  arranger="del repertori de José Sancho, \"Tío Bartolo\""
   opus="Arr. Blas Coscollar"
   instrument=""
   copyright=""

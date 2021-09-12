@@ -3,7 +3,7 @@
 \header {
   dedication="Sardana curta"
   title=""
-  subtitle="La '2'"
+  subtitle="La \"2\""
   subsubtitle=""
   poet=""
   meter=""
