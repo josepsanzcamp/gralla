@@ -7,11 +7,11 @@ function __exec($cmd) {
 }
 
 // CONVERT FROM MUSICXML OR MUSESCORE TO PDF AND MIDI
-$files=array_merge(glob("*.xml"),glob("*.mscz"));
+$files=array_merge(glob("*.xml"),glob("*.mscz"),glob("*.mxl"));
 foreach($files as $file) {
-    $file2=str_replace(array(".xml",".mscz"),"",$file);
+    $file2=str_replace(array(".xml",".mscz",".mxl"),"",$file);
     if(!file_exists("${file2}.ly")) {
-        echo "Creating ${file2}.ly ... ";
+        echo "Processing ${file} [1] ... ";
         // GENERAR FITXER LILYPOND PER COMPATIBILITAT
         __exec("musescore3 --score-meta ${file} > ${file2}.json");
         $json=file_get_contents("${file2}.json");
@@ -37,7 +37,7 @@ foreach($files as $file) {
         }
     }
     if(!file_exists("${file2}.pdf")) {
-        echo "Processing ${file} ... ";
+        echo "Processing ${file} [2] ... ";
         // GENERAR FITXERS PDF I MIDI PER TOTES LES PISTES
         __exec("musescore3 --export-to ${file2}.pdf --export-score-parts ${file}");
         __exec("musescore3 --export-to ${file2}.midi ${file}");

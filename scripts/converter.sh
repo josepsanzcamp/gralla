@@ -7,7 +7,7 @@ for i in $(ls -1 */*.enc); do
     cd ..
 done
 
-for i in $(ls -1 */*.xml */*.mscz); do
+for i in $(ls -1 */*.xml */*.mscz */*.mxl); do
     dir=$(echo $i | cut -d/ -f1)
     cd $dir
     php ../../scripts/converter-from-xml.php
