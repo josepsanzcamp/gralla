@@ -8,8 +8,13 @@ $count1=0;
 $count2=0;
 foreach($dirs as $dir) {
     $hash=basename($dir);
-    $cat=strtok($hash,"-");
-    $song=strtok("");
+    $temp=explode("-",$hash);
+    if(count($temp)!=2) {
+        echo "Error amb el hash ${hash}\n";
+        continue;
+    }
+    $cat=$temp[0];
+    $song=$temp[1];
     $cat2=ucfirst(str_replace("_"," ",$cat));
     $song2=ucfirst(str_replace("_"," ",$song));
     $info=implode(" - ",metadata("files/${hash}/${hash}.ly"));
