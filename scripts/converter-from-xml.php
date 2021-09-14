@@ -56,7 +56,7 @@ foreach($files as $file) {
                 unlink("${file2}-${val}.mscz");
             }
         } else {
-            // GENERAR FITXERS PDF I MIDI PER TOTES LES PISTES
+            // GENERAR FITXERS PDF I MIDI PER LA UNICA PISTA
             __exec("musescore3 --export-to ${file2}.pdf ${file}");
             __exec("musescore3 --export-to ${file2}.midi ${file}");
         }
