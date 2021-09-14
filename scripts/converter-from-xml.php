@@ -38,15 +38,16 @@ foreach($files as $file) {
     }
     if(!file_exists("${file2}.pdf")) {
         echo "Processing ${file} [2] ... ";
-        // GENERAR FITXERS PDF I MIDI PER TOTES LES PISTES
-        __exec("musescore3 --export-to ${file2}.pdf --export-score-parts ${file}");
-        __exec("musescore3 --export-to ${file2}.midi ${file}");
-        // GENERAR FITXER MIDI PER CADA PISTA
+        // OBTENIR INFO DE TOTES LES PISTES
         __exec("musescore3 --score-parts ${file} > ${file2}.json");
         $json=file_get_contents("${file2}.json");
         unlink("${file2}.json");
         $json=json_decode($json,true);
         if(count($json["parts"])>1) {
+            // GENERAR FITXERS PDF I MIDI PER TOTES LES PISTES
+            __exec("musescore3 --export-to ${file2}.pdf --export-score-parts ${file}");
+            __exec("musescore3 --export-to ${file2}.midi ${file}");
+            // GENERAR FITXER MIDI PER CADA PISTA
             foreach($json["parts"] as $key=>$val) {
                 $data=base64_decode($json["partsBin"][$key]);
                 $val=$key+1;
@@ -54,6 +55,10 @@ foreach($files as $file) {
                 __exec("musescore3 --export-to ${file2}-${val}.midi ${file2}-${val}.mscz");
                 unlink("${file2}-${val}.mscz");
             }
+        } else {
+            // GENERAR FITXERS PDF I MIDI PER TOTES LES PISTES
+            __exec("musescore3 --export-to ${file2}.pdf ${file}");
+            __exec("musescore3 --export-to ${file2}.midi ${file}");
         }
         if(file_exists("${file2}.pdf")) {
             echo "OK\n";
