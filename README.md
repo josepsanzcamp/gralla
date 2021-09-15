@@ -9,7 +9,7 @@ Aquest repositori conte la pagina web de partitures online per a gralla
 - Les 250 partitures inicials, han estat descarregades del web gralla.skamot.com en format Encore
 - Estic afegint les partitures del [Repertori per a gralles](https://www.ivojorda.com/partitures-per-a-gralla) de l'[Ivó Jordà Álvarez](https://www.ivojorda.com) en format MusicXML
 - Estic afegint les partitures que m'està fent arribar el Xavier Viñas en format MuseScore
-- Estic afegint les partitures que m'està fent arribar el Cesc Alexandri en format MusicXML
+- Estic afegint les partitures que m'està fent arribar el [Cesc Alexandri](https://ca.wikipedia.org/wiki/Francesc_Alexandri_i_Muchart) en format MusicXML
 
 # Crèdits de l'aplicació ...
 - Aquesta aplicació ha estat desenvolupada fent servir codi del projecte [SaltOS](https://www.saltos.org)
