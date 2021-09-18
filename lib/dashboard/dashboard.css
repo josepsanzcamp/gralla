@@ -45,12 +45,16 @@ body {
 }
 
 /* FOR TABLES */
-.table-striped tbody tr:nth-of-type(2n) {
+.table-hover tbody tr:nth-of-type(2n) {
 	background-color: rgba(0,0,0,.05);
 }
 
-.table-striped tbody tr:nth-of-type(2n+1) {
+.table-hover tbody tr:nth-of-type(2n+1) {
 	background-color: rgba(0,0,0,0);
+}
+
+.table-hover tbody tr:hover {
+	background-color: #fbec88;
 }
 
 /* FOR AUDIOPLAYER */
