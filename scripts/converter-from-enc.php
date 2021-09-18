@@ -67,16 +67,16 @@ foreach($files as $file) {
         $buffer=str_replace("\n{\n","\n{\n  \\tempo 4=120\n",$buffer);
     } else {
         $pos=strpos($buffer,"\n{\n");
-        $pos2=strpos($buffer,"\n}\n",$pos);
+        $pos2=strpos($buffer,"\n}\n\n",$pos);
         $tempos=substr_count($buffer,"\\tempo",$pos,$pos2-$pos);
         if($tempos==1) {
             $pos3=strpos($buffer,"\\tempo",$pos);
-            $pos4=strpos($buffer," = ",$pos3);
-            $pos5=strpos($buffer," ",$pos4+3);
+            $pos4=strpos($buffer,"=",$pos3);
+            $pos5=strpos($buffer,"\n",$pos4+3);
             $buffer2=substr($buffer,$pos3,$pos5-$pos3);
             $pos=strpos($buffer,"\n{\n",$pos2);
             while($pos!==false) {
-                $pos2=strpos($buffer,"\n}\n",$pos);
+                $pos2=strpos($buffer,"\n}\n\n",$pos);
                 $tempos=substr_count($buffer,"\\tempo",$pos,$pos2-$pos);
                 if($tempos==0) {
                     $buffer=substr_replace($buffer,"\n{\n  ${buffer2}\n",$pos,3);
