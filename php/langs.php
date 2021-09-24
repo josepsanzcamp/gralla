@@ -2,7 +2,7 @@
 
 $_labels=array(
     "ca"=>array(
-        "title"=>"__COUNT2__ partitures i cançons per a gralla en __COUNT1__ gèneres",
+        "title"=>"__COUNT__ partitures i cançons per a gralla",
         "author"=>"Josep Sanz Campderrós",
         "description"=>"Veure partitures i cançons, escoltar-ho tot o per veus, descarregar-se les fonts per encore, finale, musescore, frescobaldi, lilypond, pdf, midis o mp3s",
         "keywords"=>"partitures, cançons, gralla, encore, finale, musescore, musicxml, frescobaldi, lilypond, timidity, lame, pdf, midi, mp3",
@@ -33,7 +33,7 @@ $_labels=array(
         "papersize"=>"mida __TEXT__",
     ),
     "es"=>array(
-        "title"=>"__COUNT2__ partituras y canciones para gralla en __COUNT1__ géneros",
+        "title"=>"__COUNT__ partituras y canciones para gralla",
         "author"=>"Josep Sanz Campderrós",
         "description"=>"Ver partituras y canciones, escuchar todo o por voces, descargarse las fuentes para encore, finale, musescore, frescobaldi, lilypond, pdf, midis o mp3s",
         "keywords"=>"partituras, canciones, gralla, encore, finale, musescore, musicxml, frescobaldi, lilypond, timidity, lame, pdf, midi, mp3",
@@ -64,7 +64,7 @@ $_labels=array(
         "papersize"=>"tamaño __TEXT__",
     ),
     "en"=>array(
-        "title"=>"__COUNT2__ sheet music and songs for gralla in __COUNT1__ genres",
+        "title"=>"__COUNT__ sheet music and songs for gralla",
         "author"=>"Josep Sanz Campderrós",
         "description"=>"View scores and songs, to listen everything or by voices, download sources for encore, finale, musescore, frescobaldi, lilypond, pdf, midis or mp3s",
         "keywords"=>"sheet music, songs, gralla, encore, finale, musescore, musicxml, frescobaldi, lilypond, timidity, lame, pdf, midi, mp3",

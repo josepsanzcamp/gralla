@@ -4,8 +4,7 @@
 $dirs=glob("files/*");
 $cats=array();
 $songs=array();
-$count1=0;
-$count2=0;
+$count=0;
 foreach($dirs as $dir) {
     $hash=basename($dir);
     $temp=explode("-",$hash);
@@ -23,7 +22,6 @@ foreach($dirs as $dir) {
             "name"=>$cat2,
             "array"=>array(),
         );
-        $count1++;
     }
     $cats[$cat]["array"][]=$hash;
     $files2=array_merge(
@@ -52,11 +50,11 @@ foreach($dirs as $dir) {
         "info"=>$info,
         "files"=>$files2,
     );
-    $count2++;
+    $count++;
 }
 
 // MAKE TITLE
-$labels["title"]=str_replace(array("__COUNT1__","__COUNT2__"),array($count1,$count2),$labels["title"]);
+$labels["title"]=str_replace("__COUNT__",$count,$labels["title"]);
 
 // LOAD TEMPLATE
 $template=file_get_contents("template/index.html");
