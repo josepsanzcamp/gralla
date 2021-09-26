@@ -73,8 +73,6 @@ liniaroAb =
 }
 
 liniaroAc =
-\transpose d f
-{
 \relative e'
 {
   \tempo 4=120
@@ -101,11 +99,8 @@ liniaroAc =
   a'8. fis16 e8 fis  |
   e4 r  \bar "|." }
 }
-}
 
 liniaroAd =
-\transpose d c
-{
 \relative a'
 {
   \tempo 4=120
@@ -132,7 +127,6 @@ liniaroAd =
   d8. e16 fis8 gis  |
   a4 r  \bar "|." }
 }
-}
 
 \bookpart {
   \score {
@@ -142,7 +136,7 @@ liniaroAd =
         \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
         \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
         \new Staff \with {instrumentName = #"Saxo Alt" shortInstrumentName = #"S"} \liniaroAc
-        \new Staff \with {instrumentName = #"Saxo Tenor  Clarinet" shortInstrumentName = #"S"} \liniaroAd
+        \new Staff \with {instrumentName = #"Saxo Tenor" shortInstrumentName = #"S"} \liniaroAd
       >>
     }
     \layout {}
@@ -153,8 +147,8 @@ liniaroAd =
       <<
         \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
         \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
-        \new Staff \with {instrumentName = #"Saxo Alt" shortInstrumentName = #"S"} \liniaroAc
-        \new Staff \with {instrumentName = #"Saxo Tenor  Clarinet" shortInstrumentName = #"S"} \liniaroAd
+        \new Staff \with {instrumentName = #"Saxo Alt" shortInstrumentName = #"S"} \transpose d f \liniaroAc
+        \new Staff \with {instrumentName = #"Saxo Tenor" shortInstrumentName = #"S"} \transpose d c \liniaroAd
       >>
     }
     \midi {}
@@ -220,7 +214,7 @@ liniaroAd =
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAc
+        \new Staff \transpose d f \liniaroAc
       >>
     }
     \midi {}
@@ -228,7 +222,7 @@ liniaroAd =
 }
 
 \bookpart {
-  \header {instrument="Saxo Tenor  Clarinet"}
+  \header {instrument="Saxo Tenor"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
@@ -242,7 +236,7 @@ liniaroAd =
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAd
+        \new Staff \transpose d c \liniaroAd
       >>
     }
     \midi {}

@@ -64,8 +64,6 @@ liniaroAa =
 }
 
 liniaroAb =
-\transpose d f
-{
 \relative a'
 {
   \tempo 4=120
@@ -111,11 +109,8 @@ liniaroAb =
   d8 cis4 c8  |
   cis2  \bar "|."
 }
-}
 
 liniaroAc =
-\transpose d c
-{
 \relative fis'
 {
   \tempo 4=120
@@ -161,7 +156,6 @@ liniaroAc =
   b8 a4 gis8  |
   a2  \bar "|."
 }
-}
 
 \bookpart {
   \score {
@@ -180,8 +174,8 @@ liniaroAc =
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
         \new Staff \with {instrumentName = #"Gralla" shortInstrumentName = #"G"} \liniaroAa
-        \new Staff \with {instrumentName = #"Saxo Alt" shortInstrumentName = #"S"} \liniaroAb
-        \new Staff \with {instrumentName = #"Saxo Tenor" shortInstrumentName = #"S"} \liniaroAc
+        \new Staff \with {instrumentName = #"Saxo Alt" shortInstrumentName = #"S"} \transpose d f \liniaroAb
+        \new Staff \with {instrumentName = #"Saxo Tenor" shortInstrumentName = #"S"} \transpose d c \liniaroAc
       >>
     }
     \midi {}
@@ -225,7 +219,7 @@ liniaroAc =
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAb
+        \new Staff \transpose d f \liniaroAb
       >>
     }
     \midi {}
@@ -247,7 +241,7 @@ liniaroAc =
     \new StaffGroup {
       \override Score.RehearsalMark #'self-alignment-X = #LEFT
       <<
-        \new Staff \liniaroAc
+        \new Staff \transpose d c \liniaroAc
       >>
     }
     \midi {}
