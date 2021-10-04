@@ -12,8 +12,8 @@
   arranger="Pla de l'Estany)"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

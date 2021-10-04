@@ -12,8 +12,8 @@
   arranger="grup Gralla de Boix"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

@@ -12,8 +12,8 @@
   arranger="Daniel Carbonell"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

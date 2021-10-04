@@ -12,8 +12,8 @@
   arranger="TRES TOCS DE CARRER"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =

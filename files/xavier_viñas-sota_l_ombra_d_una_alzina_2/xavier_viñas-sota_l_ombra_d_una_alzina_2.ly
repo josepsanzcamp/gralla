@@ -12,8 +12,8 @@
   arranger="2ª veu, Xavier Viñas)"
   opus=""
   instrument=""
-  copyright="     "
-  tagline="  "
+  copyright=""
+  tagline=""
 }
 
 liniaroAa =
