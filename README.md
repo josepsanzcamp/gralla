@@ -10,6 +10,7 @@ Aquest repositori conte la pagina web de partitures online per a gralla
 - Estic afegint les partitures del [Repertori per a gralles](https://www.ivojorda.com/partitures-per-a-gralla) de l'[Ivó Jordà Álvarez](https://www.ivojorda.com) en format MusicXML
 - Estic afegint les partitures que m'està fent arribar el Xavier Viñas en format MuseScore
 - Estic afegint les partitures que m'està fent arribar el [Cesc Alexandri](https://ca.wikipedia.org/wiki/Francesc_Alexandri_i_Muchart) en format MusicXML
+- Estic afegint les partitures que han publicat a l'[Ajuntament de Castellbisbal](https://www.castellbisbal.cat/municipi-per-temes/3467-arxiu-municipal/difusio-publicacions-mostres-en-linia-i-recursos-dinteres/altres-publicacions-dinteres/musiques-de-castellbisbal-llibre-de-partitures-i-coreografies.html) en format PDF
 
 # Crèdits de l'aplicació ...
 - Aquesta aplicació ha estat desenvolupada fent servir codi del projecte [SaltOS](https://www.saltos.org)
