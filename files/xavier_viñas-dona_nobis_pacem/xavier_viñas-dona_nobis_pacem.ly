@@ -29,13 +29,13 @@ liniaroAa =
   c4  b2  |
   %05
   a'4 ( g8 ) f e d  |
-  g4. f8 ( e4 )  |
+  g4. ( f8 ) e4  |
   e8 ( d c4 b )  |
   c2.  |
   g'2. ^\markup {\circle {2}}   |
   %10
   g2.  |
-  g4 f ( e )  |
+  g4 ( f ) e  |
   e4 d2  |
   a'4 a2  |
   g4 g2  |
@@ -54,34 +54,33 @@ liniaroAa =
 }
 \addlyrics
 {
-  \tempo 4=120
   Do -- o -- na
   no -- o -- bis
-  pa a -- cem --
+  pa_a -- cem --
   pa cem. --
   %05
-  Do o -- o -- -- na a --
-  no o -- -- bis
-  pa -- a a -- a -- --
+  Do_o -- o -- -- na a --
+  no_o -- -- bis
+  pa_-_a_a_-_a
   cem.
   Do --
   %10
   na
-  no o -- bis --
+  no_o -- bis --
   pa cem. --
   Do na --
   no bis --
   %15
-  pa a -- a -- -- a --
+  pa_-_a_a_-_a
   cem.
   Do --
   na
-  no o -- bi -- -- is
+  no_o -- bi -- -- is
   %20
   pa -- cem.
   Do na --
   no bis --
-  pa a -- a -- -- a --
+  pa_-_a_a_-_a
   cem.
 }
 

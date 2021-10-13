@@ -265,25 +265,6 @@ liniaroAb =
 }
 \addlyrics
 {
-
-
-
-
-  %05
-
-
-
-
-
-  %10
-
-
-
-
-
-  %15
-
-
   Jo_en tinc de
   bo, de
   bo_i de no tant
@@ -429,44 +410,6 @@ liniaroAc =
 }
 \addlyrics
 {
-
-
-
-
-  %05
-
-
-
-
-
-  %10
-
-
-
-
-
-  %15
-
-
-
-
-
-  %20
-
-
-
-
-
-  %25
-
-
-
-
-
-  %30
-
-
-
   Jo_en
   tinc de
   %35

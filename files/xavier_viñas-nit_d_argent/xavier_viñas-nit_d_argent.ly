@@ -3,8 +3,8 @@
 \header {
   dedication=""
   title="Nit d'Argent (sardana)"
-  subtitle=""
-  subsubtitle="commemorant el 25è aniversari de la Nit dels Músics de Cassà, en què una gran cobla integrada per músics vinculats amb el poble (residents o que formen part de cobles relacionades amb Cassà) enceta amb una audició de sardanes la Festa Major."
+  subtitle=\markup\tiny"commemorant el 25è aniversari de la Nit dels Músics de Cassà, en què una gran cobla integrada per músics vinculats amb el"
+  subsubtitle=\markup\tiny"poble (residents o que formen part de cobles relacionades amb Cassà) enceta amb una audició de sardanes la Festa Major."
   poet=""
   meter=""
   piece=""
@@ -166,15 +166,14 @@ liniaroAa =
 }
 \addlyrics
 {
-  \tempo 4=120
   -
-  --
-  --
-  --
+  - - - - -
+  - - - - - -
+  - - -
   %05
-  --
-  --
-  --
+  -
+  - - -
+  -
   --
   Sa lut -- Cas --
   %10
@@ -196,7 +195,7 @@ liniaroAa =
   panys
   --
   %25
-  i bons ca -- ta --
+  i bons ca -- ta -
   lans
   --
   vint -- i -- cinc
@@ -204,7 +203,7 @@ liniaroAa =
   %30
   dant nos -- les
   mans vint i -- cinc
-  --
+  -
   --
   --
   %35
@@ -459,23 +458,6 @@ liniaroAb =
 }
 \addlyrics
 {
-  \tempo 4=120
-  -
-  --
-  --
-  --
-  %05
-  --
-  --
-  --
-  --
-  --
-  %10
-  --
-  --
-  --
-  --
-  --
   %15
   Heu -- los a --
   quí tot el
@@ -496,7 +478,7 @@ liniaroAb =
   fent ca --
   %30
   mí dant nos -- les
-  --
+  -
   --
   --
   La
@@ -552,54 +534,6 @@ liniaroAb =
   mú sics -- un cop
   més a -- ger ma -- --
   nats
-  -
-  -
-  %80
-  -
-  -
-  -
-  -
-  -
-  %85
-  -
-  -
-  -
-  -
-  -
-  %90
-  -
-  -
-  -
-  -
-  -
-  %95
-  -
-  -
-  -
-  -
-  -
-  %100
-  -
-  -
-  -
-  -
-  -
-  %105
-  -
-  -
-  -
-  -
-  -
-  %110
-  -
-  -
-  -
-  -
-  -
-  %115
-  -
-  -
-  -
 }
 
 liniaroAc =
@@ -752,15 +686,14 @@ liniaroAc =
 }
 \addlyrics
 {
-  \tempo 4=120
   -
-  --
-  --
-  --
+  - - - - -
+  - - - - - -
+  - - -
   %05
-  --
-  --
-  --
+  -
+  - - -
+  -
   --
   Sa lut -- Cas --
   %10
@@ -794,9 +727,9 @@ liniaroAc =
   mans
   La La
   %35
-  La -- Ra
+  La_-_Ra
   La La
-  La -- Ra
+  La_-_Ra
   La La
   La
   %40
@@ -806,7 +739,7 @@ liniaroAc =
   La
   Han flo --
   %45
-  ri -- it
+  ri_-_it
   La La
   La
   La La
@@ -825,7 +758,7 @@ liniaroAc =
   --
   %60
   --
-  --
+  - - - - -
   Pre --
   lu diant -- la
   fe -- es --
@@ -845,54 +778,6 @@ liniaroAc =
   mú sics -- un cop
   més a -- ger ma -- --
   nats
-  -
-  -
-  %80
-  -
-  -
-  -
-  -
-  -
-  %85
-  -
-  -
-  -
-  -
-  -
-  %90
-  -
-  -
-  -
-  -
-  -
-  %95
-  -
-  -
-  -
-  -
-  -
-  %100
-  -
-  -
-  -
-  -
-  -
-  %105
-  -
-  -
-  -
-  -
-  -
-  %110
-  -
-  -
-  -
-  -
-  -
-  %115
-  -
-  -
-  -
 }
 
 \bookpart {

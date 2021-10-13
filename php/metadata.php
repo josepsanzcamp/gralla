@@ -19,6 +19,9 @@ function metadata($file) {
         $key=trim($key);
         // PREPARE VAL
         $val=trim($val);
+        if(substr($val,0,1)=="\\" && strpos($val,"\"")!==false) {
+            $val=substr($val,strpos($val,"\""));
+        }
         if(substr($val,0,1)=="\"" && substr($val,-1,1)=="\"") {
             $val=substr($val,1,-1);
             $val=trim($val);
