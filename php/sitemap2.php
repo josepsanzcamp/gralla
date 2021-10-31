@@ -9,10 +9,10 @@ $xml[]=$template[0];
 
 // PREPARE LANG LIST
 foreach($_labels as $lang=>$labels) {
-    $xml[]=str_replace(
-        array("__SITE__","__LANG__"),
-        array($labels["site"],$lang),
-        $template[1]);
+    $xml[]=str_replace_assoc(array(
+        "__SITE__" => $labels["site"],
+        "__LANG__" => $lang
+    ),$template[1]);
 }
 
 $xml[]=$template[2];

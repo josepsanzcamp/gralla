@@ -16,18 +16,25 @@ foreach($dirs as $dir) {
 
     // PREPARE HTML
     $html=array();
-    $html[]=str_replace(
-        array("__TITLE__","__DESCRIPTION__","__AUTHOR__","__KEYWORDS__","__SEARCH__","__ABOUT__","__REPO__","__LANG__"),
-        array($info2." - ".$labels["title"],$info3.", ".$labels["description"],$labels["author"],$info4.", ".$labels["keywords"],$labels["search"],$labels["about"],$labels["repo"],$lang),
-        $template[0]);
-    $html[]=str_replace(
-        array("__RESULT__"),
-        array($labels["result"]),
-        $template[4]);
-    $html[]=str_replace(
-        array("__TYPE__","__FILE__","__SIZE__","__PLAY__"),
-        array($labels["type"],$labels["file"],$labels["size"],$labels["play"]),
-        $template[6]);
+    $html[]=str_replace_assoc(array(
+        "__TITLE__" => $info2." - ".$labels["title"],
+        "__DESCRIPTION__" => mb_substr($info3.", ".$labels["description"],0,160),
+        "__AUTHOR__" => $labels["author"],
+        "__KEYWORDS__" => $info4.", ".$labels["keywords"],
+        "__SEARCH__" => $labels["search"],
+        "__ABOUT__" => $labels["about"],
+        "__REPO__" => $labels["repo"],
+        "__LANG__" => $lang
+    ),$template[0]);
+    $html[]=str_replace_assoc(array(
+        "__RESULT__" => $labels["result"]
+    ),$template[4]);
+    $html[]=str_replace_assoc(array(
+        "__TYPE__" => $labels["type"],
+        "__FILE__" => $labels["file"],
+        "__SIZE__" => $labels["size"],
+        "__PLAY__" => $labels["play"]
+    ),$template[6]);
     $html[]=$template[8];
     $html[]="<script src='lib/all.${lang}.js'></script>";
     $html[]=$template[9];

@@ -54,7 +54,9 @@ foreach($dirs as $dir) {
 }
 
 // MAKE TITLE
-$labels["title"]=str_replace("__COUNT__",$count,$labels["title"]);
+$labels["title"]=str_replace_assoc(array(
+    "__COUNT__" => $count
+),$labels["title"]);
 
 // LOAD TEMPLATE
 $template=file_get_contents("template/index.html");
@@ -77,18 +79,25 @@ file_put_contents("lib/all.${lang}.js","var data=${json}");
 
 // PREPARE HTML
 $html=array();
-$html[]=str_replace(
-    array("__TITLE__","__DESCRIPTION__","__AUTHOR__","__KEYWORDS__","__SEARCH__","__ABOUT__","__REPO__","__LANG__"),
-    array($labels["title"],$labels["description"],$labels["author"],$labels["keywords"],$labels["search"],$labels["about"],$labels["repo"],$lang),
-    $template[0]);
-$html[]=str_replace(
-    array("__RESULT__"),
-    array($labels["result"]),
-    $template[4]);
-$html[]=str_replace(
-    array("__TYPE__","__FILE__","__SIZE__","__PLAY__"),
-    array($labels["type"],$labels["file"],$labels["size"],$labels["play"]),
-    $template[6]);
+$html[]=str_replace_assoc(array(
+    "__TITLE__" => $labels["title"],
+    "__DESCRIPTION__" => $labels["description"],
+    "__AUTHOR__" => $labels["author"],
+    "__KEYWORDS__" => $labels["keywords"],
+    "__SEARCH__" => $labels["search"],
+    "__ABOUT__" => $labels["about"],
+    "__REPO__" => $labels["repo"],
+    "__LANG__" => $lang
+),$template[0]);
+$html[]=str_replace_assoc(array(
+    "__RESULT__" => $labels["result"]
+),$template[4]);
+$html[]=str_replace_assoc(array(
+    "__TYPE__" => $labels["type"],
+    "__FILE__" => $labels["file"],
+    "__SIZE__" => $labels["size"],
+    "__PLAY__" => $labels["play"]
+),$template[6]);
 $html[]=$template[8];
 $html[]="<script src='lib/all.${lang}.js'></script>";
 $html[]=$template[9];

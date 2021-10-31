@@ -11,10 +11,11 @@ $xml[]=$template[0];
 $dirs=glob("files/*");
 foreach($dirs as $dir) {
     $hash=basename($dir);
-    $xml[]=str_replace(
-        array("__SITE__","__HASH__","__LANG__"),
-        array($labels["site"],$hash,$lang),
-        $template[1]);
+    $xml[]=str_replace_assoc(array(
+        "__SITE__" => $labels["site"],
+        "__HASH__" => $hash,
+        "__LANG__" => $lang
+    ),$template[1]);
 }
 
 $xml[]=$template[2];

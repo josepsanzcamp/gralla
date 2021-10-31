@@ -3,6 +3,7 @@
 include("php/metadata.php");
 include("php/minify.php");
 include("php/encode.php");
+include("php/replace.php");
 include("php/langs.php");
 
 foreach($_labels as $lang=>$labels) {
