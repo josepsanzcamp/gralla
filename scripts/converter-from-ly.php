@@ -2,11 +2,11 @@
 
 function __exec($cmd) {
     ob_start();
-    passthru("${cmd} 2>/dev/null");
+    passthru("${cmd} 2>&1");
     return ob_get_clean();
 }
 
-// GENERATE THE PDF AND MIDI
+// CONVERT FROM LILYPOND TO PDF AND MIDI
 $files=glob("*.ly");
 foreach($files as $file) {
     $file2=str_replace(".ly",".pdf",$file);

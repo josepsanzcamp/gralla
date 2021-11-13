@@ -6,7 +6,7 @@ function __exec($cmd) {
     return ob_get_clean();
 }
 
-// CONVERT MIDI TO MP3
+// CONVERT FROM MIDI TO MP3
 $files=glob("*.midi");
 foreach($files as $file) {
     $file2=str_replace(".midi",".wav",$file);
