@@ -49,4 +49,3 @@ function export_file($file, $data)
     file_put_contents($file, $data);
 }
 export_file("php://stdout",$matrix);
-

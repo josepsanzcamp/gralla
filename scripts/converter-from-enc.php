@@ -1,9 +1,11 @@
 <?php
 
-function __exec($cmd) {
-    ob_start();
-    passthru("${cmd} 2>&1");
-    return ob_get_clean();
+if(!function_exists("__exec1")) {
+    function __exec1($cmd) {
+        ob_start();
+        passthru("${cmd} 2>&1");
+        return ob_get_clean();
+    }
 }
 
 // CONVERT FROM ENC TO LILYPOND
@@ -12,7 +14,7 @@ foreach($files as $file) {
     $file2=str_replace(".enc",".ly",$file);
     if(!file_exists($file2)) {
         echo "Processing ${file} ... ";
-        __exec("enc2ly ${file}");
+        __exec1("enc2ly ${file}");
         if(file_exists($file2)) {
             echo "OK\n";
         } else {

@@ -14,5 +14,3 @@ foreach($dirs as $dir) {
         }
     }
 }
-
-
