@@ -1,7 +1,8 @@
 \version "2.14.2"
 
 \header {
-  title="Ball dels Gegants de Cardedeu"
+  title="Ball dels Gegants Vells"
+  subtitle="(Cardedeu)"
   tagline=""
 }
 
@@ -13,12 +14,12 @@ liniaroAa =
   \time 3/4
   \tempo 4=170
   r4 r4 g'4 |
-  
-  \bar "||" 
+
+  \bar "||"
   e4. d8 c4 |
   d2 e4 |
   f4. a8 g4 |
-  e4 ~ g8 r8 g4 |
+  e4 g8 r8 g4 |
   e4. d8 c4 |
   d2 e4 |
   f4. a8 g4 |
@@ -36,7 +37,7 @@ liniaroAa =
   e4. d8 c4 |
   d2 e4 |
   f4. a8 g4 |
-  e4 ~ g8 r8 g4 |
+  e4 g8 r8 g4 |
   e4. d8 c4 |
   d2 e4 |
   f4. a8 g4 |
@@ -77,9 +78,9 @@ liniaroAa =
   a8 a8 g4 |
   a8 a8 g4 |
   c8. b32 a32 g8 f8 |
-  
+
   e8 d8 c4 |
-  \bar "||"    
+  \bar "||"
   a'8 a8 g4 |
   a8 a8 g4 |
   c8. b32 a32 g8 f8 |
@@ -87,7 +88,7 @@ liniaroAa =
   a8 a8 g4 |
   a8 a8 g4 |
   c8. b32 a32 g8 f8 |
-  
+
   e2 |
   d2 |
   c2 |
@@ -102,7 +103,7 @@ liniaroAb =
   \time 3/4
   \tempo 4=170
   r4 r4 e4 |
-  
+
   c2 g4 |
   b4. a8 g4 |
   a4. c8 d4 |
@@ -120,7 +121,7 @@ liniaroAb =
   a4 c4 b4 |
 
   c2 e4 |
-  
+
   c2 g4 |
   b4. a8 g4 |
   a4. c8 d4 |
@@ -164,9 +165,9 @@ liniaroAb =
   f8 f8 e4 |
   f8 f8 e4 |
   g8. f32 e32 d8 a8 |
-  
+
   g8 a8 g4 |
-    
+
   f'8 f8 e4 |
   f8 f8 e4 |
   g8. f32 e32 d8 b8 |
@@ -174,7 +175,7 @@ liniaroAb =
   f8 f8 e4 |
   f8 f8 e4 |
   g8. f32 e32 d8 a8 |
-  
+
   g4. c8 |
   b4. f'8 |
   e2 |

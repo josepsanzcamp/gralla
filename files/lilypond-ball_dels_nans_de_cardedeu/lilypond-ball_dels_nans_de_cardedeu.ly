@@ -1,7 +1,8 @@
 \version "2.14.2"
 
 \header {
-  title="Ball dels Nans de Cardedeu"
+  title="Ball dels Nans"
+  subtitle="(Cardedeu)"
   tagline=""
 }
 
@@ -45,7 +46,7 @@ liniaroAa =
   a4 r4 g4 |
   b4 r4 g4 |
   b8. a16 g8. f16 e8. d16 |
-  
+
   c4 r4 g4 |
   \bar "||"
   e'8. dis16 d8. a'16 gis8. g16 |
@@ -97,7 +98,7 @@ liniaroAa =
   g8 b8 c8 b8 |
   c4 r8 a8 |
   a8 cis8 d8 e8 |
-  
+
   d4 c4 |
   b4 r8 g8 |
   \bar "||"
@@ -129,7 +130,7 @@ liniaroAb =
   \time 3/4
   \tempo 4=120
   r2 r4 |
-  
+
   g4 fis4 f4 |
   b,4 c4 r8 g'8 |
   g8 a8 f8 g8 e8 f8 |
@@ -161,9 +162,9 @@ liniaroAb =
   f4 g,8 a8 g8 a8 |
   g4 r4 d'4 |
   g8. f16 e8. d16 c8. b16 |
-  
+
   c4 r4 g'4 |
-  
+
   g4 fis4 f4 |
   b,4 c4 r8 g'8 |
   g8 a8 f8 g8 e8 f8 |
@@ -195,11 +196,11 @@ liniaroAb =
   f4 g,8 a8 g8 a8 |
   g4 r4 d'4 |
   g8. f16 e8. d16 c8. b16 |
-  
+
   \time 2/4
   \tempo 4=120
   c4 r8 g'8 |
-  
+
   g16 a16 g16 a16 g8 c8 |
   b4 r8 f8 |
   f16 g16 f16 g16 f8 a8 |
@@ -213,10 +214,10 @@ liniaroAb =
   b16 a16 g16 f16 e8 d8 |
   e4 r8 e8 |
   a16 g16 f16 e16 d8 c8 |
-  
+
   b8 d8 f8 a8 |
   g4 r8 g8 |
-  
+
   g16 a16 g16 a16 g8 c8 |
   b4 r8 f8 |
   f16 g16 f16 g16 f8 a8 |
@@ -230,7 +231,7 @@ liniaroAb =
   b16 a16 g16 f16 e8 d8 |
   e4 r8 e8 |
   a16 g16 f16 e16 d8 c8 |
-  
+
   g4 b4 |
   c8 d8 dis8 e8 |
   c4 r4 |
