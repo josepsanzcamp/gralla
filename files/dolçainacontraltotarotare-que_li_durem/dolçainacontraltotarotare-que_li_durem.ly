@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Que li durem"
+  subtitle="Facebook: Dolçainacontraltotarotare"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Popular"
+  arranger="2ª Veu i Contralto"
+  opus="Els Bessons"
+  instrument=""
+  copyright=""
+  tagline=""
+}

@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Estes festes de Nadal"
+  subtitle="Facebook: Dolçainacontraltotarotare"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Popular"
+  arranger="2ª Veu i Contralto"
+  opus="Els Bessons"
+  instrument=""
+  copyright=""
+  tagline=""
+}
