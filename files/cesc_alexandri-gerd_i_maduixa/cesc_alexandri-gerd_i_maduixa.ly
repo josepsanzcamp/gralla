@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Gerd i Maduixa"
+  subtitle="(Ball dels Gegants de Sta. Eulàlia de Ronçana)"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Cesc Alexandri, 1996"
+  arranger="(versió per a gralles: gener, 2011)"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

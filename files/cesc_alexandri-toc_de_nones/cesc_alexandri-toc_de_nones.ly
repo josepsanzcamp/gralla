@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Toc de Nones"
+  subtitle="(cloenda de la Festa Major de Cardedeu)"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Cesc Alexandri, 2000"
+  arranger="Lletra: Popular"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

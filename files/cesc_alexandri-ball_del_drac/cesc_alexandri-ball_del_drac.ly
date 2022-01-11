@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Ball del Drac"
+  subtitle="(Sant Esteve de Palautordera)"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Cesc Alexandri, 1994"
+  arranger="(versió amb baixa: març, 2011)"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

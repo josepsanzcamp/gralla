@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Tres tons amunt"
+  subtitle="(suite per a gralla i piano)"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Cesc Alexandri, gener de 2005"
+  arranger="(dedicat a en Lluís Bullit i Guasch,"
+  opus="en el seu 40è aniversari)"
+  instrument=""
+  copyright=""
+  tagline=""
+}

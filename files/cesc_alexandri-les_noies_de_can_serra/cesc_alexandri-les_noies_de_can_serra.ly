@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Les noies de Can Serra"
+  subtitle="(vals català)"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Cesc Alexandri, 2008"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

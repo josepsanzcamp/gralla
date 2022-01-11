@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Mariner"
+  subtitle="(de l'Est ve el Nom del meu amor)"
+  subsubtitle=""
+  poet="(havanera dedicada a en Jaume Casacuberta,"
+  meter="amb motiu del seu 50è aniversari)"
+  piece=""
+  composer="Cesc Alexandri, 2010"
+  arranger="(versió per a gralles: març de 2011)"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

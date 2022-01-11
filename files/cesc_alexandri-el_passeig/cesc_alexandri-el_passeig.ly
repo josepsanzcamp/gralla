@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="El Passeig"
+  subtitle="(Ball de Gitanes de St.Esteve de Palautordera)"
+  subsubtitle=""
+  poet="Estrenat el 22 de febrer de 2009,"
+  meter="amb motiu de la 30a Ballada de Gitanes"
+  piece=""
+  composer="Cesc Alexandri, 2008"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

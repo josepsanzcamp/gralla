@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Música per a les Vesprades"
+  subtitle="(Festa Major de Cardedeu)"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Cesc Alexandri, 1998"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

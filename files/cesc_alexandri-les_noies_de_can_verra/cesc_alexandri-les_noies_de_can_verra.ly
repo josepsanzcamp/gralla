@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Les noies de Can Verra"
+  subtitle="(vals australià)"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Cesc Alexandri, 2008"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

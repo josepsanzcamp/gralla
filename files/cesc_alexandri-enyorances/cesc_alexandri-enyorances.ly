@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Enyorances"
+  subtitle="- de setembre a octubre -"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Cesc Alexandri i Muchart, 2003"
+  arranger="(estrenat el 7 d'octubre de 2003)"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

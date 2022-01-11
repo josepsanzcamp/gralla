@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Flirteig i traïció"
+  subtitle="(Ball de Diables de"
+  subsubtitle="Palau-solità i Plegamans)"
+  poet=""
+  meter=""
+  piece=""
+  composer="Cesc Alexandri, 2012"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}
