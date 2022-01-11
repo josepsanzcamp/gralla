@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Vals jota de la Patum"
+  subtitle="Vals jota"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arr. Ivó Jordà - 2015"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

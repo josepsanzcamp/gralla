@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="La Bella Lola"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arr. Ivó Jordà - 2013"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

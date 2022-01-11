@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Xotis del pare"
+  subtitle="Xotis"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arr. Ivó Jordà - 2017"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Budapest"
+  subtitle="Masurca"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Ivó Jordà - 2015"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Marieta Cistellera"
+  subtitle="Sardana curta"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arr. Ivó Jordà - 2014"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

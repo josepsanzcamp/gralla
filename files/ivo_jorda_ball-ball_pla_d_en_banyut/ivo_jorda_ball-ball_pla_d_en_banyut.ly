@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Ball pla d'en Banyut"
+  subtitle="Ball pla"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Ivó Jordà - 2012"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

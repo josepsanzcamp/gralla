@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="De dos en dos"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Ivó Jordà - 2011"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

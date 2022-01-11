@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="El meu avi"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arr. Ivó Jordà - 2016"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

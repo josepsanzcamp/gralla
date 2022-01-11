@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="El Nyitus"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arr. Ivó Jordà - 2020"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

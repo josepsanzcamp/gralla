@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Rumba del topo"
+  subtitle="Rumba"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arr. Ivó Jordà - 2020"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

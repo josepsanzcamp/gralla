@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Metall amb canya"
+  subtitle="Adaptació de l'original per a bombardí i gralla"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Ivó Jordà - 2011"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

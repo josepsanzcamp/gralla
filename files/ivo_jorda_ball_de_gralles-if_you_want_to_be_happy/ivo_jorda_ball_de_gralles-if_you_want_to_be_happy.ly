@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="If you want to be happy"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Jimmy Soul"
+  arranger="Arr. Ivó Jordà - 2017"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

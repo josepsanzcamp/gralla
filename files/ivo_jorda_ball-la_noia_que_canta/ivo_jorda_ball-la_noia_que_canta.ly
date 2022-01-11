@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="La noia que canta"
+  subtitle="Vals"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Ivó Jordà - 2013"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

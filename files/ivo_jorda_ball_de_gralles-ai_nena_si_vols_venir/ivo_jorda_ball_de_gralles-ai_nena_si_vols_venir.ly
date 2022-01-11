@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Ai nena si vols venir"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arr. Ivó Jordà - 2015"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

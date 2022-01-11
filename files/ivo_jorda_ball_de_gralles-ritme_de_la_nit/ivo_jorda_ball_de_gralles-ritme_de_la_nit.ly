@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Ritme de la nit"
+  subtitle="Ritmo de la noche"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Mystic"
+  arranger="Arr. Ivó Jordà - 2013"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

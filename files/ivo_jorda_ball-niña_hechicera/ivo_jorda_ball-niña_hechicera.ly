@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Niña hechicera"
+  subtitle="Masurca"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arr. Ivó Jordà - 2018"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

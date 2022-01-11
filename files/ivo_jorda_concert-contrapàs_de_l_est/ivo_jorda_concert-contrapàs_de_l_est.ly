@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Contrapàs de l'est"
+  subtitle="Adaptació de l'original per a sac de gemecs"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Ivó Jordà - 2015"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

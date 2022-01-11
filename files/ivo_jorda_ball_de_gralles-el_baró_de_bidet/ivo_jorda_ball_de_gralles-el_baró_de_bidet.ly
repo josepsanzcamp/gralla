@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="El Baró de Bidet"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="La Trinca"
+  arranger="Arr. Ivó Jordà - 2016"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

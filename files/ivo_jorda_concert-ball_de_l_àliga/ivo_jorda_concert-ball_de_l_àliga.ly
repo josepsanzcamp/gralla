@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Ball de l'Àliga"
+  subtitle="De La Patum de Berga"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arr. Ivó Jordà - 2019"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

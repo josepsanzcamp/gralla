@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Mentre dormia"
+  subtitle="Cercle circassià"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Ivó Jordà - 2004"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

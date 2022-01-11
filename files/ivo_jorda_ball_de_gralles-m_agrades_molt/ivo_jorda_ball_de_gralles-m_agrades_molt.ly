@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="M'agrades molt"
+  subtitle="Me gustas mucho"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Rocío Dúrcal"
+  arranger="Arr. Ivó Jordà - 2010"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}
