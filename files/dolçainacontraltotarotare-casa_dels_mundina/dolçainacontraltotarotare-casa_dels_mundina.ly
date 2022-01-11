@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="CASA DELS MUNDINA"
+  subtitle="Dedicada a SALMERON y PALOMA del Trull de Vila-Real"
+  subsubtitle="Facebook: Dolçainacontraltotarotare"
+  poet=""
+  meter=""
+  piece=""
+  composer="Domingo Llopis Ardid"
+  arranger="Antonio Llopis Ardid"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

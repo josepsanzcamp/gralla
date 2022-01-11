@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Swing"
+  subtitle="Facebook: Dolçainacontraltotarotare"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Popular"
+  arranger="Dolçaina Contralto Els Bessons"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

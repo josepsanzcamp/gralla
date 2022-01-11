@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Pasdoble Carmencín"
+  subtitle="Facebook: Dolçainacontraltotarotare"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="VICENT OBIOL"
+  arranger="Els Bessons"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

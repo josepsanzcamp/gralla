@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="CAMPANAR"
+  subtitle="CERCAVILA 1 DE VALENCIA"
+  subsubtitle="Facebook: Dolçainacontraltotarotare"
+  poet=""
+  meter=""
+  piece=""
+  composer="Domingo Llopis Ardid"
+  arranger="Antonio Llopis Ardid"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="EL TRULL"
+  subtitle="als 25 anys de la colla de Dolçainers i Tabaleters el Trull de vila-real"
+  subsubtitle="Facebook: Dolçainacontraltotarotare"
+  poet=""
+  meter=""
+  piece=""
+  composer="AMPARO MORA"
+  arranger="CONTRALTO ELS BESSONS"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="CORDA CURTA"
+  subtitle="L'ALQUERÍA DE LA COMTESSA"
+  subsubtitle="Facebook: Dolçainacontraltotarotare"
+  poet="CERCAVILA"
+  meter=""
+  piece=""
+  composer="Domingo Llopis Ardid"
+  arranger="Antonio Llopis Ardid"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

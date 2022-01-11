@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Beniferri"
+  subtitle="CERCAVILA 2 DE VALENCIA"
+  subsubtitle="Facebook: Dolçainacontraltotarotare"
+  poet=""
+  meter=""
+  piece=""
+  composer="ANTONIO LLOPIS ARDID"
+  arranger="DOMINGO LLOPIS ARDID"
+  opus="Els Bessons"
+  instrument=""
+  copyright=""
+  tagline=""
+}

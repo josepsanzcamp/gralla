@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="El Puntalet"
+  subtitle="Cercavila 2 d'Alfarb"
+  subsubtitle="Composta l'any 2010 per a dues dolçaines i l'any 2021 per a dolçaina contralt"
+  poet="Guió"
+  meter=""
+  piece=""
+  composer="Hermi Cervera"
+  arranger=""
+  opus=""
+  instrument="Facebook: Dolçainacontraltotarotare"
+  copyright=""
+  tagline=""
+}

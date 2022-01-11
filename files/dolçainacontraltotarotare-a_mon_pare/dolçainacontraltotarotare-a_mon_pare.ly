@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="A MON PARE"
+  subtitle="(Seguint els teus passos)"
+  subsubtitle="Facebook: Dolçainacontraltotarotare"
+  poet="Marcha de Processó"
+  meter=""
+  piece=""
+  composer="MIQUEL PERIS. (EL BOLA)"
+  arranger="CONTRALTO 'ELS BESSONS'"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

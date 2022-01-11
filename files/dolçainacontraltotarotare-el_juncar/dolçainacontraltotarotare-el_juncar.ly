@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="El Juncar"
+  subtitle="Cercavila 11 d'Alfarb"
+  subsubtitle="Facebook: Dolçainacontraltotarotare"
+  poet="Percussió"
+  meter=""
+  piece=""
+  composer="Hermi Cervera"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

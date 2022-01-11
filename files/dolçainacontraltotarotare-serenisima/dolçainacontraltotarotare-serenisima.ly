@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Serenisima"
+  subtitle="Facebook: Dolçainacontraltotarotare"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer=""
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="La Manta al coll"
+  subtitle="Facebook: Dolçainacontraltotarotare"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Tradicional"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

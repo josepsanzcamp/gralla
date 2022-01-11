@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Cavalgata"
+  subtitle="Facebook: Dolçainacontraltotarotare"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="TRADICIONAL"
+  arranger="TAROTA EN RE"
+  opus="ELS BESSONS"
+  instrument=""
+  copyright=""
+  tagline=""
+}

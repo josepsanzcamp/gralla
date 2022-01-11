@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="JULIOL"
+  subtitle="(24 de Juliol de la Vila)"
+  subsubtitle="Facebook: Dolçainacontraltotarotare"
+  poet=""
+  meter=""
+  piece=""
+  composer="P.Héctor Llorca Esquerdo"
+  arranger="CONTRALTO 'ELS BESSONS'"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

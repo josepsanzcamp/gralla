@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Tito"
+  subtitle="Facebook: Dolçainacontraltotarotare"
+  subsubtitle=""
+  poet="Popular"
+  meter=""
+  piece=""
+  composer="Arranjament Dolçaina Contralto"
+  arranger="Domingo Llopis Ardid"
+  opus="Antonio Llopis Ardid"
+  instrument=""
+  copyright=""
+  tagline=""
+}

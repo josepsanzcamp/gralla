@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="AMIC XUSO"
+  subtitle="Facebook: Dolçainacontraltotarotare"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="MIQUEL PERIS. (EL BOLA)"
+  arranger="CONTRALTO 'ELS BESSONS'"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

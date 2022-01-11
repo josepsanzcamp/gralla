@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="BALLA LA COLLA"
+  subtitle="A la Colla de Dolçainers i tabaleters de Real de Gandia"
+  subsubtitle="Facebook: Dolçainacontraltotarotare"
+  poet=""
+  meter=""
+  piece=""
+  composer="Ximo Sanchis"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

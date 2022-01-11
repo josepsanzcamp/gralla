@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Les Dones Fan Olla"
+  subtitle="Dedicada a l'Associació de Campaners l'alquería de la comtessa"
+  subsubtitle="Facebook: Dolçainacontraltotarotare"
+  poet=""
+  meter=""
+  piece=""
+  composer="Domingo Llopis Ardid"
+  arranger="Antonio Llopis Ardid"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Mariolejant"
+  subtitle="Cercavila nº1 de Banyeres de Mariola"
+  subsubtitle="Facebook: Dolçainacontraltotarotare"
+  poet="Pasdoble per a Dolçaines, Tarotes i Percussió"
+  meter=""
+  piece=""
+  composer="German Estévez i Abad"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

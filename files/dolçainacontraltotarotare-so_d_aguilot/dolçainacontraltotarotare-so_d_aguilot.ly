@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="So d'Aguilot"
+  subtitle="2ºn premi concurs 'Jaume Blanch' de Tortosa any 2007"
+  subsubtitle="Facebook: Dolçainacontraltotarotare"
+  poet=""
+  meter=""
+  piece=""
+  composer="Cristina López"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

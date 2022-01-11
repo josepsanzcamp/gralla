@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="El Marqués de San Joan"
+  subtitle="Facebook: Dolçainacontraltotarotare"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Domingo Llopis Ardid"
+  arranger="Antonio Llopis Ardid"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

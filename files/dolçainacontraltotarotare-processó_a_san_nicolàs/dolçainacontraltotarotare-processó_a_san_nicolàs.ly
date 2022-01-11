@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Processó de San Nicolàs"
+  subtitle="Ruta del Altar del Tossal de València"
+  subsubtitle="Facebook: Dolçainacontraltotarotare"
+  poet=""
+  meter=""
+  piece=""
+  composer="ANTONIO LLOPIS ARDID"
+  arranger="DOMINGO LLOPIS ARDID"
+  opus="ELS BESSONS"
+  instrument=""
+  copyright=""
+  tagline=""
+}

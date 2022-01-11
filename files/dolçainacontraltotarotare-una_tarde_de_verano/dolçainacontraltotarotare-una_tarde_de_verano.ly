@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="UNA TARDE DE VERANO"
+  subtitle="Dedicada a los amigos de la FOLKIFESTA"
+  subsubtitle="Facebook: Dolçainacontraltotarotare"
+  poet=""
+  meter=""
+  piece=""
+  composer="ANTONIO LLOPIS ARDID"
+  arranger="DOMINGO LLOPIS ARDID"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}
