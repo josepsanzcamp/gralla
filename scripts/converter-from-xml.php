@@ -9,7 +9,7 @@ if(!function_exists("__exec2")) {
 }
 
 // CONVERT FROM MUSICXML OR MUSESCORE TO PDF AND MIDI
-$files=array_merge(glob("*.xml"),glob("*.mscz"),glob("*.mxl"));
+$files=array_merge(glob("*.mscz"),glob("*.xml"),glob("*.mxl"));
 foreach($files as $file) {
     $file2=str_replace(array(".xml",".mscz",".mxl"),"",$file);
     if(!file_exists("${file2}.ly")) {
