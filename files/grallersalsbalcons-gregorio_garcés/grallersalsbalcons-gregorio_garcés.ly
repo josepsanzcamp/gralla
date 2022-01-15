@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Gregorio Garcés"
+  subtitle="(vals)"
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="Blas Coscollar"
+  arranger="(original, per a dues dolçaines)"
+  opus=""
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

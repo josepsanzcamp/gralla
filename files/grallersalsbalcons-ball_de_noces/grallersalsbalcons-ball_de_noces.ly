@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Ball de Noces"
+  subtitle="(Arenys de Munt)"
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer=""
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

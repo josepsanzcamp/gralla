@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Aquests de la capa negra"
+  subtitle="(sardana curta)"
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="Beget"
+  arranger="Font: Punt de Trobada, Vol. 1"
+  opus=""
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

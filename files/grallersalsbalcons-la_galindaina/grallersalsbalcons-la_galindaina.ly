@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="La galindaina"
+  subtitle="(txa-txa)"
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="Lletra: Miquel Desclot"
+  arranger="Música: Jordi Fàbregas"
+  opus="Font: Punt de Trobada, Vol. 1"
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Ball dels Gegants d'Ordal"
+  subtitle=""
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="del repertori d'en Josep Sorribas"
+  arranger="Font: Pere Julià i Ibàñez"
+  opus=""
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

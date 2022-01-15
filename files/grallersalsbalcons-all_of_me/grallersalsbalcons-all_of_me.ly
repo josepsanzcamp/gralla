@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="All of me"
+  subtitle="(fox - swing)"
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="Gerald Marks / Seymour Simons"
+  arranger="Font: Punt de Trobada, Vol. 2"
+  opus=""
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

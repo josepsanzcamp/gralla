@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="A la sombra d'una alzina"
+  subtitle="(vals)"
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="Font: Punt de Trobada, Vol. 1"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

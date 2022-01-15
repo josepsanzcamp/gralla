@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Calavera"
+  subtitle="(havanera)"
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer=""
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

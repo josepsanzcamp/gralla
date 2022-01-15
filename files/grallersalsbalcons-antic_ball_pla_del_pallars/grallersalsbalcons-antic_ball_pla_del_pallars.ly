@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Antic ball pla del Pallars"
+  subtitle="i Corranda "L'alegre" de Prats de Rei"
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="Font: Balls antics del Pallars"
+  arranger="Vicenç Bosch i Mon"
+  opus=""
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

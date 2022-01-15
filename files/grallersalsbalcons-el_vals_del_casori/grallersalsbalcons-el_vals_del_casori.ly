@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="El vals del casori"
+  subtitle="(per a en Jordi i la Berta)"
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="Cesc Alexandri, 2015"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

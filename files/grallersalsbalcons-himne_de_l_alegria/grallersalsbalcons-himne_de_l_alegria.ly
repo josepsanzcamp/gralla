@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Himne de l'alegria"
+  subtitle="Ludwig van Beethoven"
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer=""
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

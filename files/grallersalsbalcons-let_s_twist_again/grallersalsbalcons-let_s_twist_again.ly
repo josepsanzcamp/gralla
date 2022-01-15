@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Let's twist again"
+  subtitle=""
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="Kal Mann i Dave Appell"
+  arranger="Versió de La Canya d'Or"
+  opus=""
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

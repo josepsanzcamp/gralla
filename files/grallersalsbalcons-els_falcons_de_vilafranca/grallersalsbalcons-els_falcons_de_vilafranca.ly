@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Els Falcons de Vilafranca"
+  subtitle="(cercavila)"
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="Jaume Vidal i Vidal, 1984"
+  arranger="Font: Repertori d'en Jaume Vidal i Vidal"
+  opus="(músiques per a gralla)"
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

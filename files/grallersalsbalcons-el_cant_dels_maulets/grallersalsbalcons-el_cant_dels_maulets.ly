@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="El Cant dels Maulets"
+  subtitle=""
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="Ximo Caffarena"
+  arranger="Al Tall"
+  opus="Font: aprenderxirimita.blogspot.com"
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

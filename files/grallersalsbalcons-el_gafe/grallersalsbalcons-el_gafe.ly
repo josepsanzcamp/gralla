@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="El gafe"
+  subtitle="(marxa)"
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="Joan Moliner"
+  arranger="Font: joanmoliner.blogspot.com"
+  opus=""
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

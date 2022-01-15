@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="El vestir d'en Pasqual"
+  subtitle="(fox)"
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="Lletra: Joan Misterio"
+  arranger="Música: Joan Viladomat"
+  opus=""
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

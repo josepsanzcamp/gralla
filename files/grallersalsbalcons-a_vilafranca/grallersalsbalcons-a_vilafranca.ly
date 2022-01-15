@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="A Vilafranca"
+  subtitle=""
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="Manel Rius"
+  arranger="Font: Punt de trobada, Vol. 1"
+  opus=""
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="La vida és bella"
+  subtitle=""
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="Nicola Piovani"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Vals en Sol"
+  subtitle=""
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="Font: Mètode de dolçaina"
+  arranger="Xavier Ahuir"
+  opus="Generalitat Valenciana, 1989"
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}

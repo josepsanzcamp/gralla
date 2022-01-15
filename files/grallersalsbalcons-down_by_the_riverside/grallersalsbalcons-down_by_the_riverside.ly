@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Down by the riverside"
+  subtitle="(per a dues gralles de claus, una de quatre i timbal)"
+  subsubtitle="grallersalsbalcons"
+  poet=""
+  meter=""
+  piece=""
+  composer="Arranj. Albert Carbonell, Timbal: Pere Olivé"
+  arranger="Font: Músiques del temps, Repertori per a gralla i timbal, Ganxets, Grallers del Baix Camp, 2003"
+  opus=""
+  instrument=""
+  copyright="© Cafè del Centre"
+  tagline=""
+}
