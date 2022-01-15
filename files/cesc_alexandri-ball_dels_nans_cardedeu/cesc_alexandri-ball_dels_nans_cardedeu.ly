@@ -1,5 +1,15 @@
 \header {
+  dedication=""
   title="Ball dels Nans"
   subtitle="(Cardedeu)"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
   composer="Josep Viadé Pintu, 1996"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

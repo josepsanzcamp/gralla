@@ -1,3 +1,15 @@
 \header {
-  title="Ball de bastons núm. 1, Popular - Arranjament: Oriol Pidelaserra, Erola Ramis, Músiques de Castellbisbal"
+  dedication=""
+  title="Ball de bastons núm. 1"
+  subtitle="Popular"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arranjament: Oriol Pidelaserra, Erola Ramis"
+  arranger="Músiques de Castellbisbal"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

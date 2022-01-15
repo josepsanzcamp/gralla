@@ -1,3 +1,15 @@
 \header {
-  title="100 anys després, Oriol Pidelaserra, Músiques de Castellbisbal"
+  dedication=""
+  title="100 anys després"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Oriol Pidelaserra"
+  arranger="Músiques de Castellbisbal"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

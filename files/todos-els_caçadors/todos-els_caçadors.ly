@@ -1,3 +1,15 @@
 \header {
+  dedication=""
   title="ELS CAÇADORS (Ball de Bastons de Canyet)"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="20 PECES PER A GRALLA SECA"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

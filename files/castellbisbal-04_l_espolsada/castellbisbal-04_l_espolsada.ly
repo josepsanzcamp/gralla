@@ -1,3 +1,15 @@
 \header {
-  title="L’Espolsada, Popular - Arranjament: Oriol Pidelaserra, Músiques de Castellbisbal"
+  dedication=""
+  title="L’Espolsada"
+  subtitle="Popular"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arranjament: Oriol Pidelaserra"
+  arranger="Músiques de Castellbisbal"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

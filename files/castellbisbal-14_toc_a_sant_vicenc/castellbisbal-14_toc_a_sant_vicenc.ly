@@ -1,3 +1,15 @@
 \header {
-  title="Toc a Sant Vicenç, Oriol Pidelaserra, Músiques de Castellbisbal"
+  dedication=""
+  title="Toc a Sant Vicenç"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Oriol Pidelaserra"
+  arranger="Músiques de Castellbisbal"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

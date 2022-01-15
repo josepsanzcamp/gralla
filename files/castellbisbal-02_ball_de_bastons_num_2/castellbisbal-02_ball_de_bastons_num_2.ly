@@ -1,3 +1,15 @@
 \header {
-  title="Ball de bastons núm. 2, Popular - Arranjament: Oriol Pidelaserra,, Músiques de Castellbisbal"
+  dedication=""
+  title="Ball de bastons núm. 2"
+  subtitle="Popular"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arranjament: Oriol Pidelaserra"
+  arranger="Músiques de Castellbisbal"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

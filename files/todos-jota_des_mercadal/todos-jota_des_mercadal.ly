@@ -1,3 +1,15 @@
 \header {
-  titles="JOTA DES MERCADAL (Menorca)"
+  dedication=""
+  title="JOTA DES MERCADAL (Menorca)"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="20 PECES PER A GRALLA SECA"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

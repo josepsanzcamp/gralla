@@ -1,3 +1,15 @@
 \header {
-  title="Ball del Pota-roig, Erola Ramis Rovira, Músiques de Castellbisbal"
+  dedication=""
+  title="Ball del Pota-roig"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Erola Ramis Rovira"
+  arranger="Músiques de Castellbisbal"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

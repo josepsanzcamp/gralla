@@ -1,3 +1,15 @@
 \header {
-  title="Ball de la Masovera i el Personatge “La Juganera”, Oriol Pidelaserra, Músiques de Castellbisbal"
+  dedication=""
+  title="Ball de la Masovera i el Personatge “La Juganera”"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Oriol Pidelaserra"
+  arranger="Músiques de Castellbisbal"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

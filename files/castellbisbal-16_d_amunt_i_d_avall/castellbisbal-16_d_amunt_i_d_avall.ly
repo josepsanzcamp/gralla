@@ -1,3 +1,15 @@
 \header {
-  title="D’amunt i d’avall, Oriol Pidelaserra, Músiques de Castellbisbal"
+  dedication=""
+  title="D’amunt i d’avall"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Oriol Pidelaserra"
+  arranger="Músiques de Castellbisbal"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

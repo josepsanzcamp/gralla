@@ -1,3 +1,15 @@
 \header {
-  title="Ball de gitanes, Popular - Arranjament: Oriol Pidelaserra, Músiques de Castellbisbal,"
+  dedication=""
+  title="Ball de gitanes"
+  subtitle="Popular"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arranjament: Oriol Pidelaserra"
+  arranger="Músiques de Castellbisbal"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

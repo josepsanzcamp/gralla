@@ -1,3 +1,15 @@
 \header {
-  title="La presó del rei de França, Popular catalana, www.lagralla.info"
+  dedication=""
+  title="La presó del rei de França"
+  subtitle="Popular catalana"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="www.lagralla.info"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

@@ -1,3 +1,15 @@
 \header {
-  title="La Masovera, Popular - Arranjament: Oriol Pidelaserra, Músiques de Castellbisbal"
+  dedication=""
+  title="La Masovera"
+  subtitle="Popular"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arranjament: Oriol Pidelaserra"
+  arranger="Músiques de Castellbisbal"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

@@ -1,3 +1,15 @@
 \header {
-  title="Ball dels Nans, Oriol Pidelaserra, Músiques de Castellbisbal"
+  dedication=""
+  title="Ball dels Nans"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Oriol Pidelaserra"
+  arranger="Músiques de Castellbisbal"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

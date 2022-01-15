@@ -1,3 +1,15 @@
 \header {
-  title="Arribada del Personatge, Oriol Pidelaserra, Músiques de Castellbisbal"
+  dedication=""
+  title="Arribada del Personatge"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Oriol Pidelaserra"
+  arranger="Músiques de Castellbisbal"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

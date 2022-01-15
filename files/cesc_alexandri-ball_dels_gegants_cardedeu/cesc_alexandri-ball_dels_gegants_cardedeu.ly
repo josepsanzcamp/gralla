@@ -1,5 +1,15 @@
 \header {
+  dedication=""
   title="Ball dels Gegants"
   subtitle="(Cardedeu)"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
   composer="David Puertas i Esteve, 1993"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }

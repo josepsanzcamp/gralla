@@ -1,3 +1,15 @@
 \header {
+  dedication=""
   title="LA MORISCA (Gerri de la sal)"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="20 PECES PER A GRALLA SECA"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
 }
