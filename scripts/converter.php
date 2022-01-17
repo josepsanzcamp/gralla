@@ -8,7 +8,7 @@ foreach($files as $file) {
         require "converter-from-enc.php";
         require "converter-from-ly.php";
         require "converter-make-mp3.php";
-    } elseif(file_exists("${dir}.xml") || file_exists("${dir}.mscz") || file_exists("${dir}.mxl")) {
+    } elseif(file_exists("${dir}.mscz") || file_exists("${dir}.xml") || file_exists("${dir}.mxl")) {
         require "converter-from-xml.php";
         require "converter-make-mp3.php";
     } elseif(file_exists("${dir}.ly")) {

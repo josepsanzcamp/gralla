@@ -40,6 +40,15 @@ foreach ($dirs as $dir) {
         glob("files/${hash}/${hash}-*.mp4"),
     );
     foreach ($files2 as $key => $val) {
+        // TRICK TO REMOVE THE LILYPOND FILES THAT ONLY CONTAINS THE HEADER SECTION
+        if (pathinfo($val, PATHINFO_EXTENSION) == "ly") {
+            $lines = count(file($val));
+            if ($lines <= 20) {
+                unset($files2[$key]);
+                continue;
+            }
+        }
+        // CONTINUE
         $last = str_replace("files/${hash}/${hash}", "", $val);
         $size = filesize($val);
         $files2[$key] = array(
