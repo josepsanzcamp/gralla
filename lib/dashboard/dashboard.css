@@ -34,10 +34,6 @@ body {
 	width: calc(100% - 18px);
 }
 
-#viewerContainer .page {
-	margin-bottom:13px;
-}
-
 #viewerContainer *,
 #viewerContainer *::before,
 #viewerContainer *::after {
