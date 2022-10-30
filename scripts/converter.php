@@ -1,8 +1,8 @@
 <?php
 
-$files=glob("*");
-foreach($files as $file) {
-    $dir=basename($file);
+chdir("files");
+$dirs=glob("*");
+foreach($dirs as $dir) {
     chdir($dir);
     if(file_exists("${dir}.enc")) {
         require "converter-from-enc.php";
@@ -17,3 +17,4 @@ foreach($files as $file) {
     }
     chdir("..");
 }
+chdir("..");
