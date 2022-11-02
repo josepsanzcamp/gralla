@@ -117,6 +117,10 @@ foreach ($html as $key => $val) {
 }
 $html = implode("\n", $html);
 
+//~ $html = str_replace("<head>", "<head><base href='./index.${lang}.html'/>", $html);
+//~ file_put_contents("index.${lang}.html", $html);
+//~ die();
+
 // SAVE ALL OTHER FILES
 list($html,$js,$css) = html_minify2($html);
 $html = html_minify($html);
