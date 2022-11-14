@@ -4,7 +4,7 @@
   dedication="Vals"
   title=""
   subtitle="Vals de Lurdes"
-  subsubtitle="Lourdes"
+  subsubtitle="Vals de Lourdes"
   poet=""
   meter=""
   piece=""

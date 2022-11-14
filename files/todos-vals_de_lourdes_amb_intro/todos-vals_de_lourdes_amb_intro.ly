@@ -1,6 +1,6 @@
 \header {
   composers=""
   poets=""
-  subtitles="Lurdes"
-  titles="Vals de Lourdes"
+  subtitles="Vals de Lurdes amb intro"
+  titles="Vals de Lourdes amb intro"
 }
