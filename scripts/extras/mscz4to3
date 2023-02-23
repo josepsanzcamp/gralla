@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for i in "$@"; do
+    echo "$i ..."
+    musescore4portable --export-to "$i".temp.mxl "$i"
+    mv "$i" "$i.old"
+    musescore-portable --export-to "$i" "$i".temp.mxl
+    rm -f "$i".temp.mxl
+done

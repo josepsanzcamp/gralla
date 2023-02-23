@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in "$@"; do
+    echo -n "$i: "
+    j=$(zipinfo -1 "$i" | grep mscx|grep -v '/')
+    unzip -c "$i" "$j" | grep -i "musescore version"
+done
