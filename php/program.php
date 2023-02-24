@@ -14,3 +14,4 @@ foreach ($_labels as $lang => $labels) {
 
 include "php/index2.php";
 include "php/sitemap2.php";
+include "php/404.php";
