@@ -8,7 +8,7 @@ Aquest repositori conte la pagina web de partitures online per a gralla
 # Crèdits de les partitures
 - Les 250 partitures inicials, han estat descarregades del web gralla.skamot.com en format Encore
 - Estic afegint les partitures del [Repertori per a gralles](https://www.ivojorda.com/partitures-per-a-gralla) de l'[Ivó Jordà Álvarez](https://www.ivojorda.com) en format MusicXML
-- Estic afegint les partitures que m'està fent arribar el Xavier Viñas en format MuseScore
+- Estic afegint les partitures que m'està fent arribar el Xavier Viñas en format MuseScore i Encore
 - Estic afegint les partitures que m'està fent arribar el [Cesc Alexandri](https://ca.wikipedia.org/wiki/Francesc_Alexandri_i_Muchart) en format MusicXML
 - Estic afegint les partitures que han publicat a l'[Ajuntament de Castellbisbal](https://www.castellbisbal.cat/municipi-per-temes/3467-arxiu-municipal/difusio-publicacions-mostres-en-linia-i-recursos-dinteres/altres-publicacions-dinteres/musiques-de-castellbisbal-llibre-de-partitures-i-coreografies.html) en format PDF
 - Estic afegint les partitures que han publicat a [Dolçainacontraltotarotare](https://www.facebook.com/groups/625663541575995) en format PDF i video-partitura
@@ -24,5 +24,6 @@ Aquest repositori conte la pagina web de partitures online per a gralla
 - Per escoltar els fitxers de format MP3, he fet servir el projecte [Audio Player](https://osvaldas.info/audio-player-responsive-and-touch-friendly)
 - Per escoltar els fitxers de format Midi, he fet servir el projecte [timidity](https://github.com/feross/timidity)
 - Per convertir els fitxers PDF a XML, he fet servir la versió de prova del programa [PDFtoMusic Pro](https://www.myriad-online.com/en/products/pdftomusicpro.htm)
+- Per convertir els fitxers MuseScore a PDF, MIDI i MusicXML, he fet servir el projecte [MuseScore](https://musescore.org/ca)
 - La resta de llibreries que he fet servir, les podeu trobar als crèdits de [SaltOS](https://www.saltos.org)
 - Si teniu dubtes o suggeriments, podeu contactar amb mi a l'adreça josep.sanz@saltos.org
