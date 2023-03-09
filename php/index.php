@@ -9,14 +9,14 @@ foreach ($dirs as $dir) {
     $hash = basename($dir);
     $temp = explode("-", $hash);
     if (count($temp) != 2) {
-        echo "Error amb el hash ${hash}\n";
+        echo "Error amb el hash $hash\n";
         continue;
     }
     $cat = $temp[0];
     $song = $temp[1];
     $cat2 = ucfirst(str_replace("_", " ", $cat));
     $song2 = ucfirst(str_replace("_", " ", $song));
-    $info = implode(" - ", metadata("files/${hash}/${hash}.ly"));
+    $info = implode(" - ", metadata("files/$hash/$hash.ly"));
     if (!isset($cats[$cat])) {
         $cats[$cat] = array(
             "name" => $cat2,
@@ -25,19 +25,19 @@ foreach ($dirs as $dir) {
     }
     $cats[$cat]["array"][] = $hash;
     $files2 = array_merge(
-        glob("files/${hash}/${hash}.enc"),
-        glob("files/${hash}/${hash}.mscz"),
-        glob("files/${hash}/${hash}.xml"),
-        glob("files/${hash}/${hash}.mxl"),
-        glob("files/${hash}/${hash}.ly"),
-        glob("files/${hash}/${hash}.pdf"),
-        glob("files/${hash}/${hash}-*.pdf"),
-        glob("files/${hash}/${hash}.midi"),
-        glob("files/${hash}/${hash}-*.midi"),
-        glob("files/${hash}/${hash}.mp3"),
-        glob("files/${hash}/${hash}-*.mp3"),
-        glob("files/${hash}/${hash}.mp4"),
-        glob("files/${hash}/${hash}-*.mp4"),
+        glob("files/$hash/$hash.enc"),
+        glob("files/$hash/$hash.mscz"),
+        glob("files/$hash/$hash.xml"),
+        glob("files/$hash/$hash.mxl"),
+        glob("files/$hash/$hash.ly"),
+        glob("files/$hash/$hash.pdf"),
+        glob("files/$hash/$hash-*.pdf"),
+        glob("files/$hash/$hash.midi"),
+        glob("files/$hash/$hash-*.midi"),
+        glob("files/$hash/$hash.mp3"),
+        glob("files/$hash/$hash-*.mp3"),
+        glob("files/$hash/$hash.mp4"),
+        glob("files/$hash/$hash-*.mp4"),
     );
     foreach ($files2 as $key => $val) {
         // TRICK TO REMOVE THE LILYPOND FILES THAT ONLY CONTAINS THE HEADER SECTION
@@ -49,7 +49,7 @@ foreach ($dirs as $dir) {
             }
         }
         // CONTINUE
-        $last = str_replace("files/${hash}/${hash}", "", $val);
+        $last = str_replace("files/$hash/$hash", "", $val);
         $size = filesize($val);
         $files2[$key] = array(
             "last" => $last,
@@ -86,7 +86,7 @@ $json = json_encode(array(
         html_minify($template[7]),
     ),
 ));
-file_put_contents("lib/all.${lang}.js", "var data=${json}");
+file_put_contents("lib/all.$lang.js", "var data=$json");
 
 // PREPARE HTML
 $html = array();
@@ -110,15 +110,15 @@ $html[] = str_replace_assoc(array(
     "__PLAY__" => $labels["play"]
 ), $template[6]);
 $html[] = $template[8];
-$html[] = "<script src='lib/all.${lang}.js'></script>";
+$html[] = "<script src='lib/all.$lang.js'></script>";
 $html[] = $template[9];
 foreach ($html as $key => $val) {
     $html[$key] = trim($val, "\n");
 }
 $html = implode("\n", $html);
 
-//~ $html = str_replace("<head>", "<head><base href='./index.${lang}.html'/>", $html);
-//~ file_put_contents("index.${lang}.html", $html);
+//~ $html = str_replace("<head>", "<head><base href='./index.$lang.html'/>", $html);
+//~ file_put_contents("index.$lang.html", $html);
 //~ die();
 
 // SAVE ALL OTHER FILES
@@ -128,8 +128,8 @@ $js = js_minify($js);
 $css = css_minify($css);
 $html = js_minify2($html, "lib/all.min.js");
 $html = css_minify2($html, "lib/all.min.css");
-$html = str_replace("<head>", "<head><base href='./index.${lang}.html'/>", $html);
-file_put_contents("index.${lang}.html", $html);
+$html = str_replace("<head>", "<head><base href='./index.$lang.html'/>", $html);
+file_put_contents("index.$lang.html", $html);
 $js = str_replace(':p+"', ':"lib/audiojs/', $js);
 file_put_contents("lib/all.min.js", $js);
 $css = str_replace("images/", "pdfjs/images/", $css);

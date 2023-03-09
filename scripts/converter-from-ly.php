@@ -6,18 +6,28 @@ if (!function_exists("__exec1")) {
     function __exec1($cmd)
     {
         ob_start();
-        passthru("${cmd} 2>&1");
+        passthru("$cmd 2>&1");
         return ob_get_clean();
     }
 }
 
-// CONVERT FROM LILYPOND TO PDF AND MIDI
+if (!function_exists("__exec2")) {
+    function __exec2($cmd)
+    {
+        ob_start();
+        passthru("$cmd 2>/dev/null");
+        return ob_get_clean();
+    }
+}
+
+// CONVERTIR DES DE LILYPOND CAP A PDF I MIDI
 $files = glob("*.ly");
 foreach ($files as $file) {
     $file2 = str_replace(".ly", ".pdf", $file);
     if (!file_exists($file2)) {
-        echo "Processing ${file} ... ";
-        $output = __exec1("lilypond ${file}");
+        echo "Processant $file ... ";
+        // GENERAR FITXER PDF FENT SERVIR LILYPOND
+        $output = __exec1("lilypond $file");
         if (file_exists($file2)) {
             $warning = stripos($output, "warning") !== false;
             $error = stripos($output, "error") !== false;

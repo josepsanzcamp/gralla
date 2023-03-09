@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir META-INF
+echo -e "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<container>\n  <rootfiles>\n    <rootfile full-path=\"$1\">\n      </rootfile>\n    </rootfiles>\n  </container>" > META-INF/container.xml
+zip $2 META-INF/container.xml $1
+rm -f META-INF/container.xml
+rmdir META-INF

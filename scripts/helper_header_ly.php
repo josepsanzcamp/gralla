@@ -23,7 +23,7 @@ foreach ($files as $file) {
     $buffer = implode("\n", $buffer);
     $hash2 = md5($buffer);
     if ($hash1 != $hash2) {
-        echo "Updated ${file}\n";
+        echo "Updated $file\n";
         file_put_contents($file, $buffer);
     }
 }

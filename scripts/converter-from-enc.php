@@ -6,19 +6,45 @@ if (!function_exists("__exec1")) {
     function __exec1($cmd)
     {
         ob_start();
-        passthru("${cmd} 2>&1");
+        passthru("$cmd 2>&1");
         return ob_get_clean();
     }
 }
 
-// CONVERT FROM ENC TO LILYPOND
+if (!function_exists("__exec2")) {
+    function __exec2($cmd)
+    {
+        ob_start();
+        passthru("$cmd 2>/dev/null");
+        return ob_get_clean();
+    }
+}
+
+// CONVERTIR DES DE ENC CAP A LILYPOND
 $files = glob("*.enc");
 foreach ($files as $file) {
     $file2 = str_replace(".enc", ".ly", $file);
     if (!file_exists($file2)) {
-        echo "Processing ${file} ... ";
-        __exec1("enc2ly ${file}");
+        echo "Processant $file [1] ... ";
+        // GENERAR FITXER LILYPOND
+        __exec1("enc2ly $file");
         if (file_exists($file2)) {
+            echo "OK\n";
+        } else {
+            echo "KO\n";
+        }
+    }
+    $file2 = str_replace(".enc", ".xml", $file);
+    $file3 = str_replace(".enc", ".mxl", $file);
+    if (!file_exists($file3)) {
+        echo "Processant $file [2] ... ";
+        // GENERAR FITXER XML COMPRIMIT
+        __exec2("timeout 5 Enc2MusicXML -m $file > $file2");
+        if (filesize($file2)) {
+            __exec2("../../scripts/extras/xml2mxl $file2 $file3");
+        }
+        unlink($file2);
+        if (file_exists($file3)) {
             echo "OK\n";
         } else {
             echo "KO\n";
@@ -26,7 +52,7 @@ foreach ($files as $file) {
     }
 }
 
-// FIXING MIDI REPETITIONS
+// ARREGLAR PROBLEMAS AMB LES REPETICIONS DELS MIDI
 $files = glob("*.ly");
 foreach ($files as $file) {
     $buffer = file_get_contents($file);
@@ -56,13 +82,13 @@ foreach ($files as $file) {
     }
     $hash2 = md5($buffer);
     if ($hash1 != $hash2) {
-        echo "Fixing midi repetitions for ${file} ... ";
+        echo "Fixing midi repetitions for $file ... ";
         file_put_contents($file, $buffer);
         echo "FIXED\n";
     }
 }
 
-// FIXING TEMPO ISSUES
+// ARREGLAR PROBLEMAS AMB EL TEMPO
 $files = glob("*.ly");
 foreach ($files as $file) {
     $buffer = file_get_contents($file);
@@ -84,7 +110,7 @@ foreach ($files as $file) {
                 $pos2 = strpos($buffer, "\n}\n\n", $pos);
                 $tempos = substr_count($buffer, "\\tempo", $pos, $pos2 - $pos);
                 if ($tempos == 0) {
-                    $buffer = substr_replace($buffer, "\n{\n  ${buffer2}\n", $pos, 3);
+                    $buffer = substr_replace($buffer, "\n{\n  $buffer2\n", $pos, 3);
                 }
                 $pos = strpos($buffer, "\n{\n", $pos2);
             }
@@ -92,7 +118,7 @@ foreach ($files as $file) {
     }
     $hash2 = md5($buffer);
     if ($hash1 != $hash2) {
-        echo "Fixing tempo issues for ${file} ... ";
+        echo "Fixing tempo issues for $file ... ";
         file_put_contents($file, $buffer);
         echo "FIXED\n";
     }

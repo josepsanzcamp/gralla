@@ -24,4 +24,4 @@ foreach ($xml as $key => $val) {
 }
 $xml = implode("\n", $xml);
 $xml = html_minify($xml);
-file_put_contents("sitemap/sitemap.${lang}.xml", $xml);
+file_put_contents("sitemap/sitemap.$lang.xml", $xml);
