@@ -39,7 +39,7 @@ foreach ($files as $file) {
     if (!file_exists($file3)) {
         echo "Processant $file [2] ... ";
         // GENERAR FITXER XML COMPRIMIT
-        __exec2("timeout 5 Enc2MusicXML -m $file > $file2");
+        __exec2("timeout 1 Enc2MusicXML -m $file > $file2");
         if (filesize($file2)) {
             __exec2("../../scripts/extras/xml2mxl $file2 $file3");
         }

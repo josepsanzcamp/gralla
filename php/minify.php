@@ -2,6 +2,13 @@
 
 function html_minify($data)
 {
+    $data = explode("\n", $data);
+    foreach ($data as $key => $val) {
+        if (substr(trim($val), 0, 4) == "<!--" && substr(trim($val), -3, 3) == "-->") {
+            unset($data[$key]);
+        }
+    }
+    $data = implode("\n", $data);
     $data = str_replace(array("\n","\r","\t"), " ", $data);
     do {
         $data = str_replace("  ", " ", $data, $count);
@@ -76,7 +83,7 @@ function html_minify2($data)
     // BUSCAR CSS
     $css = array();
     $cad1 = '<link href="';
-    $cad2 = '" rel="stylesheet">';
+    $cad2 = '" rel="stylesheet" />';
     $len1 = strlen($cad1);
     $len2 = strlen($cad2);
     $pos1 = strpos($data, $cad1);
@@ -96,7 +103,7 @@ function html_minify2($data)
 
 function css_minify2($data, $css)
 {
-    $data = str_replace("</head>", '<link href="' . $css . '" rel="stylesheet">' . "</head>", $data);
+    $data = str_replace("</head>", '<link href="' . $css . '" rel="stylesheet" />' . "</head>", $data);
     return $data;
 }
 
