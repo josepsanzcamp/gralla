@@ -3,3 +3,6 @@ all:
 	rm -f index.html index.??.html 404.html sitemap.xml static/*html sitemap/*xml
 	time -p php scripts/converter.php
 	time -p php php/program.php
+
+falta:
+	@php scripts/converter.php | grep Falta | tr '-' ' ' | gawk '{print $$2}' | uniq -c
