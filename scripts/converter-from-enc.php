@@ -41,7 +41,7 @@ foreach ($files as $file) {
         // GENERAR FITXER XML COMPRIMIT
         __exec2("timeout 1 Enc2MusicXML -m $file > $file2");
         if (filesize($file2)) {
-            __exec2("../../scripts/extras/xml2mxl $file2 $file3");
+            __exec2("musescore-portable --export-to $file3 $file2");
         }
         unlink($file2);
         if (file_exists($file3)) {
