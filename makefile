@@ -5,4 +5,5 @@ all:
 	time -p php php/program.php
 
 falta:
-	@php scripts/converter.php | grep Falta | tr '-' ' ' | gawk '{print $$2}' | uniq -c
+	@php scripts/falta.php
+	@php scripts/falta.php | tr '-' ' ' | gawk '{print $$2}' | uniq -c

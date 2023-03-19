@@ -15,9 +15,6 @@ foreach ($dirs as $dir) {
         require "converter-from-ly.php";
         require "converter-make-mp3.php";
     }
-    if (!file_exists("$dir.mxl")) {
-        echo "Falta $dir.mxl\n";
-    }
     chdir("..");
 }
 chdir("..");

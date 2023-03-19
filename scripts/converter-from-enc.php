@@ -36,6 +36,7 @@ foreach ($files as $file) {
     }
     $file2 = str_replace(".enc", ".xml", $file);
     $file3 = str_replace(".enc", ".mxl", $file);
+    $file4 = str_replace(".enc", ".mscz", $file);
     if (!file_exists($file3)) {
         echo "Processant $file [2] ... ";
         // GENERAR FITXER XML COMPRIMIT
@@ -45,6 +46,18 @@ foreach ($files as $file) {
         }
         unlink($file2);
         if (file_exists($file3)) {
+            echo "OK\n";
+        } else {
+            echo "KO\n";
+        }
+    }
+    if (!file_exists($file4)) {
+        echo "Processant $file [3] ... ";
+        // GENERAR FITXER MUSESCORE COMPRIMIT
+        if (file_exists($file3)) {
+            __exec2("musescore-portable --export-to $file4 $file3");
+        }
+        if (file_exists($file4)) {
             echo "OK\n";
         } else {
             echo "KO\n";

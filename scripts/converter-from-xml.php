@@ -23,13 +23,13 @@ if (!function_exists("__exec2")) {
 // CONVERTIR DES DE MUSICXML O MUSESCORE CAP A PDF I MIDI
 $files = glob("*.mscz");
 if (!count($files)) {
-    $files = glob("*.xml");
-}
-if (!count($files)) {
     $files = glob("*.mxl");
 }
+if (!count($files)) {
+    $files = glob("*.xml");
+}
 foreach ($files as $file) {
-    $file2 = str_replace(array(".xml",".mscz",".mxl"), "", $file);
+    $file2 = str_replace(array(".mscz",".mxl",".xml"), "", $file);
     if (!file_exists("$file2.ly")) {
         echo "Processant $file [1] ... ";
         // GENERAR FITXER LILYPOND PER COMPATIBILITAT
@@ -96,6 +96,19 @@ foreach ($files as $file) {
             unlink("$file2.mxl");
         }
         if (file_exists("$file2.mxl")) {
+            echo "OK\n";
+        } else {
+            echo "KO\n";
+        }
+    }
+    if (!file_exists("$file2.mscz")) {
+        echo "Processant $file [4] ... ";
+        // GENERAR FITXER MUSESCORE COMPRIMIT
+        __exec2("musescore-portable --export-to $file2.mscz $file");
+        if (!filesize("$file2.mscz")) {
+            unlink("$file2.mscz");
+        }
+        if (file_exists("$file2.mscz")) {
             echo "OK\n";
         } else {
             echo "KO\n";
