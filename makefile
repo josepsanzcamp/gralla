@@ -5,5 +5,4 @@ all:
 	time -p php php/program.php
 
 falta:
-	@php scripts/falta.php
-	@php scripts/falta.php | tr '-' ' ' | gawk '{print $$2}' | uniq -c
+	php scripts/falta.php
