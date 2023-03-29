@@ -75,10 +75,10 @@ foreach ($files as $file) {
             // GENERAR FITXER MIDI PER CADA PISTA
             foreach ($json["parts"] as $key => $val) {
                 $data = base64_decode($json["partsBin"][$key]);
-                $val = $key + 1;
-                file_put_contents("$file2-$val.mscz", $data);
-                __exec2("musescore-portable --export-to $file2-$val.midi $file2-$val.mscz");
-                unlink("$file2-$val.mscz");
+                $key++;
+                file_put_contents("$file2-$key.mscz", $data);
+                __exec2("musescore-portable --export-to $file2-$key.midi $file2-$key.mscz");
+                unlink("$file2-$key.mscz");
             }
         } else {
             // GENERAR FITXERS PDF I MIDI PER LA UNICA PISTA
@@ -112,6 +112,34 @@ foreach ($files as $file) {
             unlink("$file2.mscz");
         }
         if (file_exists("$file2.mscz")) {
+            echo "OK\n";
+        } else {
+            echo "KO\n";
+        }
+    }
+    if (!file_exists("$file2.midi")) {
+        echo "Processant $file [5] ... ";
+        // OBTENIR INFO DE TOTES LES PISTES
+        __exec2("musescore-portable --score-parts $file > $file2.json");
+        $json = file_get_contents("$file2.json");
+        unlink("$file2.json");
+        $json = json_decode($json, true);
+        if (count($json["parts"]) > 1) {
+            // GENERAR FITXERS PDF I MIDI PER TOTES LES PISTES
+            __exec2("musescore-portable --export-to $file2.midi $file");
+            // GENERAR FITXER MIDI PER CADA PISTA
+            foreach ($json["parts"] as $key => $val) {
+                $data = base64_decode($json["partsBin"][$key]);
+                $key++;
+                file_put_contents("$file2-$key.mscz", $data);
+                __exec2("musescore-portable --export-to $file2-$key.midi $file2-$key.mscz");
+                unlink("$file2-$key.mscz");
+            }
+        } else {
+            // GENERAR FITXERS PDF I MIDI PER LA UNICA PISTA
+            __exec2("musescore-portable --export-to $file2.midi $file");
+        }
+        if (file_exists("$file2.midi")) {
             echo "OK\n";
         } else {
             echo "KO\n";

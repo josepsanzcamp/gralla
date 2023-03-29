@@ -17,7 +17,9 @@ foreach ($dirs as $dir) {
     }
 }
 chdir("..");
-$report = array_filter($report, function($val) { return $val; });
+$report = array_filter($report, function ($val) {
+    return $val;
+});
 $report = print_r($report, true);
 $report = explode("\n", $report);
 array_shift($report);
