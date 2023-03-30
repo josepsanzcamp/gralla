@@ -1,5 +1,6 @@
 <?php
 
+chdir("files");
 $dirs = glob("*");
 foreach ($dirs as $dir) {
     $temp = explode("-", $dir);

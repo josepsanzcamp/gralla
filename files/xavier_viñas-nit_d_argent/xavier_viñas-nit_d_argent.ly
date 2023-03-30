@@ -3,8 +3,8 @@
 \header {
   dedication=""
   title="Nit d'Argent (sardana)"
-  subtitle=\markup\tiny"commemorant el 25è aniversari de la Nit dels Músics de Cassà, en què una gran cobla integrada per músics vinculats amb el"
-  subsubtitle=\markup\tiny"poble (residents o que formen part de cobles relacionades amb Cassà) enceta amb una audició de sardanes la Festa Major."
+  subtitle="commemorant el 25è aniversari de la Nit dels Músics de Cassà, en què una gran cobla integrada per músics vinculats amb el"
+  subsubtitle="poble (residents o que formen part de cobles relacionades amb Cassà) enceta amb una audició de sardanes la Festa Major."
   poet=""
   meter=""
   piece=""
