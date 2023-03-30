@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Pasdoble"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="del repertori de l'Estevet Ubach"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}
