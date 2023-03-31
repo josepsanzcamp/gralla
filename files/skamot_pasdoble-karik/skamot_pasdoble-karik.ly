@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Pasdoble"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Pasdoble"
   subtitle="Karik"
   subsubtitle="en memòria del dolçainer Vicent Barberà Valls, \"Karik\""
   poet=""

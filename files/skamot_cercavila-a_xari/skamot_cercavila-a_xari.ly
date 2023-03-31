@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Cercavila"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Cercavila"
   subtitle="A Xari"
   subsubtitle=""
   poet=""

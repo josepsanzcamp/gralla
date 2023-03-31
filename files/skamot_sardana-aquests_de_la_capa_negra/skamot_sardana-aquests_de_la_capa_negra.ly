@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Sardana curta"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Sardana curta"
   subtitle="Aquests de la capa negra"
   subsubtitle=""
   poet=""

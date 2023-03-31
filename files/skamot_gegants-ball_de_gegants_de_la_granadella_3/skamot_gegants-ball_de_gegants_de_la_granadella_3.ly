@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Ball de gegants"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Ball de gegants"
   subtitle="Ball de gegants de la Granadella"
   subsubtitle="Corrandes de Silono"
   poet=""

@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Concert"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Concert"
   subtitle="Suite de festa"
   subsubtitle="Sobre un tema popular, per a tres gralles i un timbal"
   poet="4. Masurca"

@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Gegants"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Gegants"
   subtitle="Ball de gegants de l'Agrupació"
   subsubtitle="Vals"
   poet=""

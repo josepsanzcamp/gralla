@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Bolero"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Bolero"
   subtitle="Bolero nou"
   subsubtitle=""
   poet=""

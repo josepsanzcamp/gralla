@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Vals-jota"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Vals-jota"
   subtitle="El perolet"
   subsubtitle=""
   poet=""

@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Gegants"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Gegants"
   subtitle="Gegants de Riudoms"
   subsubtitle=""
   poet=""

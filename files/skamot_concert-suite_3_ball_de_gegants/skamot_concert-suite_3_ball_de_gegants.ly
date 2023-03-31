@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Concert"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Concert"
   subtitle="Suite de festa"
   subsubtitle="sobre un tema popular, per a tres gralles i timbal"
   poet="3. Ball de gegants. Sarabanda"

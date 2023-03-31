@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Marxa de gegants"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Marxa de gegants"
   subtitle="Marxa dels gegants de Reus"
   subsubtitle=""
   poet=""

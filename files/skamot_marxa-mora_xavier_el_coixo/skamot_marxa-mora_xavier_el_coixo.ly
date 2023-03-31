@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Marxa mora"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Marxa mora"
   subtitle="Xavier el Coixo"
   subsubtitle=""
   poet=""

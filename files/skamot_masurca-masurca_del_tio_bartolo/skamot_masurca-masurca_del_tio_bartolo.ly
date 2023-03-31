@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Masurca"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Masurca"
   subtitle="Masurca del Tio Bartolo"
   subsubtitle=""
   poet=""

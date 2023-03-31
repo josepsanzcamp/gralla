@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Ball de panderos"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Ball de panderos"
   subtitle="Ball de panderos de Vilanova"
   subsubtitle=""
   poet=""

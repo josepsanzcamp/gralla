@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Pasdoble"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Pasdoble"
   subtitle="Pas de gegant"
   subsubtitle=""
   poet=""

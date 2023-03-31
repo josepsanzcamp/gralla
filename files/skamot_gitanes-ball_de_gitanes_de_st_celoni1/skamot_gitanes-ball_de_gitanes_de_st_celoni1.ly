@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Ball de gitanes"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Ball de gitanes"
   subtitle="Ball de gitanes de Sant Celoni"
   subsubtitle="Galop d'entrada"
   poet=""

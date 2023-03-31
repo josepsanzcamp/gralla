@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Peces de concert"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Peces de concert"
   subtitle="Al so del xaloc"
   subsubtitle=""
   poet=""

@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Religioses"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Religioses"
   subtitle="Toc d'ofrena a Sant Cosme i Sant Damià"
   subsubtitle=""
   poet=""

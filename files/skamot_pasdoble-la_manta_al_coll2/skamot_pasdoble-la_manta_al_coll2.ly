@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Marxa"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Marxa"
   subtitle="La manta al coll"
   subsubtitle=""
   poet=""

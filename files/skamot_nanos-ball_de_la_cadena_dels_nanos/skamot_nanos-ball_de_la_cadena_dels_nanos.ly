@@ -1,6 +1,6 @@
 \header {
-  composers="Ball de nanos Reus"
-  poets="http: //gralla. skamot. com Ball de la cadena dels nanos"
-  subtitles=""
-  titles=""
+  composers=""
+  poets="http://gralla.skamot.com"
+  subtitles="Ball de la cadena dels nanos"
+  titles="Ball de nanos Reus"
 }

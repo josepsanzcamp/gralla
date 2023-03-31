@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Vals"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Vals"
   subtitle="Garrapinillos"
   subsubtitle=""
   poet=""

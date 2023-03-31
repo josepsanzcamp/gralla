@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Xotis"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Xotis"
   subtitle="Xotis del Tio Caramba"
   subsubtitle=""
   poet=""

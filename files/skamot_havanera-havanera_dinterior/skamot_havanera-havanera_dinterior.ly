@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Havanera"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Havanera"
   subtitle="Havanera d'interior"
   subsubtitle=""
   poet=""

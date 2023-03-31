@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Polca"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Polca"
   subtitle="Polca de la cervesa"
   subsubtitle=""
   poet=""

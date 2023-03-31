@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Bestiari"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Bestiari"
   subtitle=""
   subsubtitle="Tonada del ball de la Mulassa, núm. 1"
   poet=""

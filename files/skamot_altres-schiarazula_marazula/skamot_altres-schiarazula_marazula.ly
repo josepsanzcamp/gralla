@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication=""
+  dedication="http://gralla.skamot.com"
   title=""
   subtitle="Schiarazula Marazula"
   subsubtitle=""

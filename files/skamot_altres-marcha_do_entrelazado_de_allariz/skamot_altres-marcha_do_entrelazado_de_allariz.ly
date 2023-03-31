@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Muñeira"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Muñeira"
   subtitle="Marcha do entrelazado de Allariz"
   subsubtitle=""
   poet=""

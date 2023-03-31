@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Jota"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Jota"
   subtitle="Jota de Burgos"
   subsubtitle=""
   poet=""

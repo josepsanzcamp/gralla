@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Blues"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Blues"
   subtitle="Saint James Infirmary"
   subsubtitle=""
   poet=""

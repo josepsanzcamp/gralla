@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Dimonis"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Dimonis"
   subtitle="Ball de diables de Montornès"
   subsubtitle=""
   poet=""

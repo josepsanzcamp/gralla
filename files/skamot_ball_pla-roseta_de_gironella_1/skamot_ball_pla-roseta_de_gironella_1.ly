@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Ball pla"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Ball pla"
   subtitle="Roseta de Gironella"
   subsubtitle=""
   poet=""

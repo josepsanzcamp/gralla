@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Tarantella"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Tarantella"
   subtitle="Caffarantel·la"
   subsubtitle=""
   poet=""

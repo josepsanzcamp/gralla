@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Cercavila"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Cercavila"
   subtitle="Bou amb corda"
   subsubtitle="del repertori de Joan Blasco"
   poet=""

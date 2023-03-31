@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Dansa"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Dansa"
   subtitle="Dos i quinze"
   subsubtitle=""
   poet=""

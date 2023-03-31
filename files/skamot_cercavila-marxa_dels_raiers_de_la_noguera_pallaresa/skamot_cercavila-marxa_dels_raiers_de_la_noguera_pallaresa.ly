@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Cercavila"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Cercavila"
   subtitle="Marxa dels raiers de la Noguera Pallaresa"
   subsubtitle="Premi Pallars 1995"
   poet=""

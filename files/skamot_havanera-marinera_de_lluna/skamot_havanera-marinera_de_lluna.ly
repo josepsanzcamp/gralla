@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Americana"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Americana"
   subtitle="Marinera de lluna"
   subsubtitle=""
   poet=""

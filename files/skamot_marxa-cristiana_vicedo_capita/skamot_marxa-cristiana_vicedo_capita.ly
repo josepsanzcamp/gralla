@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Marxa cristiana"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Marxa cristiana"
   subtitle="Vicedo Capità"
   subsubtitle=""
   poet=""

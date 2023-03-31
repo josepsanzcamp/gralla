@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Ball de bastons"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Ball de bastons"
   subtitle="Ball de bastons d'Arbeca (2)"
   subsubtitle=""
   poet=""

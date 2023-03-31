@@ -1,8 +1,8 @@
 \version "2.16.2"
 
 \header {
-  dedication="Gegants"
-  title=""
+  dedication="http://gralla.skamot.com"
+  title="Gegants"
   subtitle="Contradansa dels gegants de Barcelona"
   subsubtitle="versió per als grallers de Sant Antoni"
   poet=""
