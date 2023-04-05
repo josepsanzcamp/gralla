@@ -4,16 +4,17 @@ Aquest repositori conte la pagina web de partitures online per a gralla
 ![](https://raw.githubusercontent.com/josepsanzcamp/gralla/master/img/screenshot.png)
 
 # Novetats de la darrera versió
-- La primera versió es va publicar feia servir l'entorn gràfic de SaltOS basat en JQuery-UI
-- Aquesta darrera versió ja fa servir el nou entorn gràfic de SaltOS basat en Bootstrap
+- La primera versió feia servir l'entorn gràfic de SaltOS basat en JQuery-UI
+- La darrera versió fa servir el nou entorn gràfic de SaltOS basat en Bootstrap
 
 # Crèdits de les partitures
-- Les 250 partitures inicials, han estat descarregades del web gralla.skamot.com en format Encore
-- Estic afegint les partitures del [Repertori per a gralles](https://www.ivojorda.com/partitures-per-a-gralla) de l'[Ivó Jordà Álvarez](https://www.ivojorda.com) en format MusicXML
-- Estic afegint les partitures que m'està fent arribar el Xavier Viñas en format MuseScore i Encore
-- Estic afegint les partitures que m'està fent arribar el [Cesc Alexandri](https://ca.wikipedia.org/wiki/Francesc_Alexandri_i_Muchart) en format MusicXML
-- Estic afegint les partitures que han publicat a l'[Ajuntament de Castellbisbal](https://www.castellbisbal.cat/municipi-per-temes/3467-arxiu-municipal/difusio-publicacions-mostres-en-linia-i-recursos-dinteres/altres-publicacions-dinteres/musiques-de-castellbisbal-llibre-de-partitures-i-coreografies.html) en format PDF
-- Estic afegint les partitures que han publicat a [Dolçainacontraltotarotare](https://www.facebook.com/groups/625663541575995) en format PDF i video-partitura
+- Les 250 partitures inicials van descarregar-se del web gralla.skamot.com en format Encore
+- Partitures del [Repertori per a gralles](https://www.ivojorda.com/partitures-per-a-gralla) de l'[Ivó Jordà Álvarez](https://www.ivojorda.com) en format MusicXML
+- Partitures que em va fer arribar el Xavier Viñas en format MuseScore i Encore
+- Partitures que em va fer arribar el [Cesc Alexandri](https://ca.wikipedia.org/wiki/Francesc_Alexandri_i_Muchart) en format MusicXML
+- Partitures que van publicar a l'[Ajuntament de Castellbisbal](https://www.castellbisbal.cat/municipi-per-temes/3467-arxiu-municipal/difusio-publicacions-mostres-en-linia-i-recursos-dinteres/altres-publicacions-dinteres/musiques-de-castellbisbal-llibre-de-partitures-i-coreografies.html) en format PDF
+- Partitures que van publicar a [Dolçainacontraltotarotare](https://www.facebook.com/groups/625663541575995) en format PDF i video-partitura
+- Partitures que van publicar al [Centre Artesà Tradicionarius](http://www.tradicionarius.cat/ca/partitures) en format PDF
 
 # Crèdits de l'aplicació ...
 - Aquesta aplicació ha estat desenvolupada fent servir codi del projecte [SaltOS](https://www.saltos.org)
