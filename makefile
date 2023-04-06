@@ -1,6 +1,6 @@
 
 all:
-	rm -f index.html index.??.html 404.html sitemap.xml static/*html sitemap/*xml
+	rm -f index* lib/all* sitemap/* static/* sitemap.xml 404.html
 	time -p php scripts/converter.php
 	time -p php php/program.php
 
