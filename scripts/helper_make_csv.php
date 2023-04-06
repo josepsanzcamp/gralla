@@ -2,7 +2,8 @@
 
 // phpcs:disable PSR1.Files.SideEffects
 
-require_once "../php/metadata.php";
+require_once "php/metadata.php";
+chdir("files");
 $files = glob("*/*.ly");
 
 $fixes = array(
