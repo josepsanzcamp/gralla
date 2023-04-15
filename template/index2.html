@@ -14,7 +14,7 @@ document.cookie.split(";").forEach(function(val,key) {
 });
 if(!["ca","es","en"].includes(lang)) lang="ca";
 var hash=decodeURI(window.location.hash);
-if(hash=="") {
+if(hash=="" && typeof URLSearchParams == "function") {
     var params=new URLSearchParams(window.location.search);
     if(params.has("hash")) hash="#"+decodeURI(params.get("hash"));
 }
