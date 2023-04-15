@@ -15,6 +15,7 @@ Aquest repositori conte la pagina web de partitures online per a gralla
 - Partitures que van publicar a l'[Ajuntament de Castellbisbal](https://www.castellbisbal.cat/municipi-per-temes/3467-arxiu-municipal/difusio-publicacions-mostres-en-linia-i-recursos-dinteres/altres-publicacions-dinteres/musiques-de-castellbisbal-llibre-de-partitures-i-coreografies.html) en format PDF
 - Partitures que van publicar a [Dolçainacontraltotarotare](https://www.facebook.com/groups/625663541575995) en format PDF i video-partitura
 - Partitures que van publicar al [Centre Artesà Tradicionarius](http://www.tradicionarius.cat/ca/partitures) en format PDF
+- Partitures que em va fer arribar el Bernat-Xavier Muixench i Maspons en format XML
 
 # Crèdits de l'aplicació ...
 - Aquesta aplicació ha estat desenvolupada fent servir codi del projecte [SaltOS](https://www.saltos.org)
