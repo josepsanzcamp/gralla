@@ -8,11 +8,11 @@ foreach ($dirs as $dir) {
     if (!isset($report[$key])) {
         $report[$key] = 0;
     }
-    if (!file_exists("$dir/$dir.mxl")) {
-        echo "Falta $dir.mxl\n";
-        $report[$key]++;
-    } elseif (!file_exists("$dir/$dir.mscz")) {
+    if (!file_exists("$dir/$dir.mscz")) {
         echo "Falta $dir.mscz\n";
+        $report[$key]++;
+    } elseif (!file_exists("$dir/$dir.mxl")) {
+        echo "Falta $dir.mxl\n";
         $report[$key]++;
     }
 }
