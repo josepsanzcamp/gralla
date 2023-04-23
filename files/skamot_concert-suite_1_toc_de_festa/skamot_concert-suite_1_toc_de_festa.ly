@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="http://gralla.skamot.com"
+  dedication="gralla.skamot.com"
   title="Concert"
   subtitle="Suite de festa"
   subsubtitle="sobre un tema popular, per a tres gralles i timbal"

@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="http://gralla.skamot.com"
+  dedication="gralla.skamot.com"
   title="Jota"
   subtitle="Jota número 2"
   subsubtitle=""
