@@ -1,7 +1,9 @@
 User-Agent: *
 Allow: /
 Disallow: /files/
+Disallow: /img/
 Disallow: /lib/
 Disallow: /php/
+Disallow: /scripts/
 Disallow: /templates/
 Sitemap: /sitemap.xml
