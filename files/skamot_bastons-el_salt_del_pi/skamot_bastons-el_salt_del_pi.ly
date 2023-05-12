@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Ball de bastons"
   subtitle="El salt del pi"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="Marcel Casellas"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Ball de bastons"
   subtitle="Ball de bastons de Reus"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger=""
   opus="El Baix Camp"
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

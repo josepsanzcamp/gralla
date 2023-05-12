@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Gegants"
   subtitle="Ball de l'aniversari"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="Marcel Casellas, 25/02/1998"
   opus="A en Jordi Fàbregas i la Dolors Capdevila"
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

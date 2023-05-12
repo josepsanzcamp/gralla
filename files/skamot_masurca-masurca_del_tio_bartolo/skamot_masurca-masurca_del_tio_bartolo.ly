@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Masurca"
   subtitle="Masurca del Tio Bartolo"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="del repertori de José Sancho, \"Tío Bartolo\""
   opus="Arr. Blas Coscollar"
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

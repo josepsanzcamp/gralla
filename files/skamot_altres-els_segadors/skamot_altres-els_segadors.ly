@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Himne"
   subtitle="Els Segadors"
   subsubtitle="(Himne Nacional de Catalunya)"
@@ -12,7 +12,7 @@
   arranger=""
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

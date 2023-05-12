@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Concert"
   subtitle="Suite de festa"
   subsubtitle="Sobre un tema popular, per a tres gralles i un timbal"
@@ -12,7 +12,7 @@
   arranger=""
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

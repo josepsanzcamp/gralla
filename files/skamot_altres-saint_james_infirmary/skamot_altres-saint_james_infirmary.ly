@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Blues"
   subtitle="Saint James Infirmary"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="Arr. Enric Montsant i Damià"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

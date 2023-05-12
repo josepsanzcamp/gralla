@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Sardana curta"
   subtitle="A les meves dones"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="Gener 2001"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

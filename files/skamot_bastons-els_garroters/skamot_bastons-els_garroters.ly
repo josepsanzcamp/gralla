@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Ball de bastons"
   subtitle="Els Garroters"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger=""
   opus="Marcel Casellas, juliol 2002"
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

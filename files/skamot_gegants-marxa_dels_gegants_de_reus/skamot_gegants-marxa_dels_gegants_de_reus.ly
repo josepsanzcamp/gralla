@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Marxa de gegants"
   subtitle="Marxa dels gegants de Reus"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger=""
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Sardana curta"
   subtitle="Aquests de la capa negra"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="Arr. Enric Montsant"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

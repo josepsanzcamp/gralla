@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Cercavila"
   subtitle="Les Calçaes"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="Julià Pastor"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

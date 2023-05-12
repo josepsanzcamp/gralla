@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Bestiari"
   subtitle="Ball de la víbria de Tarragona"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="Arr. Roser Olivé"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

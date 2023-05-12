@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title=""
   subtitle="Branda de cavalls"
   subsubtitle="(Brandle des chevals)"
@@ -12,7 +12,7 @@
   arranger=""
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

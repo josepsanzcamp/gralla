@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Gegants"
   subtitle="Ball de la gegantona"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger=""
   opus="Vilassar de Mar"
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Bestiari"
   subtitle="Cançó del drac"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="Vilassar de Mar"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

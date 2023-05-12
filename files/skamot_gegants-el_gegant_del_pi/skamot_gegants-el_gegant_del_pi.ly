@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Gegants"
   subtitle="El gegant del Pi"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="Arr. Jordi Fàbregas, 23/IX/93"
   opus="Timbal: Albert Garcia"
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Gegants"
   subtitle="Ball de gegants del Maresme"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="Maig de 2002"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

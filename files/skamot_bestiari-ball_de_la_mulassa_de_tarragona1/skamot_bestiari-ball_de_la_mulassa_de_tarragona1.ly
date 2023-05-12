@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Bestiari"
   subtitle=""
   subsubtitle="Tonada del ball de la Mulassa, núm. 1"
@@ -12,7 +12,7 @@
   arranger="Rafel Guinovart"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

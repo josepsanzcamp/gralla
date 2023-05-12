@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Gegants"
   subtitle="Els gegants de l'Ordal"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="Arr. Esteve Grau, juliol del 94"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

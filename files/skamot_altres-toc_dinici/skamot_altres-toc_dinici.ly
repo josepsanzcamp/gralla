@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title=""
   subtitle="Toc d'inici"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="Arr. Jordi Fàbregas"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

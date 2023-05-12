@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title=""
   subtitle="Hassàpiko nostàlgic"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="Arr. Marcel Casellas, 2004"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

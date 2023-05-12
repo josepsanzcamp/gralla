@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Cercavila"
   subtitle="Bou amb corda"
   subsubtitle="del repertori de Joan Blasco"
@@ -12,7 +12,7 @@
   arranger="Arr. Xavier Richart"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Ball pla"
   subtitle="Ball pla"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="diverses poblacions"
   opus="de les comarques septentrionals"
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

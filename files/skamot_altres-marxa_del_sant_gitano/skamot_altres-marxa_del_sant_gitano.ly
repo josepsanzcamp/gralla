@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Marxa"
   subtitle="Marxa del Sant Gitano"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="Cesc Alexandri - març de 2004"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

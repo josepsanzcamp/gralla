@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Bestiari"
   subtitle="Su"
   subsubtitle="Cuca fera de les Piles de Gaià"
@@ -12,7 +12,7 @@
   arranger="Arr. Sònia Dallà"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

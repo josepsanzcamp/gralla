@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Muñeira"
   subtitle="Marcha do entrelazado de Allariz"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="Arr. Carlos Núñez"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

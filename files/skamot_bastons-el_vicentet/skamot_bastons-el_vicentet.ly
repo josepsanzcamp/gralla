@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Ball de bastons"
   subtitle="El Vicentet"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger="Vicenç Lara Bujaldón, 1987"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Tocs tradicionals"
   subtitle="Ball de valencians de Reus"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger=""
   opus="El Baix Camp"
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

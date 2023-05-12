@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Ball de bastons"
   subtitle="La Milana"
   subsubtitle=""
@@ -12,7 +12,7 @@
   arranger=""
   opus=""
   instrument="Vilanova i la Geltrú"
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

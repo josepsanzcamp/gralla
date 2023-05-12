@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Bestiari"
   subtitle=""
   subsubtitle="Tonada de la marxa de la Mulassa, núm. 2"
@@ -12,7 +12,7 @@
   arranger="Blas Coscollar"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 

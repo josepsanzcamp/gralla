@@ -1,7 +1,7 @@
 \version "2.16.2"
 
 \header {
-  dedication="gralla.skamot.com"
+  dedication=""
   title="Ball de gegants"
   subtitle="Albertina"
   subsubtitle="Sardana curta del gegants de Navata"
@@ -12,7 +12,7 @@
   arranger="Arr. Perepau Jiménez, 1989"
   opus=""
   instrument=""
-  copyright=""
+  copyright="gralla.skamot.com"
   tagline=""
 }
 
