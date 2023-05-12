@@ -211,7 +211,7 @@ liniaroAd =
 \bookpart {
   \score {
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
         \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
@@ -223,7 +223,7 @@ liniaroAd =
   }
   \score { \unfoldRepeats
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
         \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
@@ -242,7 +242,7 @@ liniaroAd =
   \header {instrument="Gralla 1"}
   \score {
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \liniaroAa
       >>
@@ -251,7 +251,7 @@ liniaroAd =
   }
   \score { \unfoldRepeats
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \liniaroAa
       >>
@@ -267,7 +267,7 @@ liniaroAd =
   \header {instrument="Gralla 2"}
   \score {
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \liniaroAb
       >>
@@ -276,7 +276,7 @@ liniaroAd =
   }
   \score { \unfoldRepeats
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \liniaroAb
       >>
@@ -292,7 +292,7 @@ liniaroAd =
   \header {instrument="Timbal"}
   \score {
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new DrumStaff \liniaroAc
       >>
@@ -301,7 +301,7 @@ liniaroAd =
   }
   \score { \unfoldRepeats
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new DrumStaff \liniaroAc
       >>
@@ -317,7 +317,7 @@ liniaroAd =
   \header {instrument="Timbal fondo"}
   \score {
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new DrumStaff \liniaroAd
       >>
@@ -326,7 +326,7 @@ liniaroAd =
   }
   \score { \unfoldRepeats
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new DrumStaff \liniaroAd
       >>

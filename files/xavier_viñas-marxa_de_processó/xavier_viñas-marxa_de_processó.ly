@@ -247,7 +247,7 @@ liniaroAc =
 \bookpart {
   \score {
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \with {instrumentName = #"gralla 1" shortInstrumentName = #"g"} \liniaroAa
         \new Staff \with {instrumentName = #"gralla 2" shortInstrumentName = #"g"} \liniaroAb
@@ -258,7 +258,7 @@ liniaroAc =
   }
   \score { \unfoldRepeats
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \with {instrumentName = #"gralla 1" shortInstrumentName = #"g"} \liniaroAa
         \new Staff \with {instrumentName = #"gralla 2" shortInstrumentName = #"g"} \liniaroAb
@@ -273,7 +273,7 @@ liniaroAc =
   \header {instrument="gralla 1"}
   \score {
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \liniaroAa
       >>
@@ -282,7 +282,7 @@ liniaroAc =
   }
   \score { \unfoldRepeats
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \liniaroAa
       >>
@@ -295,7 +295,7 @@ liniaroAc =
   \header {instrument="gralla 2"}
   \score {
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \liniaroAb
       >>
@@ -304,7 +304,7 @@ liniaroAc =
   }
   \score { \unfoldRepeats
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \liniaroAb
       >>
@@ -317,7 +317,7 @@ liniaroAc =
   \header {instrument="tarota"}
   \score {
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \liniaroAc
       >>
@@ -326,7 +326,7 @@ liniaroAc =
   }
   \score { \unfoldRepeats
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \liniaroAc
       >>

@@ -165,24 +165,24 @@ liniaroAd =
 \bookpart {
   \score {
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAc
-        \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAd
+        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G.1"} \liniaroAa
+        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G.2"} \liniaroAb
+        \new Staff \with {instrumentName = #"Gralla 3" shortInstrumentName = #"G.3"} \liniaroAc
+        \new DrumStaff \with {instrumentName = #"Timbal" shortInstrumentName = #"T"} \liniaroAd
       >>
     }
     \layout {}
   }
   \score { \unfoldRepeats
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAc
-        \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAd
+        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G.1"} \liniaroAa
+        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G.2"} \liniaroAb
+        \new Staff \with {instrumentName = #"Gralla 3" shortInstrumentName = #"G.3"} \liniaroAc
+        \new DrumStaff \with {instrumentName = #"Timbal" shortInstrumentName = #"T"} \liniaroAd
       >>
     }
     \midi {
@@ -196,7 +196,7 @@ liniaroAd =
   \header {instrument="Gralla 1"}
   \score {
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \liniaroAa
       >>
@@ -205,7 +205,7 @@ liniaroAd =
   }
   \score { \unfoldRepeats
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \liniaroAa
       >>
@@ -218,10 +218,10 @@ liniaroAd =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {instrument="Gralla 2"}
   \score {
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \liniaroAb
       >>
@@ -230,7 +230,7 @@ liniaroAd =
   }
   \score { \unfoldRepeats
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \liniaroAb
       >>
@@ -243,10 +243,10 @@ liniaroAd =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {instrument="Gralla 3"}
   \score {
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \liniaroAc
       >>
@@ -255,7 +255,7 @@ liniaroAd =
   }
   \score { \unfoldRepeats
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \liniaroAc
       >>
@@ -268,10 +268,10 @@ liniaroAd =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {instrument="Timbal"}
   \score {
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new DrumStaff \liniaroAd
       >>
@@ -280,7 +280,7 @@ liniaroAd =
   }
   \score { \unfoldRepeats
     \new StaffGroup {
-      \override Score.RehearsalMark #'self-alignment-X = #LEFT
+      \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new DrumStaff \liniaroAd
       >>

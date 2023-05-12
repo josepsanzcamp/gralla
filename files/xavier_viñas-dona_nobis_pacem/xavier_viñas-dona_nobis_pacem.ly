@@ -86,7 +86,7 @@ liniaroAa =
 
 \score {
   \new StaffGroup {
-    \override Score.RehearsalMark #'self-alignment-X = #LEFT
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
     <<
       \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAa
     >>
@@ -95,7 +95,7 @@ liniaroAa =
 }
 \score { \unfoldRepeats
   \new StaffGroup {
-    \override Score.RehearsalMark #'self-alignment-X = #LEFT
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
     <<
       \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAa
     >>
