@@ -5,14 +5,14 @@
   title="Gegants"
   subtitle="Els gegants de l'Ordal"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="L'Alt Penedès"
   arranger="Arr. Esteve Grau, juliol del 94"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

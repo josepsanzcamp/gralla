@@ -5,14 +5,14 @@
   title="Cercavila"
   subtitle="La volta dels matxos"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Ortells i Villores"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

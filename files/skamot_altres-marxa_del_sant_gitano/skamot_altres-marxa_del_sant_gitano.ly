@@ -5,14 +5,14 @@
   title="Marxa"
   subtitle="Marxa del Sant Gitano"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer=""
   arranger="Cesc Alexandri - març de 2004"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

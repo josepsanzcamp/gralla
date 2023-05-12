@@ -5,14 +5,14 @@
   title=""
   subtitle="Schiarazula Marazula"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Antonio Mainerio (ca. 1535 - 1582)"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

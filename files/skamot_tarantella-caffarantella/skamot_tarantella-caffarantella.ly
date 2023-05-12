@@ -5,14 +5,14 @@
   title="Tarantella"
   subtitle="Caffarantel·la"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Ximo Caffarena"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

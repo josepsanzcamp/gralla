@@ -5,14 +5,14 @@
   title="Ball de gegants"
   subtitle="Ball de gegants i nanos de Girona"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="El Gironès"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

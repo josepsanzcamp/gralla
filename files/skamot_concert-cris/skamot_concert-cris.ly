@@ -5,14 +5,14 @@
   title="Concert"
   subtitle="Cris"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Julio González"
   arranger="2a veu: Raül Forcadell"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

@@ -5,14 +5,14 @@
   title="Bestiari"
   subtitle="L'Àliga de Vilafranca"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="L'Alt Penedès"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

@@ -5,14 +5,14 @@
   title="Vals"
   subtitle="Vals de Lurdes"
   subsubtitle="Vals de Lourdes"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Julio Martín"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

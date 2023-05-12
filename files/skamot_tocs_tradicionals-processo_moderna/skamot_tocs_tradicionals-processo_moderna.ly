@@ -5,14 +5,14 @@
   title="Tocs tradicionals"
   subtitle="Toc de la processó"
   subsubtitle="moderna"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Arr. Jaume Vidal"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

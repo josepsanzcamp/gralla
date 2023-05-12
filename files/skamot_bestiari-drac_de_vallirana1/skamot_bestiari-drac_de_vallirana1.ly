@@ -5,14 +5,14 @@
   title="Bestiari"
   subtitle="Drac de Vallirana"
   subsubtitle="Passeig"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Anna Folqué Francolí"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

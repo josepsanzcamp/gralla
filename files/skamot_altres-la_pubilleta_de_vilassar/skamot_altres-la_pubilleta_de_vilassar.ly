@@ -5,14 +5,14 @@
   title=""
   subtitle="La Pubilleta de Vilassar"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Vicenç Gómez Prats"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

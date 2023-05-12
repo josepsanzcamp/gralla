@@ -5,14 +5,14 @@
   title="Pasdoble"
   subtitle="La cirereta"
   subsubtitle="(La primera)"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Lluís Silla"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

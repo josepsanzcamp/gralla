@@ -5,14 +5,14 @@
   title="Pasdoble"
   subtitle="Pas de gegant"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="David Morlà, 2002"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

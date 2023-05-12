@@ -5,14 +5,14 @@
   title="Gegants"
   subtitle="Ball de l'aniversari (9.ball.9)"
   subsubtitle="Entrada"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer=""
   arranger="Marcel Casellas, 25/02/1998"
   opus="A en Jordi Fàbregas i la Dolors Capdevila"
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

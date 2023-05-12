@@ -5,14 +5,14 @@
   title="Ball de gegants"
   subtitle="Ball de gegants de Santa Eugènia de Berga"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Sebastià Bardolet, 1998"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

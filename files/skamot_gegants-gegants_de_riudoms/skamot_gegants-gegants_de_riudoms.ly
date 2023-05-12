@@ -5,14 +5,14 @@
   title="Gegants"
   subtitle="Gegants de Riudoms"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="El Baix Camp"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

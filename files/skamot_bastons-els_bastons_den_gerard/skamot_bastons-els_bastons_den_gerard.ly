@@ -5,14 +5,14 @@
   title="Ball de bastons"
   subtitle="Els bastons d'en Gerard"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Ramon Solé i Miralles, maig de 2002"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

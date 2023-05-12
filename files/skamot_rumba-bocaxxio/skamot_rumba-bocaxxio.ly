@@ -5,14 +5,14 @@
   title="Rumba"
   subtitle="BocaXXio"
   subsubtitle="(una rumba que havia de ser polca)"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Pol Ducable"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

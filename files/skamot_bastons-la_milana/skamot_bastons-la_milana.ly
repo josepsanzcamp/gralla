@@ -5,14 +5,14 @@
   title="Ball de bastons"
   subtitle="La Milana"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer=""
   arranger=""
   opus=""
   instrument="Vilanova i la Geltrú"
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

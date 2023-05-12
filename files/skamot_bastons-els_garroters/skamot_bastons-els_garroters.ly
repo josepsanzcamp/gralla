@@ -5,14 +5,14 @@
   title="Ball de bastons"
   subtitle="Els Garroters"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer=""
   arranger=""
   opus="Marcel Casellas, juliol 2002"
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

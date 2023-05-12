@@ -5,14 +5,14 @@
   title=""
   subtitle="El tereto de Vilaller"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="L'Alta Ribagorça"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

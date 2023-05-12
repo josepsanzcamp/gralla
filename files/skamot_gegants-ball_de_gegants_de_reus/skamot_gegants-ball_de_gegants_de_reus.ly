@@ -5,14 +5,14 @@
   title="Ball de gegants"
   subtitle="Ball de gegants de Reus"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="El Baix Camp"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

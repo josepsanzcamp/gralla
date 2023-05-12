@@ -5,14 +5,14 @@
   title="Marxa cristiana"
   subtitle="Vicedo Capità"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Enric Gironès"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

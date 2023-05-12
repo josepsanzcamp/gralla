@@ -5,14 +5,14 @@
   title="Polca"
   subtitle="Polca Bibí"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="San Juan de Plan"
   arranger="Aragó"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

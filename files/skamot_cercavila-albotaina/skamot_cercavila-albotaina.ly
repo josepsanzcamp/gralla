@@ -5,14 +5,14 @@
   title="Cercavila"
   subtitle="Albotaina"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Algemesí"
   arranger="Arr. Xavier Richart"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

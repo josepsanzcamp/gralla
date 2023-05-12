@@ -5,14 +5,14 @@
   title="Concert"
   subtitle="El gegant tocat de l'ala"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Enric Montsant, 1999"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

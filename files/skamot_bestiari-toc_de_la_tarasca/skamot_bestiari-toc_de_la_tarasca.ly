@@ -5,14 +5,14 @@
   title="Bestiari"
   subtitle="Toc de la Tarasca"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer=""
   arranger=""
   opus="Barcelona"
   instrument="Quim Soler"
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

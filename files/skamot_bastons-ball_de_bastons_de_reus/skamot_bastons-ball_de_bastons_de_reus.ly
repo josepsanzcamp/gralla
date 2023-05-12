@@ -5,14 +5,14 @@
   title="Ball de bastons"
   subtitle="Ball de bastons de Reus"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer=""
   arranger=""
   opus="El Baix Camp"
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

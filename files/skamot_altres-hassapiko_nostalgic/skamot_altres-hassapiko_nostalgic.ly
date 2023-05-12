@@ -5,14 +5,14 @@
   title=""
   subtitle="Hassàpiko nostàlgic"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Tradicional grega"
   arranger="Arr. Marcel Casellas, 2004"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

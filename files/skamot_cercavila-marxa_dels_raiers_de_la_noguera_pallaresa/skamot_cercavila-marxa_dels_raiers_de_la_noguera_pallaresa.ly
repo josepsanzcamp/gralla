@@ -5,14 +5,14 @@
   title="Cercavila"
   subtitle="Marxa dels raiers de la Noguera Pallaresa"
   subsubtitle="Premi Pallars 1995"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Antoni Serra"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

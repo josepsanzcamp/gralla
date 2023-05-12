@@ -5,14 +5,14 @@
   title="Dimonis"
   subtitle="Ball de dimonis de Massalfassar"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Toni Torregrossa"
   arranger="Arr: Ximo Caffarena"
   opus="Percussió: Josep Amírola"
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

@@ -5,14 +5,14 @@
   title=""
   subtitle="Ses porqueres"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Popular mallorquina"
   arranger="Arr. Peptoni Rubio"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

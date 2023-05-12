@@ -5,14 +5,14 @@
   title="Pasdoble"
   subtitle="Mari Carmen"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Arr. Xavier Richart"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

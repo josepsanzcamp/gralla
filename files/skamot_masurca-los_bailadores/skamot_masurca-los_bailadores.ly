@@ -5,14 +5,14 @@
   title="Masurca"
   subtitle="Los Bailadores"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="dels grallers vells de Reus"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

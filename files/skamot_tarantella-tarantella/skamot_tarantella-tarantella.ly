@@ -5,14 +5,14 @@
   title="Tarantella"
   subtitle="Tarantella"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Sicília"
   arranger="Arr. Ramon Güell"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

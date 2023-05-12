@@ -5,14 +5,14 @@
   title="Ball de bastons"
   subtitle="Ball de bastoneres de Granollers"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer=""
   arranger=""
   opus="El Vallès Oriental"
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

@@ -5,14 +5,14 @@
   title="Pasdoble"
   subtitle="Gener"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Manel Rius"
   arranger="Arr. Marcel Casellas"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

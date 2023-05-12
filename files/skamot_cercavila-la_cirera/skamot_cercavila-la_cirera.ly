@@ -5,14 +5,14 @@
   title="Cercavila"
   subtitle="La cirera"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Timbal: Albert Garcia"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 
@@ -228,10 +228,10 @@ liniaroAd =
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1  Gralla 2" shortInstrumentName = #"G"} \liniaroAa
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
-        \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAc
-        \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAd
+        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
+        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
+        \new DrumStaff \with {instrumentName = #"Timbal 1" shortInstrumentName = #"T"} \liniaroAc
+        \new DrumStaff \with {instrumentName = #"Timbal 2" shortInstrumentName = #"T"} \liniaroAd
       >>
     }
     \layout {}
@@ -240,10 +240,10 @@ liniaroAd =
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1  Gralla 2" shortInstrumentName = #"G"} \liniaroAa
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
-        \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAc
-        \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAd
+        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
+        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
+        \new DrumStaff \with {instrumentName = #"Timbal 1" shortInstrumentName = #"T"} \liniaroAc
+        \new DrumStaff \with {instrumentName = #"Timbal 2" shortInstrumentName = #"T"} \liniaroAd
       >>
     }
     \midi {
@@ -254,7 +254,7 @@ liniaroAd =
 }
 
 \bookpart {
-  \header {instrument="Gralla 1  Gralla 2"}
+  \header {instrument="Gralla 1"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT
@@ -279,7 +279,7 @@ liniaroAd =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {instrument="Gralla 2"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT
@@ -304,7 +304,7 @@ liniaroAd =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {instrument="Timbal 1"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT
@@ -329,7 +329,7 @@ liniaroAd =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {instrument="Timbal 2"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT

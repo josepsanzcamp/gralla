@@ -5,14 +5,14 @@
   title="Xotis"
   subtitle="Jotis plus"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Toni codina, gener 1998"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

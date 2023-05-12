@@ -5,14 +5,14 @@
   title="Ball de gegants"
   subtitle="Albertina"
   subsubtitle="Sardana curta del gegants de Navata"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Albert Cuevas"
   arranger="Arr. Perepau Jiménez, 1989"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

@@ -6,13 +6,13 @@
   subtitle="Suite de festa"
   subsubtitle="sobre un tema popular, per a tres gralles i timbal"
   poet="1. Toc de festa"
-  meter=""
+  meter="gralla.skamot.com"
   piece=""
   composer="Pep Coca, 1991"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

@@ -5,14 +5,14 @@
   title="Bestiari"
   subtitle="Cançó del drac"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Esteve Guardiola"
   arranger="Vilassar de Mar"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 
@@ -365,12 +365,12 @@ liniaroAf =
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralles1" shortInstrumentName = #"G"} \liniaroAa
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAc
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAd
-        \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAe
-        \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAf
+        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
+        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
+        \new Staff \with {instrumentName = #"Gralla 3" shortInstrumentName = #"G"} \liniaroAc
+        \new Staff \with {instrumentName = #"Gralla 4" shortInstrumentName = #"G"} \liniaroAd
+        \new DrumStaff \with {instrumentName = #"Timbal 1" shortInstrumentName = #"T"} \liniaroAe
+        \new DrumStaff \with {instrumentName = #"Timbal 2" shortInstrumentName = #"T"} \liniaroAf
       >>
     }
     \layout {}
@@ -379,12 +379,12 @@ liniaroAf =
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralles1" shortInstrumentName = #"G"} \liniaroAa
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAc
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAd
-        \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAe
-        \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAf
+        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
+        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
+        \new Staff \with {instrumentName = #"Gralla 3" shortInstrumentName = #"G"} \liniaroAc
+        \new Staff \with {instrumentName = #"Gralla 4" shortInstrumentName = #"G"} \liniaroAd
+        \new DrumStaff \with {instrumentName = #"Timbal 1" shortInstrumentName = #"T"} \liniaroAe
+        \new DrumStaff \with {instrumentName = #"Timbal 2" shortInstrumentName = #"T"} \liniaroAf
       >>
     }
     \midi {
@@ -395,7 +395,7 @@ liniaroAf =
 }
 
 \bookpart {
-  \header {instrument="Gralles1"}
+  \header {instrument="Gralla 1"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT
@@ -420,7 +420,7 @@ liniaroAf =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {instrument="Gralla 2"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT
@@ -445,7 +445,7 @@ liniaroAf =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {instrument="Gralla 3"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT
@@ -470,7 +470,7 @@ liniaroAf =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {instrument="Gralla 4"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT
@@ -495,7 +495,7 @@ liniaroAf =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {instrument="Timbal 1"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT
@@ -520,7 +520,7 @@ liniaroAf =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {instrument="Timbal 2"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT

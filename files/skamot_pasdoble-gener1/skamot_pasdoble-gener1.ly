@@ -5,14 +5,14 @@
   title="Pasdoble"
   subtitle="Gener"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="M. Rius"
   arranger="Timbal: Albert Garcia"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

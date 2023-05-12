@@ -5,14 +5,14 @@
   title="Nadala"
   subtitle="Avinguda d'estreles"
   subsubtitle="(nadalenca torrentina)"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Luís Sanz Ruiz"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

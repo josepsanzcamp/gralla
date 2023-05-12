@@ -5,14 +5,14 @@
   title="Sardana curta"
   subtitle="Bellcaire, ni poc ni gaire"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Toni Codina, 1998"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

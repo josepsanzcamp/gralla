@@ -6,13 +6,13 @@
   subtitle="Ball de l'indiot"
   subsubtitle=""
   poet="Solemne"
-  meter=""
+  meter="gralla.skamot.com"
   piece=""
   composer="Josep Prats i Tarsà"
   arranger="Nulles - juny de 2003"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

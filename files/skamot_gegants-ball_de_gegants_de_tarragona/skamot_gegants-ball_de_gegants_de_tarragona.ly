@@ -5,14 +5,14 @@
   title="Ball de gegants"
   subtitle="Ball de gegants de Tarragona"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Tarragona"
   arranger="Anònim - Arr. Xavier Fort"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

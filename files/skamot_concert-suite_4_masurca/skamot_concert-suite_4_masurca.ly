@@ -6,13 +6,13 @@
   subtitle="Suite de festa"
   subsubtitle="Sobre un tema popular, per a tres gralles i un timbal"
   poet="4. Masurca"
-  meter=""
+  meter="gralla.skamot.com"
   piece=""
   composer="Pep Coca, 1991"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

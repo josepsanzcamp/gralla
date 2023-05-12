@@ -5,14 +5,14 @@
   title="Ball de panderos"
   subtitle="Ball de panderos de Vilafranca"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="L'Alt Penedès"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 
@@ -126,7 +126,7 @@ liniaroAb =
       \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
+        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
       >>
     }
     \layout {}
@@ -136,7 +136,7 @@ liniaroAb =
       \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
-        \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
+        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
       >>
     }
     \midi {
@@ -172,7 +172,7 @@ liniaroAb =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {instrument="Gralla 2"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT

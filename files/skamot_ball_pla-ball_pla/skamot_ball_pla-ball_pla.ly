@@ -5,14 +5,14 @@
   title="Ball pla"
   subtitle="Ball pla"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer=""
   arranger="diverses poblacions"
   opus="de les comarques septentrionals"
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

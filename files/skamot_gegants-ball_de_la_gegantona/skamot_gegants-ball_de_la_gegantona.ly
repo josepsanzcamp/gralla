@@ -5,14 +5,14 @@
   title="Gegants"
   subtitle="Ball de la gegantona"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer=""
   arranger=""
   opus="Vilassar de Mar"
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

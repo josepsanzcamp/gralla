@@ -5,14 +5,14 @@
   title="Ball pla"
   subtitle="Ball pla d'Esterri d'Àneu"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer=""
   arranger=""
   opus="El Pallars Sobirà"
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

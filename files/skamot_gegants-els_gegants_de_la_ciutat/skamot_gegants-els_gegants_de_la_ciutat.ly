@@ -5,14 +5,14 @@
   title="Gegants"
   subtitle="Els Gegants de la Ciutat"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Xavier Muixench"
   arranger="Arr. Quim Soler"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

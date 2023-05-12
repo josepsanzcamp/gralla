@@ -5,14 +5,14 @@
   title="Marxa mora"
   subtitle="Marxa mora"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Xavier Richart"
   arranger="Arr. Ramon Güell"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

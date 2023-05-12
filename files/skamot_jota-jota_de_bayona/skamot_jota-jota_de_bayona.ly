@@ -5,14 +5,14 @@
   title="Jota"
   subtitle="Jota de Bayona"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Lapurdi, Euskadi"
   arranger="del repertori de M. Elizaga"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

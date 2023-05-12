@@ -5,14 +5,14 @@
   title="Processó"
   subtitle="Marxa regular"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Josep Olivella, març de 1895"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

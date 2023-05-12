@@ -5,14 +5,14 @@
   title="Gegants"
   subtitle="Ball de gegants de Corbera de Llobregat"
   subsubtitle="Dedicat a la Magdalena i l'Antoni en el seu Xè aniversari"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Ramon Solé i Miralles, juny de 2005"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

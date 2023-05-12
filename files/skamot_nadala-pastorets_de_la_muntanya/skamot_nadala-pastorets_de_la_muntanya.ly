@@ -5,14 +5,14 @@
   title="Nadala"
   subtitle="Pastorets de la muntanya"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Arr. Marcel Casellas"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

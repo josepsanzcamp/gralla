@@ -5,14 +5,14 @@
   title="Tocs tradicionals"
   subtitle="Ofertori"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="El Vendrell-Vilafranca"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

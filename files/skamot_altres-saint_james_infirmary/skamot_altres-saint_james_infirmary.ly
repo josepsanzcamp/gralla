@@ -5,14 +5,14 @@
   title="Blues"
   subtitle="Saint James Infirmary"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="W. C. Hardy"
   arranger="Arr. Enric Montsant i Damià"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 
@@ -167,9 +167,9 @@ liniaroAd =
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G.1"} \liniaroAa
-        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G.2"} \liniaroAb
-        \new Staff \with {instrumentName = #"Gralla 3" shortInstrumentName = #"G.3"} \liniaroAc
+        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
+        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
+        \new Staff \with {instrumentName = #"Gralla 3" shortInstrumentName = #"G"} \liniaroAc
         \new DrumStaff \with {instrumentName = #"Timbal" shortInstrumentName = #"T"} \liniaroAd
       >>
     }
@@ -179,9 +179,9 @@ liniaroAd =
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G.1"} \liniaroAa
-        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G.2"} \liniaroAb
-        \new Staff \with {instrumentName = #"Gralla 3" shortInstrumentName = #"G.3"} \liniaroAc
+        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
+        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
+        \new Staff \with {instrumentName = #"Gralla 3" shortInstrumentName = #"G"} \liniaroAc
         \new DrumStaff \with {instrumentName = #"Timbal" shortInstrumentName = #"T"} \liniaroAd
       >>
     }

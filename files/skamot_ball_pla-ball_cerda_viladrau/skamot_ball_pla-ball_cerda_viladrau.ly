@@ -5,14 +5,14 @@
   title="Ball pla"
   subtitle="Ball cerdà de Viladrau"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer=""
   arranger=""
   opus="Les Guilleries"
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

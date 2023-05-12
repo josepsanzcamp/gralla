@@ -5,14 +5,14 @@
   title="Ball de panderos"
   subtitle="Ball de panderos de Vilanova"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="El Garraf"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

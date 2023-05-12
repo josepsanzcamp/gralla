@@ -5,14 +5,14 @@
   title="Marxa mora"
   subtitle="Xavier el Coixo"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="País Valencià"
   arranger="Arr. Enric Montsant"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

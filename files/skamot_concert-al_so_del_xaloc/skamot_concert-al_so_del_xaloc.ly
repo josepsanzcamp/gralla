@@ -5,14 +5,14 @@
   title="Peces de concert"
   subtitle="Al so del xaloc"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Arturo España, pare i fill"
   arranger="Per a la colla Xaloc de Castelló de la Plana"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

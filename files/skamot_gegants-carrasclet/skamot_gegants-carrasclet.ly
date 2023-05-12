@@ -5,14 +5,14 @@
   title="Ball de gegants"
   subtitle="Carrasclet"
   subsubtitle="Ball per a un guerriller català gegant"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Biel Ferré i Puig"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

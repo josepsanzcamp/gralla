@@ -5,14 +5,14 @@
   title="Pasdoble"
   subtitle="Música per a les vesprades"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Francesc Alexandri, 1998"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

@@ -5,14 +5,14 @@
   title="Marxa cristiana"
   subtitle="Cotes"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Xavier Richart"
   arranger="La Ribera Alta"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 
@@ -283,8 +283,8 @@ liniaroAb =
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G.1"} \liniaroAa
-        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G.2"} \liniaroAb
+        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
+        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
       >>
     }
     \layout {}
@@ -293,8 +293,8 @@ liniaroAb =
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
-        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G.1"} \liniaroAa
-        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G.2"} \liniaroAb
+        \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
+        \new Staff \with {instrumentName = #"Gralla 2" shortInstrumentName = #"G"} \liniaroAb
       >>
     }
     \midi {

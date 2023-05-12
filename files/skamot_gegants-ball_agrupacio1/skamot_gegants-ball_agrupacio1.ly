@@ -5,14 +5,14 @@
   title="Gegants"
   subtitle="Ball dels gegants de l'Agrupació"
   subsubtitle="Introducció"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Jordi Fàbregas"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

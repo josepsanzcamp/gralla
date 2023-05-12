@@ -5,14 +5,14 @@
   title="Pasdoble"
   subtitle="El Bequetero"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Gustavo Pasqual Falcó"
   arranger="Arr. Xavier Richart"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

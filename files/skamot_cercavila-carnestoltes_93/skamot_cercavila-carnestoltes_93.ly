@@ -5,14 +5,14 @@
   title="Cercavila"
   subtitle="Carnestoltes-93"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Enric Montsant"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

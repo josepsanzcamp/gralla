@@ -5,14 +5,14 @@
   title="Sardana"
   subtitle="L'hort de l'abadia"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Jaume Vidal i Vidal, 1986"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

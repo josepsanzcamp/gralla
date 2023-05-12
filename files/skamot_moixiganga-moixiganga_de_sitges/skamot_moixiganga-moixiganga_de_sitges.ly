@@ -5,14 +5,14 @@
   title="Moixiganga"
   subtitle="Moixiganga de Sitges"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="El Baix Penedès"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

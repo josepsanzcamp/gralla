@@ -5,14 +5,14 @@
   title=""
   subtitle="La Balanguera"
   subsubtitle="(Himne de Mallorca)"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Música: Amadeu Vives"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

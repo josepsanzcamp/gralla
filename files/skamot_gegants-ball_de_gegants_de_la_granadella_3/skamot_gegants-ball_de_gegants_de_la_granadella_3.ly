@@ -5,14 +5,14 @@
   title="Ball de gegants"
   subtitle="Ball de gegants de la Granadella"
   subsubtitle="Corrandes de Silono"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Eduard Iniesta i Torres"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

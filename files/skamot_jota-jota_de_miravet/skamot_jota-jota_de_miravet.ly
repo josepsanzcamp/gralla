@@ -5,14 +5,14 @@
   title="Jota"
   subtitle="Jota de Miravet"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="La Ribera d'Ebre"
   arranger="Arr. Joan Moliner"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

@@ -5,14 +5,14 @@
   title="Ball de bastons"
   subtitle="Ball de bastons de Mollerussa"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="El Pla d'Urgell"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

@@ -5,14 +5,14 @@
   title="Masurca"
   subtitle="Masurca del Tio Bartolo"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Aragó"
   arranger="del repertori de José Sancho, \"Tío Bartolo\""
   opus="Arr. Blas Coscollar"
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

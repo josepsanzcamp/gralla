@@ -5,14 +5,14 @@
   title="Moixiganga"
   subtitle="Muixeranga d'Algemesí"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="La Ribera"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

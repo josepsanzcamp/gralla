@@ -5,14 +5,14 @@
   title="Bolero"
   subtitle="Bolero de ses dues voltes"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Pep Toni Rubio"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

@@ -123,7 +123,7 @@ liniaroAa =
   \new StaffGroup {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
     <<
-      \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAa
+      \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
     >>
   }
   \layout {}
@@ -132,7 +132,7 @@ liniaroAa =
   \new StaffGroup {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
     <<
-      \new Staff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAa
+      \new Staff \with {instrumentName = #"Gralla 1" shortInstrumentName = #"G"} \liniaroAa
     >>
   }
   \midi {

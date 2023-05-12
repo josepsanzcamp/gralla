@@ -5,14 +5,14 @@
   title="Bestiari"
   subtitle="Ball de l'anguila Murtrassa"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Ramon Solé i Miralles"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

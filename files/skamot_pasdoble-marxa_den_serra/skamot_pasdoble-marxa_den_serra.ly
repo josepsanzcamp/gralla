@@ -5,14 +5,14 @@
   title="Pasdoble"
   subtitle="Marxa d'en Serra"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Joan Serra"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

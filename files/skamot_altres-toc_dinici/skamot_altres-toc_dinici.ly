@@ -5,14 +5,14 @@
   title=""
   subtitle="Toc d'inici"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Anònim"
   arranger="Arr. Jordi Fàbregas"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

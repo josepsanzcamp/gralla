@@ -5,14 +5,14 @@
   title="Bestiari"
   subtitle="Su"
   subsubtitle="Cuca fera de les Piles de Gaià"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Sergi Carreras"
   arranger="Arr. Sònia Dallà"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

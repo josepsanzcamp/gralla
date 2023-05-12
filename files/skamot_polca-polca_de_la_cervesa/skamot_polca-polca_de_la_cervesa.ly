@@ -5,14 +5,14 @@
   title="Polca"
   subtitle="Polca de la cervesa"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Jaromír Vejvoda"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

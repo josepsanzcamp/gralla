@@ -5,14 +5,14 @@
   title="Xotis"
   subtitle="Xotis del Tio Caramba"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="del repertori de Casimiro Anadón"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 
@@ -116,7 +116,7 @@ liniaroAb =
       \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \with {instrumentName = #"Gralla" shortInstrumentName = #"G"} \liniaroAa
-        \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
+        \new DrumStaff \with {instrumentName = #"Timbal" shortInstrumentName = #"T"} \liniaroAb
       >>
     }
     \layout {}
@@ -126,7 +126,7 @@ liniaroAb =
       \override Score.RehearsalMark.self-alignment-X = #LEFT
       <<
         \new Staff \with {instrumentName = #"Gralla" shortInstrumentName = #"G"} \liniaroAa
-        \new DrumStaff \with {instrumentName = #"" shortInstrumentName = #" "} \liniaroAb
+        \new DrumStaff \with {instrumentName = #"Timbal" shortInstrumentName = #"T"} \liniaroAb
       >>
     }
     \midi {
@@ -162,7 +162,7 @@ liniaroAb =
 }
 
 \bookpart {
-  \header {instrument=""}
+  \header {instrument="Timbal"}
   \score {
     \new StaffGroup {
       \override Score.RehearsalMark.self-alignment-X = #LEFT

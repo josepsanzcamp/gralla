@@ -5,14 +5,14 @@
   title="Ball de bastons"
   subtitle="La Boja de Ribes"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Arr. Anna Riera"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

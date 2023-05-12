@@ -5,14 +5,14 @@
   title="Dimonis"
   subtitle="Ball de diables de Montornès"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Enric Montsant i Damià"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

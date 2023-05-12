@@ -5,14 +5,14 @@
   title="Ball de bastons"
   subtitle="Ball de bastons d'Arbeca (2)"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Les Garrigues"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

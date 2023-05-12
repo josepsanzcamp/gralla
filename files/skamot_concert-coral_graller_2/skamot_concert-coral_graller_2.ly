@@ -5,14 +5,14 @@
   title="Concert"
   subtitle="Coral graller número 2"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Marcel Casellas, 2001"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

@@ -5,14 +5,14 @@
   title="Ball de gegants"
   subtitle="Gegants de Benetússer"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Emili Borja Reig"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

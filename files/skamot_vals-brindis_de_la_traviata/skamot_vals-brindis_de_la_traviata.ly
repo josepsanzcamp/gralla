@@ -5,14 +5,14 @@
   title="Vals"
   subtitle="Brindis"
   subsubtitle="La Traviata"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="G. Verdi"
   arranger="Arr. Joan Moliner"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

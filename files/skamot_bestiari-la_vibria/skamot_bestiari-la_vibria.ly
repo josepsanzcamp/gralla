@@ -5,14 +5,14 @@
   title="Bestiari"
   subtitle="La Víbria"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer=""
   arranger=""
   opus="Melodia: Quim Soler"
   instrument="Percussió: Jaume Vendrell"
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

@@ -5,14 +5,14 @@
   title="Ball de gitanes"
   subtitle="Ball de gitanes de Sant Celoni"
   subsubtitle="Polca"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="El Vallès Oriental"
   arranger="Arr. Marcel Casellas"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

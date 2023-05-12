@@ -5,14 +5,14 @@
   title="Gegants"
   subtitle="Ball de gegants del Maresme"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Aniol Noguera/Santi Prat"
   arranger="Maig de 2002"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

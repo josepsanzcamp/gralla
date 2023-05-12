@@ -5,14 +5,14 @@
   title="Pasdoble"
   subtitle="Karik"
   subsubtitle="en memòria del dolçainer Vicent Barberà Valls, \"Karik\""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Paco Magnieto"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

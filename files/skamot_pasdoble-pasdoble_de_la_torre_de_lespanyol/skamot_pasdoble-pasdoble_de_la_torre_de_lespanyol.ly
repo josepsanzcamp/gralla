@@ -5,14 +5,14 @@
   title="Pasdoble"
   subtitle="Pasdoble de la Torre de l'Espanyol"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Timbal: Albert Garcia"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

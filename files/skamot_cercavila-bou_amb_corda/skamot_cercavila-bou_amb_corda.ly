@@ -5,14 +5,14 @@
   title="Cercavila"
   subtitle="Bou amb corda"
   subsubtitle="del repertori de Joan Blasco"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Moixent"
   arranger="Arr. Xavier Richart"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

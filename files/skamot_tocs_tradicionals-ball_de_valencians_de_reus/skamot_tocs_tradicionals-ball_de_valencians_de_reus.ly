@@ -5,14 +5,14 @@
   title="Tocs tradicionals"
   subtitle="Ball de valencians de Reus"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer=""
   arranger=""
   opus="El Baix Camp"
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

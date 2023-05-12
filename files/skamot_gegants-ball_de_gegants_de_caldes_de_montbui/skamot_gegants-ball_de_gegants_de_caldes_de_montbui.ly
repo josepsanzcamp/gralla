@@ -5,14 +5,14 @@
   title=""
   subtitle="Ball de gegants de Caldes de Montbui"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Ramon Solé"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

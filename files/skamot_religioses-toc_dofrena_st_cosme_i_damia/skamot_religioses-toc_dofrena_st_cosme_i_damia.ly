@@ -5,14 +5,14 @@
   title="Religioses"
   subtitle="Toc d'ofrena a Sant Cosme i Sant Damià"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Josep M. Mayol"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

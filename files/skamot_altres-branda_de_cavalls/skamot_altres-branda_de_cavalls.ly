@@ -5,14 +5,14 @@
   title=""
   subtitle="Branda de cavalls"
   subsubtitle="(Brandle des chevals)"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Medieval francesa"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

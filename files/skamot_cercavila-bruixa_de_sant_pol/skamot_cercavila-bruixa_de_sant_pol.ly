@@ -5,14 +5,14 @@
   title="Cercavila"
   subtitle="La Bruixa"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Ferran Puigvert i Joan Talamàs"
   arranger="Arr. Aniol Noguera"
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

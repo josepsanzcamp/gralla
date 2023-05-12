@@ -5,14 +5,14 @@
   title="Gegants"
   subtitle="El gegant del Pi"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Barcelona"
   arranger="Arr. Jordi Fàbregas, 23/IX/93"
   opus="Timbal: Albert Garcia"
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

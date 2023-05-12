@@ -5,14 +5,14 @@
   title="Xotis"
   subtitle="La relliscada"
   subsubtitle=""
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Arr. Marcel Casellas"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 

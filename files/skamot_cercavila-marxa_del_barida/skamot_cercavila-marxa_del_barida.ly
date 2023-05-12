@@ -5,14 +5,14 @@
   title="Cercavila"
   subtitle=""
   subsubtitle="Marxa del Baridà"
-  poet=""
+  poet="gralla.skamot.com"
   meter=""
   piece=""
   composer="Pep Lizandra"
   arranger=""
   opus=""
   instrument=""
-  copyright="gralla.skamot.com"
+  copyright=""
   tagline=""
 }
 
