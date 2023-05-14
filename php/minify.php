@@ -24,7 +24,7 @@ function css_minify($data)
     do {
         $data = str_replace("  ", " ", $data, $count);
     } while ($count);
-    foreach (array(":",";","{","}",",") as $temp) {
+    foreach (array(";","{","}",",") as $temp) {
         $data = str_replace(array(" " . $temp . " "," " . $temp,$temp . " "), $temp, $data);
     }
     $data = trim($data);
