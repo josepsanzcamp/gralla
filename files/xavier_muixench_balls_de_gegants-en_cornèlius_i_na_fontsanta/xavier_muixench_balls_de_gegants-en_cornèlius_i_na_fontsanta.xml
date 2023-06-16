@@ -8,7 +8,7 @@
  <identification>
   <creator type="composer">B. Xavier Muixench i Maspons (1997)</creator>
   <encoding>
-   <encoding-date>2023-01-09</encoding-date>
+   <encoding-date>2023-06-15</encoding-date>
    <encoder>XavTher HerMuix i FP</encoder>
    <software>Sibelius 7.1.3</software>
    <software>Direct export, not from Dolet</software>
@@ -1924,8 +1924,17 @@ Na Fontsanta
    </attributes>
    <direction>
     <direction-type>
-     <words default-y="56" justify="left" valign="middle" font-family="Plantin MT Std" font-style="normal" font-size="11.9365" font-weight="normal">Presentació</words>
-     <words justify="left" valign="middle" font-family="Plantin MT Std" font-style="normal" font-size="11.9365" font-weight="normal">del Gegant</words>
+     <words default-y="66" justify="left" valign="middle" font-family="Plantin MT Std" font-style="normal" font-size="11.9365" font-weight="normal">Presentació del Gegant</words>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <metronome default-y="29" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="13.0217" font-weight="normal">
+      <beat-unit>quarter</beat-unit>
+      <per-minute>120</per-minute>
+     </metronome>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
@@ -1972,17 +1981,6 @@ Na Fontsanta
     <staff>1</staff>
     <beam number="1">begin</beam>
    </note>
-   <direction>
-    <direction-type>
-     <metronome default-y="29" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="13.0217" font-weight="normal">
-      <beat-unit>quarter</beat-unit>
-      <per-minute>150</per-minute>
-     </metronome>
-    </direction-type>
-    <offset sound="no">85</offset>
-    <voice>1</voice>
-    <staff>1</staff>
-   </direction>
    <note color="#000000" default-x="171" default-y="-39">
     <pitch>
      <step>E</step>
@@ -2876,7 +2874,17 @@ Na Fontsanta
    </attributes>
    <direction>
     <direction-type>
-     <words default-y="28" justify="left" valign="middle" font-family="Plantin MT Std" font-style="normal" font-size="11.9365" font-weight="normal">Ball conjunt</words>
+     <words default-y="45" justify="left" valign="middle" font-family="Plantin MT Std" font-style="normal" font-size="11.9365" font-weight="normal">Ball conjunt</words>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <metronome default-y="8" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="13.0217" font-weight="normal">
+      <beat-unit>quarter</beat-unit>
+      <per-minute>190</per-minute>
+     </metronome>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
@@ -2894,17 +2902,6 @@ Na Fontsanta
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <direction>
-    <direction-type>
-     <metronome default-y="27" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="13.0217" font-weight="normal">
-      <beat-unit>quarter</beat-unit>
-      <per-minute>190</per-minute>
-     </metronome>
-    </direction-type>
-    <offset sound="no">255</offset>
-    <voice>1</voice>
-    <staff>1</staff>
-   </direction>
    <note color="#000000" default-x="179" default-y="-45">
     <pitch>
      <step>D</step>
@@ -3461,7 +3458,7 @@ Na Fontsanta
    </note>
   </measure>
   <!--============== Part: P1, Measure: 69 ==============-->
-  <measure number="69" width="115">
+  <measure number="69" width="114">
    <note color="#000000" default-x="15" default-y="-20">
     <pitch>
      <step>B</step>
@@ -3625,13 +3622,20 @@ Na Fontsanta
    </note>
   </measure>
   <!--============== Part: P1, Measure: 73 ==============-->
-  <measure number="73" width="115">
+  <measure number="73" width="118">
    <direction>
     <direction-type>
      <words default-x="2" justify="left" valign="middle" font-style="normal" font-weight="normal">rit.</words>
     </direction-type>
     <staff>1</staff>
    </direction>
+   <harmony color="#000000" default-y="25">
+    <root>
+     <root-step>A</root-step>
+    </root>
+    <kind>minor</kind>
+    <staff>1</staff>
+   </harmony>
    <note color="#000000" default-x="15" default-y="-50">
     <pitch>
      <step>C</step>
@@ -3645,7 +3649,14 @@ Na Fontsanta
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="49" default-y="-50">
+   <harmony color="#000000" default-y="25">
+    <root>
+     <root-step>A</root-step>
+    </root>
+    <kind>major</kind>
+    <staff>1</staff>
+   </harmony>
+   <note color="#000000" default-x="50" default-y="-50">
     <pitch>
      <step>C</step>
      <alter>1</alter>
@@ -3659,7 +3670,14 @@ Na Fontsanta
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="82" default-y="-35">
+   <harmony color="#000000" default-y="25">
+    <root>
+     <root-step>B</root-step>
+    </root>
+    <kind>minor</kind>
+    <staff>1</staff>
+   </harmony>
+   <note color="#000000" default-x="84" default-y="-35">
     <pitch>
      <step>F</step>
      <alter>1</alter>
@@ -3674,8 +3692,16 @@ Na Fontsanta
    </note>
   </measure>
   <!--============== Part: P1, Measure: 74 ==============-->
-  <measure number="74" width="120">
-   <note color="#000000" default-x="18" default-y="-40">
+  <measure number="74" width="118">
+   <harmony color="#000000" default-y="25">
+    <root>
+     <root-step>C</root-step>
+     <root-alter>1</root-alter>
+    </root>
+    <kind>major</kind>
+    <staff>1</staff>
+   </harmony>
+   <note color="#000000" default-x="15" default-y="-40">
     <pitch>
      <step>E</step>
      <alter>1</alter>
@@ -3689,7 +3715,14 @@ Na Fontsanta
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="53" default-y="-35">
+   <harmony color="#000000" default-y="25">
+    <root>
+     <root-step>D</root-step>
+    </root>
+    <kind>major</kind>
+    <staff>1</staff>
+   </harmony>
+   <note color="#000000" default-x="50" default-y="-35">
     <pitch>
      <step>F</step>
      <alter>1</alter>
@@ -3702,7 +3735,14 @@ Na Fontsanta
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="86" default-y="-30">
+   <harmony color="#000000" default-y="25">
+    <root>
+     <root-step>E</root-step>
+    </root>
+    <kind>major</kind>
+    <staff>1</staff>
+   </harmony>
+   <note color="#000000" default-x="84" default-y="-30">
     <pitch>
      <step>G</step>
      <alter>1</alter>
@@ -4725,7 +4765,17 @@ Na Fontsanta
    </attributes>
    <direction>
     <direction-type>
-     <words default-y="28" justify="left" valign="middle" font-family="Plantin MT Std" font-style="normal" font-size="11.9365" font-weight="normal">Corranda final</words>
+     <words default-y="8" justify="left" valign="middle" font-family="Plantin MT Std" font-style="normal" font-size="11.9365" font-weight="normal">Corranda final</words>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <metronome default-y="30" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="13.0217" font-weight="normal">
+      <beat-unit>quarter</beat-unit>
+      <per-minute>140</per-minute>
+     </metronome>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
@@ -8757,7 +8807,7 @@ Na Fontsanta
    </note>
   </measure>
   <!--============== Part: P2, Measure: 69 ==============-->
-  <measure number="69" width="115">
+  <measure number="69" width="114">
    <note color="#000000" default-x="15" default-y="10">
     <pitch>
      <step>A</step>
@@ -8890,7 +8940,7 @@ Na Fontsanta
    </note>
   </measure>
   <!--============== Part: P2, Measure: 73 ==============-->
-  <measure number="73" width="115">
+  <measure number="73" width="118">
    <note color="#000000" default-x="15">
     <pitch>
      <step>F</step>
@@ -8904,7 +8954,7 @@ Na Fontsanta
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="49" default-y="5">
+   <note color="#000000" default-x="50" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -8916,7 +8966,7 @@ Na Fontsanta
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="82" default-y="10">
+   <note color="#000000" default-x="84" default-y="10">
     <pitch>
      <step>A</step>
      <octave>4</octave>
@@ -8930,8 +8980,8 @@ Na Fontsanta
    </note>
   </measure>
   <!--============== Part: P2, Measure: 74 ==============-->
-  <measure number="74" width="120">
-   <note color="#000000" default-x="18" default-y="5">
+  <measure number="74" width="118">
+   <note color="#000000" default-x="15" default-y="5">
     <pitch>
      <step>G</step>
      <alter>1</alter>
@@ -8945,9 +8995,10 @@ Na Fontsanta
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="53" default-y="10">
+   <note color="#000000" default-x="50" default-y="5">
     <pitch>
-     <step>A</step>
+     <step>G</step>
+     <alter>1</alter>
      <octave>4</octave>
     </pitch>
     <duration>256</duration>
@@ -8957,9 +9008,9 @@ Na Fontsanta
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="86" default-y="-55">
+   <note color="#000000" default-x="84" default-y="10">
     <pitch>
-     <step>B</step>
+     <step>A</step>
      <octave>4</octave>
     </pitch>
     <duration>256</duration>
@@ -8967,7 +9018,7 @@ Na Fontsanta
     <instrument id="P2-I1" />
     <voice>1</voice>
     <type>quarter</type>
-    <stem>down</stem>
+    <stem>up</stem>
     <staff>1</staff>
     <notations>
      <tied type="start" />
@@ -8976,9 +9027,9 @@ Na Fontsanta
   </measure>
   <!--============== Part: P2, Measure: 75 ==============-->
   <measure number="75" width="93">
-   <note color="#000000" default-x="15" default-y="-55">
+   <note color="#000000" default-x="15" default-y="10">
     <pitch>
-     <step>B</step>
+     <step>A</step>
      <octave>4</octave>
     </pitch>
     <duration>768</duration>
@@ -8987,7 +9038,7 @@ Na Fontsanta
     <voice>1</voice>
     <type>half</type>
     <dot />
-    <stem>down</stem>
+    <stem>up</stem>
     <staff>1</staff>
     <notations>
      <tied type="stop" />
@@ -14135,7 +14186,7 @@ Na Fontsanta
    </note>
   </measure>
   <!--============== Part: P3, Measure: 69 ==============-->
-  <measure number="69" width="115">
+  <measure number="69" width="114">
    <note color="#000000" default-x="15" default-y="-5">
     <pitch>
      <step>E</step>
@@ -14291,7 +14342,7 @@ Na Fontsanta
    </note>
   </measure>
   <!--============== Part: P3, Measure: 73 ==============-->
-  <measure number="73" width="115">
+  <measure number="73" width="118">
    <note color="#000000" default-x="15" default-y="-10">
     <pitch>
      <step>D</step>
@@ -14304,7 +14355,7 @@ Na Fontsanta
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="49" default-y="-10">
+   <note color="#000000" default-x="50" default-y="-10">
     <pitch>
      <step>D</step>
      <octave>4</octave>
@@ -14316,7 +14367,7 @@ Na Fontsanta
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="82" default-y="-5">
+   <note color="#000000" default-x="84" default-y="-5">
     <pitch>
      <step>E</step>
      <octave>4</octave>
@@ -14330,35 +14381,32 @@ Na Fontsanta
    </note>
   </measure>
   <!--============== Part: P3, Measure: 74 ==============-->
-  <measure number="74" width="120">
-   <note color="#000000" default-x="18" default-y="-15">
+  <measure number="74" width="118">
+   <note color="#000000" default-x="15" default-y="-20">
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P3-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="50" default-y="-15">
     <pitch>
      <step>C</step>
-     <alter>1</alter>
      <octave>4</octave>
     </pitch>
     <duration>256</duration>
     <instrument id="P3-I1" />
     <voice>1</voice>
     <type>quarter</type>
-    <accidental>sharp</accidental>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="53" default-y="-15">
-    <pitch>
-     <step>C</step>
-     <octave>4</octave>
-    </pitch>
-    <duration>256</duration>
-    <instrument id="P3-I1" />
-    <voice>1</voice>
-    <type>quarter</type>
-    <accidental>natural</accidental>
-    <stem>up</stem>
-    <staff>1</staff>
-   </note>
-   <note color="#000000" default-x="86" default-y="-10">
+   <note color="#000000" default-x="84" default-y="-10">
     <pitch>
      <step>D</step>
      <octave>4</octave>
@@ -17920,7 +17968,7 @@ Na Fontsanta
      </ornaments>
     </notations>
    </note>
-   <note color="#000000" default-x="75" default-y="35">
+   <note color="#000000" default-x="75" default-y="42">
     <unpitched>
      <display-step>E</display-step>
      <display-octave>4</display-octave>
@@ -17934,12 +17982,15 @@ Na Fontsanta
     <staff>1</staff>
     <notations>
      <tied type="start" />
+     <ornaments>
+      <tremolo type="single">3</tremolo>
+     </ornaments>
     </notations>
    </note>
   </measure>
   <!--============== Part: P4, Measure: 25 ==============-->
   <measure number="25" width="121">
-   <note color="#000000" default-x="15" default-y="35">
+   <note color="#000000" default-x="15" default-y="42">
     <unpitched>
      <display-step>E</display-step>
      <display-octave>4</display-octave>
@@ -17953,6 +18004,9 @@ Na Fontsanta
     <staff>1</staff>
     <notations>
      <tied type="stop" />
+     <ornaments>
+      <tremolo type="single">3</tremolo>
+     </ornaments>
     </notations>
    </note>
    <note color="#000000" default-x="50" default-y="35">
@@ -20117,7 +20171,7 @@ Na Fontsanta
    </note>
   </measure>
   <!--============== Part: P4, Measure: 69 ==============-->
-  <measure number="69" width="115">
+  <measure number="69" width="114">
    <note default-x="15">
     <rest />
     <duration>256</duration>
@@ -20257,7 +20311,7 @@ Na Fontsanta
    </note>
   </measure>
   <!--============== Part: P4, Measure: 73 ==============-->
-  <measure number="73" width="115">
+  <measure number="73" width="118">
    <note default-x="15">
     <rest />
     <duration>256</duration>
@@ -20266,7 +20320,7 @@ Na Fontsanta
     <type>quarter</type>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="49" default-y="35">
+   <note color="#000000" default-x="50" default-y="35">
     <unpitched>
      <display-step>E</display-step>
      <display-octave>4</display-octave>
@@ -20278,7 +20332,7 @@ Na Fontsanta
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="82" default-y="35">
+   <note color="#000000" default-x="84" default-y="35">
     <unpitched>
      <display-step>E</display-step>
      <display-octave>4</display-octave>
@@ -20292,8 +20346,8 @@ Na Fontsanta
    </note>
   </measure>
   <!--============== Part: P4, Measure: 74 ==============-->
-  <measure number="74" width="120">
-   <note default-x="18">
+  <measure number="74" width="118">
+   <note default-x="15">
     <rest />
     <duration>256</duration>
     <instrument id="P4-I1" />
@@ -20301,7 +20355,7 @@ Na Fontsanta
     <type>quarter</type>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="53" default-y="35">
+   <note color="#000000" default-x="50" default-y="35">
     <unpitched>
      <display-step>E</display-step>
      <display-octave>4</display-octave>
@@ -20313,7 +20367,7 @@ Na Fontsanta
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="86" default-y="42">
+   <note color="#000000" default-x="84" default-y="42">
     <unpitched>
      <display-step>E</display-step>
      <display-octave>4</display-octave>
@@ -21609,17 +21663,76 @@ Na Fontsanta
      <display-step>E</display-step>
      <display-octave>4</display-octave>
     </unpitched>
-    <duration>768</duration>
+    <duration>512</duration>
     <instrument id="P4-I1" />
     <voice>1</voice>
     <type>half</type>
-    <dot />
     <stem>up</stem>
     <staff>1</staff>
     <notations>
      <ornaments>
       <tremolo type="single">3</tremolo>
      </ornaments>
+    </notations>
+   </note>
+   <note color="#000000" default-x="159" default-y="32">
+    <unpitched>
+     <display-step>E</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>85</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+     <normal-type>eighth</normal-type>
+    </time-modification>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet type="start" bracket="no" number="1" />
+    </notations>
+   </note>
+   <note color="#000000" default-x="186" default-y="32">
+    <unpitched>
+     <display-step>E</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>85</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+     <normal-type>eighth</normal-type>
+    </time-modification>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+   </note>
+   <note color="#000000" default-x="212" default-y="32">
+    <unpitched>
+     <display-step>E</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>86</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+     <normal-type>eighth</normal-type>
+    </time-modification>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet type="stop" bracket="no" number="1" />
     </notations>
    </note>
   </measure>
@@ -21631,7 +21744,7 @@ Na Fontsanta
      <beat-type>4</beat-type>
     </time>
    </attributes>
-   <note color="#000000" default-x="33" default-y="35">
+   <note color="#000000" default-x="33" default-y="50">
     <unpitched>
      <display-step>E</display-step>
      <display-octave>4</display-octave>
@@ -21642,6 +21755,11 @@ Na Fontsanta
     <type>quarter</type>
     <stem>up</stem>
     <staff>1</staff>
+    <notations>
+     <ornaments>
+      <tremolo type="single">4</tremolo>
+     </ornaments>
+    </notations>
    </note>
    <note color="#000000" default-x="79" default-y="32">
     <unpitched>
@@ -21706,7 +21824,7 @@ Na Fontsanta
   </measure>
   <!--============== Part: P4, Measure: 91 ==============-->
   <measure number="91" width="140">
-   <note color="#000000" default-x="15" default-y="35">
+   <note color="#000000" default-x="15" default-y="50">
     <unpitched>
      <display-step>E</display-step>
      <display-octave>4</display-octave>
@@ -21717,6 +21835,11 @@ Na Fontsanta
     <type>quarter</type>
     <stem>up</stem>
     <staff>1</staff>
+    <notations>
+     <ornaments>
+      <tremolo type="single">4</tremolo>
+     </ornaments>
+    </notations>
    </note>
    <note color="#000000" default-x="60" default-y="32">
     <unpitched>
@@ -21911,7 +22034,7 @@ Na Fontsanta
   </measure>
   <!--============== Part: P4, Measure: 94 ==============-->
   <measure number="94" width="163">
-   <note color="#000000" default-x="15" default-y="35">
+   <note color="#000000" default-x="15" default-y="50">
     <unpitched>
      <display-step>E</display-step>
      <display-octave>4</display-octave>
@@ -21922,6 +22045,11 @@ Na Fontsanta
     <type>quarter</type>
     <stem>up</stem>
     <staff>1</staff>
+    <notations>
+     <ornaments>
+      <tremolo type="single">4</tremolo>
+     </ornaments>
+    </notations>
    </note>
    <note color="#000000" default-x="61" default-y="32">
     <unpitched>
@@ -21996,7 +22124,7 @@ Na Fontsanta
    <attributes>
     <staff-details number="1" print-object="yes" />
    </attributes>
-   <note color="#000000" default-x="83" default-y="35">
+   <note color="#000000" default-x="83" default-y="50">
     <unpitched>
      <display-step>E</display-step>
      <display-octave>4</display-octave>
@@ -22007,6 +22135,11 @@ Na Fontsanta
     <type>quarter</type>
     <stem>up</stem>
     <staff>1</staff>
+    <notations>
+     <ornaments>
+      <tremolo type="single">4</tremolo>
+     </ornaments>
+    </notations>
    </note>
    <note color="#000000" default-x="137" default-y="32">
     <unpitched>
@@ -22275,6 +22408,11 @@ Na Fontsanta
     <type>quarter</type>
     <stem>up</stem>
     <staff>1</staff>
+    <notations>
+     <articulations>
+      <tenuto />
+     </articulations>
+    </notations>
    </note>
    <note color="#000000" default-x="69" default-y="35">
     <unpitched>
@@ -22287,6 +22425,11 @@ Na Fontsanta
     <type>quarter</type>
     <stem>up</stem>
     <staff>1</staff>
+    <notations>
+     <ornaments>
+      <mordent default-y="30" long="no" />
+     </ornaments>
+    </notations>
    </note>
   </measure>
   <!--============== Part: P4, Measure: 99 ==============-->
