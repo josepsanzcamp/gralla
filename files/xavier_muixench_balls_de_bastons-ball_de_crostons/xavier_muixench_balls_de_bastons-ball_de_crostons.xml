@@ -2,13 +2,13 @@
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.0">
  <work>
-  <work-title>Ball de bastons,
-Ball de crostons</work-title>
+  <work-title>Ball de Bastons,
+Ball de Crostons</work-title>
  </work>
  <identification>
   <creator type="composer">B. Xavier Muixench i Maspons (2019)</creator>
   <encoding>
-   <encoding-date>2022-04-12</encoding-date>
+   <encoding-date>2023-06-17</encoding-date>
    <encoder>XavTher HerMuix i FP</encoder>
    <software>Sibelius 7.1.3</software>
    <software>Direct export, not from Dolet</software>
@@ -70,8 +70,8 @@ Ball de crostons</work-title>
   <lyric-language xml:lang="en" />
  </defaults>
  <credit page="1">
-  <credit-words default-x="600" default-y="221" font-family="Plantin MT Std" font-style="normal" font-size="22.0128" font-weight="normal" justify="center" valign="middle">Ball de bastons,
-Ball de crostons</credit-words>
+  <credit-words default-x="600" default-y="221" font-family="Plantin MT Std" font-style="normal" font-size="22.0128" font-weight="normal" justify="center" valign="middle">Ball de Bastons,
+Ball de Crostons</credit-words>
  </credit>
  <credit page="1">
   <credit-words default-x="1114" default-y="42" font-family="Plantin MT Std" font-style="italic" font-size="11.0064" font-weight="normal" justify="right" valign="middle">B. Xavier Muixench i Maspons (2019)</credit-words>
@@ -83,19 +83,19 @@ Ball de crostons</credit-words>
   <credit-words default-x="1114" default-y="1611" font-style="normal" font-weight="normal" justify="left" valign="middle">3</credit-words>
  </credit>
  <credit page="2">
-  <credit-words default-x="600" default-y="1338" font-family="Plantin MT Std" font-style="normal" font-size="48.0561" font-weight="normal" justify="center" valign="middle">Ball de bastons
-Ball de crostons</credit-words>
+  <credit-words default-x="600" default-y="1263" font-family="Plantin MT Std" font-style="normal" font-size="48.0561" font-weight="normal" justify="center" valign="middle">Ball de Bastons,
+Ball de Crostons</credit-words>
  </credit>
  <credit page="2">
   <credit-words default-x="1146" default-y="99" font-family="Plantin MT Std" font-style="italic" font-size="11.9365" font-weight="normal" justify="right" valign="middle">B. Xavier Muixench i Maspons (2019)</credit-words>
  </credit>
  <credit page="2">
-  <credit-words default-x="600" default-y="1648" font-family="Plantin MT Std" font-style="italic" font-size="11.9365" font-weight="normal" justify="center" valign="middle">Ball de bastons,
-Ball de crostons</credit-words>
+  <credit-words default-x="600" default-y="1648" font-family="Plantin MT Std" font-style="italic" font-size="11.9365" font-weight="normal" justify="center" valign="middle">Ball de Bastons,
+Ball de Crostons</credit-words>
  </credit>
  <credit page="3">
-  <credit-words default-x="600" default-y="1648" font-family="Plantin MT Std" font-style="italic" font-size="11.9365" font-weight="normal" justify="center" valign="middle">Ball de bastons,
-Ball de crostons</credit-words>
+  <credit-words default-x="600" default-y="1648" font-family="Plantin MT Std" font-style="italic" font-size="11.9365" font-weight="normal" justify="center" valign="middle">Ball de Bastons,
+Ball de Crostons</credit-words>
  </credit>
  <part-list>
   <score-part id="P1">
@@ -658,9 +658,9 @@ Ball de crostons</credit-words>
   </measure>
   <!--============== Part: P1, Measure: 13 ==============-->
   <measure number="13" width="289">
-   <note color="#000000" default-x="15" default-y="-40">
+   <note color="#000000" default-x="15" default-y="-50">
     <pitch>
-     <step>E</step>
+     <step>C</step>
      <octave>5</octave>
     </pitch>
     <duration>384</duration>
@@ -1374,14 +1374,14 @@ Ball de crostons</credit-words>
    </note>
    <direction>
     <direction-type>
-     <words default-y="21" justify="right" valign="middle" font-family="Plantin MT Std" font-style="italic" font-size="8.061" font-weight="normal">D.S. tants cops com es vulgui</words>
+     <words default-y="30" justify="right" valign="middle" font-family="Plantin MT Std" font-style="italic" font-size="8.061" font-weight="normal">D.S. tants cops com es vulgui</words>
      <words justify="left" valign="middle" font-family="Plantin MT Std" font-style="italic" font-size="8.061" font-weight="normal">i al Fine per acabar</words>
     </direction-type>
-    <offset sound="no">256</offset>
+    <offset sound="no">383</offset>
     <voice>1</voice>
     <staff>1</staff>
     <sound fine="26">
-     <offset>128</offset>
+     <offset>1</offset>
     </sound>
    </direction>
    <note default-x="130">
