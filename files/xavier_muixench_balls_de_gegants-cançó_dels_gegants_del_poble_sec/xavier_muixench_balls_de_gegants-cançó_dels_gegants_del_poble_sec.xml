@@ -8,7 +8,7 @@ Gegants del Poble Sec</work-title>
  <identification>
   <creator type="composer">Bernat-Xavier Muixench i Maspons (1995)</creator>
   <encoding>
-   <encoding-date>2023-06-10</encoding-date>
+   <encoding-date>2023-07-04</encoding-date>
    <encoder>XavTher HerMuix i FP</encoder>
    <software>Sibelius 7.1.3</software>
    <software>Direct export, not from Dolet</software>
@@ -88,6 +88,9 @@ Gegants del Poble Sec</credit-words>
  <credit page="5">
   <credit-words default-x="1114" default-y="1611" font-style="normal" font-weight="normal" justify="left" valign="middle">5</credit-words>
  </credit>
+ <credit page="6">
+  <credit-words default-x="85" default-y="1611" font-style="normal" font-weight="normal" justify="left" valign="middle">6</credit-words>
+ </credit>
  <credit page="2">
   <credit-words default-x="600" default-y="1369" font-family="Plantin MT Std" font-style="normal" font-size="48.0561" font-weight="normal" justify="center" valign="middle">Cançó
 dels Gegants
@@ -106,6 +109,9 @@ del Poble Sec</credit-words>
   <credit-words default-x="600" default-y="1641" font-family="Plantin MT Std" font-style="italic" font-size="11.9365" font-weight="normal" justify="center" valign="middle">Cançó dels Gegants del Poble Sec</credit-words>
  </credit>
  <credit page="5">
+  <credit-words default-x="600" default-y="1641" font-family="Plantin MT Std" font-style="italic" font-size="11.9365" font-weight="normal" justify="center" valign="middle">Cançó dels Gegants del Poble Sec</credit-words>
+ </credit>
+ <credit page="6">
   <credit-words default-x="600" default-y="1641" font-family="Plantin MT Std" font-style="italic" font-size="11.9365" font-weight="normal" justify="center" valign="middle">Cançó dels Gegants del Poble Sec</credit-words>
  </credit>
  <part-list>
@@ -1319,7 +1325,7 @@ del Poble Sec</credit-words>
    </note>
   </measure>
   <!--============== Part: P1, Measure: 26 ==============-->
-  <measure number="26" width="348">
+  <measure number="26" width="249">
    <print new-page="yes">
     <system-layout>
      <system-margins>
@@ -1332,16 +1338,6 @@ del Poble Sec</credit-words>
    <attributes>
     <staff-details number="1" print-object="yes" />
    </attributes>
-   <barline location="left">
-    <ending number="1" type="start" />
-   </barline>
-   <direction>
-    <direction-type>
-     <words default-y="17" justify="left" valign="middle" font-family="Plantin MT Std" font-style="normal" font-size="11.9365" font-weight="normal">3.</words>
-    </direction-type>
-    <voice>1</voice>
-    <staff>1</staff>
-   </direction>
    <note color="#000000" default-x="70" default-y="-55">
     <pitch>
      <step>B</step>
@@ -1354,7 +1350,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="155" default-y="5">
+   <note color="#000000" default-x="128" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -1366,7 +1362,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="240" default-y="5">
+   <note color="#000000" default-x="187" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -1378,17 +1374,182 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <barline location="right">
-    <bar-style>light-heavy</bar-style>
-    <ending number="1" type="stop" />
-    <repeat direction="backward" />
-   </barline>
   </measure>
   <!--============== Part: P1, Measure: 27 ==============-->
-  <measure number="27" width="293">
-   <barline location="left">
-    <ending number="2" type="start" />
-   </barline>
+  <measure number="27" width="173">
+   <note color="#000000" default-x="15" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="55" default-y="-49">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="85" default-y="-49">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+   <note color="#000000" default-x="114" default-y="-52">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="143" default-y="-52">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 28 ==============-->
+  <measure number="28" width="194">
+   <note color="#000000" default-x="15" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="73" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="132" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 29 ==============-->
+  <measure number="29" width="194">
+   <note color="#000000" default-x="15" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="74" default-y="-52">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="103" default-y="-52">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+   <note color="#000000" default-x="132" default-y="12">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="162" default-y="12">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 30 ==============-->
+  <measure number="30" width="194">
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
      <step>G</step>
@@ -1401,7 +1562,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="185" default-y="5">
+   <note color="#000000" default-x="132" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -1413,21 +1574,418 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <barline location="right">
-    <bar-style>light-heavy</bar-style>
-    <ending number="2" type="stop" />
-    <repeat direction="backward" />
-   </barline>
   </measure>
-  <!--============== Part: P1, Measure: 28 ==============-->
-  <measure number="28" width="203">
-   <direction>
-    <direction-type>
-     <words default-y="17" justify="left" valign="middle" font-family="Plantin MT Std" font-style="normal" font-size="11.9365" font-weight="normal">4.</words>
-    </direction-type>
+  <!--============== Part: P1, Measure: 31 ==============-->
+  <measure number="31" width="232">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>22</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+     <system-distance>187</system-distance>
+    </system-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+   </attributes>
+   <note color="#000000" default-x="70" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
     <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
     <staff>1</staff>
-   </direction>
+   </note>
+   <note color="#000000" default-x="111" default-y="-49">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="142" default-y="-49">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+   <note color="#000000" default-x="172" default-y="-52">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="202" default-y="-52">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 32 ==============-->
+  <measure number="32" width="198">
+   <note color="#000000" default-x="15" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="75" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="135" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 33 ==============-->
+  <measure number="33" width="198">
+   <note color="#000000" default-x="15" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="75" default-y="-52">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="105" default-y="-52">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+   <note color="#000000" default-x="135" default-y="12">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="166" default-y="12">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 34 ==============-->
+  <measure number="34" width="198">
+   <note color="#000000" default-x="15" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="75" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="135" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 35 ==============-->
+  <measure number="35" width="177">
+   <note color="#000000" default-x="15" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="56" default-y="-49">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="87" default-y="-49">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+   <note color="#000000" default-x="117" default-y="-52">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="147" default-y="-52">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 36 ==============-->
+  <measure number="36" width="339">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>22</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+     <system-distance>186</system-distance>
+    </system-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+   </attributes>
+   <note color="#000000" default-x="70" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="160" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="249" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 37 ==============-->
+  <measure number="37" width="284">
+   <note color="#000000" default-x="15" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="104" default-y="-52">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="149" default-y="-52">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+   <note color="#000000" default-x="194" default-y="12">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="239" default-y="12">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 38 ==============-->
+  <measure number="38" width="213">
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
      <step>G</step>
@@ -1440,7 +1998,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="73" default-y="-30">
+   <note color="#000000" default-x="77" default-y="-30">
     <pitch>
      <step>G</step>
      <octave>5</octave>
@@ -1452,7 +2010,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note default-x="132">
+   <note default-x="139">
     <rest />
     <duration>256</duration>
     <instrument id="P1-I1" />
@@ -1464,8 +2022,8 @@ del Poble Sec</credit-words>
     <bar-style>light-light</bar-style>
    </barline>
   </measure>
-  <!--============== Part: P1, Measure: 29 ==============-->
-  <measure number="29" width="161">
+  <!--============== Part: P1, Measure: 39 ==============-->
+  <measure number="39" width="169">
    <attributes>
     <time color="#000000">
      <beats>6</beats>
@@ -1492,25 +2050,21 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 30 ==============-->
-  <measure number="30" width="306">
-   <print new-system="yes">
+  <!--============== Part: P1, Measure: 40 ==============-->
+  <measure number="40" width="294">
+   <print new-page="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
       <right-margin>0</right-margin>
      </system-margins>
-     <system-distance>146</system-distance>
+     <top-system-distance>73</top-system-distance>
     </system-layout>
    </print>
    <attributes>
     <staff-details number="1" print-object="yes" />
    </attributes>
-   <barline location="left">
-    <bar-style>heavy-light</bar-style>
-    <repeat direction="forward" />
-   </barline>
-   <note color="#000000" default-x="92" default-y="-45">
+   <note color="#000000" default-x="70" default-y="-45">
     <pitch>
      <step>D</step>
      <octave>5</octave>
@@ -1522,7 +2076,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="165" default-y="-45">
+   <note color="#000000" default-x="146" default-y="-45">
     <pitch>
      <step>D</step>
      <octave>5</octave>
@@ -1534,7 +2088,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="207" default-y="-45">
+   <note color="#000000" default-x="190" default-y="-45">
     <pitch>
      <step>D</step>
      <octave>5</octave>
@@ -1546,7 +2100,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="264" default-y="-55">
+   <note color="#000000" default-x="250" default-y="-55">
     <pitch>
      <step>B</step>
      <octave>4</octave>
@@ -1559,8 +2113,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 31 ==============-->
-  <measure number="31" width="226">
+  <!--============== Part: P1, Measure: 41 ==============-->
+  <measure number="41" width="238">
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
      <step>G</step>
@@ -1573,7 +2127,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="86" default-y="5">
+   <note color="#000000" default-x="90" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -1585,7 +2139,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="128" default-y="5">
+   <note color="#000000" default-x="133" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -1597,7 +2151,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="185" default-y="-55">
+   <note color="#000000" default-x="194" default-y="-55">
     <pitch>
      <step>B</step>
      <octave>4</octave>
@@ -1610,15 +2164,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 32 ==============-->
-  <measure number="32" width="238">
-   <direction>
-    <direction-type>
-     <words default-y="17" justify="left" valign="middle" font-family="Plantin MT Std" font-style="normal" font-size="11.9365" font-weight="normal">1. 3.</words>
-    </direction-type>
-    <voice>1</voice>
-    <staff>1</staff>
-   </direction>
+  <!--============== Part: P1, Measure: 42 ==============-->
+  <measure number="42" width="250">
    <note color="#000000" default-x="15" default-y="10">
     <pitch>
      <step>A</step>
@@ -1631,7 +2178,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="72" default-y="10">
+   <note color="#000000" default-x="75" default-y="10">
     <pitch>
      <step>A</step>
      <octave>4</octave>
@@ -1643,7 +2190,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="113" default-y="-52">
+   <note color="#000000" default-x="119" default-y="-52">
     <pitch>
      <step>A</step>
      <octave>4</octave>
@@ -1656,7 +2203,7 @@ del Poble Sec</credit-words>
     <staff>1</staff>
     <beam number="1">begin</beam>
    </note>
-   <note color="#000000" default-x="155" default-y="-52">
+   <note color="#000000" default-x="163" default-y="-52">
     <pitch>
      <step>B</step>
      <octave>4</octave>
@@ -1669,7 +2216,7 @@ del Poble Sec</credit-words>
     <staff>1</staff>
     <beam number="1">continue</beam>
    </note>
-   <note color="#000000" default-x="196" default-y="-52">
+   <note color="#000000" default-x="206" default-y="-52">
     <pitch>
      <step>C</step>
      <octave>5</octave>
@@ -1683,8 +2230,8 @@ del Poble Sec</credit-words>
     <beam number="1">end</beam>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 33 ==============-->
-  <measure number="33" width="235">
+  <!--============== Part: P1, Measure: 43 ==============-->
+  <measure number="43" width="223">
    <note color="#000000" default-x="15" default-y="-45">
     <pitch>
      <step>D</step>
@@ -1697,7 +2244,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="72" default-y="-55">
+   <note color="#000000" default-x="75" default-y="-55">
     <pitch>
      <step>B</step>
      <octave>4</octave>
@@ -1709,7 +2256,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="114" default-y="5">
+   <note color="#000000" default-x="119" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -1721,7 +2268,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="171" default-y="5">
+   <note color="#000000" default-x="180" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -1733,29 +2280,124 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <barline location="right">
-    <bar-style>light-heavy</bar-style>
-    <repeat direction="backward" />
-   </barline>
   </measure>
-  <!--============== Part: P1, Measure: 34 ==============-->
-  <measure number="34" width="295">
+  <!--============== Part: P1, Measure: 44 ==============-->
+  <measure number="44" width="192">
    <print new-system="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
       <right-margin>0</right-margin>
      </system-margins>
-     <system-distance>145</system-distance>
+     <system-distance>151</system-distance>
     </system-layout>
    </print>
    <attributes>
     <staff-details number="1" print-object="yes" />
    </attributes>
-   <barline location="left">
-    <ending number="2" type="start" />
-   </barline>
-   <note color="#000000" default-x="70" default-y="10">
+   <note color="#000000" default-x="70" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="103" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="127" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="159" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 45 ==============-->
+  <measure number="45" width="141">
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="48" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="77" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="109" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 46 ==============-->
+  <measure number="46" width="163">
+   <note color="#000000" default-x="15" default-y="10">
     <pitch>
      <step>A</step>
      <octave>4</octave>
@@ -1767,7 +2409,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="144" default-y="-55">
+   <note color="#000000" default-x="62" default-y="-55">
     <pitch>
      <step>B</step>
      <octave>4</octave>
@@ -1783,7 +2425,7 @@ del Poble Sec</credit-words>
      <tied type="start" />
     </notations>
    </note>
-   <note color="#000000" default-x="184" default-y="-52">
+   <note color="#000000" default-x="91" default-y="-52">
     <pitch>
      <step>B</step>
      <octave>4</octave>
@@ -1800,7 +2442,7 @@ del Poble Sec</credit-words>
      <tied type="stop" />
     </notations>
    </note>
-   <note color="#000000" default-x="221" default-y="-52">
+   <note color="#000000" default-x="115" default-y="-52">
     <pitch>
      <step>C</step>
      <octave>5</octave>
@@ -1813,7 +2455,7 @@ del Poble Sec</credit-words>
     <staff>1</staff>
     <beam number="1">continue</beam>
    </note>
-   <note color="#000000" default-x="258" default-y="-52">
+   <note color="#000000" default-x="139" default-y="-52">
     <pitch>
      <step>A</step>
      <octave>4</octave>
@@ -1827,8 +2469,8 @@ del Poble Sec</credit-words>
     <beam number="1">end</beam>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 35 ==============-->
-  <measure number="35" width="140">
+  <!--============== Part: P1, Measure: 47 ==============-->
+  <measure number="47" width="79">
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
      <step>G</step>
@@ -1842,21 +2484,111 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <barline location="right">
-    <bar-style>light-heavy</bar-style>
-    <ending number="2" type="stop" />
-    <repeat direction="backward" />
-   </barline>
   </measure>
-  <!--============== Part: P1, Measure: 36 ==============-->
-  <measure number="36" width="168">
-   <direction>
-    <direction-type>
-     <words default-y="17" justify="left" valign="middle" font-family="Plantin MT Std" font-style="normal" font-size="11.9365" font-weight="normal">4.</words>
-    </direction-type>
+  <!--============== Part: P1, Measure: 48 ==============-->
+  <measure number="48" width="137">
+   <note color="#000000" default-x="15" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
     <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
     <staff>1</staff>
-   </direction>
+   </note>
+   <note color="#000000" default-x="48" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="72" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="104" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 49 ==============-->
+  <measure number="49" width="141">
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="48" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="77" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="109" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 50 ==============-->
+  <measure number="50" width="150">
    <note color="#000000" default-x="15" default-y="10">
     <pitch>
      <step>A</step>
@@ -1869,7 +2601,238 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="65" default-y="-55">
+   <note color="#000000" default-x="48" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="77" default-y="-52">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="102" default-y="-52">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+   </note>
+   <note color="#000000" default-x="126" default-y="-52">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 51 ==============-->
+  <measure number="51" width="215">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>22</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+     <system-distance>175</system-distance>
+    </system-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+   </attributes>
+   <note color="#000000" default-x="70" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="111" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="141" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="182" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 52 ==============-->
+  <measure number="52" width="159">
+   <note color="#000000" default-x="15" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="56" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="85" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="127" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 53 ==============-->
+  <measure number="53" width="160">
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="56" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="86" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="127" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 54 ==============-->
+  <measure number="54" width="139">
+   <note color="#000000" default-x="15" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="56" default-y="-55">
     <pitch>
      <step>B</step>
      <octave>4</octave>
@@ -1881,7 +2844,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="117" default-y="10">
+   <note color="#000000" default-x="97" default-y="10">
     <pitch>
      <step>A</step>
      <octave>4</octave>
@@ -1894,8 +2857,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 37 ==============-->
-  <measure number="37" width="152">
+  <!--============== Part: P1, Measure: 55 ==============-->
+  <measure number="55" width="126">
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
      <step>G</step>
@@ -1909,7 +2872,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note default-x="84">
+   <note default-x="70">
     <rest />
     <duration>384</duration>
     <instrument id="P1-I1" />
@@ -1919,8 +2882,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 38 ==============-->
-  <measure number="38" width="249">
+  <!--============== Part: P1, Measure: 56 ==============-->
+  <measure number="56" width="206">
    <barline location="left">
     <bar-style>heavy-light</bar-style>
     <repeat direction="forward" />
@@ -1937,7 +2900,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="101" default-y="-40">
+   <note color="#000000" default-x="87" default-y="-40">
     <pitch>
      <step>E</step>
      <octave>5</octave>
@@ -1949,7 +2912,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="138" default-y="-40">
+   <note color="#000000" default-x="117" default-y="-40">
     <pitch>
      <step>E</step>
      <octave>5</octave>
@@ -1961,7 +2924,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="212" default-y="-50">
+   <note color="#000000" default-x="176" default-y="-50">
     <pitch>
      <step>C</step>
      <octave>5</octave>
@@ -1974,15 +2937,15 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 39 ==============-->
-  <measure number="39" width="244">
-   <print new-system="yes">
+  <!--============== Part: P1, Measure: 57 ==============-->
+  <measure number="57" width="244">
+   <print new-page="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
       <right-margin>0</right-margin>
      </system-margins>
-     <system-distance>146</system-distance>
+     <top-system-distance>73</top-system-distance>
     </system-layout>
    </print>
    <attributes>
@@ -2037,8 +3000,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 40 ==============-->
-  <measure number="40" width="189">
+  <!--============== Part: P1, Measure: 58 ==============-->
+  <measure number="58" width="189">
    <note color="#000000" default-x="15" default-y="-50">
     <pitch>
      <step>C</step>
@@ -2088,8 +3051,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 41 ==============-->
-  <measure number="41" width="193">
+  <!--============== Part: P1, Measure: 59 ==============-->
+  <measure number="59" width="193">
    <note color="#000000" default-x="15" default-y="-50">
     <pitch>
      <step>C</step>
@@ -2139,8 +3102,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 42 ==============-->
-  <measure number="42" width="189">
+  <!--============== Part: P1, Measure: 60 ==============-->
+  <measure number="60" width="189">
    <note color="#000000" default-x="15" default-y="-40">
     <pitch>
      <step>E</step>
@@ -2190,8 +3153,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 43 ==============-->
-  <measure number="43" width="189">
+  <!--============== Part: P1, Measure: 61 ==============-->
+  <measure number="61" width="189">
    <note color="#000000" default-x="15" default-y="-45">
     <pitch>
      <step>D</step>
@@ -2241,15 +3204,15 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 44 ==============-->
-  <measure number="44" width="258">
-   <print new-page="yes">
+  <!--============== Part: P1, Measure: 62 ==============-->
+  <measure number="62" width="258">
+   <print new-system="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
       <right-margin>0</right-margin>
      </system-margins>
-     <top-system-distance>73</top-system-distance>
+     <system-distance>151</system-distance>
     </system-layout>
    </print>
    <attributes>
@@ -2330,8 +3293,8 @@ del Poble Sec</credit-words>
     <beam number="1">end</beam>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 45 ==============-->
-  <measure number="45" width="227">
+  <!--============== Part: P1, Measure: 63 ==============-->
+  <measure number="63" width="227">
    <note color="#000000" default-x="15" default-y="-55">
     <pitch>
      <step>B</step>
@@ -2391,8 +3354,8 @@ del Poble Sec</credit-words>
     <repeat direction="backward" />
    </barline>
   </measure>
-  <!--============== Part: P1, Measure: 46 ==============-->
-  <measure number="46" width="203">
+  <!--============== Part: P1, Measure: 64 ==============-->
+  <measure number="64" width="203">
    <barline location="left">
     <ending number="2" type="start" />
    </barline>
@@ -2476,8 +3439,8 @@ del Poble Sec</credit-words>
     <beam number="1">end</beam>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 47 ==============-->
-  <measure number="47" width="102">
+  <!--============== Part: P1, Measure: 65 ==============-->
+  <measure number="65" width="102">
    <note color="#000000" default-x="15" default-y="-30">
     <pitch>
      <step>G</step>
@@ -2495,8 +3458,8 @@ del Poble Sec</credit-words>
     <ending number="2" type="discontinue" />
    </barline>
   </measure>
-  <!--============== Part: P1, Measure: 48 ==============-->
-  <measure number="48" width="215">
+  <!--============== Part: P1, Measure: 66 ==============-->
+  <measure number="66" width="215">
    <barline location="left">
     <bar-style>heavy-light</bar-style>
     <repeat direction="forward" />
@@ -2551,15 +3514,15 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 49 ==============-->
-  <measure number="49" width="228">
+  <!--============== Part: P1, Measure: 67 ==============-->
+  <measure number="67" width="228">
    <print new-system="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
       <right-margin>0</right-margin>
      </system-margins>
-     <system-distance>104</system-distance>
+     <system-distance>175</system-distance>
     </system-layout>
    </print>
    <attributes>
@@ -2616,8 +3579,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 50 ==============-->
-  <measure number="50" width="173">
+  <!--============== Part: P1, Measure: 68 ==============-->
+  <measure number="68" width="173">
    <note color="#000000" default-x="15" default-y="-40">
     <pitch>
      <step>E</step>
@@ -2656,8 +3619,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 51 ==============-->
-  <measure number="51" width="149">
+  <!--============== Part: P1, Measure: 69 ==============-->
+  <measure number="69" width="149">
    <note color="#000000" default-x="15" default-y="-40">
     <pitch>
      <step>E</step>
@@ -2707,8 +3670,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 52 ==============-->
-  <measure number="52" width="165">
+  <!--============== Part: P1, Measure: 70 ==============-->
+  <measure number="70" width="165">
    <note color="#000000" default-x="15" default-y="-50">
     <pitch>
      <step>C</step>
@@ -2781,8 +3744,8 @@ del Poble Sec</credit-words>
     <beam number="1">end</beam>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 53 ==============-->
-  <measure number="53" width="166">
+  <!--============== Part: P1, Measure: 71 ==============-->
+  <measure number="71" width="166">
    <note color="#000000" default-x="15" default-y="-40">
     <pitch>
      <step>E</step>
@@ -2865,8 +3828,8 @@ del Poble Sec</credit-words>
     </notations>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 54 ==============-->
-  <measure number="54" width="124">
+  <!--============== Part: P1, Measure: 72 ==============-->
+  <measure number="72" width="124">
    <note color="#000000" default-x="15" default-y="-30">
     <pitch>
      <step>G</step>
@@ -2905,15 +3868,15 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 55 ==============-->
-  <measure number="55" width="189">
-   <print new-system="yes">
+  <!--============== Part: P1, Measure: 73 ==============-->
+  <measure number="73" width="189">
+   <print new-page="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
       <right-margin>0</right-margin>
      </system-margins>
-     <system-distance>85</system-distance>
+     <top-system-distance>73</top-system-distance>
     </system-layout>
    </print>
    <attributes>
@@ -2933,8 +3896,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 56 ==============-->
-  <measure number="56" width="272">
+  <!--============== Part: P1, Measure: 74 ==============-->
+  <measure number="74" width="272">
    <note color="#000000" default-x="15" default-y="-30">
     <pitch>
      <step>G</step>
@@ -2985,8 +3948,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 57 ==============-->
-  <measure number="57" width="272">
+  <!--============== Part: P1, Measure: 75 ==============-->
+  <measure number="75" width="272">
    <note color="#000000" default-x="15" default-y="-35">
     <pitch>
      <step>F</step>
@@ -3038,8 +4001,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 58 ==============-->
-  <measure number="58" width="272">
+  <!--============== Part: P1, Measure: 76 ==============-->
+  <measure number="76" width="272">
    <note color="#000000" default-x="15" default-y="-40">
     <pitch>
      <step>E</step>
@@ -3090,15 +4053,15 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 59 ==============-->
-  <measure number="59" width="303">
-   <print new-page="yes">
+  <!--============== Part: P1, Measure: 77 ==============-->
+  <measure number="77" width="303">
+   <print new-system="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
       <right-margin>0</right-margin>
      </system-margins>
-     <top-system-distance>73</top-system-distance>
+     <system-distance>85</system-distance>
     </system-layout>
    </print>
    <attributes>
@@ -3153,8 +4116,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 60 ==============-->
-  <measure number="60" width="234">
+  <!--============== Part: P1, Measure: 78 ==============-->
+  <measure number="78" width="234">
    <note color="#000000" default-x="15" default-y="-50">
     <pitch>
      <step>C</step>
@@ -3204,8 +4167,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 61 ==============-->
-  <measure number="61" width="234">
+  <!--============== Part: P1, Measure: 79 ==============-->
+  <measure number="79" width="234">
    <note color="#000000" default-x="15" default-y="-40">
     <pitch>
      <step>E</step>
@@ -3255,8 +4218,8 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 62 ==============-->
-  <measure number="62" width="234">
+  <!--============== Part: P1, Measure: 80 ==============-->
+  <measure number="80" width="234">
    <note color="#000000" default-x="15" default-y="-35">
     <pitch>
      <step>F</step>
@@ -3308,15 +4271,15 @@ del Poble Sec</credit-words>
     <staff>1</staff>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 63 ==============-->
-  <measure number="63" width="239">
+  <!--============== Part: P1, Measure: 81 ==============-->
+  <measure number="81" width="239">
    <print new-system="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
       <right-margin>0</right-margin>
      </system-margins>
-     <system-distance>97</system-distance>
+     <system-distance>85</system-distance>
     </system-layout>
    </print>
    <attributes>
@@ -3344,8 +4307,8 @@ del Poble Sec</credit-words>
     <repeat direction="backward" />
    </barline>
   </measure>
-  <!--============== Part: P1, Measure: 64 ==============-->
-  <measure number="64" width="210">
+  <!--============== Part: P1, Measure: 82 ==============-->
+  <measure number="82" width="210">
    <barline location="left">
     <ending number="2" type="start" />
    </barline>
@@ -3375,8 +4338,8 @@ del Poble Sec</credit-words>
     <ending number="2" type="discontinue" />
    </barline>
   </measure>
-  <!--============== Part: P1, Measure: 65 ==============-->
-  <measure number="65" width="379">
+  <!--============== Part: P1, Measure: 83 ==============-->
+  <measure number="83" width="379">
    <note color="#000000" default-x="15" default-y="-30">
     <pitch>
      <step>G</step>
@@ -3396,8 +4359,8 @@ del Poble Sec</credit-words>
     </notations>
    </note>
   </measure>
-  <!--============== Part: P1, Measure: 66 ==============-->
-  <measure number="66" width="176">
+  <!--============== Part: P1, Measure: 84 ==============-->
+  <measure number="84" width="176">
    <note color="#000000" default-x="15" default-y="-30">
     <pitch>
      <step>G</step>
@@ -4870,7 +5833,7 @@ del Poble Sec</credit-words>
    </note>
   </measure>
   <!--============== Part: P2, Measure: 26 ==============-->
-  <measure number="26" width="348">
+  <measure number="26" width="249">
    <print new-page="yes">
     <system-layout>
      <system-margins>
@@ -4878,19 +5841,16 @@ del Poble Sec</credit-words>
       <right-margin>0</right-margin>
      </system-margins>
     </system-layout>
-    <staff-layout number="1">
-     <staff-distance>61</staff-distance>
+    <staff-layout number="2">
+     <staff-distance>85</staff-distance>
     </staff-layout>
    </print>
    <attributes>
     <staff-details number="1" print-object="yes" />
-    <staff-details number="2" print-object="no">
+    <staff-details number="2" print-object="yes">
      <staff-size>75</staff-size>
     </staff-details>
    </attributes>
-   <barline location="left">
-    <ending number="1" type="start" print-object="no" />
-   </barline>
    <note default-x="70">
     <rest />
     <duration>128</duration>
@@ -4899,7 +5859,7 @@ del Poble Sec</credit-words>
     <type>eighth</type>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="112" default-y="-55">
+   <note color="#000000" default-x="99" default-y="-55">
     <pitch>
      <step>B</step>
      <octave>4</octave>
@@ -4911,7 +5871,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note default-x="155">
+   <note default-x="128">
     <rest />
     <duration>128</duration>
     <instrument id="P2-I1" />
@@ -4919,7 +5879,7 @@ del Poble Sec</credit-words>
     <type>eighth</type>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="197" default-y="5">
+   <note color="#000000" default-x="158" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -4931,7 +5891,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note default-x="240">
+   <note default-x="187">
     <rest />
     <duration>128</duration>
     <instrument id="P2-I1" />
@@ -4939,7 +5899,7 @@ del Poble Sec</credit-words>
     <type>eighth</type>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="282" default-y="5">
+   <note color="#000000" default-x="217" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -4951,11 +5911,6 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <barline location="right">
-    <bar-style>light-heavy</bar-style>
-    <ending number="1" type="stop" print-object="no" />
-    <repeat direction="backward" />
-   </barline>
    <backup>
     <duration>768</duration>
    </backup>
@@ -4969,76 +5924,25 @@ del Poble Sec</credit-words>
    </note>
   </measure>
   <!--============== Part: P2, Measure: 27 ==============-->
-  <measure number="27" width="293">
+  <measure number="27" width="173">
    <attributes />
-   <barline location="left">
-    <ending number="2" type="start" print-object="no" />
-   </barline>
-   <note default-x="15">
-    <rest />
-    <duration>128</duration>
-    <instrument id="P2-I1" />
-    <voice>1</voice>
-    <type>eighth</type>
-    <staff>1</staff>
-   </note>
-   <note color="#000000" default-x="57" default-y="-55">
-    <pitch>
-     <step>B</step>
-     <octave>4</octave>
-    </pitch>
-    <duration>128</duration>
-    <instrument id="P2-I1" />
-    <voice>1</voice>
-    <type>eighth</type>
-    <stem>down</stem>
-    <staff>1</staff>
-   </note>
-   <note default-x="100">
-    <rest />
-    <duration>128</duration>
-    <instrument id="P2-I1" />
-    <voice>1</voice>
-    <type>eighth</type>
-    <staff>1</staff>
-   </note>
-   <note color="#000000" default-x="142" default-y="5">
+   <note color="#000000" default-x="15" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
     </pitch>
-    <duration>128</duration>
+    <duration>768</duration>
+    <tie type="start" />
     <instrument id="P2-I1" />
     <voice>1</voice>
-    <type>eighth</type>
+    <type>half</type>
+    <dot />
     <stem>up</stem>
     <staff>1</staff>
+    <notations>
+     <tied type="start" />
+    </notations>
    </note>
-   <note default-x="185">
-    <rest />
-    <duration>128</duration>
-    <instrument id="P2-I1" />
-    <voice>1</voice>
-    <type>eighth</type>
-    <staff>1</staff>
-   </note>
-   <note color="#000000" default-x="227" default-y="5">
-    <pitch>
-     <step>G</step>
-     <octave>4</octave>
-    </pitch>
-    <duration>128</duration>
-    <instrument id="P2-I1" />
-    <voice>1</voice>
-    <type>eighth</type>
-    <stem>up</stem>
-    <staff>1</staff>
-   </note>
-   <barline location="right">
-    <bar-style>light-heavy</bar-style>
-    <ending number="2" type="stop" print-object="no" />
-    <repeat direction="backward" />
-   </barline>
    <backup>
     <duration>768</duration>
    </backup>
@@ -5052,7 +5956,751 @@ del Poble Sec</credit-words>
    </note>
   </measure>
   <!--============== Part: P2, Measure: 28 ==============-->
-  <measure number="28" width="203">
+  <measure number="28" width="194">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="9">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <tie type="stop" />
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tied type="stop" />
+    </notations>
+   </note>
+   <note color="#000000" default-x="44" default-y="9">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+   <note default-x="73">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="103" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note default-x="132">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="161" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 29 ==============-->
+  <measure number="29" width="194">
+   <attributes />
+   <note default-x="15">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="44" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="74" default-y="2">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="103" default-y="2">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+   <note default-x="132">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="162" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 30 ==============-->
+  <measure number="30" width="194">
+   <attributes />
+   <note default-x="15">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="44" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note default-x="74">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="103" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note default-x="132">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="162" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 31 ==============-->
+  <measure number="31" width="232">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>22</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+    </system-layout>
+    <staff-layout number="2">
+     <staff-distance>85</staff-distance>
+    </staff-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+    <staff-details number="2" print-object="yes">
+     <staff-size>75</staff-size>
+    </staff-details>
+   </attributes>
+   <note color="#000000" default-x="70" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>768</duration>
+    <tie type="start" />
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>half</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <tied type="start" />
+    </notations>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="70">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 32 ==============-->
+  <measure number="32" width="198">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="9">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <tie type="stop" />
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tied type="stop" />
+    </notations>
+   </note>
+   <note color="#000000" default-x="45" default-y="9">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+   <note default-x="75">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="105" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note default-x="135">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="166" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 33 ==============-->
+  <measure number="33" width="198">
+   <attributes />
+   <note default-x="15">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="45" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="75" default-y="2">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="105" default-y="2">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+   <note default-x="135">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="166" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 34 ==============-->
+  <measure number="34" width="198">
+   <attributes />
+   <note default-x="15">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="45" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note default-x="75">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="105" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note default-x="135">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="166" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 35 ==============-->
+  <measure number="35" width="177">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>768</duration>
+    <tie type="start" />
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>half</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <tied type="start" />
+    </notations>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 36 ==============-->
+  <measure number="36" width="339">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>22</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+    </system-layout>
+    <staff-layout number="2">
+     <staff-distance>85</staff-distance>
+    </staff-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+    <staff-details number="2" print-object="yes">
+     <staff-size>75</staff-size>
+    </staff-details>
+   </attributes>
+   <note color="#000000" default-x="70" default-y="9">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <tie type="stop" />
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tied type="stop" />
+    </notations>
+   </note>
+   <note color="#000000" default-x="115" default-y="9">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+   <note default-x="160">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="204" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note default-x="249">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="294" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="70">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 37 ==============-->
+  <measure number="37" width="284">
+   <attributes />
+   <note default-x="15">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="59" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="104" default-y="2">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="149" default-y="2">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+   <note default-x="194">
+    <rest />
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="239" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 38 ==============-->
+  <measure number="38" width="213">
    <attributes />
    <note color="#000000" default-x="15" default-y="-55">
     <pitch>
@@ -5066,7 +6714,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="73" default-y="-55">
+   <note color="#000000" default-x="77" default-y="-55">
     <pitch>
      <step>B</step>
      <octave>4</octave>
@@ -5078,7 +6726,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note default-x="132">
+   <note default-x="139">
     <rest />
     <duration>256</duration>
     <instrument id="P2-I1" />
@@ -5101,8 +6749,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 29 ==============-->
-  <measure number="29" width="161">
+  <!--============== Part: P2, Measure: 39 ==============-->
+  <measure number="39" width="169">
    <attributes>
     <time color="#000000">
      <beats>6</beats>
@@ -5129,9 +6777,9 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 30 ==============-->
-  <measure number="30" width="306">
-   <print new-system="yes">
+  <!--============== Part: P2, Measure: 40 ==============-->
+  <measure number="40" width="294">
+   <print new-page="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
@@ -5139,7 +6787,7 @@ del Poble Sec</credit-words>
      </system-margins>
     </system-layout>
     <staff-layout number="1">
-     <staff-distance>61</staff-distance>
+     <staff-distance>59</staff-distance>
     </staff-layout>
    </print>
    <attributes>
@@ -5148,11 +6796,7 @@ del Poble Sec</credit-words>
      <staff-size>75</staff-size>
     </staff-details>
    </attributes>
-   <barline location="left">
-    <bar-style>heavy-light</bar-style>
-    <repeat direction="forward" />
-   </barline>
-   <note color="#000000" default-x="92" default-y="5">
+   <note color="#000000" default-x="70" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -5168,7 +6812,7 @@ del Poble Sec</credit-words>
    <backup>
     <duration>768</duration>
    </backup>
-   <note default-x="92">
+   <note default-x="70">
     <rest />
     <duration>768</duration>
     <instrument id="P3-I1" />
@@ -5177,8 +6821,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 31 ==============-->
-  <measure number="31" width="226">
+  <!--============== Part: P2, Measure: 41 ==============-->
+  <measure number="41" width="238">
    <attributes />
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
@@ -5205,8 +6849,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 32 ==============-->
-  <measure number="32" width="238">
+  <!--============== Part: P2, Measure: 42 ==============-->
+  <measure number="42" width="250">
    <attributes />
    <note color="#000000" default-x="15" default-y="10">
     <pitch>
@@ -5221,7 +6865,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="113" default-y="10">
+   <note color="#000000" default-x="119" default-y="10">
     <pitch>
      <step>A</step>
      <octave>4</octave>
@@ -5246,8 +6890,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 33 ==============-->
-  <measure number="33" width="235">
+  <!--============== Part: P2, Measure: 43 ==============-->
+  <measure number="43" width="223">
    <attributes />
    <note color="#000000" default-x="15" default-y="-55">
     <pitch>
@@ -5261,7 +6905,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="72" default-y="-55">
+   <note color="#000000" default-x="75" default-y="-55">
     <pitch>
      <step>B</step>
      <octave>4</octave>
@@ -5273,7 +6917,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="114" default-y="-55">
+   <note color="#000000" default-x="119" default-y="-55">
     <pitch>
      <step>B</step>
      <octave>4</octave>
@@ -5285,7 +6929,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="171" default-y="-55">
+   <note color="#000000" default-x="180" default-y="-55">
     <pitch>
      <step>B</step>
      <octave>4</octave>
@@ -5297,10 +6941,6 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <barline location="right">
-    <bar-style>light-heavy</bar-style>
-    <repeat direction="backward" />
-   </barline>
    <backup>
     <duration>768</duration>
    </backup>
@@ -5313,8 +6953,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 34 ==============-->
-  <measure number="34" width="295">
+  <!--============== Part: P2, Measure: 44 ==============-->
+  <measure number="44" width="192">
    <print new-system="yes">
     <system-layout>
      <system-margins>
@@ -5322,20 +6962,73 @@ del Poble Sec</credit-words>
       <right-margin>0</right-margin>
      </system-margins>
     </system-layout>
-    <staff-layout number="1">
-     <staff-distance>61</staff-distance>
+    <staff-layout number="2">
+     <staff-distance>82</staff-distance>
     </staff-layout>
    </print>
    <attributes>
     <staff-details number="1" print-object="yes" />
-    <staff-details number="2" print-object="no">
+    <staff-details number="2" print-object="yes">
      <staff-size>75</staff-size>
     </staff-details>
    </attributes>
-   <barline location="left">
-    <ending number="2" type="start" print-object="no" />
-   </barline>
    <note color="#000000" default-x="70" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>768</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>half</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="70">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 45 ==============-->
+  <measure number="45" width="141">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>768</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>half</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 46 ==============-->
+  <measure number="46" width="163">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -5347,7 +7040,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="144" default-y="-45">
+   <note color="#000000" default-x="62" default-y="-45">
     <pitch>
      <step>D</step>
      <octave>5</octave>
@@ -5359,7 +7052,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="221" default-y="-35">
+   <note color="#000000" default-x="115" default-y="-35">
     <pitch>
      <step>F</step>
      <alter>1</alter>
@@ -5375,7 +7068,7 @@ del Poble Sec</credit-words>
    <backup>
     <duration>768</duration>
    </backup>
-   <note default-x="70">
+   <note default-x="15">
     <rest />
     <duration>768</duration>
     <instrument id="P3-I1" />
@@ -5384,8 +7077,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 35 ==============-->
-  <measure number="35" width="140">
+  <!--============== Part: P2, Measure: 47 ==============-->
+  <measure number="47" width="79">
    <attributes />
    <note color="#000000" default-x="15" default-y="-30">
     <pitch>
@@ -5400,11 +7093,6 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <barline location="right">
-    <bar-style>light-heavy</bar-style>
-    <ending number="2" type="stop" print-object="no" />
-    <repeat direction="backward" />
-   </barline>
    <backup>
     <duration>768</duration>
    </backup>
@@ -5417,59 +7105,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 36 ==============-->
-  <measure number="36" width="168">
-   <attributes />
-   <note color="#000000" default-x="15" default-y="-50">
-    <pitch>
-     <step>C</step>
-     <octave>5</octave>
-    </pitch>
-    <duration>256</duration>
-    <instrument id="P2-I1" />
-    <voice>1</voice>
-    <type>quarter</type>
-    <stem>down</stem>
-    <staff>1</staff>
-   </note>
-   <note color="#000000" default-x="65" default-y="-55">
-    <pitch>
-     <step>B</step>
-     <octave>4</octave>
-    </pitch>
-    <duration>256</duration>
-    <instrument id="P2-I1" />
-    <voice>1</voice>
-    <type>quarter</type>
-    <stem>down</stem>
-    <staff>1</staff>
-   </note>
-   <note color="#000000" default-x="117" default-y="10">
-    <pitch>
-     <step>A</step>
-     <octave>4</octave>
-    </pitch>
-    <duration>256</duration>
-    <instrument id="P2-I1" />
-    <voice>1</voice>
-    <type>quarter</type>
-    <stem>up</stem>
-    <staff>1</staff>
-   </note>
-   <backup>
-    <duration>768</duration>
-   </backup>
-   <note default-x="15">
-    <rest />
-    <duration>768</duration>
-    <instrument id="P3-I1" />
-    <voice>2</voice>
-    <type>whole</type>
-    <staff>2</staff>
-   </note>
-  </measure>
-  <!--============== Part: P2, Measure: 37 ==============-->
-  <measure number="37" width="152">
+  <!--============== Part: P2, Measure: 48 ==============-->
+  <measure number="48" width="137">
    <attributes />
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
@@ -5496,8 +7133,291 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 38 ==============-->
-  <measure number="38" width="249">
+  <!--============== Part: P2, Measure: 49 ==============-->
+  <measure number="49" width="141">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>768</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>half</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 50 ==============-->
+  <measure number="50" width="150">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>384</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="77" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>384</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 51 ==============-->
+  <measure number="51" width="215">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>22</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+    </system-layout>
+    <staff-layout number="2">
+     <staff-distance>82</staff-distance>
+    </staff-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+    <staff-details number="2" print-object="yes">
+     <staff-size>75</staff-size>
+    </staff-details>
+   </attributes>
+   <note color="#000000" default-x="70" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="111" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="141" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="182" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="70">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 52 ==============-->
+  <measure number="52" width="159">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>768</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>half</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 53 ==============-->
+  <measure number="53" width="160">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>768</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>half</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 54 ==============-->
+  <measure number="54" width="139">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="56" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="97" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 55 ==============-->
+  <measure number="55" width="126">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>768</duration>
+    <instrument id="P2-I1" />
+    <voice>1</voice>
+    <type>half</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P3-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P2, Measure: 56 ==============-->
+  <measure number="56" width="206">
    <attributes />
    <barline location="left">
     <bar-style>heavy-light</bar-style>
@@ -5511,7 +7431,7 @@ del Poble Sec</credit-words>
     <type>quarter</type>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="101" default-y="5">
+   <note color="#000000" default-x="87" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -5523,7 +7443,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="138" default-y="5">
+   <note color="#000000" default-x="117" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -5535,7 +7455,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note default-x="212">
+   <note default-x="176">
     <rest />
     <duration>128</duration>
     <instrument id="P2-I1" />
@@ -5555,9 +7475,9 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 39 ==============-->
-  <measure number="39" width="244">
-   <print new-system="yes">
+  <!--============== Part: P2, Measure: 57 ==============-->
+  <measure number="57" width="244">
+   <print new-page="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
@@ -5565,7 +7485,7 @@ del Poble Sec</credit-words>
      </system-margins>
     </system-layout>
     <staff-layout number="1">
-     <staff-distance>61</staff-distance>
+     <staff-distance>59</staff-distance>
     </staff-layout>
    </print>
    <attributes>
@@ -5626,8 +7546,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 40 ==============-->
-  <measure number="40" width="189">
+  <!--============== Part: P2, Measure: 58 ==============-->
+  <measure number="58" width="189">
    <attributes />
    <note default-x="15">
     <rest />
@@ -5681,8 +7601,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 41 ==============-->
-  <measure number="41" width="193">
+  <!--============== Part: P2, Measure: 59 ==============-->
+  <measure number="59" width="193">
    <attributes />
    <note default-x="15">
     <rest />
@@ -5736,8 +7656,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 42 ==============-->
-  <measure number="42" width="189">
+  <!--============== Part: P2, Measure: 60 ==============-->
+  <measure number="60" width="189">
    <attributes />
    <note default-x="15">
     <rest />
@@ -5791,8 +7711,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 43 ==============-->
-  <measure number="43" width="189">
+  <!--============== Part: P2, Measure: 61 ==============-->
+  <measure number="61" width="189">
    <attributes />
    <note default-x="15">
     <rest />
@@ -5846,9 +7766,9 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 44 ==============-->
-  <measure number="44" width="258">
-   <print new-page="yes">
+  <!--============== Part: P2, Measure: 62 ==============-->
+  <measure number="62" width="258">
+   <print new-system="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
@@ -5856,7 +7776,7 @@ del Poble Sec</credit-words>
      </system-margins>
     </system-layout>
     <staff-layout number="2">
-     <staff-distance>78</staff-distance>
+     <staff-distance>82</staff-distance>
     </staff-layout>
    </print>
    <attributes>
@@ -5920,8 +7840,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 45 ==============-->
-  <measure number="45" width="227">
+  <!--============== Part: P2, Measure: 63 ==============-->
+  <measure number="63" width="227">
    <attributes />
    <note default-x="15">
     <rest />
@@ -5980,8 +7900,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 46 ==============-->
-  <measure number="46" width="203">
+  <!--============== Part: P2, Measure: 64 ==============-->
+  <measure number="64" width="203">
    <attributes />
    <barline location="left">
     <ending number="2" type="start" print-object="no" />
@@ -6038,8 +7958,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 47 ==============-->
-  <measure number="47" width="102">
+  <!--============== Part: P2, Measure: 65 ==============-->
+  <measure number="65" width="102">
    <attributes />
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
@@ -6068,8 +7988,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 48 ==============-->
-  <measure number="48" width="215">
+  <!--============== Part: P2, Measure: 66 ==============-->
+  <measure number="66" width="215">
    <attributes />
    <barline location="left">
     <bar-style>heavy-light</bar-style>
@@ -6172,8 +8092,8 @@ del Poble Sec</credit-words>
     <beam number="1">end</beam>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 49 ==============-->
-  <measure number="49" width="228">
+  <!--============== Part: P2, Measure: 67 ==============-->
+  <measure number="67" width="228">
    <print new-system="yes">
     <system-layout>
      <system-margins>
@@ -6182,7 +8102,7 @@ del Poble Sec</credit-words>
      </system-margins>
     </system-layout>
     <staff-layout number="2">
-     <staff-distance>59</staff-distance>
+     <staff-distance>64</staff-distance>
     </staff-layout>
    </print>
    <attributes>
@@ -6288,8 +8208,8 @@ del Poble Sec</credit-words>
     <beam number="1">end</beam>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 50 ==============-->
-  <measure number="50" width="173">
+  <!--============== Part: P2, Measure: 68 ==============-->
+  <measure number="68" width="173">
    <attributes />
    <note color="#000000" default-x="15" default-y="-50">
     <pitch>
@@ -6386,8 +8306,8 @@ del Poble Sec</credit-words>
     <beam number="1">end</beam>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 51 ==============-->
-  <measure number="51" width="149">
+  <!--============== Part: P2, Measure: 69 ==============-->
+  <measure number="69" width="149">
    <attributes />
    <note color="#000000" default-x="15" default-y="-50">
     <pitch>
@@ -6455,8 +8375,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 52 ==============-->
-  <measure number="52" width="165">
+  <!--============== Part: P2, Measure: 70 ==============-->
+  <measure number="70" width="165">
    <attributes />
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
@@ -6604,8 +8524,8 @@ del Poble Sec</credit-words>
     <beam number="1">end</beam>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 53 ==============-->
-  <measure number="53" width="166">
+  <!--============== Part: P2, Measure: 71 ==============-->
+  <measure number="71" width="166">
    <attributes />
    <note color="#000000" default-x="15" default-y="-50">
     <pitch>
@@ -6769,8 +8689,8 @@ del Poble Sec</credit-words>
     </notations>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 54 ==============-->
-  <measure number="54" width="124">
+  <!--============== Part: P2, Measure: 72 ==============-->
+  <measure number="72" width="124">
    <attributes />
    <note color="#000000" default-x="15" default-y="-40">
     <pitch>
@@ -6848,9 +8768,9 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 55 ==============-->
-  <measure number="55" width="189">
-   <print new-system="yes">
+  <!--============== Part: P2, Measure: 73 ==============-->
+  <measure number="73" width="189">
+   <print new-page="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
@@ -6897,8 +8817,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 56 ==============-->
-  <measure number="56" width="272">
+  <!--============== Part: P2, Measure: 74 ==============-->
+  <measure number="74" width="272">
    <attributes />
    <note color="#000000" default-x="15" default-y="-45">
     <pitch>
@@ -6997,8 +8917,8 @@ del Poble Sec</credit-words>
     <beam number="1">end</beam>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 57 ==============-->
-  <measure number="57" width="272">
+  <!--============== Part: P2, Measure: 75 ==============-->
+  <measure number="75" width="272">
    <attributes />
    <note color="#000000" default-x="15" default-y="-45">
     <pitch>
@@ -7097,8 +9017,8 @@ del Poble Sec</credit-words>
     <beam number="1">end</beam>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 58 ==============-->
-  <measure number="58" width="272">
+  <!--============== Part: P2, Measure: 76 ==============-->
+  <measure number="76" width="272">
    <attributes />
    <note color="#000000" default-x="15" default-y="-50">
     <pitch>
@@ -7195,9 +9115,9 @@ del Poble Sec</credit-words>
     <beam number="1">end</beam>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 59 ==============-->
-  <measure number="59" width="303">
-   <print new-page="yes">
+  <!--============== Part: P2, Measure: 77 ==============-->
+  <measure number="77" width="303">
+   <print new-system="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
@@ -7205,7 +9125,7 @@ del Poble Sec</credit-words>
      </system-margins>
     </system-layout>
     <staff-layout number="2">
-     <staff-distance>60</staff-distance>
+     <staff-distance>59</staff-distance>
     </staff-layout>
    </print>
    <attributes>
@@ -7280,8 +9200,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 60 ==============-->
-  <measure number="60" width="234">
+  <!--============== Part: P2, Measure: 78 ==============-->
+  <measure number="78" width="234">
    <attributes />
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
@@ -7383,8 +9303,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 61 ==============-->
-  <measure number="61" width="234">
+  <!--============== Part: P2, Measure: 79 ==============-->
+  <measure number="79" width="234">
    <attributes />
    <note color="#000000" default-x="15" default-y="-50">
     <pitch>
@@ -7486,8 +9406,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 62 ==============-->
-  <measure number="62" width="234">
+  <!--============== Part: P2, Measure: 80 ==============-->
+  <measure number="80" width="234">
    <attributes />
    <note color="#000000" default-x="15" default-y="10">
     <pitch>
@@ -7589,8 +9509,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 63 ==============-->
-  <measure number="63" width="239">
+  <!--============== Part: P2, Measure: 81 ==============-->
+  <measure number="81" width="239">
    <print new-system="yes">
     <system-layout>
      <system-margins>
@@ -7599,7 +9519,7 @@ del Poble Sec</credit-words>
      </system-margins>
     </system-layout>
     <staff-layout number="2">
-     <staff-distance>60</staff-distance>
+     <staff-distance>59</staff-distance>
     </staff-layout>
    </print>
    <attributes>
@@ -7646,8 +9566,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 64 ==============-->
-  <measure number="64" width="210">
+  <!--============== Part: P2, Measure: 82 ==============-->
+  <measure number="82" width="210">
    <attributes />
    <barline location="left">
     <ending number="2" type="start" print-object="no" />
@@ -7703,8 +9623,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 65 ==============-->
-  <measure number="65" width="379">
+  <!--============== Part: P2, Measure: 83 ==============-->
+  <measure number="83" width="379">
    <attributes />
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
@@ -7746,8 +9666,8 @@ del Poble Sec</credit-words>
     </notations>
    </note>
   </measure>
-  <!--============== Part: P2, Measure: 66 ==============-->
-  <measure number="66" width="176">
+  <!--============== Part: P2, Measure: 84 ==============-->
+  <measure number="84" width="176">
    <attributes />
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
@@ -9167,7 +11087,7 @@ del Poble Sec</credit-words>
    </note>
   </measure>
   <!--============== Part: P4, Measure: 26 ==============-->
-  <measure number="26" width="348">
+  <measure number="26" width="249">
    <print new-page="yes">
     <system-layout>
      <system-margins>
@@ -9176,7 +11096,7 @@ del Poble Sec</credit-words>
      </system-margins>
     </system-layout>
     <staff-layout number="1">
-     <staff-distance>61</staff-distance>
+     <staff-distance>85</staff-distance>
     </staff-layout>
    </print>
    <attributes>
@@ -9185,9 +11105,6 @@ del Poble Sec</credit-words>
      <staff-size>75</staff-size>
     </staff-details>
    </attributes>
-   <barline location="left">
-    <ending number="1" type="start" print-object="no" />
-   </barline>
    <note color="#000000" default-x="70" default-y="-45">
     <pitch>
      <step>D</step>
@@ -9200,7 +11117,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note default-x="240">
+   <note default-x="187">
     <rest />
     <duration>256</duration>
     <instrument id="P4-I1" />
@@ -9208,11 +11125,6 @@ del Poble Sec</credit-words>
     <type>quarter</type>
     <staff>1</staff>
    </note>
-   <barline location="right">
-    <bar-style>light-heavy</bar-style>
-    <ending number="1" type="stop" print-object="no" />
-    <repeat direction="backward" />
-   </barline>
    <backup>
     <duration>768</duration>
    </backup>
@@ -9226,15 +11138,12 @@ del Poble Sec</credit-words>
    </note>
   </measure>
   <!--============== Part: P4, Measure: 27 ==============-->
-  <measure number="27" width="293">
+  <measure number="27" width="173">
    <attributes />
-   <barline location="left">
-    <ending number="2" type="start" print-object="no" />
-   </barline>
-   <note color="#000000" default-x="15" default-y="-55">
+   <note color="#000000" default-x="15" default-y="-40">
     <pitch>
-     <step>B</step>
-     <octave>4</octave>
+     <step>E</step>
+     <octave>5</octave>
     </pitch>
     <duration>256</duration>
     <instrument id="P4-I1" />
@@ -9243,35 +11152,30 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="100" default-y="5">
+   <note color="#000000" default-x="55" default-y="-40">
     <pitch>
-     <step>G</step>
-     <octave>4</octave>
+     <step>E</step>
+     <octave>5</octave>
     </pitch>
     <duration>256</duration>
     <instrument id="P4-I1" />
     <voice>1</voice>
     <type>quarter</type>
-    <stem>up</stem>
+    <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="185" default-y="5">
+   <note color="#000000" default-x="114" default-y="-40">
     <pitch>
-     <step>G</step>
-     <octave>4</octave>
+     <step>E</step>
+     <octave>5</octave>
     </pitch>
     <duration>256</duration>
     <instrument id="P4-I1" />
     <voice>1</voice>
     <type>quarter</type>
-    <stem>up</stem>
+    <stem>down</stem>
     <staff>1</staff>
    </note>
-   <barline location="right">
-    <bar-style>light-heavy</bar-style>
-    <ending number="2" type="stop" print-object="no" />
-    <repeat direction="backward" />
-   </barline>
    <backup>
     <duration>768</duration>
    </backup>
@@ -9285,7 +11189,533 @@ del Poble Sec</credit-words>
    </note>
   </measure>
   <!--============== Part: P4, Measure: 28 ==============-->
-  <measure number="28" width="203">
+  <measure number="28" width="194">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="73" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="132" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 29 ==============-->
+  <measure number="29" width="194">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="74" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="132" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 30 ==============-->
+  <measure number="30" width="194">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="74" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="132" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 31 ==============-->
+  <measure number="31" width="232">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>22</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+    </system-layout>
+    <staff-layout number="1">
+     <staff-distance>85</staff-distance>
+    </staff-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+    <staff-details number="2" print-object="no">
+     <staff-size>75</staff-size>
+    </staff-details>
+   </attributes>
+   <note color="#000000" default-x="70" default-y="-40">
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="111" default-y="-40">
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="172" default-y="-40">
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="70">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 32 ==============-->
+  <measure number="32" width="198">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="75" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="135" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 33 ==============-->
+  <measure number="33" width="198">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="75" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="135" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 34 ==============-->
+  <measure number="34" width="198">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>512</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note default-x="135">
+    <rest />
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 35 ==============-->
+  <measure number="35" width="177">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="-40">
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="56" default-y="-40">
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="117" default-y="-40">
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 36 ==============-->
+  <measure number="36" width="339">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>22</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+    </system-layout>
+    <staff-layout number="1">
+     <staff-distance>85</staff-distance>
+    </staff-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+    <staff-details number="2" print-object="no">
+     <staff-size>75</staff-size>
+    </staff-details>
+   </attributes>
+   <note color="#000000" default-x="70" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="160" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="249" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="70">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 37 ==============-->
+  <measure number="37" width="284">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="104" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="194" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 38 ==============-->
+  <measure number="38" width="213">
    <attributes />
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
@@ -9299,7 +11729,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="73" default-y="5">
+   <note color="#000000" default-x="77" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -9311,7 +11741,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note default-x="132">
+   <note default-x="139">
     <rest />
     <duration>256</duration>
     <instrument id="P4-I1" />
@@ -9334,8 +11764,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 29 ==============-->
-  <measure number="29" width="161">
+  <!--============== Part: P4, Measure: 39 ==============-->
+  <measure number="39" width="169">
    <attributes>
     <time color="#000000">
      <beats>6</beats>
@@ -9362,9 +11792,9 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 30 ==============-->
-  <measure number="30" width="306">
-   <print new-system="yes">
+  <!--============== Part: P4, Measure: 40 ==============-->
+  <measure number="40" width="294">
+   <print new-page="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
@@ -9372,7 +11802,7 @@ del Poble Sec</credit-words>
      </system-margins>
     </system-layout>
     <staff-layout number="1">
-     <staff-distance>61</staff-distance>
+     <staff-distance>58</staff-distance>
     </staff-layout>
    </print>
    <attributes>
@@ -9381,11 +11811,7 @@ del Poble Sec</credit-words>
      <staff-size>75</staff-size>
     </staff-details>
    </attributes>
-   <barline location="left">
-    <bar-style>heavy-light</bar-style>
-    <repeat direction="forward" />
-   </barline>
-   <note color="#000000" default-x="92" default-y="-55">
+   <note color="#000000" default-x="70" default-y="-55">
     <pitch>
      <step>B</step>
      <octave>4</octave>
@@ -9397,7 +11823,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="165" default-y="-55">
+   <note color="#000000" default-x="146" default-y="-55">
     <pitch>
      <step>B</step>
      <octave>4</octave>
@@ -9409,7 +11835,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="207" default-y="-55">
+   <note color="#000000" default-x="190" default-y="-55">
     <pitch>
      <step>B</step>
      <octave>4</octave>
@@ -9421,7 +11847,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="264" default-y="5">
+   <note color="#000000" default-x="250" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -9436,7 +11862,7 @@ del Poble Sec</credit-words>
    <backup>
     <duration>768</duration>
    </backup>
-   <note default-x="92">
+   <note default-x="70">
     <rest />
     <duration>768</duration>
     <instrument id="P5-I1" />
@@ -9445,8 +11871,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 31 ==============-->
-  <measure number="31" width="226">
+  <!--============== Part: P4, Measure: 41 ==============-->
+  <measure number="41" width="238">
    <attributes />
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
@@ -9460,7 +11886,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="86" default-y="5">
+   <note color="#000000" default-x="90" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -9472,7 +11898,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="128" default-y="5">
+   <note color="#000000" default-x="133" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -9484,7 +11910,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="185" default-y="5">
+   <note color="#000000" default-x="194" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -9508,8 +11934,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 32 ==============-->
-  <measure number="32" width="238">
+  <!--============== Part: P4, Measure: 42 ==============-->
+  <measure number="42" width="250">
    <attributes />
    <note color="#000000" default-x="15">
     <pitch>
@@ -9524,7 +11950,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="72">
+   <note color="#000000" default-x="75">
     <pitch>
      <step>F</step>
      <alter>1</alter>
@@ -9537,7 +11963,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="113" default-y="9">
+   <note color="#000000" default-x="119" default-y="9">
     <pitch>
      <step>F</step>
      <alter>1</alter>
@@ -9551,7 +11977,7 @@ del Poble Sec</credit-words>
     <staff>1</staff>
     <beam number="1">begin</beam>
    </note>
-   <note color="#000000" default-x="155" default-y="9">
+   <note color="#000000" default-x="163" default-y="9">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -9564,7 +11990,7 @@ del Poble Sec</credit-words>
     <staff>1</staff>
     <beam number="1">continue</beam>
    </note>
-   <note color="#000000" default-x="196" default-y="9">
+   <note color="#000000" default-x="206" default-y="9">
     <pitch>
      <step>A</step>
      <octave>4</octave>
@@ -9589,8 +12015,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 33 ==============-->
-  <measure number="33" width="235">
+  <!--============== Part: P4, Measure: 43 ==============-->
+  <measure number="43" width="223">
    <attributes />
    <note color="#000000" default-x="15" default-y="-55">
     <pitch>
@@ -9604,7 +12030,7 @@ del Poble Sec</credit-words>
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="72" default-y="5">
+   <note color="#000000" default-x="75" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -9616,7 +12042,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="114" default-y="5">
+   <note color="#000000" default-x="119" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -9628,7 +12054,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="171" default-y="5">
+   <note color="#000000" default-x="180" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -9640,10 +12066,6 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <barline location="right">
-    <bar-style>light-heavy</bar-style>
-    <repeat direction="backward" />
-   </barline>
    <backup>
     <duration>768</duration>
    </backup>
@@ -9656,8 +12078,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 34 ==============-->
-  <measure number="34" width="295">
+  <!--============== Part: P4, Measure: 44 ==============-->
+  <measure number="44" width="192">
    <print new-system="yes">
     <system-layout>
      <system-margins>
@@ -9665,47 +12087,53 @@ del Poble Sec</credit-words>
       <right-margin>0</right-margin>
      </system-margins>
     </system-layout>
-    <staff-layout number="1">
-     <staff-distance>61</staff-distance>
+    <staff-layout number="2">
+     <staff-distance>82</staff-distance>
     </staff-layout>
    </print>
    <attributes>
     <staff-details number="1" print-object="yes" />
-    <staff-details number="2" print-object="no">
+    <staff-details number="2" print-object="yes">
      <staff-size>75</staff-size>
     </staff-details>
    </attributes>
-   <barline location="left">
-    <ending number="2" type="start" print-object="no" />
-   </barline>
-   <note color="#000000" default-x="70">
+   <note color="#000000" default-x="70" default-y="-55">
     <pitch>
-     <step>D</step>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="103" default-y="-55">
+    <pitch>
+     <step>B</step>
      <octave>4</octave>
     </pitch>
     <duration>128</duration>
     <instrument id="P4-I1" />
     <voice>1</voice>
     <type>eighth</type>
-    <stem>up</stem>
+    <stem>down</stem>
     <staff>1</staff>
-    <beam number="1">begin</beam>
    </note>
-   <note color="#000000" default-x="106">
+   <note color="#000000" default-x="127" default-y="-55">
     <pitch>
-     <step>F</step>
-     <alter>1</alter>
+     <step>B</step>
      <octave>4</octave>
     </pitch>
-    <duration>128</duration>
+    <duration>256</duration>
     <instrument id="P4-I1" />
     <voice>1</voice>
-    <type>eighth</type>
-    <stem>up</stem>
+    <type>quarter</type>
+    <stem>down</stem>
     <staff>1</staff>
-    <beam number="1">continue</beam>
    </note>
-   <note color="#000000" default-x="144">
+   <note color="#000000" default-x="159" default-y="5">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -9716,48 +12144,6 @@ del Poble Sec</credit-words>
     <type>eighth</type>
     <stem>up</stem>
     <staff>1</staff>
-    <beam number="1">end</beam>
-   </note>
-   <note color="#000000" default-x="184" default-y="2">
-    <pitch>
-     <step>G</step>
-     <octave>4</octave>
-    </pitch>
-    <duration>128</duration>
-    <instrument id="P4-I1" />
-    <voice>1</voice>
-    <type>eighth</type>
-    <stem>up</stem>
-    <staff>1</staff>
-    <beam number="1">begin</beam>
-   </note>
-   <note color="#000000" default-x="221" default-y="2">
-    <pitch>
-     <step>F</step>
-     <alter>1</alter>
-     <octave>4</octave>
-    </pitch>
-    <duration>128</duration>
-    <instrument id="P4-I1" />
-    <voice>1</voice>
-    <type>eighth</type>
-    <stem>up</stem>
-    <staff>1</staff>
-    <beam number="1">continue</beam>
-   </note>
-   <note color="#000000" default-x="258" default-y="2">
-    <pitch>
-     <step>F</step>
-     <alter>1</alter>
-     <octave>4</octave>
-    </pitch>
-    <duration>128</duration>
-    <instrument id="P4-I1" />
-    <voice>1</voice>
-    <type>eighth</type>
-    <stem>up</stem>
-    <staff>1</staff>
-    <beam number="1">end</beam>
    </note>
    <backup>
     <duration>768</duration>
@@ -9771,8 +12157,167 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 35 ==============-->
-  <measure number="35" width="140">
+  <!--============== Part: P4, Measure: 45 ==============-->
+  <measure number="45" width="141">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="48" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="77" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="109" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 46 ==============-->
+  <measure number="46" width="163">
+   <attributes />
+   <note color="#000000" default-x="15">
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="39">
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+   </note>
+   <note color="#000000" default-x="62">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+   <note color="#000000" default-x="91" default-y="2">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="115" default-y="2">
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+   </note>
+   <note color="#000000" default-x="139" default-y="2">
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 47 ==============-->
+  <measure number="47" width="79">
    <attributes />
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
@@ -9787,11 +12332,6 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <barline location="right">
-    <bar-style>light-heavy</bar-style>
-    <ending number="2" type="stop" print-object="no" />
-    <repeat direction="backward" />
-   </barline>
    <backup>
     <duration>768</duration>
    </backup>
@@ -9804,8 +12344,420 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 36 ==============-->
-  <measure number="36" width="168">
+  <!--============== Part: P4, Measure: 48 ==============-->
+  <measure number="48" width="137">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="48" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="72" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="104" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 49 ==============-->
+  <measure number="49" width="141">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="48" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="77" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="109" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 50 ==============-->
+  <measure number="50" width="150">
+   <attributes />
+   <note color="#000000" default-x="15">
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="48">
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="77" default-y="9">
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="102" default-y="9">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+   </note>
+   <note color="#000000" default-x="126" default-y="9">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 51 ==============-->
+  <measure number="51" width="215">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>22</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+    </system-layout>
+    <staff-layout number="2">
+     <staff-distance>82</staff-distance>
+    </staff-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+    <staff-details number="2" print-object="yes">
+     <staff-size>75</staff-size>
+    </staff-details>
+   </attributes>
+   <note color="#000000" default-x="70" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="111" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="141" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="182" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="70">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 52 ==============-->
+  <measure number="52" width="159">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="56" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="85" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="127" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 53 ==============-->
+  <measure number="53" width="160">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="56" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="86" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="127" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P4-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>768</duration>
+   </backup>
+   <note default-x="15">
+    <rest />
+    <duration>768</duration>
+    <instrument id="P5-I1" />
+    <voice>2</voice>
+    <type>whole</type>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <!--============== Part: P4, Measure: 54 ==============-->
+  <measure number="54" width="139">
    <attributes />
    <note color="#000000" default-x="15" default-y="-15">
     <pitch>
@@ -9819,7 +12771,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="65" default-y="-10">
+   <note color="#000000" default-x="56" default-y="-10">
     <pitch>
      <step>D</step>
      <octave>4</octave>
@@ -9831,7 +12783,7 @@ del Poble Sec</credit-words>
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="117">
+   <note color="#000000" default-x="97">
     <pitch>
      <step>F</step>
      <alter>1</alter>
@@ -9856,8 +12808,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 37 ==============-->
-  <measure number="37" width="152">
+  <!--============== Part: P4, Measure: 55 ==============-->
+  <measure number="55" width="126">
    <attributes />
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
@@ -9884,8 +12836,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 38 ==============-->
-  <measure number="38" width="249">
+  <!--============== Part: P4, Measure: 56 ==============-->
+  <measure number="56" width="206">
    <attributes />
    <barline location="left">
     <bar-style>heavy-light</bar-style>
@@ -9904,7 +12856,7 @@ del Poble Sec</credit-words>
     <staff>1</staff>
     <beam number="1">begin</beam>
    </note>
-   <note color="#000000" default-x="65" default-y="12">
+   <note color="#000000" default-x="57" default-y="12">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -9917,7 +12869,7 @@ del Poble Sec</credit-words>
     <staff>1</staff>
     <beam number="1">continue</beam>
    </note>
-   <note color="#000000" default-x="101" default-y="12">
+   <note color="#000000" default-x="87" default-y="12">
     <pitch>
      <step>E</step>
      <octave>4</octave>
@@ -9930,7 +12882,7 @@ del Poble Sec</credit-words>
     <staff>1</staff>
     <beam number="1">end</beam>
    </note>
-   <note color="#000000" default-x="138" default-y="12">
+   <note color="#000000" default-x="117" default-y="12">
     <pitch>
      <step>C</step>
      <octave>5</octave>
@@ -9943,7 +12895,7 @@ del Poble Sec</credit-words>
     <staff>1</staff>
     <beam number="1">begin</beam>
    </note>
-   <note color="#000000" default-x="175" default-y="12">
+   <note color="#000000" default-x="147" default-y="12">
     <pitch>
      <step>G</step>
      <octave>4</octave>
@@ -9956,7 +12908,7 @@ del Poble Sec</credit-words>
     <staff>1</staff>
     <beam number="1">continue</beam>
    </note>
-   <note color="#000000" default-x="212" default-y="12">
+   <note color="#000000" default-x="176" default-y="12">
     <pitch>
      <step>E</step>
      <octave>4</octave>
@@ -9981,9 +12933,9 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 39 ==============-->
-  <measure number="39" width="244">
-   <print new-system="yes">
+  <!--============== Part: P4, Measure: 57 ==============-->
+  <measure number="57" width="244">
+   <print new-page="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
@@ -9991,7 +12943,7 @@ del Poble Sec</credit-words>
      </system-margins>
     </system-layout>
     <staff-layout number="1">
-     <staff-distance>61</staff-distance>
+     <staff-distance>58</staff-distance>
     </staff-layout>
    </print>
    <attributes>
@@ -10090,8 +13042,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 40 ==============-->
-  <measure number="40" width="189">
+  <!--============== Part: P4, Measure: 58 ==============-->
+  <measure number="58" width="189">
    <attributes />
    <note color="#000000" default-x="15" default-y="12">
     <pitch>
@@ -10183,8 +13135,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 41 ==============-->
-  <measure number="41" width="193">
+  <!--============== Part: P4, Measure: 59 ==============-->
+  <measure number="59" width="193">
    <attributes />
    <note color="#000000" default-x="15">
     <pitch>
@@ -10277,8 +13229,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 42 ==============-->
-  <measure number="42" width="189">
+  <!--============== Part: P4, Measure: 60 ==============-->
+  <measure number="60" width="189">
    <attributes />
    <note color="#000000" default-x="15">
     <pitch>
@@ -10370,8 +13322,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 43 ==============-->
-  <measure number="43" width="189">
+  <!--============== Part: P4, Measure: 61 ==============-->
+  <measure number="61" width="189">
    <attributes />
    <note color="#000000" default-x="15" default-y="9">
     <pitch>
@@ -10463,9 +13415,9 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 44 ==============-->
-  <measure number="44" width="258">
-   <print new-page="yes">
+  <!--============== Part: P4, Measure: 62 ==============-->
+  <measure number="62" width="258">
+   <print new-system="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
@@ -10473,7 +13425,7 @@ del Poble Sec</credit-words>
      </system-margins>
     </system-layout>
     <staff-layout number="2">
-     <staff-distance>78</staff-distance>
+     <staff-distance>82</staff-distance>
     </staff-layout>
    </print>
    <attributes>
@@ -10577,8 +13529,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 45 ==============-->
-  <measure number="45" width="227">
+  <!--============== Part: P4, Measure: 63 ==============-->
+  <measure number="63" width="227">
    <attributes />
    <note color="#000000" default-x="15" default-y="9">
     <pitch>
@@ -10677,8 +13629,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 46 ==============-->
-  <measure number="46" width="203">
+  <!--============== Part: P4, Measure: 64 ==============-->
+  <measure number="64" width="203">
    <attributes />
    <barline location="left">
     <ending number="2" type="start" print-object="no" />
@@ -10776,8 +13728,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 47 ==============-->
-  <measure number="47" width="102">
+  <!--============== Part: P4, Measure: 65 ==============-->
+  <measure number="65" width="102">
    <attributes />
    <note color="#000000" default-x="15" default-y="-10">
     <pitch>
@@ -10807,8 +13759,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 48 ==============-->
-  <measure number="48" width="215">
+  <!--============== Part: P4, Measure: 66 ==============-->
+  <measure number="66" width="215">
    <attributes />
    <barline location="left">
     <bar-style>heavy-light</bar-style>
@@ -10867,8 +13819,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 49 ==============-->
-  <measure number="49" width="228">
+  <!--============== Part: P4, Measure: 67 ==============-->
+  <measure number="67" width="228">
    <print new-system="yes">
     <system-layout>
      <system-margins>
@@ -10877,7 +13829,7 @@ del Poble Sec</credit-words>
      </system-margins>
     </system-layout>
     <staff-layout number="2">
-     <staff-distance>59</staff-distance>
+     <staff-distance>64</staff-distance>
     </staff-layout>
    </print>
    <attributes>
@@ -10939,8 +13891,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 50 ==============-->
-  <measure number="50" width="173">
+  <!--============== Part: P4, Measure: 68 ==============-->
+  <measure number="68" width="173">
    <attributes />
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
@@ -10995,8 +13947,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 51 ==============-->
-  <measure number="51" width="149">
+  <!--============== Part: P4, Measure: 69 ==============-->
+  <measure number="69" width="149">
    <attributes />
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
@@ -11054,8 +14006,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 52 ==============-->
-  <measure number="52" width="165">
+  <!--============== Part: P4, Measure: 70 ==============-->
+  <measure number="70" width="165">
    <attributes />
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
@@ -11205,8 +14157,8 @@ del Poble Sec</credit-words>
     <beam number="1">end</beam>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 53 ==============-->
-  <measure number="53" width="166">
+  <!--============== Part: P4, Measure: 71 ==============-->
+  <measure number="71" width="166">
    <attributes />
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
@@ -11370,8 +14322,8 @@ del Poble Sec</credit-words>
     </notations>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 54 ==============-->
-  <measure number="54" width="124">
+  <!--============== Part: P4, Measure: 72 ==============-->
+  <measure number="72" width="124">
    <attributes />
    <note color="#000000" default-x="15" default-y="-50">
     <pitch>
@@ -11449,9 +14401,9 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 55 ==============-->
-  <measure number="55" width="189">
-   <print new-system="yes">
+  <!--============== Part: P4, Measure: 73 ==============-->
+  <measure number="73" width="189">
+   <print new-page="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
@@ -11498,8 +14450,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 56 ==============-->
-  <measure number="56" width="272">
+  <!--============== Part: P4, Measure: 74 ==============-->
+  <measure number="74" width="272">
    <attributes />
    <note color="#000000" default-x="15" default-y="-55">
     <pitch>
@@ -11554,8 +14506,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 57 ==============-->
-  <measure number="57" width="272">
+  <!--============== Part: P4, Measure: 75 ==============-->
+  <measure number="75" width="272">
    <attributes />
    <note color="#000000" default-x="15" default-y="10">
     <pitch>
@@ -11610,8 +14562,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 58 ==============-->
-  <measure number="58" width="272">
+  <!--============== Part: P4, Measure: 76 ==============-->
+  <measure number="76" width="272">
    <attributes />
    <note color="#000000" default-x="15" default-y="5">
     <pitch>
@@ -11666,9 +14618,9 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 59 ==============-->
-  <measure number="59" width="303">
-   <print new-page="yes">
+  <!--============== Part: P4, Measure: 77 ==============-->
+  <measure number="77" width="303">
+   <print new-system="yes">
     <system-layout>
      <system-margins>
       <left-margin>22</left-margin>
@@ -11676,7 +14628,7 @@ del Poble Sec</credit-words>
      </system-margins>
     </system-layout>
     <staff-layout number="2">
-     <staff-distance>60</staff-distance>
+     <staff-distance>59</staff-distance>
     </staff-layout>
    </print>
    <attributes>
@@ -11751,8 +14703,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 60 ==============-->
-  <measure number="60" width="234">
+  <!--============== Part: P4, Measure: 78 ==============-->
+  <measure number="78" width="234">
    <attributes />
    <note color="#000000" default-x="15" default-y="-5">
     <pitch>
@@ -11854,8 +14806,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 61 ==============-->
-  <measure number="61" width="234">
+  <!--============== Part: P4, Measure: 79 ==============-->
+  <measure number="79" width="234">
    <attributes />
    <note color="#000000" default-x="15" default-y="-5">
     <pitch>
@@ -11957,8 +14909,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 62 ==============-->
-  <measure number="62" width="234">
+  <!--============== Part: P4, Measure: 80 ==============-->
+  <measure number="80" width="234">
    <attributes />
    <note color="#000000" default-x="15" default-y="-10">
     <pitch>
@@ -12060,8 +15012,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 63 ==============-->
-  <measure number="63" width="239">
+  <!--============== Part: P4, Measure: 81 ==============-->
+  <measure number="81" width="239">
    <print new-system="yes">
     <system-layout>
      <system-margins>
@@ -12070,7 +15022,7 @@ del Poble Sec</credit-words>
      </system-margins>
     </system-layout>
     <staff-layout number="2">
-     <staff-distance>60</staff-distance>
+     <staff-distance>59</staff-distance>
     </staff-layout>
    </print>
    <attributes>
@@ -12117,8 +15069,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 64 ==============-->
-  <measure number="64" width="210">
+  <!--============== Part: P4, Measure: 82 ==============-->
+  <measure number="82" width="210">
    <attributes />
    <barline location="left">
     <ending number="2" type="start" print-object="no" />
@@ -12174,8 +15126,8 @@ del Poble Sec</credit-words>
     <staff>2</staff>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 65 ==============-->
-  <measure number="65" width="379">
+  <!--============== Part: P4, Measure: 83 ==============-->
+  <measure number="83" width="379">
    <attributes />
    <note color="#000000" default-x="15" default-y="-55">
     <pitch>
@@ -12505,8 +15457,8 @@ del Poble Sec</credit-words>
     </notations>
    </note>
   </measure>
-  <!--============== Part: P4, Measure: 66 ==============-->
-  <measure number="66" width="176">
+  <!--============== Part: P4, Measure: 84 ==============-->
+  <measure number="84" width="176">
    <attributes />
    <note color="#000000" default-x="15" default-y="-30">
     <pitch>
