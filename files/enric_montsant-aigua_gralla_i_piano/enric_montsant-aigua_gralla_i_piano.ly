@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Aigua"
+  subtitle="(per la Montse, en Nayan i en Quim)"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Autor: Enric Montsant-1998"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}
