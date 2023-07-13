@@ -57,7 +57,14 @@ foreach ($dirs as $dir) {
     $files3 = glob("files/$hash/$hash-*.png");
     foreach ($files3 as $key => $val) {
         $last = str_replace("files/$hash/$hash", "", $val);
-        $files3[$key] = $last;
+        $size = getimagesize($val);
+        $width = $size[0];
+        $height = $size[1];
+        $files3[$key] = array(
+            "last" => $last,
+            "width" => $width,
+            "height" => $height,
+        );
     }
     $songs[$hash] = array(
         "name" => $song2,

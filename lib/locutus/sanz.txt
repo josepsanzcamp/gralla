@@ -1,0 +1,8 @@
+
+npm install locutus
+browserify main.js -o locutus.js
+minify locutus.js > locutus.min.js
+rm -f locutus.js
+rm -rf node_modules
+rm -f package-lock.json
+rm -f package.json
