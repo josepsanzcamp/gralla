@@ -26,20 +26,9 @@
 	}
 }
 
-/* FOR VIEWPDF */
-#viewerContainer {
-	position: absolute;
-	width: calc(100% - 18px);
-}
-
-#viewerContainer .canvasWrapper {
-    box-shadow:0 0 4px 4px rgba(0,0,0,0.1)!important;
-}
-
-#viewerContainer *,
-#viewerContainer *::before,
-#viewerContainer *::after {
-	box-sizing: content-box;
+/* FOR PDF */
+#pdf img {
+	box-shadow:0 0 4px 4px rgba(0,0,0,0.1)!important;
 }
 
 /* FOR TABLES */

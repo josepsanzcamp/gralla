@@ -8,12 +8,15 @@ foreach ($dirs as $dir) {
         require "converter-from-enc.php";
         require "converter-from-ly.php";
         require "converter-make-mp3.php";
+        require "converter-make-png.php";
     } elseif (file_exists("$dir.mscz") || file_exists("$dir.xml") || file_exists("$dir.mxl")) {
         require "converter-from-xml.php";
         require "converter-make-mp3.php";
+        require "converter-make-png.php";
     } elseif (file_exists("$dir.ly")) {
         require "converter-from-ly.php";
         require "converter-make-mp3.php";
+        require "converter-make-png.php";
     }
     chdir("..");
 }

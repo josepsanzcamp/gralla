@@ -54,10 +54,16 @@ foreach ($dirs as $dir) {
             "size" => $size,
         );
     }
+    $files3 = glob("files/$hash/$hash-*.png");
+    foreach ($files3 as $key => $val) {
+        $last = str_replace("files/$hash/$hash", "", $val);
+        $files3[$key] = $last;
+    }
     $songs[$hash] = array(
         "name" => $song2,
         "info" => $info,
         "files" => $files2,
+        "pages" => $files3,
     );
     $count++;
 }
