@@ -1,0 +1,8 @@
+
+npm install doc-cookies
+browserify main.js -o docCookies.js
+minify docCookies.js > docCookies.min.js
+rm -f docCookies.js
+rm -rf node_modules
+rm -f package-lock.json
+rm -f package.json

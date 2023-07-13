@@ -1,0 +1,4 @@
+
+Aquest fitxers formen part del nou SaltOS 4, que esta en fase de desenvolupament
+
+These files are part of the new SaltOS 4, that is under development
