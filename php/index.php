@@ -94,6 +94,7 @@ $html[] = str_replace_assoc(array(
     "__AUTHOR__" => $labels["author"],
     "__KEYWORDS__" => $labels["keywords"],
     "__SEARCH__" => $labels["search"],
+    "__MENU__" => $labels["menu"],
     "__ABOUT__" => $labels["about"],
     "__REPO__" => $labels["repo"],
     "__LANG__" => $lang
