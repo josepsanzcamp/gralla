@@ -122,7 +122,7 @@ $html[] = str_replace_assoc(array(
     "__PLAY__" => $labels["play"]
 ), $template[6]);
 $html[] = $template[8];
-$html[] = "<script src='lib/all.$lang.js'></script>";
+$html[] = "<script src='lib/all.$lang.js?" . md5_file("lib/all.$lang.js") . "'></script>";
 $html[] = $template[9];
 foreach ($html as $key => $val) {
     $html[$key] = trim($val, "\n");
@@ -134,14 +134,12 @@ $html = implode("\n", $html);
 
 // SAVE ALL OTHER FILES
 list($html,$js,$css) = html_minify2($html);
-$html = html_minify($html);
 $js = js_minify($js);
+file_put_contents("lib/all.min.js", $js);
 $css = css_minify($css);
-$html = js_minify2($html, "lib/all.min.js");
-$html = css_minify2($html, "lib/all.min.css");
+file_put_contents("lib/all.min.css", $css);
+$html = html_minify($html);
+$html = js_minify2($html, "lib/all.min.js?" . md5_file("lib/all.min.js"));
+$html = css_minify2($html, "lib/all.min.css?" . md5_file("lib/all.min.css"));
 $html = str_replace("<head>", "<head><base href='./index.$lang.html'/>", $html);
 file_put_contents("index.$lang.html", $html);
-$js = str_replace(':p+"', ':"lib/audiojs/', $js);
-file_put_contents("lib/all.min.js", $js);
-$css = str_replace("images/", "pdfjs/images/", $css);
-file_put_contents("lib/all.min.css", $css);

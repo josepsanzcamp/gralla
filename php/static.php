@@ -10,7 +10,7 @@ $html[] = $template[0];
 $html[] = $template[4];
 $html[] = $template[6];
 $html[] = $template[8];
-$html[] = "<script src='lib/all.$lang.js'></script>";
+$html[] = "<script src='lib/all.$lang.js?" . md5_file("lib/all.$lang.js") . "'></script>";
 $html[] = $template[9];
 foreach ($html as $key => $val) {
     $html[$key] = trim($val, "\n");
@@ -19,8 +19,8 @@ $html = implode("\n", $html);
 
 list($html,$js,$css) = html_minify2($html);
 $html = html_minify($html);
-$html = js_minify2($html, "lib/all.min.js");
-$html = css_minify2($html, "lib/all.min.css");
+$html = js_minify2($html, "lib/all.min.js?" . md5_file("lib/all.min.js"));
+$html = css_minify2($html, "lib/all.min.css?" . md5_file("lib/all.min.css"));
 $html = str_replace("<head>", "<head><base href='../index.$lang.html'/>", $html);
 
 // PREPARE FILES LIST
@@ -40,6 +40,7 @@ foreach ($dirs as $dir) {
         "__AUTHOR__" => $labels["author"],
         "__KEYWORDS__" => $info4 . ", " . $labels["keywords"],
         "__SEARCH__" => $labels["search"],
+        "__MENU__" => $labels["menu"],
         "__ABOUT__" => $labels["about"],
         "__REPO__" => $labels["repo"],
         "__LANG__" => $lang,
