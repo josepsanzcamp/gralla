@@ -1,78 +1,78 @@
 
 /* FOR MENU */
 #menu .accordion-button {
-	font-weight:bold;
-	word-wrap: anywhere;
+    font-weight:bold;
+    word-wrap: anywhere;
 }
 
 #menu .nav-link {
-	font-weight:bold;
-	color:var(--bs-accordion-btn-color);
+    font-weight:bold;
+    color:var(--bs-accordion-btn-color);
 }
 
 #menu .nav-link.active {
-	color:rgb(var(--bs-primary-rgb));
+    color:rgb(var(--bs-primary-rgb));
 }
 
 /* FOR TITLE */
 #titol {
-	width: calc(100% - 35rem);
-	margin-bottom:0;
+    width: calc(100% - 35rem);
+    margin-bottom:0;
 }
 
 @media (max-width: 767.98px) {
-	#titol {
-		width: calc(100% - 5rem);
-	}
+    #titol {
+        width: calc(100% - 5rem);
+    }
 }
 
 /* FOR PDF */
 #pdf img {
-	box-shadow:0 0 4px 4px rgba(0,0,0,0.1)!important;
+    box-shadow:0 0 4px 4px rgba(0,0,0,0.1)!important;
 }
 
 /* FOR TABLES */
 #files {
-	--bs-table-hover-bg:#fbec88;
-	--bs-table-active-bg:#fbec88;
+    --bs-table-hover-bg:#fbec88;
+    --bs-table-active-bg:#fbec88;
 }
 
 #files a {
-	text-decoration:none;
+    text-decoration:none;
 }
 
 #files a:hover {
-	text-decoration:underline;
+    text-decoration:underline;
 }
 
 /* FOR AUDIOPLAYER */
 #files .audioplayer {
-	min-width:250px;
-	border:0;
-	background:rgb(var(--bs-primary-rgb));
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-	font-size: .875rem;
+    min-width:250px;
+    border:0;
+    background:rgb(var(--bs-primary-rgb));
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: .875rem;
 }
 
 #files .audioplayer-play,
 #files .audioplayer-pause,
 #files .audioplayer-volume span {
-	-webkit-filter: none;
-	-moz-filter: none;
-	-ms-filter: none;
-	-o-filter: none;
-	filter: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
 }
 
 #files .audioplayer-volume span {
-	width: 0.75em; /* 5 */
-	height: 0.75em; /* 6 */
-	background-color: #fff;
-	display: block;
-	position: relative;
-	z-index: 1;
-	top: 35%;
-	left: 35%;
+    width: 0.75em; /* 5 */
+    height: 0.75em; /* 6 */
+    background-color: #fff;
+    display: block;
+    position: relative;
+    z-index: 1;
+    top: 35%;
+    left: 35%;
 }

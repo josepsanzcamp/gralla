@@ -15,7 +15,8 @@ function js_minify($data)
     return __minify($data, "js");
 }
 
-function __minify($data, $type) {
+function __minify($data, $type)
+{
     $hash = md5($data);
     $in = "cache/$hash.in.$type";
     $out = "cache/$hash.out.$type";
