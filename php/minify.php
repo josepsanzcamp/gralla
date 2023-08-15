@@ -2,16 +2,7 @@
 
 function html_minify($data)
 {
-    $data = str_replace(
-        ["<head>", "</head>", "<body>", "</body>"],
-        ["<aaaa>", "</aaaa>", "<bbbb>", "</bbbb>"],
-        $data);
-    $data = __minify($data, "html");
-    $data = str_replace(
-        ["<aaaa>", "</aaaa>", "<bbbb>", "</bbbb>"],
-        ["<head>", "</head>", "<body>", "</body>"],
-        $data);
-    return $data;
+    return __minify($data, "html");
 }
 
 function css_minify($data)
