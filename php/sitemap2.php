@@ -20,5 +20,5 @@ foreach ($xml as $key => $val) {
     $xml[$key] = trim($val, "\n");
 }
 $xml = implode("\n", $xml);
-$xml = html_minify($xml);
+$xml = xml_minify($xml);
 file_put_contents("sitemap.xml", $xml);

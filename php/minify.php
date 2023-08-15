@@ -2,62 +2,50 @@
 
 function html_minify($data)
 {
-    $data = explode("\n", $data);
-    foreach ($data as $key => $val) {
-        if (substr(trim($val), 0, 4) == "<!--" && substr(trim($val), -3, 3) == "-->") {
-            unset($data[$key]);
-        }
-    }
-    $data = implode("\n", $data);
-    $data = str_replace(array("\n","\r","\t"), " ", $data);
-    do {
-        $data = str_replace("  ", " ", $data, $count);
-    } while ($count);
-    $data = str_replace("> <", "><", $data);
-    $data = trim($data);
+    $data = str_replace(
+        ["<head>", "</head>", "<body>", "</body>"],
+        ["<aaaa>", "</aaaa>", "<bbbb>", "</bbbb>"],
+        $data);
+    $data = __minify($data, "html");
+    $data = str_replace(
+        ["<aaaa>", "</aaaa>", "<bbbb>", "</bbbb>"],
+        ["<head>", "</head>", "<body>", "</body>"],
+        $data);
     return $data;
 }
 
 function css_minify($data)
 {
-    $data = str_replace(array("\n","\r","\t"), "", $data);
-    do {
-        $data = str_replace("  ", " ", $data, $count);
-    } while ($count);
-    foreach (array(";","{","}",",") as $temp) {
-        $data = str_replace(array(" " . $temp . " "," " . $temp,$temp . " "), $temp, $data);
-    }
-    $data = trim($data);
-    return $data;
+    return __minify($data, "css");
 }
 
 function js_minify($data)
 {
-    //~ $data = explode("\n", $data);
-    //~ foreach ($data as $key => $val) {
-        //~ $val = trim($val);
-        //~ $pos1 = strpos($val, "//");
-        //~ $pos2 = strpos($val, "/*");
-        //~ $len = strlen($val);
-        //~ if ($pos1 !== false || $pos2 !== false || $len > 200) {
-            //~ $val = "\n" . $val . "\n";
-        //~ }
-        //~ $data[$key] = $val;
-    //~ }
-    //~ $data = implode(" ", $data);
-    //~ do {
-        //~ $data = str_replace("  ", " ", $data, $count);
-    //~ } while ($count);
-    //~ $data = explode("\n", $data);
-    //~ foreach ($data as $key => $val) {
-        //~ $val = trim($val);
-        //~ $data[$key] = $val;
-    //~ }
-    //~ $data = implode("\n", $data);
-    //~ do {
-        //~ $data = str_replace("\n\n", "\n", $data, $count);
-    //~ } while ($count);
-    //~ $data = trim($data);
+    return __minify($data, "js");
+}
+
+function __minify($data, $type) {
+    $hash = md5($data);
+    $in = "cache/$hash.in.$type";
+    $out = "cache/$hash.out.$type";
+    if (!file_exists($in)) {
+        file_put_contents($in, $data);
+    }
+    if (!file_exists($out)) {
+        passthru("minify $in > $out");
+        if (file_exists($out) && !filesize($out)) {
+            unlink($out);
+        }
+    }
+    if (file_exists($out)) {
+        $data = file_get_contents($out);
+    }
+    return $data;
+}
+
+function xml_minify($data)
+{
+    $data = preg_replace('/\>\s+\</m', '><', $data);
     return $data;
 }
 
