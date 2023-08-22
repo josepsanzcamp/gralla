@@ -26,11 +26,6 @@
     }
 }
 
-/* FOR PDF */
-#pdf img {
-    box-shadow:0 0 4px 4px rgba(0,0,0,0.1)!important;
-}
-
 /* FOR TABLES */
 #files {
     --bs-table-hover-bg:#fbec88;
