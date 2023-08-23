@@ -28,7 +28,7 @@ foreach ($files as $file) {
         echo "Processant $file ... ";
         $file3 = str_replace(".pdf", "", $file);
         // Aixo genera el png amb la resolucio per defecte de 150dpi
-        __exec1("pdftoppm -png $file $file3");
+        __exec1("pdftocairo -png -transp $file $file3");
         // Agafo la llista dels fitxers png per despres
         $pages = glob($file2);
         // Aixo optimitza els png una barbaritat, jo faig servir pngnq,
