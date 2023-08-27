@@ -90,9 +90,8 @@ $json = json_encode(array(
     "cats" => $cats,
     "songs" => $songs,
     "template" => array(
-        html_minify($template[1]),
+        html_minify($template[1] . $template[3]),
         html_minify($template[2]),
-        html_minify($template[3]),
         html_minify($template[5]),
         html_minify($template[7]),
     ),
