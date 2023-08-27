@@ -28,8 +28,10 @@
 
 /* FOR TABLES */
 #files {
-    --bs-table-hover-bg:#fbec88;
-    --bs-table-active-bg:#fbec88;
+    --bs-table-hover-bg: #fbec88;
+    --bs-table-active-bg: #fbec88;
+    --bs-table-hover-color: #373a3c;
+    --bs-table-active-color: #373a3c;
 }
 
 #files a {
@@ -70,4 +72,13 @@
     z-index: 1;
     top: 35%;
     left: 35%;
+}
+
+/* FPR DARK THEME */
+html[data-bs-theme=dark] #pdf img {
+    filter: invert(1);
+}
+
+html[data-bs-theme=dark] #pdf img.bg-light {
+    --bs-bg-opacity: 0;
 }
