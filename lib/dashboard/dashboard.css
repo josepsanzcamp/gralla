@@ -1,5 +1,5 @@
 
-/* FOR MENU */
+/* Pel menu */
 #menu .accordion-button {
     font-weight:bold;
     word-wrap: anywhere;
@@ -14,7 +14,7 @@
     color:rgb(var(--bs-primary-rgb));
 }
 
-/* FOR TITLE */
+/* Pel titol */
 #titol {
     width: calc(100% - 35rem);
     margin-bottom:0;
@@ -26,7 +26,7 @@
     }
 }
 
-/* FOR TABLES */
+/* Per la taula */
 #files {
     --bs-table-hover-bg: #fbec88;
     --bs-table-active-bg: #fbec88;
@@ -42,7 +42,7 @@
     text-decoration:underline;
 }
 
-/* FOR AUDIOPLAYER */
+/* Pel reproductor */
 #files .audioplayer {
     min-width:250px;
     border:0;
@@ -74,11 +74,17 @@
     left: 35%;
 }
 
-/* FPR DARK THEME */
+/* Pel tema fosc */
 html[data-bs-theme=dark] #pdf img {
     filter: invert(1);
 }
 
 html[data-bs-theme=dark] #pdf img.bg-light {
+    /* Com que s'aplica el filtre de dalt, cal invertir la opacitat per obtenir el color original */
     --bs-bg-opacity: 0;
+}
+
+html[data-bs-theme=dark] #pdf img.border {
+    /* Com que s'aplica el filtre de dalt, cal invertir el color per obtenir el color original */
+    --bs-border-color: #b6afa8;
 }
