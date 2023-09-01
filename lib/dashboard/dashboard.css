@@ -81,7 +81,7 @@ html[data-bs-theme=dark] #pdf img {
 
 html[data-bs-theme=dark] #pdf img.bg-light {
     /* Com que s'aplica el filtre de dalt, cal invertir la opacitat per obtenir el color original */
-    --bs-bg-opacity: 0;
+    --bs-bg-opacity: 0.1;
 }
 
 html[data-bs-theme=dark] #pdf img.border {
