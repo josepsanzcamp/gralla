@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Branda de Cavalls"
+  subtitle="Dansa Francesa"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arr: David Farran"
+  arranger="Adapt: Roger Cucurella 2023"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}
