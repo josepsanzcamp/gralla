@@ -1,4 +1,6 @@
 
+SHELL := /bin/bash
+
 all:
 	rm -f index* lib/all* sitemap/* static/* sitemap.xml 404.html
 	time -p php scripts/converter.php
