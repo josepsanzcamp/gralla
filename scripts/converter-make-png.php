@@ -31,6 +31,12 @@ foreach ($files as $file) {
         __exec1("pdftocairo -png -transp $file $file3");
         // Agafo la llista dels fitxers png per despres
         $pages = glob($file2);
+        // Aixo treu el blanc de fons, que en algunes ocasions el pdftocairo
+        // no pot treure com es el cas dels pdfs de castellbisbal
+        foreach ($pages as $page) {
+            __exec1("convert $page -transparent white transparent.png");
+            rename("transparent.png", $page);
+        }
         // Aixo optimitza els png una barbaritat, jo faig servir pngnq,
         // n'hi han d'altres com pngquant o optipng, pero segons les meves
         // proves quanya el pngnq

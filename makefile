@@ -1,10 +1,12 @@
 
 SHELL := /bin/bash
 
-all:
-	rm -f index* lib/all* sitemap/* static/* sitemap.xml 404.html
+all: clean
 	time -p php scripts/converter.php
 	time -p php php/program.php
+
+clean:
+	rm -f index* lib/all* sitemap/* static/* sitemap.xml 404.html
 
 test:
 	php scripts/helper_check_hash.php
