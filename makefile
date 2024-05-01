@@ -6,7 +6,15 @@ all: clean
 	time -p php php/program.php
 
 clean:
-	rm -f index* lib/all* sitemap/* static/* sitemap.xml 404.html
+	rm -f index*
+	rm -f sitemap.xml
+	rm -f 404.html
+	rm -f lib/all*
+	rm -f sitemap/*
+	rm -f static/*
+
+distclean:
+	rm -f cache/*
 
 test:
 	php scripts/helper_check_hash.php
