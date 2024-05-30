@@ -10,6 +10,7 @@ $html[] = $template[0];
 $html[] = $template[4];
 $html[] = $template[6];
 $html[] = $template[8];
+$html[] = "<script src='lib/all.data.js?" . md5_file("lib/all.data.js") . "'></script>";
 $html[] = "<script src='lib/all.$lang.js?" . md5_file("lib/all.$lang.js") . "'></script>";
 $html[] = $template[9];
 foreach ($html as $key => $val) {

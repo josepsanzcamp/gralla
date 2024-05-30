@@ -86,7 +86,7 @@ $template = explode("<!-- ROWROWROW -->", $template);
 
 // SAVE JSON
 $json = json_encode(array(
-    "labels" => $labels,
+    "labels" => array(),
     "cats" => $cats,
     "songs" => $songs,
     "template" => array(
@@ -96,7 +96,11 @@ $json = json_encode(array(
         html_minify($template[7]),
     ),
 ));
-file_put_contents("lib/all.$lang.js", "var data=$json");
+file_put_contents("lib/all.data.js", "var data=$json");
+
+// SAVE JSON
+$json = json_encode($labels);
+file_put_contents("lib/all.$lang.js", "data.labels=$json");
 
 // PREPARE HTML
 $html = array();
@@ -121,6 +125,7 @@ $html[] = str_replace_assoc(array(
     "__PLAY__" => $labels["play"]
 ), $template[6]);
 $html[] = $template[8];
+$html[] = "<script src='lib/all.data.js?" . md5_file("lib/all.data.js") . "'></script>";
 $html[] = "<script src='lib/all.$lang.js?" . md5_file("lib/all.$lang.js") . "'></script>";
 $html[] = $template[9];
 foreach ($html as $key => $val) {

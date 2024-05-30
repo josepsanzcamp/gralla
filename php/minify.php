@@ -24,7 +24,11 @@ function __minify($data, $type)
         file_put_contents($in, $data);
     }
     if (!file_exists($out)) {
-        passthru("minify $in > $out");
+        if ($type == "js") {
+            passthru("uglifyjs $in -c -m -o $out");
+        } else {
+            passthru("minify $in > $out");
+        }
         if (file_exists($out) && !filesize($out)) {
             unlink($out);
         }

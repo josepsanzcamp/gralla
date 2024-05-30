@@ -34,7 +34,6 @@ $_labels = array(
         "play" => "Escoltar",
         "repo" => "https://github.com/josepsanzcamp/gralla",
         "site" => "https://gralla.josepsanz.net",
-        "papersize" => "mida __TEXT__",
     ),
     "es" => array(
         "title" => "__COUNT__ partituras y canciones para gralla",
@@ -67,7 +66,6 @@ $_labels = array(
         "play" => "Escuchar",
         "repo" => "https://github.com/josepsanzcamp/gralla",
         "site" => "https://gralla.josepsanz.net",
-        "papersize" => "tamaño __TEXT__",
     ),
     "en" => array(
         "title" => "__COUNT__ sheet music and songs for gralla",
@@ -100,6 +98,5 @@ $_labels = array(
         "play" => "Listen",
         "repo" => "https://github.com/josepsanzcamp/gralla",
         "site" => "https://gralla.josepsanz.net",
-        "papersize" => "size __TEXT__",
     ),
 );
