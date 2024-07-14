@@ -6,11 +6,11 @@
 }
 
 #menu .nav-link {
-    font-weight:bold;
     color:var(--bs-accordion-btn-color);
 }
 
 #menu .nav-link.active {
+    font-weight:bold;
     color:rgb(var(--bs-primary-rgb));
 }
 

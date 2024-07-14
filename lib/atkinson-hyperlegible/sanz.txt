@@ -1,0 +1,17 @@
+
+# https://brailleinstitute.org/freefont
+# Atkinson-Hyperlegible-Font-Print-and-Web-2020-0514.zip
+
+# More info at:
+# https://www.cdnfonts.com/atkinson-hyperlegible.font
+# https://github.com/googlefonts/atkinson-hyperlegible
+
+# Main CSS created from:
+# https://fonts.cdnfonts.com/css/atkinson-hyperlegible
+
+# You can get a copy of a license here:
+# https://brailleinstitute.org/wp-content/uploads/2020/11/Atkinson-Hyperlegible-Font-License-2020-1104.pdf
+
+mv fonts fonts.old
+minify atkinson-hyperlegible.css > atkinson-hyperlegible.min.css
+mv fonts.old fonts

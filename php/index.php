@@ -141,6 +141,7 @@ list($html,$js,$css) = html_minify2($html);
 $js = js_minify($js);
 file_put_contents("lib/all.min.js", $js);
 $css = css_minify($css);
+$css = str_replace("url(fonts/Atkinson-Hyperlegible", "url(atkinson-hyperlegible/fonts/Atkinson-Hyperlegible", $css);
 file_put_contents("lib/all.min.css", $css);
 $html = js_minify2($html, "lib/all.min.js?" . md5_file("lib/all.min.js"));
 $html = css_minify2($html, "lib/all.min.css?" . md5_file("lib/all.min.css"));
