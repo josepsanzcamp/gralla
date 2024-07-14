@@ -31,5 +31,6 @@ Aquest repositori conte la pagina web de partitures online per a gralla
 - Per escoltar els fitxers de format Midi, he fet servir el projecte [timidity](https://github.com/feross/timidity)
 - Per convertir els fitxers PDF a XML, he fet servir la versió de prova del programa [PDFtoMusic Pro](https://www.myriad-online.com/en/products/pdftomusicpro.htm)
 - Per convertir els fitxers MuseScore a PDF, MIDI i MusicXML, he fet servir el projecte [MuseScore](https://musescore.org/ca)
+- Per millorar la llegibilitat del web he fet servir la font [Atkinson Hyperlegible](https://brailleinstitute.org/freefont)
 - La resta de llibreries que he fet servir, les podeu trobar als crèdits de [SaltOS](https://www.saltos.org)
 - Si teniu dubtes o suggeriments, podeu contactar amb mi a l'adreça josep.sanz@saltos.org
