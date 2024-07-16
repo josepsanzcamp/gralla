@@ -36,7 +36,7 @@ foreach ($files as $file) {
     if (!file_exists("$file2.ly")) {
         echo "Processant $file [1] ... ";
         // GENERAR FITXER LILYPOND PER COMPATIBILITAT
-        __exec2("musescore-portable --score-meta $file > $file2.json");
+        __exec2("musescore4portable --score-meta $file > $file2.json");
         $json = file_get_contents("$file2.json");
         unlink("$file2.json");
         $json = json_decode($json, true);
@@ -63,27 +63,32 @@ foreach ($files as $file) {
     }
     if (!file_exists("$file2.pdf")) {
         echo "Processant $file [2] ... ";
+        // GENERAR FITXERS PDF I MIDI PER TOTES LES PISTES
+        __exec2("musescore4portable --export-to $file2.pdf $file");
+        __exec2("musescore4portable --export-to $file2.midi $file");
         // OBTENIR INFO DE TOTES LES PISTES
-        __exec2("musescore-portable --score-parts $file > $file2.json");
+        __exec2("musescore4portable --score-parts $file > $file2.json");
         $json = file_get_contents("$file2.json");
         unlink("$file2.json");
         $json = json_decode($json, true);
         if (count($json["parts"]) > 1) {
-            // GENERAR FITXERS PDF I MIDI PER TOTES LES PISTES
-            __exec2("musescore-portable --export-to $file2.pdf --export-score-parts $file");
-            __exec2("musescore-portable --export-to $file2.midi $file");
+            rename("$file2.pdf", "$file2-0.pdf");
             // GENERAR FITXER MIDI PER CADA PISTA
             foreach ($json["parts"] as $key => $val) {
                 $data = base64_decode($json["partsBin"][$key]);
                 $key++;
                 file_put_contents("$file2-$key.mscz", $data);
-                __exec2("musescore-portable --export-to $file2-$key.midi $file2-$key.mscz");
+                __exec2("musescore4portable --export-to $file2-$key.midi $file2-$key.mscz");
+                __exec2("musescore4portable --export-to $file2-$key.pdf $file2-$key.mscz");
                 unlink("$file2-$key.mscz");
             }
-        } else {
-            // GENERAR FITXERS PDF I MIDI PER LA UNICA PISTA
-            __exec2("musescore-portable --export-to $file2.pdf $file");
-            __exec2("musescore-portable --export-to $file2.midi $file");
+            // JUNTAR TOTS ELS PDF EN UN UNIC FITXER
+            __exec2("pdfunite $file2-*.pdf $file2.pdf");
+            unlink("$file2-0.pdf");
+            foreach ($json["parts"] as $key => $val) {
+                $key++;
+                unlink("$file2-$key.pdf");
+            }
         }
         if (file_exists("$file2.pdf")) {
             echo "OK\n";
@@ -94,7 +99,7 @@ foreach ($files as $file) {
     if (!file_exists("$file2.mxl")) {
         echo "Processant $file [3] ... ";
         // GENERAR FITXER XML COMPRIMIT
-        __exec2("musescore-portable --export-to $file2.mxl $file");
+        __exec2("musescore4portable --export-to $file2.mxl $file");
         if (!filesize("$file2.mxl")) {
             unlink("$file2.mxl");
         }
@@ -107,7 +112,7 @@ foreach ($files as $file) {
     if (!file_exists("$file2.mscz")) {
         echo "Processant $file [4] ... ";
         // GENERAR FITXER MUSESCORE COMPRIMIT
-        __exec2("musescore-portable --export-to $file2.mscz $file");
+        __exec2("musescore4portable --export-to $file2.mscz $file");
         if (!filesize("$file2.mscz")) {
             unlink("$file2.mscz");
         }
@@ -119,25 +124,22 @@ foreach ($files as $file) {
     }
     if (!file_exists("$file2.midi")) {
         echo "Processant $file [5] ... ";
+        // GENERAR FITXER MIDI PER TOTES LES PISTES
+        __exec2("musescore4portable --export-to $file2.midi $file");
         // OBTENIR INFO DE TOTES LES PISTES
-        __exec2("musescore-portable --score-parts $file > $file2.json");
+        __exec2("musescore4portable --score-parts $file > $file2.json");
         $json = file_get_contents("$file2.json");
         unlink("$file2.json");
         $json = json_decode($json, true);
         if (count($json["parts"]) > 1) {
-            // GENERAR FITXERS PDF I MIDI PER TOTES LES PISTES
-            __exec2("musescore-portable --export-to $file2.midi $file");
             // GENERAR FITXER MIDI PER CADA PISTA
             foreach ($json["parts"] as $key => $val) {
                 $data = base64_decode($json["partsBin"][$key]);
                 $key++;
                 file_put_contents("$file2-$key.mscz", $data);
-                __exec2("musescore-portable --export-to $file2-$key.midi $file2-$key.mscz");
+                __exec2("musescore4portable --export-to $file2-$key.midi $file2-$key.mscz");
                 unlink("$file2-$key.mscz");
             }
-        } else {
-            // GENERAR FITXERS PDF I MIDI PER LA UNICA PISTA
-            __exec2("musescore-portable --export-to $file2.midi $file");
         }
         if (file_exists("$file2.midi")) {
             echo "OK\n";
