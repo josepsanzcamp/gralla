@@ -17,6 +17,12 @@ foreach ($html as $key => $val) {
     $html[$key] = trim($val, "\n");
 }
 $html = implode("\n", $html);
+$html = str_replace_assoc(array(
+    "__TITLE__" => "__TITLE__ __TITLE__",
+    "__DESCRIPTION__" => "__DESCRIPTION__ __DESCRIPTION__",
+    "__AUTHOR__" => "__AUTHOR__ __AUTHOR__",
+    "__KEYWORDS__" => "__KEYWORDS__ __KEYWORDS__",
+), $html);
 
 list($html,$js,$css) = html_minify2($html);
 $html = js_minify2($html, "lib/all.min.js?" . md5_file("lib/all.min.js"));
@@ -36,10 +42,10 @@ foreach ($dirs as $dir) {
 
     // PREPARE HTML
     $html2 = str_replace_assoc(array(
-        "__TITLE__" => $info2 . " - " . $labels["title"],
-        "__DESCRIPTION__" => mb_substr($info3 . ", " . $labels["description"], 0, 160),
-        "__AUTHOR__" => $labels["author"],
-        "__KEYWORDS__" => $info4 . ", " . $labels["keywords"],
+        "__TITLE__ __TITLE__" => $info2 . " - " . $labels["title"],
+        "__DESCRIPTION__ __DESCRIPTION__" => mb_substr($info3 . ", " . $labels["description"], 0, 160),
+        "__AUTHOR__ __AUTHOR__" => $labels["author"],
+        "__KEYWORDS__ __KEYWORDS__" => $info4 . ", " . $labels["keywords"],
         "__SEARCH__" => $labels["search"],
         "__MENU__" => $labels["menu"],
         "__ABOUT__" => $labels["about"],

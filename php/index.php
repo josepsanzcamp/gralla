@@ -96,11 +96,13 @@ $json = json_encode(array(
         html_minify($template[7]),
     ),
 ));
-file_put_contents("lib/all.data.js", "var data=$json");
+$json = js_minify("var data=$json");
+file_put_contents("lib/all.data.js", $json);
 
 // SAVE JSON
 $json = json_encode($labels);
-file_put_contents("lib/all.$lang.js", "data.labels=$json");
+$json = js_minify("data.labels=$json");
+file_put_contents("lib/all.$lang.js", $json);
 
 // PREPARE HTML
 $html = array();
