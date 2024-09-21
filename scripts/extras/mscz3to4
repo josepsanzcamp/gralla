@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for i in "$@"; do
+    echo "$i ..."
+    musescore4portable --export-to "$i".new.mscz "$i"
+    mv "$i" "$i.old"
+    mv "$i".new.mscz "$i"
+done

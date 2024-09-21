@@ -3,5 +3,5 @@
 for i in "$@"; do
     echo "$i ..."
     j=$(echo $i | rev | cut -d. -f2- | rev)
-    musescore-portable --export-to $j.mscz $i
+    musescore4portable --export-to $j.mscz $i
 done
