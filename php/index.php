@@ -35,7 +35,6 @@ foreach ($dirs as $dir) {
         glob("files/$hash/$hash-*.midi"),
         glob("files/$hash/$hash.mp3"),
         glob("files/$hash/$hash-*.mp3"),
-        glob("files/$hash/$hash.mp4"),
     );
     foreach ($files2 as $key => $val) {
         // TRICK TO REMOVE THE LILYPOND FILES THAT ONLY CONTAINS THE HEADER SECTION
