@@ -1,6 +1,6 @@
 \header {
-  composers=""
-  poets=""
-  subtitles="Composición: Germán Alameda Berrojálviz"
-  titles="TARANTELA EVANA"
+  composers="Composición: Germán Alameda Berrojálviz"
+  poets="A mi amigo Pablito Valverde"
+  subtitles=""
+  titles="Tarantella- La Martinella"
 }
