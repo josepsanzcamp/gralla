@@ -2,6 +2,7 @@
 Aquest repositori conte la pagina web de partitures online per a gralla
 
 ![](https://raw.githubusercontent.com/josepsanzcamp/gralla/master/img/screenshot.png)
+![](https://raw.githubusercontent.com/josepsanzcamp/gralla/master/img/screenshot2.png)
 
 # Novetats de la darrera versió
 - La primera versió feia servir l'entorn gràfic de SaltOS basat en JQuery-UI
