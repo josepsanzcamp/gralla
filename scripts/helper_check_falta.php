@@ -2,7 +2,7 @@
 
 chdir("files");
 $dirs = glob("*");
-$report = array();
+$report = [];
 foreach ($dirs as $dir) {
     $key = strtok($dir, "-");
     if (!isset($report[$key])) {
@@ -11,11 +11,14 @@ foreach ($dirs as $dir) {
     if (!file_exists("$dir/$dir.ly")) {
         echo "Falta $dir.ly\n";
         $report[$key]++;
+    } elseif (!file_exists("$dir/$dir.pdf")) {
+        echo "Falta $dir.pdf\n";
+        $report[$key]++;
+    } elseif (!file_exists("$dir/$dir.mp3")) {
+        echo "Falta $dir.mp3\n";
+        $report[$key]++;
     } elseif (!file_exists("$dir/$dir.mscz")) {
         echo "Falta $dir.mscz\n";
-        $report[$key]++;
-    } elseif (!file_exists("$dir/$dir.mxl")) {
-        echo "Falta $dir.mxl\n";
         $report[$key]++;
     }
 }

@@ -5,7 +5,7 @@ $template = file_get_contents("template/index.html");
 $template = explode("<!-- ROWROWROW -->", $template);
 
 // PREPARE HTML
-$html = array();
+$html = [];
 $html[] = $template[0];
 $html[] = $template[4];
 $html[] = $template[6];
@@ -17,12 +17,12 @@ foreach ($html as $key => $val) {
     $html[$key] = trim($val, "\n");
 }
 $html = implode("\n", $html);
-$html = str_replace_assoc(array(
+$html = str_replace_assoc([
     "__TITLE__" => "__TITLE__ __TITLE__",
     "__DESCRIPTION__" => "__DESCRIPTION__ __DESCRIPTION__",
     "__AUTHOR__" => "__AUTHOR__ __AUTHOR__",
     "__KEYWORDS__" => "__KEYWORDS__ __KEYWORDS__",
-), $html);
+], $html);
 
 list($html,$js,$css) = html_minify2($html);
 $html = js_minify2($html, "lib/all.min.js?" . md5_file("lib/all.min.js"));
@@ -32,7 +32,7 @@ $html = html_minify($html);
 
 // PREPARE FILES LIST
 $dirs = glob("files/*");
-$hashes = array();
+$hashes = [];
 foreach ($dirs as $dir) {
     $hash = basename($dir);
     $info = metadata("files/$hash/$hash.ly");
@@ -41,7 +41,7 @@ foreach ($dirs as $dir) {
     $info4 = mb_strtolower($info3);
 
     // PREPARE HTML
-    $html2 = str_replace_assoc(array(
+    $html2 = str_replace_assoc([
         "__TITLE__ __TITLE__" => $info2 . " - " . $labels["title"],
         "__DESCRIPTION__ __DESCRIPTION__" => mb_substr($info3 . ", " . $labels["description"], 0, 160),
         "__AUTHOR__ __AUTHOR__" => $labels["author"],
@@ -56,7 +56,7 @@ foreach ($dirs as $dir) {
         "__FILE__" => $labels["file"],
         "__SIZE__" => $labels["size"],
         "__PLAY__" => $labels["play"],
-    ), $html);
+    ], $html);
 
     // SAVE ONLY HTML FILE
     file_put_contents("static/$hash.$lang.html", $html2);

@@ -2,8 +2,8 @@
 
 // phpcs:disable Generic.Files.LineLength
 
-$_labels = array(
-    "ca" => array(
+$_labels = [
+    "ca" => [
         "title" => "__COUNT__ partitures i cançons per a gralla",
         "author" => "Josep Sanz Campderrós",
         "description" => "Veure partitures i cançons, escoltar-ho tot o per veus, descarregar-se les fonts d'encore, finale, musescore, frescobaldi, lilypond, pdf, midi, mp3",
@@ -33,8 +33,8 @@ $_labels = array(
         "play" => "Escoltar",
         "repo" => "https://github.com/josepsanzcamp/gralla",
         "site" => "https://gralla.josepsanz.net",
-    ),
-    "es" => array(
+    ],
+    "es" => [
         "title" => "__COUNT__ partituras y canciones para gralla",
         "author" => "Josep Sanz Campderrós",
         "description" => "Ver partituras y canciones, escuchar todo o por voces, descargarse las fuentes de encore, finale, musescore, frescobaldi, lilypond, pdf, midi, mp3",
@@ -64,8 +64,8 @@ $_labels = array(
         "play" => "Escuchar",
         "repo" => "https://github.com/josepsanzcamp/gralla",
         "site" => "https://gralla.josepsanz.net",
-    ),
-    "en" => array(
+    ],
+    "en" => [
         "title" => "__COUNT__ sheet music and songs for gralla",
         "author" => "Josep Sanz Campderrós",
         "description" => "View scores and songs, to listen everything or by voices, download sources for encore, finale, musescore, frescobaldi, lilypond, pdf, midi, mp3",
@@ -95,5 +95,5 @@ $_labels = array(
         "play" => "Listen",
         "repo" => "https://github.com/josepsanzcamp/gralla",
         "site" => "https://gralla.josepsanz.net",
-    ),
-);
+    ],
+];

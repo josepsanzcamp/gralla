@@ -14,7 +14,7 @@ function metadata($file)
         $datas[$key] = trim($val);
     }
     // PREPARE RESULT
-    $result = array();
+    $result = [];
     foreach ($datas as $data) {
         $key = strtok($data, "=");
         $val = strtok("");

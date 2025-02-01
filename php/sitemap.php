@@ -4,18 +4,18 @@
 $template = file_get_contents("template/sitemap.xml");
 $template = explode("<!-- ROWROWROW -->", $template);
 
-$xml = array();
+$xml = [];
 $xml[] = $template[0];
 
 // PREPARE FILES LIST
 $dirs = glob("files/*");
 foreach ($dirs as $dir) {
     $hash = basename($dir);
-    $xml[] = str_replace_assoc(array(
+    $xml[] = str_replace_assoc([
         "__SITE__" => $labels["site"],
         "__HASH__" => $hash,
         "__LANG__" => $lang
-    ), $template[1]);
+    ], $template[1]);
 }
 
 $xml[] = $template[2];

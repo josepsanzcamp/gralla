@@ -48,7 +48,7 @@ function xml_minify($data)
 function html_minify2($data)
 {
     // BUSCAR JS
-    $js = array();
+    $js = [];
     $cad1 = '<script src="';
     $cad2 = '"></script>';
     $len1 = strlen($cad1);
@@ -65,7 +65,7 @@ function html_minify2($data)
     }
     $js = implode("\n", $js);
     // BUSCAR CSS
-    $css = array();
+    $css = [];
     $cad1 = '<link href="';
     $cad2 = '" rel="stylesheet" />';
     $len1 = strlen($cad1);
@@ -82,7 +82,7 @@ function html_minify2($data)
     }
     $css = implode("\n", $css);
     // FIN
-    return array($data,$js,$css);
+    return [$data,$js,$css];
 }
 
 function css_minify2($data, $css)

@@ -6,15 +6,15 @@ require_once "php/metadata.php";
 chdir("files");
 $files = glob("*/*.ly");
 
-$fixes = array(
+$fixes = [
     "composers" => "composer",
     //~ "subtitles" => "dedication",
     "titles" => "subtitle",
     "poets" => "poet",
-);
+];
 
-$metas = array();
-$fields = array("hash" => "hash");
+$metas = [];
+$fields = ["hash" => "hash"];
 foreach ($files as $file) {
     $hash = str_replace(".ly", "", basename($file));
     $metas[$hash] = metadata($file);
@@ -28,7 +28,7 @@ foreach ($files as $file) {
 //~ print_r($fields);
 //~ die();
 
-$matrix = array("" => $fields);
+$matrix = ["" => $fields];
 foreach ($files as $file) {
     $hash = str_replace(".ly", "", basename($file));
     foreach ($fields as $field) {

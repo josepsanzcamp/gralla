@@ -2,8 +2,8 @@
 
 // PREPARE FILES LIST
 $dirs = glob("files/*");
-$cats = array();
-$songs = array();
+$cats = [];
+$songs = [];
 $count = 0;
 foreach ($dirs as $dir) {
     $hash = basename($dir);
@@ -18,10 +18,10 @@ foreach ($dirs as $dir) {
     $song2 = ucfirst(str_replace("_", " ", $song));
     $info = implode(" - ", metadata("files/$hash/$hash.ly"));
     if (!isset($cats[$cat])) {
-        $cats[$cat] = array(
+        $cats[$cat] = [
             "name" => $cat2,
-            "array" => array(),
-        );
+            "array" => [],
+        ];
     }
     $cats[$cat]["array"][] = $hash;
     $files2 = array_merge(
@@ -48,10 +48,10 @@ foreach ($dirs as $dir) {
         // CONTINUE
         $last = str_replace("files/$hash/$hash", "", $val);
         $size = filesize($val);
-        $files2[$key] = array(
+        $files2[$key] = [
             "last" => $last,
             "size" => $size,
-        );
+        ];
     }
     $files3 = glob("files/$hash/$hash-*.png");
     foreach ($files3 as $key => $val) {
@@ -59,42 +59,42 @@ foreach ($dirs as $dir) {
         $size = getimagesize($val);
         $width = $size[0];
         $height = $size[1];
-        $files3[$key] = array(
+        $files3[$key] = [
             "last" => $last,
             "width" => $width,
             "height" => $height,
-        );
+        ];
     }
-    $songs[$hash] = array(
+    $songs[$hash] = [
         "name" => $song2,
         "info" => $info,
         "files" => $files2,
         "pages" => $files3,
-    );
+    ];
     $count++;
 }
 
 // MAKE TITLE
-$labels["title"] = str_replace_assoc(array(
+$labels["title"] = str_replace_assoc([
     "__COUNT__" => $count
-), $labels["title"]);
+], $labels["title"]);
 
 // LOAD TEMPLATE
 $template = file_get_contents("template/index.html");
 $template = explode("<!-- ROWROWROW -->", $template);
 
 // SAVE JSON
-$json = json_encode(array(
-    "labels" => array(),
+$json = json_encode([
+    "labels" => [],
     "cats" => $cats,
     "songs" => $songs,
-    "template" => array(
+    "template" => [
         html_minify($template[1] . $template[3]),
         html_minify($template[2]),
         html_minify($template[5]),
         html_minify($template[7]),
-    ),
-));
+    ],
+]);
 $json = js_minify("var data=$json");
 file_put_contents("lib/all.data.js", $json);
 
@@ -104,8 +104,8 @@ $json = js_minify("data.labels=$json");
 file_put_contents("lib/all.$lang.js", $json);
 
 // PREPARE HTML
-$html = array();
-$html[] = str_replace_assoc(array(
+$html = [];
+$html[] = str_replace_assoc([
     "__TITLE__" => $labels["title"],
     "__DESCRIPTION__" => $labels["description"],
     "__AUTHOR__" => $labels["author"],
@@ -115,16 +115,16 @@ $html[] = str_replace_assoc(array(
     "__ABOUT__" => $labels["about"],
     "__REPO__" => $labels["repo"],
     "__LANG__" => $lang
-), $template[0]);
-$html[] = str_replace_assoc(array(
+], $template[0]);
+$html[] = str_replace_assoc([
     "__RESULT__" => $labels["result"]
-), $template[4]);
-$html[] = str_replace_assoc(array(
+], $template[4]);
+$html[] = str_replace_assoc([
     "__TYPE__" => $labels["type"],
     "__FILE__" => $labels["file"],
     "__SIZE__" => $labels["size"],
     "__PLAY__" => $labels["play"]
-), $template[6]);
+], $template[6]);
 $html[] = $template[8];
 $html[] = "<script src='lib/all.data.js?" . md5_file("lib/all.data.js") . "'></script>";
 $html[] = "<script src='lib/all.$lang.js?" . md5_file("lib/all.$lang.js") . "'></script>";

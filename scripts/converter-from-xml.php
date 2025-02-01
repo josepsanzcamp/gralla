@@ -32,7 +32,7 @@ if (!count($files)) {
     $files = glob("*.xml");
 }
 foreach ($files as $file) {
-    $file2 = str_replace(array(".mscz",".mscx",".mxl",".xml"), "", $file);
+    $file2 = str_replace([".mscz",".mscx",".mxl",".xml"], "", $file);
     if (!file_exists("$file2.ly")) {
         echo "Processant $file [1] ... ";
         // GENERAR FITXER LILYPOND PER COMPATIBILITAT
@@ -40,7 +40,7 @@ foreach ($files as $file) {
         $json = file_get_contents("$file2.json");
         unlink("$file2.json");
         $json = json_decode($json, true);
-        $lilypond = array();
+        $lilypond = [];
         $lilypond[] = "\header {";
         foreach ($json["metadata"]["textFramesData"] as $key => $val) {
             if (is_array($val)) {

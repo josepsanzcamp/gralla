@@ -4,15 +4,15 @@
 $template = file_get_contents("template/sitemap2.xml");
 $template = explode("<!-- ROWROWROW -->", $template);
 
-$xml = array();
+$xml = [];
 $xml[] = $template[0];
 
 // PREPARE LANG LIST
 foreach ($_labels as $lang => $labels) {
-    $xml[] = str_replace_assoc(array(
+    $xml[] = str_replace_assoc([
         "__SITE__" => $labels["site"],
         "__LANG__" => $lang
-    ), $template[1]);
+    ], $template[1]);
 }
 
 $xml[] = $template[2];

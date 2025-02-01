@@ -77,14 +77,14 @@ foreach ($files as $file) {
         foreach ($buffer as $key => $val) {
             if ($val == "  \\score {") {
                 $state = 1;
-                $cache = array();
+                $cache = [];
                 $cache[] = "  \\score { \\unfoldRepeats";
             } elseif ($state == 1) {
                 if ($val == "    \\layout {}") {
                     $cache[] = "    \\midi {}";
                 } elseif ($val == "  }") {
                     $cache[] = "  }";
-                    $buffer[$key] = implode("\n", array_merge(array($val), $cache));
+                    $buffer[$key] = implode("\n", array_merge([$val], $cache));
                     $state = 0;
                 } else {
                     $cache[] = $val;
