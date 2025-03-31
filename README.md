@@ -20,6 +20,7 @@ Aquest repositori conte la pagina web de partitures online per a gralla
 - Partitures que m'ha fet arribar l'[Enric Montsant](http://enricmontsant.blogspot.com/) en format PDF i MP3
 - Partitures que plubiquen periodicament a [www.germanalameda.com](https://www.germanalameda.com/partituras/) en format PDF
 - Partitures per a Dolçaina en mida reduïda 10x15 que plubiquen periodicament a [josemanuelpenya.blogspot.com](http://josemanuelpenya.blogspot.com/) en format PNG
+- Partitures que publica el Hermi Cervera i Tomàs al seu web [Dolçaina, Canya i Tudell](https://www.dol%C3%A7ainacanyatudell.com/) en format PDF i MP3
 
 # Crèdits de l'aplicació ...
 - Aquesta aplicació ha estat desenvolupada fent servir codi del projecte [SaltOS](https://www.saltos.org)
