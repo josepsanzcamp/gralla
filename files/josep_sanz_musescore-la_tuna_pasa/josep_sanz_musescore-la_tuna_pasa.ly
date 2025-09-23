@@ -1,6 +1,6 @@
 \header {
   composers="Autor: Luis Araque Sancho Adaptació gralla: Josep Sanz"
-  poets="Pasodoble"
+  poets="Pasdoble"
   subtitles=""
   titles="La tuna pasa"
 }
