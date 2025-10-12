@@ -64,14 +64,14 @@
 }
 
 #files .audioplayer-volume span {
-    width: 0.75em; /* 5 */
-    height: 0.75em; /* 6 */
+    width: 0.75em; /* abans 0.313em */
+    height: 0.75em; /* abans 0.375em */
     background-color: #fff;
     display: block;
     position: relative;
     z-index: 1;
     top: 35%;
-    left: 35%;
+    left: 30%; /* abans 40% */
 }
 
 /* Pel tema fosc */
@@ -87,4 +87,41 @@ html[data-bs-theme=dark] #pdf img.bg-light {
 html[data-bs-theme=dark] #pdf img.border {
     /* Com que s'aplica el filtre de dalt, cal invertir el color per obtenir el color original */
     --bs-border-color: #b6afa8;
+}
+
+/* Pel tema del audioplayer */
+/* Augmentem l’amplada dels botons extrems (play/pause i volum) */
+.audioplayer .audioplayer-playpause,
+.audioplayer .audioplayer-volume {
+    width: 3em; /* abans 2.5em */
+}
+
+/* Reajustem la posició del temps actual per deixar espai al nou botó */
+.audioplayer-time-current {
+    left: 3em; /* abans 2.5em */
+}
+
+/* Reajustem la posició del temps total (durada) a la dreta */
+.audioplayer-time-duration {
+    right: 3em; /* abans 2.5em */
+}
+
+/* Movem la barra de progrés per mantenir-la centrada visualment */
+.audioplayer-bar {
+    left: 7.375em;  /* abans 6.875em → afegim 0.5em per costat */
+    right: 7.375em; /* simètric */
+}
+
+/* Si s’utilitza el mode “sense volum”, ajustem també la barra */
+.audioplayer-novolume .audioplayer-bar {
+    right: 4.875em; /* abans 4.375em → afegim 0.5em */
+}
+
+.audioplayer:not(.audioplayer-playing) .audioplayer-playpause span
+{
+	margin: -0.5em 0 0 -0.05em; /* abans -0.25em */
+}
+.audioplayer-playing .audioplayer-playpause span
+{
+	margin: -0.375em 0 0 -0.175em; /* abans -0.375em */
 }
