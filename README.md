@@ -1,14 +1,17 @@
-# gralla
+# gralla.josepsanz.net
+
 Aquest repositori conté la pàgina web de partitures online per a gralla
 
 ![](https://raw.githubusercontent.com/josepsanzcamp/gralla/master/img/screenshot.png)
 ![](https://raw.githubusercontent.com/josepsanzcamp/gralla/master/img/screenshot2.png)
 
 # Novetats de la darrera versió
+
 - La primera versió feia servir l'entorn gràfic de SaltOS basat en jQuery UI
 - La darrera versió fa servir el nou entorn gràfic de SaltOS basat en Bootstrap
 
 # Crèdits de les partitures
+
 - Les 250 partitures inicials es van descarregar del web gralla.skamot.com en format Encore
 - Partitures del [Repertori per a gralles](https://www.ivojorda.com/partitures-per-a-gralla) de l'[Ivó Jordà Álvarez](https://www.ivojorda.com) en format MusicXML
 - Partitures que em va fer arribar en Xavier Viñas en format MuseScore i Encore
@@ -24,6 +27,7 @@ Aquest repositori conté la pàgina web de partitures online per a gralla
 - Les cançons fetes pel Carles Vilamasana de [La Nota Grallera](https://www.instagram.com/lngrallera/)
 
 # Crèdits de l'aplicació ...
+
 - Aquesta aplicació ha estat desenvolupada fent servir codi del projecte [SaltOS](https://www.saltos.org)
 - Per convertir els fitxers de format Encore a LilyPond, he fet servir el projecte [Enc2ly](https://enc2ly.sourceforge.io/en/)
 - Per convertir els fitxers de format MIDI a WAVE, he fet servir el projecte [TiMidity++](http://timidity.sourceforge.net/)
@@ -38,3 +42,13 @@ Aquest repositori conté la pàgina web de partitures online per a gralla
 - Per millorar la llegibilitat del web, he fet servir la font [Atkinson Hyperlegible](https://brailleinstitute.org/freefont)
 - La resta de llibreries que he fet servir, les podeu trobar als crèdits de [SaltOS](https://www.saltos.org)
 - Si teniu dubtes o suggeriments, podeu contactar amb mi a l'adreça josep.sanz@saltos.org
+
+# Objectiu cultural i avís legal
+
+Aquest projecte té com a finalitat **difondre i preservar la música i el patrimoni cultural de caràcter popular**, especialment per a instruments com la gralla, la tarota i la dolçaina. La intenció és estrictament **educativa i cultural**, sense ànim de lucre ni comercial.
+
+Les partitures, àudios i materials provinents de tercers es mostren **per a ús públic i de divulgació**, sempre indicant-ne les fonts originals. Tot i això, alguns continguts poden estar subjectes a drets d'autor. Aquest projecte **no pretén infringir cap dret de propietat intel·lectual**, i es mostra amb la millor intenció de contribuir a la conservació del patrimoni musical.
+
+Si algun titular de drets sol·licita la retirada de qualsevol contingut, **es procedirà immediatament a eliminar-lo** del repositori i de la pàgina web.
+
+Per a qualsevol dubte o contacte relacionat amb els drets de contingut, podeu escriure a: josep.sanz@saltos.org
