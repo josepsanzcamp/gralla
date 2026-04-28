@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Fent volar les faldilles"
+  subtitle="Pasdoble"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Autor: Felip Morales"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

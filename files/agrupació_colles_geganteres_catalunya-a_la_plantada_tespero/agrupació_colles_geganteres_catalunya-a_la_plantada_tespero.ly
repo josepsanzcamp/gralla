@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="A la plantada t'espero"
+  subtitle="Cercavila"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Autor: Felip Morales"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

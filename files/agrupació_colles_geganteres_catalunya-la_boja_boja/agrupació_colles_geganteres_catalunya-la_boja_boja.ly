@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="La boja boja"
+  subtitle="Cercavila"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Autor: Felip Morales"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

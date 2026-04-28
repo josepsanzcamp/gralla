@@ -25,6 +25,8 @@ Aquest repositori conté la pàgina web de partitures online per a gralla
 - Partitures per a Dolçaina en mida reduïda 10x15 que publiquen periòdicament a [josemanuelpenya.blogspot.com](http://josemanuelpenya.blogspot.com/) en format PNG
 - Partitures que publica l’Hermi Cervera i Tomàs al seu web [Dolçaina, Canya i Tudell](https://www.dol%C3%A7ainacanyatudell.com/) en format PDF i MP3
 - Les cançons fetes pel Carles Vilamasana de [La Nota Grallera](https://www.instagram.com/lngrallera/)
+- Partitures que han publicat a l'[Agrupació de Colles de Geganters de Catalunya](https://gegants.cat/recursos/repertori-per-a-gralla/) en format PDF i vídeo-tutorial
+- Partitures que han publicat a l'[Agrupació de Colles de Geganters de Catalunya](https://gegants.cat/recursos/repertori-per-a-gralla/) (obra del músic català [Felip Morales](https://www.instagram.com/grallafelip.morales.7/)) en format PDF i vídeo-tutorial
 
 # Crèdits de l'aplicació ...
 

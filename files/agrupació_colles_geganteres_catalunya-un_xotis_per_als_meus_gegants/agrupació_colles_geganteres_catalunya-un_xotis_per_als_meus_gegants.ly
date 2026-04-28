@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Un Xotis per als meus gegants"
+  subtitle="Xotis"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Autor: Felip Morales"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

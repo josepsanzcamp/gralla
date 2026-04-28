@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Mirant amunt"
+  subtitle="Vals-Jota"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Autor: Felip Morales"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}
