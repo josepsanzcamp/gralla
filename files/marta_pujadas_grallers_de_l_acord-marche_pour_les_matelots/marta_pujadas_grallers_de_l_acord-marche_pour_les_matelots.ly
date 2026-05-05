@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Marche pour les Matelots"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Marin Marais"
+  arranger="Arr. Isabel Pla i Josep M. Macaya"
+  opus="Transc. M. Pujadas"
+  instrument=""
+  copyright=""
+  tagline=""
+}

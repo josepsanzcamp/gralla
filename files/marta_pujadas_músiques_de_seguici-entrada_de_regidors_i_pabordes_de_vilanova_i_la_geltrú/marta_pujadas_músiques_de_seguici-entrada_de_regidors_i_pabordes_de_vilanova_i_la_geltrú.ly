@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Entrada de Regidors i Pabordes de Vilanova i la Geltrú"
+  subtitle="Per encàrrec dels Pabordes de Vilanova i la Geltrú, any 2004"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas (2004)"
+  arranger="Rev. (2023)"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

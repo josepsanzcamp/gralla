@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="La Jove"
+  subtitle="Ball de bastons"
+  subsubtitle="A la Colla Jove del Ball de Bastons de Sant Pere de Ribes"
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas (2016)"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

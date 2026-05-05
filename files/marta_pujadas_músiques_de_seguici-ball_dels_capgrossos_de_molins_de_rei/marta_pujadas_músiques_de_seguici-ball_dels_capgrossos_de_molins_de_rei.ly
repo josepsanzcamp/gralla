@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Ball dels Capgrossos de Molins de Rei"
+  subtitle="Per encàrrec de la Colla de Geganters de Molins de Rei"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="M. Pujadas (2017)"
+  arranger="col·labora C. Giralt"
+  opus="Rev. (2023)"
+  instrument=""
+  copyright=""
+  tagline=""
+}

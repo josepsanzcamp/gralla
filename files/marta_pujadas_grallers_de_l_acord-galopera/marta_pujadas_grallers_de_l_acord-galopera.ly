@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Galopera"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Mauricio Cardozo Ocampo"
+  arranger="Arr. Grallers de l'Acord"
+  opus="Transc. M. Pujadas"
+  instrument=""
+  copyright=""
+  tagline=""
+}

@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Polca dels primers dies"
+  subtitle="Polca"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Ivó Jordà (2012)"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

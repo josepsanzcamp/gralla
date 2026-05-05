@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Marxa dels Gegants de Girona"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arr. Grallers de l'Acord"
+  arranger="Transc. M. Pujadas"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

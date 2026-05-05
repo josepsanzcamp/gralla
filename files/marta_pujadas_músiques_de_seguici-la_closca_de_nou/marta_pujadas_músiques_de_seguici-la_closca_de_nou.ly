@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="La Closca de nou"
+  subtitle="Ball de bastons"
+  subsubtitle="2n premi al IIIr concurs de composició de la Coordinadora de Ball de Bastons de Catalunya"
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas (2011)"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

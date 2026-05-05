@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="La Ballaruca"
+  subtitle="Ball de Nans de Vilanova i la Geltrú"
+  subsubtitle="Per encàrrec del Ball de Nans de Vilanova i la Geltrú"
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas (2003)"
+  arranger="Rev. (2023)"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

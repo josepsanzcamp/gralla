@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Diavles "1853""
+  subtitle="Comparsa de Diables de Vilanova i la Geltrú"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas (Carnaval, 2022)"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

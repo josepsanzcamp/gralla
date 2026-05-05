@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="El Molinenc"
+  subtitle="Ball del Gegantó de Molins de Rei"
+  subsubtitle="Per encàrrec de la Colla de Geganters de Molins de Rei"
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas (2018)"
+  arranger="Rev. (2023)"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

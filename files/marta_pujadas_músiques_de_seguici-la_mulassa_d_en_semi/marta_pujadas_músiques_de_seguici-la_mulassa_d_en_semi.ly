@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="La Mulassa d'en Semi"
+  subtitle="Per encàrrec de la Federació Catalana dels Tres Tombs"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas"
+  arranger="Gener 2022"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

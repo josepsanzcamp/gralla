@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Vals jota de la Patum de Berga"
+  subtitle="Popular"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arr. Grallers de l'Acord"
+  arranger="Transc. M. Pujadas"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

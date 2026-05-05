@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Les Valls de Carançà"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas (2013)"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

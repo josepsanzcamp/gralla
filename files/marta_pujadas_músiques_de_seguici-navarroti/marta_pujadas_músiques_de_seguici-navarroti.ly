@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Navarrotí"
+  subtitle="Bastoners del Montserratí"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas (2022)"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

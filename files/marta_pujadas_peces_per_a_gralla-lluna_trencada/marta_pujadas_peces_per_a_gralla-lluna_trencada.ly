@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Lluna trencada"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas (2014)"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="El Festeig"
+  subtitle="Ball dels gegants de la Geltrú"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas (2006)"
+  arranger="(Rev. 2022)"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

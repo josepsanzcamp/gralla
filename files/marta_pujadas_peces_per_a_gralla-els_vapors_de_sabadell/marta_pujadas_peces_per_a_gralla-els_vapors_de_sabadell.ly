@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Els vapors de Sabadell"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas (juny 2021)"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

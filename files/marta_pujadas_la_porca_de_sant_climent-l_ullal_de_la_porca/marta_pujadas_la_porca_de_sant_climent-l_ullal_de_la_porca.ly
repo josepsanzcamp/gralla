@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="L'Ullal de la Porca"
+  subtitle="Per a la Porca de Sant Climent"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas i Garriga (2021)"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

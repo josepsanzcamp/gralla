@@ -1,0 +1,15 @@
+\header {
+  dedication="O minha amora madura"
+  title="Popular portuguesa"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arr. Grallers de l'Acord"
+  arranger="Transc. Ll. Giménez"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

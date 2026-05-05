@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Yesterday"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="The Beatles"
+  arranger="Arr. Grallers de l'Acord"
+  opus="Transc. P. Coma"
+  instrument=""
+  copyright=""
+  tagline=""
+}

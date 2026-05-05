@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="L'Ullal de la Porca"
+  subtitle="Per a la Porca de Sant Climent de Llobregat"
+  subsubtitle="Encàrrec de l'Assolicació Cultural l'Empelt"
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas (2021)"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

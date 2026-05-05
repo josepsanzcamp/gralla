@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Aires de festa"
+  subtitle="Ball de l'agraïment dels Gegants de Molins de Rei"
+  subsubtitle="Per encàrrec de la Colla de Geganters de Molins de Rei"
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas (2017)"
+  arranger="Rev. (2023)"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

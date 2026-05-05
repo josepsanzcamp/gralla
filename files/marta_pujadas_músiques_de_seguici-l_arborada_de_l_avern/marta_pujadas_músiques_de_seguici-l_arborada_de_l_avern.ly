@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="L'arborada de l'avern"
+  subtitle="Versió reduïda"
+  subsubtitle="Música pels geganters de Molins de Rei"
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas (2016)"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

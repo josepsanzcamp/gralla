@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Ball del Capgròs"
+  subtitle="(dedicat al meu germà Jordi en el seu 40è aniversari)"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Cesc Alexandri (2002)"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

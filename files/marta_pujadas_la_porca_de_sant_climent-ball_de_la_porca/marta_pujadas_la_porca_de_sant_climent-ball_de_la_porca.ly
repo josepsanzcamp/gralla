@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Ball de la porca"
+  subtitle="La llegenda del cirerer"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Marçal Ramon i Castellà (febrer 2018)"
+  arranger="Adaptació per a 3 gralles M. Pujadas"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

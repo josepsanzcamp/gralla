@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Tiger rag"
+  subtitle=""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="The Original Dixieland Jazz Band - 1917"
+  arranger="Arr. Grallers de l'Acord"
+  opus="Transc. M. Pujadas"
+  instrument=""
+  copyright=""
+  tagline=""
+}

@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="La Climentona"
+  subtitle="Ball de Gegants de Sant Climent de Llobregat"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Xavier Ventosa (2017)"
+  arranger="Arr. Adrià Pasqual"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

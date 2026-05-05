@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Mi casita de papel"
+  subtitle="Rock & Roll"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Francisco Codoñer Pascual"
+  arranger="Arr. Grallers de l'Acord"
+  opus="Transc. M. Pujadas"
+  instrument=""
+  copyright=""
+  tagline=""
+}

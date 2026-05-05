@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Ai la meva Alba..."
+  subtitle="rumba per a tres gralles i timbal"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Roger Andorrà i Bruch (2016)"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

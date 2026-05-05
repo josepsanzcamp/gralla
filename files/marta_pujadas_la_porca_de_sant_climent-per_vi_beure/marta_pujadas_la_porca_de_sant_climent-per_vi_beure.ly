@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Per Vi, beure"
+  subtitle="pasdoble per a dues gralles"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Jordi Enfedaque i Novell (2002)"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

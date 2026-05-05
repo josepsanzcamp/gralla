@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Ball de l'Hereu i la Pubilla de Vilanova"
+  subtitle="Basat en l'arranjament d'Eduard Toldrà de "Les danses de Vilanova" (1921)"
+  subsubtitle="Ball dels Gegantons de Vilanova. Per encàrrec de la Colla Gegantera de Vilanova i la Geltrú"
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas"
+  arranger="Gener de 2021"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

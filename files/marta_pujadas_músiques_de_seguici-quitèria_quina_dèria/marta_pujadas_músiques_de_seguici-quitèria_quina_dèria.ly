@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Quitèria, quina dèria!"
+  subtitle="Ball de cercavila"
+  subsubtitle="Encàrrec dels Gegants de Vilanova del Vallès"
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas (2023)"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

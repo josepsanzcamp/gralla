@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Sopa de carmel"
+  subtitle="Ball dels Gegants de la Cuyna Vella"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas"
+  arranger="Gener de 2020"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

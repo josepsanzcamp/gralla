@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Ball del Corpus de Sang de Sant Andreu del Palomar"
+  subtitle="Ball de segadors"
+  subsubtitle="Per encàrrec de la Germandat de Trabucaires, Geganters i Grallers de Sant Andreu"
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas (2016)"
+  arranger="Rev. (2023)"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

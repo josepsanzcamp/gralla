@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Les falles d'Isil"
+  subtitle="Popular"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Arr. Grallers de l'Acord"
+  arranger="Transc. M. Pujadas"
+  opus=""
+  instrument=""
+  copyright=""
+  tagline=""
+}

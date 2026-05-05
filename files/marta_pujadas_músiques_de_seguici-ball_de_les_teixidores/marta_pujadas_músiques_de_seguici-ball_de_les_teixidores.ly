@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Ball de les Teixidores"
+  subtitle="Ball de Gitanes de Sant Andreu del Palomar"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Marta Pujadas"
+  arranger="Agost de 2016"
+  opus="(Rev. gener 2021)"
+  instrument=""
+  copyright=""
+  tagline=""
+}
