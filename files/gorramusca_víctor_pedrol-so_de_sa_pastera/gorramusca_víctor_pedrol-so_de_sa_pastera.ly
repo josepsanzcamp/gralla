@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="So de sa pastera"
+  subtitle="Mallorca"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

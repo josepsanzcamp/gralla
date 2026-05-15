@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Ball Pla de Sort"
+  subtitle="Pallars Sobirà"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

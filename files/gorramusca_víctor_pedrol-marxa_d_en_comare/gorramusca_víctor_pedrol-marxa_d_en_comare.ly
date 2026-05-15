@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Marxa d’en Comare"
+  subtitle="Josep Jordana"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Passi-ho bé – marxa"
+  subtitle="La Trinca"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

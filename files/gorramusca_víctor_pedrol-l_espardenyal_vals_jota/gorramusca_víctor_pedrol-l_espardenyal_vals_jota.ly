@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="L’espardenyal – vals jota"
+  subtitle="Del rep. de J.M. Elies Lo Mestret"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

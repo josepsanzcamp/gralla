@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Makedonsko devojče"
+  subtitle="Macedònia"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

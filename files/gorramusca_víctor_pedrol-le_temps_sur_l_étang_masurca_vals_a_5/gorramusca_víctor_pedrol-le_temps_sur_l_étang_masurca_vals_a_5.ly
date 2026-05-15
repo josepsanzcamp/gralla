@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Le temps sur l'étang – masurca / vals a 5"
+  subtitle="Philippe Plard"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

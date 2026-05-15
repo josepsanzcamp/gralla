@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Quan arriba el bon temps – sardana curta"
+  subtitle="Daniel Violant"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

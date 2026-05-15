@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Ball del cercavila"
+  subtitle="Salàs de Pallars"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

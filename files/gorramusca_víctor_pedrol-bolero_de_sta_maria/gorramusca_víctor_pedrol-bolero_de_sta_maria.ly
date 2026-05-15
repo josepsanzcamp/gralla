@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Bolero de Sta. Maria"
+  subtitle="Mallorca"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

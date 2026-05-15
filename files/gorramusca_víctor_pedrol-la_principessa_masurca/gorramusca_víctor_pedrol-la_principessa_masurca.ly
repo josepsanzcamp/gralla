@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="La principessa – masurca"
+  subtitle="Maurizio Martinotti"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

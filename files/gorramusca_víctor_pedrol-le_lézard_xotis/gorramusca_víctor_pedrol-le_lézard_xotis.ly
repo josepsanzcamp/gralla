@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Le lézard – xotis"
+  subtitle="França"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

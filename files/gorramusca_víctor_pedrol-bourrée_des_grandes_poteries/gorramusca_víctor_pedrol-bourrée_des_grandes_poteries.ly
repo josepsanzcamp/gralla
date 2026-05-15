@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Bourrée des Grandes Poteries"
+  subtitle="França"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

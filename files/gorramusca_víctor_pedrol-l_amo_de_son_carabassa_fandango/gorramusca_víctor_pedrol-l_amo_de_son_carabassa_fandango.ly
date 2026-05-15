@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="L’amo de Son Carabassa – fandango"
+  subtitle="Menorca"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

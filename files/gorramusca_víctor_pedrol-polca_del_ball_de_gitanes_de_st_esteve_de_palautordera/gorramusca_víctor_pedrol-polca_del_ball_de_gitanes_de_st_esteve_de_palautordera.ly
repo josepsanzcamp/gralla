@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Polca del ball de gitanes de St. Esteve de Palautordera"
+  subtitle="Vallès"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

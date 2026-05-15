@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Fandango pollencí"
+  subtitle="Mallorca"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

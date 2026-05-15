@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="2 i 15 – marxa"
+  subtitle="Algemesí"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

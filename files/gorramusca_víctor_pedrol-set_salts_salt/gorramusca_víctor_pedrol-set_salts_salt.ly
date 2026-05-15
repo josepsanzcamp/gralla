@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Set salts – salt"
+  subtitle="Zazpi jauzi – Euskal Herria"
+  subsubtitle="Sèt sauts – Occitània"
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

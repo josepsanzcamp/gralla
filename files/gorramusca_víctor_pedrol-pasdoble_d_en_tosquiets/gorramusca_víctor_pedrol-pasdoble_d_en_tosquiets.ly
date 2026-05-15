@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Pasdoble d'en Tosquiets"
+  subtitle="Himne del "Club Deportivo Guadalajara""
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

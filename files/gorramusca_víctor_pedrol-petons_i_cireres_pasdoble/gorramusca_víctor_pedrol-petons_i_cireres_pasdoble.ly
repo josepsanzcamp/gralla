@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Petons i cireres – pasdoble"
+  subtitle="Catalunya"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

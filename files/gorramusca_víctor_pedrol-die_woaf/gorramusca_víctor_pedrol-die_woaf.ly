@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Die woaf"
+  subtitle="Àustria"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

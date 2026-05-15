@@ -1,0 +1,15 @@
+\header {
+  dedication=""
+  title="Savila se bela loza"
+  subtitle="Sèrbia"
+  subsubtitle=""
+  poet=""
+  meter=""
+  piece=""
+  composer="Gorramusca Víctor Pedrol"
+  arranger=""
+  opus=""
+  instrument=""
+  copyright="www.gorramusca.cat"
+  tagline=""
+}

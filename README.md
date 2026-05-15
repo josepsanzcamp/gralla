@@ -28,6 +28,7 @@ Aquest repositori conté la pàgina web de partitures online per a gralla
 - Partitures que han publicat a l'[Agrupació de Colles de Geganters de Catalunya](https://gegants.cat/recursos/repertori-per-a-gralla/) en format PDF i vídeo-tutorial
 - Partitures que han publicat a l'[Agrupació de Colles de Geganters de Catalunya](https://gegants.cat/recursos/repertori-per-a-gralla/) (obra del músic català [Felip Morales](https://www.instagram.com/grallafelip.morales.7/)) en format PDF i vídeo-tutorial
 - Partitures que ha publicat la Marta Pujadas al seu web [www.martapujadas.com](https://www.martapujadas.com/) a les seccions [Músiques de seguici](https://www.martapujadas.com/seguici), [Grallers de l'Acord](https://www.martapujadas.com/acord), [La Porca de Sant Climent](https://www.martapujadas.com/la-porca) i [Partitures per a gralla](https://www.martapujadas.com/gralla) en format PDF i MP3
+- Partitures que ha publicat en Víctor Pedrol al seu web [www.gorramusca.cat](https://www.gorramusca.cat/) en format [PDF](https://www.gorramusca.cat/Apunts/ball-folk2026.pdf)
 
 # Crèdits de l'aplicació ...
 
