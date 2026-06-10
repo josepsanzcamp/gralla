@@ -76,7 +76,7 @@
 
 /* Pel tema fosc */
 html[data-bs-theme=dark] #pdf img {
-    filter: invert(1);
+    filter: invert(.9) hue-rotate(180deg);
 }
 
 html[data-bs-theme=dark] #pdf img.bg-light {
