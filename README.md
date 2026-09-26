@@ -25,10 +25,10 @@ Aquest repositori conté la pàgina web de partitures online per a gralla
 - Partitures per a Dolçaina en mida reduïda 10x15 que publiquen periòdicament a [josemanuelpenya.blogspot.com](http://josemanuelpenya.blogspot.com/) en format PNG
 - Partitures que publica l’Hermi Cervera i Tomàs al seu web [Dolçaina, Canya i Tudell](https://www.dol%C3%A7ainacanyatudell.com/) en format PDF i MP3
 - Les cançons fetes pel Carles Vilamasana de [La Nota Grallera](https://www.instagram.com/lngrallera/)
-- Partitures que han publicat a l'[Agrupació de Colles de Geganters de Catalunya](https://gegants.cat/recursos/repertori-per-a-gralla/) en format PDF i vídeo-tutorial
 - Partitures que han publicat a l'[Agrupació de Colles de Geganters de Catalunya](https://gegants.cat/recursos/repertori-per-a-gralla/) (obra del músic català [Felip Morales](https://www.instagram.com/grallafelip.morales.7/)) en format PDF i vídeo-tutorial
 - Partitures que ha publicat la Marta Pujadas al seu web [www.martapujadas.com](https://www.martapujadas.com/) a les seccions [Músiques de seguici](https://www.martapujadas.com/seguici), [Grallers de l'Acord](https://www.martapujadas.com/acord), [La Porca de Sant Climent](https://www.martapujadas.com/la-porca) i [Partitures per a gralla](https://www.martapujadas.com/gralla) en format PDF i MP3
 - Partitures que ha publicat en Víctor Pedrol al seu web [www.gorramusca.cat](https://www.gorramusca.cat/) en format [PDF](https://www.gorramusca.cat/Apunts/ball-folk2026.pdf)
+- Partitures que m'ha fet arribar l'[Andreu Barril](https://www.instagram.com/andreubarril173254_/) de [La Nota Grallera](https://www.instagram.com/lngrallera/)
 
 # Crèdits de l'aplicació ...
 
